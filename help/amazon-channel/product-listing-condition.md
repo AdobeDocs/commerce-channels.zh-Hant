@@ -1,11 +1,11 @@
 ---
 title: 產品清單條件
 description: 使用產品清單條件設定將您的商務產品對應至Amazon產品條件，例如「新」或「翻新」。
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html: 
+redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
