@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「價格調整」區段與「標準」和「智慧型」重新定價規則略有不同。 **[!UICONTROL Match Competitor Price]** 只有設為 _[!UICONTROL Price Action]_時&#x200B;**[!UICONTROL Rule Type]**才可在 `Intelligent repricing rule`下使用。
+>「價格調整」區段與「標準」和「智慧型」重新定價規則略有不同。 **[!UICONTROL Match Competitor Price]** 僅可在 _[!UICONTROL Price Action]_when **[!UICONTROL Rule Type]**設為 `Intelligent repricing rule`.
 
 智慧重新定價規則的章節包括：
 
@@ -27,32 +27,32 @@ ht-degree: 0%
 
 ## 配置價格調整
 
-在&#x200B;_[!UICONTROL Price Adjustment]_區段中定義定價調整。
+在 _[!UICONTROL Price Adjustment]_區段。
 
-1. 對於&#x200B;**[!UICONTROL Price Action]**，選擇一個選項：
+1. 針對 **[!UICONTROL Price Action]**，選擇選項：
 
    - `Decrease By`  — 選擇在將定義的價格來源值下調後，為規則建立較低的價格，然後再將其上市至Amazon。
 
    - `Increase By`  — 選擇何時要調整定義的價格來源值，為規則建立較高的價格，然後再上市至Amazon。
 
-   - `Match Competitor Price`  — （僅限智慧型重新定價規則）根據您的競爭者意見和變異參數，選擇您要變更Amazon上市價 [格以](./lowest-competitor-pricing.md) 符合最低競爭者價格的時機。設為`Match Competitor Price`時，會移除&#x200B;_[!UICONTROL Apply]_和_[!UICONTROL Adjustment Amount]_&#x200B;欄位。
+   - `Match Competitor Price`  — （僅限智慧型重新定價規則）選擇您要變更Amazon上市價格以符合 [最低競爭者](./lowest-competitor-pricing.md) 價格，根據您的競爭者意見和變異參數。 設為時 `Match Competitor Price`, _[!UICONTROL Apply]_和_[!UICONTROL Adjustment Amount]_ 欄位已移除。
 
-1. 對於&#x200B;**[!UICONTROL Apply]**，選擇一個選項：
+1. 針對 **[!UICONTROL Apply]**，選擇選項：
 
-   - `Apply as percentage`  — 選擇何時要以百 **[!UICONTROL Magento Price Source]** 分比調整 [上市](./listing-price.md) 價格中定義的。
+   - `Apply as percentage`  — 選擇要定義的時間 **[!UICONTROL Magento Price Source]** 定義於 [上市價](./listing-price.md) 百分比調整。
 
-   - `Apply as fixed amount`  — 選擇何時要將「上市價 **[!UICONTROL Magento Price Source]** 格」中定義的 [定](./listing-price.md) 義值調整為固定金額。
+   - `Apply as fixed amount`  — 選擇要定義的時間 **[!UICONTROL Magento Price Source]** 定義於 [上市價](./listing-price.md) 以固定金額調整。
 
-1. 對於&#x200B;**[!UICONTROL Adjustment Amount]**（必要），輸入價格調整的數值。
+1. 針對 **[!UICONTROL Adjustment Amount]** （必要），輸入價格調整的數值。
 
-   - 當&#x200B;**[!UICONTROL Apply]**&#x200B;設為`Apply as percentage`時，輸入百分比值(範例：輸入`25`以獲得25%的調整)。
+   - 當 **[!UICONTROL Apply]** 設為 `Apply as percentage`，請輸入百分比值(範例：輸入 `25` 25%的調整)。
 
-   - 當&#x200B;**[!UICONTROL Apply]**&#x200B;設為`Apply as fixed amount`時，輸入固定金額的數值(例如：輸入`25`以獲取$25的固定調整)。
+   - 當 **[!UICONTROL Apply]** 設為 `Apply as fixed amount`，輸入固定金額的數值(例如：輸入 `25` 25美元固定調整)。
 
 ![智慧重新定價規則 — 價格調整](assets/amazon-price-adjustment.png)
 
 | 欄位 | 說明 |
 |---|---|
-| [!UICONTROL Price Action] | 選擇定價調整活動。 選項：<br>**[!UICONTROL Decrease By]**— 在[清單價格](./listing-price.md)中定義的&#x200B;_[!UICONTROL Magento Price Source]_需要向下調整時，選擇何時為規則建立較低的價格，再將其列入Amazon。<br>**[!UICONTROL Increase By]**— 選擇在上市前，_[!UICONTROL Magento Price Source]_ 何時 [調](./listing-price.md) 整上市價格中定義的規則，為規則建立更高的價格。<br>**[!UICONTROL Match Competitor Price]**— （僅限智慧型重新定價規則）根據您的競爭者意見和變異參數，選擇您要變更Amazon上市價 [格以](./lowest-competitor-pricing.md) 符合最低競爭者價格的時機。選擇&#x200B;_Apply_和&#x200B;_Adjustment Amount_欄位後，將刪除該欄位。 |
-| [!UICONTROL Apply] | 選項：<br>**[!UICONTROL Apply as percentage]**— 選擇何時要在[清單價格](./listing-price.md)中定義的&#x200B;_[!UICONTROL Magento Price Source]_以百分比調整。<br>**[!UICONTROL Apply as fixed amount]**— 選擇何時要將「上市價_[!UICONTROL Magento Price Source]_ 格」中定義的 [定](./listing-price.md) 義值調整為固定金額。 |
-| [!UICONTROL Adjustment Amount] | 必填。<br>如果您選 `Apply as percentage` 擇 **[!UICONTROL Apply]**&#x200B;用於，請輸入百分比值(例如：輸 `25` 入25%的調整)。<br>如果您選 `Apply as fixed amount` 擇 **[!UICONTROL Apply]**&#x200B;用於固定金額，請輸入數值(例如：輸 `25` 入$25固定調整)。 |
+| [!UICONTROL Price Action] | 選擇定價調整活動。 選項：<br>**[!UICONTROL Decrease By]**— 選擇要定義的時間 _[!UICONTROL Magento Price Source]_定義於 [上市價](./listing-price.md) 在上市至Amazon之前，先向下調整，為規則創造較低價格。<br>**[!UICONTROL Increase By]**— 選擇要定義的時間_[!UICONTROL Magento Price Source]_ 定義於 [上市價](./listing-price.md) 以調整，在上市至Amazon之前，為規則創造更高價格。<br>**[!UICONTROL Match Competitor Price]**— （僅限智慧型重新定價規則）選擇您要變更Amazon上市價格以符合 [最低競爭者](./lowest-competitor-pricing.md) 價格，根據您的競爭者意見和變異參數。 選擇後， _套用_ 和 _調整金額_ 欄位已移除。 |
+| [!UICONTROL Apply] | 選項：<br>**[!UICONTROL Apply as percentage]**— 選擇要定義的時間 _[!UICONTROL Magento Price Source]_定義於 [上市價](./listing-price.md) 百分比調整。<br>**[!UICONTROL Apply as fixed amount]**— 選擇要定義的時間_[!UICONTROL Magento Price Source]_ 定義於 [上市價](./listing-price.md) 以固定金額調整。 |
+| [!UICONTROL Adjustment Amount] | 必填。<br>如果您選擇 `Apply as percentage` for **[!UICONTROL Apply]**，請輸入百分比值(範例：輸入 `25` 25%的調整)。<br>如果您選擇 `Apply as fixed amount` for **[!UICONTROL Apply]**，輸入固定金額的數值(例如：輸入 `25` 25美元固定調整)。 |

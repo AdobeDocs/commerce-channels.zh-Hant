@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ## 手動結束單一或多個Amazon清單
 
-1. 在[[!UICONTROL Product Listings]](./managing-product-listings.md)頁（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_&#x200B;或&#x200B;_[!UICONTROL Ineligible]_標籤）上查看一個或多個清單。
+1. 在 [[!UICONTROL Product Listings]](./managing-product-listings.md) 頁面(_[!UICONTROL Inactive]_,_[!UICONTROL Active]_，或 _[!UICONTROL Ineligible]_標籤)。
 
 1. 在左側欄中，按一下以勾選您要結束的每個清單。
 
-1. 在&#x200B;_[!UICONTROL Actions]_下，按一下&#x200B;**[!UICONTROL End listing(s) on Amazon]**。
+1. 在 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL End listing(s) on Amazon]**.
 
-1. 按一下確認訊息上的&#x200B;**[!UICONTROL OK]**。
+1. 按一下 **[!UICONTROL OK]** 在確認訊息上。
 
 ## 手動結束單一Amazon清單
 
-1. 在[[!UICONTROL Product Listings]](./managing-product-listings.md)頁（_[!UICONTROL Inactive]_、_[!UICONTROL Active]_&#x200B;或&#x200B;_[!UICONTROL Ineligible]_標籤）上查看一個或多個清單。
+1. 在 [[!UICONTROL Product Listings]](./managing-product-listings.md) 頁面(_[!UICONTROL Inactive]_,_[!UICONTROL Active]_，或 _[!UICONTROL Ineligible]_標籤)。
 
-1. 在&#x200B;_[!UICONTROL Action]_列中，按一下&#x200B;**Select**>**End Listing**。
+1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**選擇**>**結束清單**.
 
-1. 按一下確認訊息上的&#x200B;**[!UICONTROL OK]**。
+1. 按一下 **[!UICONTROL OK]** 在確認訊息上。
 
-結束單一清單或多個清單時，訊息會確認所選清單正在處理到結束。 您可以在&#x200B;[_產品清單_](./managing-product-listings.md)&#x200B;頁面的[已結束](./ended-listings.md)標籤上管理已結束的清單。 從Amazon處理和移除後，清單的狀態會變更為`Manually Ended`。 已結束的清單會從Amazon中移除，直到您使用&#x200B;[_發佈至Amazon_](./publish-listings-manually.md)&#x200B;動作手動重新發佈清單為止。
+結束單一清單或多個清單時，訊息會確認所選清單正在處理到結束。 可以在 [已結束](./ended-listings.md) 標籤 [_產品清單_](./managing-product-listings.md) 頁面。 從Amazon處理和移除後，清單的狀態會變更為 `Manually Ended`. 已結束的清單會從Amazon中移除，直到您使用 [_發佈至Amazon_](./publish-listings-manually.md) 動作。

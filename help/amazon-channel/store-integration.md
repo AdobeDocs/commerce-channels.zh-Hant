@@ -11,81 +11,81 @@ ht-degree: 0%
 
 # 商店整合
 
-若要開始使用Amazon銷售管道，您必須建立（新增）Amazon銷售管道商店，並將其連線至您的Amazon銷售者帳戶。 這兩個步驟整合您的[!DNL Commerce]和Amazon帳戶，以共用資料、同步產品等。
+若要開始使用Amazon銷售管道，您必須建立（新增）Amazon銷售管道商店，並將其連線至您的Amazon銷售者帳戶。 這兩個步驟整合您的 [!DNL Commerce] 和Amazon帳戶共用資料、同步產品等。
 
-_您需要帳戶的主要登入憑證( [!DNL Amazon Seller Central] 用來建立賣家帳戶的電子郵件或電話)，才能連線您的商店。_
+_您需要的主要登入憑證 [!DNL Amazon Seller Central] 帳戶（用來建立賣家帳戶的電子郵件或電話）來連線您的商店。_
 
 >[!NOTE]
 >
->首次商店整合後，系統會每年提示您重新授與存取權，以續約Amazon銷售管道與Amazon的連線。 您可以在賣家中央帳戶的&#x200B;**Settings** > **User Permissions**&#x200B;頁的&#x200B;_Amazon MWS Developer Permissions_&#x200B;部分的&#x200B;_Current Authorizations_&#x200B;表中續訂或撤銷此授權。
+>首次商店整合後，系統會每年提示您重新授與存取權，以續約Amazon銷售管道與Amazon的連線。 您可以在 _當前授權_ 表格 _Amazon MWS開發人員權限_ 區段 **設定** > **使用者權限** 賣主中心帳戶的頁面。
 
 ## 新增Amazon商店
 
-1. 在&#x200B;_Admin_&#x200B;側欄上，前往&#x200B;**行銷** > _頻道_ > **AmazonSales Channel**。
+1. 在 _管理_ 邊欄，轉到 **行銷** > _管道_ > **AmazonSales Channel**.
 
-   新增第一個Amazon銷售管道商店時，會出現&#x200B;_預先設定工作_&#x200B;強制回應。 新增第一個商店後，您可以在左側功能表&#x200B;_學習與準備_&#x200B;下的[Amazon銷售管道首頁](./amazon-sales-channel-home.md)頁面存取預先設定工作。
+   新增您的第一個Amazon銷售管道商店時， _預先設定任務_ 的上界。 新增第一個商店後，即可在 [Amazon銷售頻道首頁](./amazon-sales-channel-home.md) 頁面底下 _學習與準備_ 的上界。
 
-1. 按一下&#x200B;**[!UICONTROL Add Amazon Store]**。
+1. 按一下 **[!UICONTROL Add Amazon Store]**.
 
-   _[!UICONTROL Add Amazon sales channel]_頁面隨即開啟。
+   此 _[!UICONTROL Add Amazon sales channel]_頁面開啟。
 
    ![新增Amazon銷售管道商店](assets/amazon-store-integration.png)
 
-1. 若為&#x200B;**[!UICONTROL Magento Website to use for Amazon Listing]**，選擇要連線至此Amazon銷售管道商店的[!DNL Commerce]網站。
+1. 針對 **[!UICONTROL Magento Website to use for Amazon Listing]**，選擇 [!DNL Commerce] 連線至此Amazon銷售渠道商店的網站。
 
-   此設定也定義了[匯入Amazon訂單](./order-settings.md)的預設[!DNL Commerce]存放區。
+   此設定也會定義預設值 [!DNL Commerce] 儲存 [匯入Amazon訂單](./order-settings.md).
 
-1. 對於&#x200B;**[!UICONTROL Email Address]**，輸入首選聯繫人電子郵件地址。
+1. 針對 **[!UICONTROL Email Address]**，輸入您慣用的聯絡人電子郵件地址。
 
-1. 對於&#x200B;**[!UICONTROL New Store Name]**，輸入新Amazon銷售渠道商店的描述性名稱。
+1. 針對 **[!UICONTROL New Store Name]**，輸入新Amazon銷售管道商店的描述性名稱。
 
    >[!NOTE]
    >
-   >此名稱僅用作[!DNL Commerce]參考，並標識[Amazon銷售渠道首頁](./amazon-sales-channel-home.md)頁面上的商店。 您希望讓團隊能夠輕鬆識別。 例如，您在美國地區銷售的Amazon商店可能命名為`Amazon Store USA`。
+   >此名稱會作為 [!DNL Commerce] 僅參考並識別 [Amazon銷售頻道首頁](./amazon-sales-channel-home.md) 頁面。 您希望讓團隊能夠輕鬆識別。 例如，您在美國地區銷售的Amazon商店可能會命名為 `Amazon Store USA`.
 
-1. 對於&#x200B;**[!UICONTROL Amazon Marketplace Country]**，選擇此Amazon銷售渠道商店銷售產品的地區/國家/地區。 選項：
+1. 針對 **[!UICONTROL Amazon Marketplace Country]**，選擇此Amazon銷售管道商店銷售產品的地區/國家/地區。 選項：
 
    - 美國
    - 加拿大
    - 墨西哥
    - 英國
 
-1. 在&#x200B;_[!UICONTROL Map your Magento attributes to Amazon]_區段中，執行下列動作：
+1. 在 _[!UICONTROL Map your Magento attributes to Amazon]_部分，請執行以下操作：
 
-   - 對於&#x200B;**[!UICONTROL Product ID on the Amazon market]**，選擇要映射到下面選擇的[!DNL Commerce]屬性的Amazon屬性。
+   - 針對 **[!UICONTROL Product ID on the Amazon market]**，選擇要對應至的Amazon屬性 [!DNL Commerce] 屬性。
 
-      此ID有助於正確匹配[!DNL Commerce]目錄中的對應產品。
+      此ID有助於正確比對您 [!DNL Commerce] 目錄。
 
-   - 對於&#x200B;**[!UICONTROL Map a Magento attribute]**，選擇[!DNL Commerce]產品屬性以對應至上方選取的Amazon屬性。
+   - 針對 **[!UICONTROL Map a Magento attribute]**，選擇 [!DNL Commerce] 產品屬性，以對應至上方選取的Amazon屬性。
 
-      [對應](./ob-creating-magento-attributes.md) 屬性會擱置，確保您的Amazon清單正確符合目錄中的對應 [!DNL Commerce] 產品。
+      [對應屬性](./ob-creating-magento-attributes.md) 有助於確保Amazon清單正確符合您 [!DNL Commerce] 目錄。
 
-1. 按一下&#x200B;**[!UICONTROL Connect]**。
+1. 按一下 **[!UICONTROL Connect]**.
 
-   對話框將關閉，新商店將顯示在[Amazon銷售渠道首頁](./amazon-sales-channel-home.md)頁面上，並帶有確認消息。
+   對話框關閉，新商店出現在 [Amazon銷售頻道首頁](./amazon-sales-channel-home.md) 頁面，其中包含確認訊息。
 
-## 將儲存連接到[!DNL Amazon Seller Central]
+## 將商店連接到 [!DNL Amazon Seller Central]
 
-1. 在商店控制面板上，按一下商店卡上的&#x200B;**[!UICONTROL Connect store]**&#x200B;以在新索引標籤中啟動[!DNL Amazon Seller Central]。
+1. 在商店控制面板上，按一下 **[!UICONTROL Connect store]** 在商店卡上啟動 [!DNL Amazon Seller Central] 的子句。
 
-1. 輸入您的[!DNL Amazon Seller Central]帳戶憑證，然後按一下&#x200B;**[!UICONTROL Sign in]**。
+1. 輸入 [!DNL Amazon Seller Central] 帳戶憑證，按一下 **[!UICONTROL Sign in]**.
 
-   要完成此連接，您必須使用主要用戶（用於建立賣家帳戶的電子郵件或電話）的登錄憑據登錄[!DNL Amazon Seller Central]帳戶。
+   若要完成此連線，您必須登入 [!DNL Amazon Seller Central] 使用主要使用者登入憑證的帳戶（用來建立賣家帳戶的電子郵件或電話）。
 
-1. 如果出現提示，請輸入您從Amazon收到的代碼並按一下&#x200B;**[!UICONTROL Sign in]**&#x200B;以完成Amazon雙因素授權(2FA)。
+1. 如果出現提示，請輸入您從Amazon收到的代碼，然後按一下，以完成Amazon雙因素授權(2FA) **[!UICONTROL Sign in]**.
 
-1. 在&#x200B;_[!UICONTROL Amazon Marketplace Web Service]_確認頁面上，選中「[!UICONTROL I understand...]」複選框，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 在 _[!UICONTROL Amazon Marketplace Web Service]_確認頁面，選擇「[!UICONTROL I understand...]「 」核取方塊，按一下&#x200B;**[!UICONTROL Next]**.
 
-1. 在&#x200B;_[!UICONTROL You are almost done]_訊息上，按一下&#x200B;**[!UICONTROL Continue]**。
+1. 在 _[!UICONTROL You are almost done]_訊息，按一下&#x200B;**[!UICONTROL Continue]**.
 
-   您已授予Amazon銷售管道存取權，並與您的[!DNL Amazon Seller Central]帳戶共用資料。 Amazon頁面關閉，並顯示確認訊息。
+   您已授予Amazon銷售管道權限，可存取資料並與您的 [!DNL Amazon Seller Central] 帳戶。 Amazon頁面關閉，並顯示確認訊息。
 
-   [Amazon銷售管道首頁](./amazon-sales-channel-home.md)頁面隨即開啟，顯示您的Amazon商店卡片。
+   此 [Amazon銷售頻道首頁](./amazon-sales-channel-home.md) 顯示Amazon商店卡片的頁面隨即開啟。
 
-   若要檢視存放區控制面板，請按一下存放區卡片上的&#x200B;**[!UICONTROL View Store]**。
+   若要檢視商店控制面板，請按一下 **[!UICONTROL View Store]** 在商店卡上。
 
 ![Amazon銷售渠道首頁，帶有新商店卡](assets/asc-dashboard-after-2fa.png)
 
-您的新Amazon銷售渠道商店現在已連接至您的[!DNL Amazon Seller Central]帳戶。
+您新的Amazon銷售管道商店現已連線至 [!DNL Amazon Seller Central] 帳戶。
 
-![下一](assets/btn-next.png) [**個圖示繼續建立清單規則**](./ob-create-listing-rule.md)
+![下一個表徵圖](assets/btn-next.png) [**繼續建立清單規則**](./ob-create-listing-rule.md)

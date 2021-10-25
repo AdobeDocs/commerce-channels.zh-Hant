@@ -11,14 +11,14 @@ ht-degree: 0%
 
 # 查看清單詳細資訊
 
-_[!UICONTROL Product Listing Details]_頁面會顯示您作用中產品清單的其他資訊，包括「清單活動記錄」，其中會顯示個別SKU/產品上的變更。 此資訊可協助您了解產品及個別SKU/產品變更的競爭量度。 本頁面的其他資訊包括：
+此 _[!UICONTROL Product Listing Details]_頁面會顯示您作用中產品清單的其他資訊，包括「清單活動記錄」，其中會顯示個別SKU/產品上的變更。 此資訊可協助您了解產品及個別SKU/產品變更的競爭量度。 本頁面的其他資訊包括：
 
 - **[!UICONTROL Listing Details]**  — 產品詳細資訊，包括名稱和Amazon賣家SKU
-- **[!UICONTROL Listing Activity Log]**  — 本次上市所發生的所有更改的歷史記錄，如定價和數量/股票更改。無需採取任何進一步動作。 此記錄可供檢閱，以了解變更記錄。
-- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon狀態和競爭 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 者定價的資料
+- **[!UICONTROL Listing Activity Log]**  — 本次上市所發生的所有更改的歷史記錄，如定價和數量/股票更改。 無需採取任何進一步動作。 此記錄可供檢閱，以了解變更記錄。
+- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon的資料 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 狀態與競爭者定價
 - **[!UICONTROL Lowest Competitor Pricing]**  — 關於最低Amazon競爭對手的定價和反饋資訊的資訊
 
-Amazon銷售管道首頁共用一些常見的[工作區控制項](./workspace-controls.md)，可讓您自訂顯示的資料。
+Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 
 ## 清單詳細資訊
 
@@ -45,10 +45,10 @@ __
 
 ## Buy Box競爭者定價 {#buy-box-competitor-pricing}
 
-此頁簽顯示有關持有清單[[!DNL Buy Box]](./buy-box-competitor-pricing.md)位置的Amazon商家的資訊。 此資訊可用來了解您的競爭對手在Amazon上的價格定位。 顯示的資訊包括：
+此索引標籤顯示持有 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 清單的位置。 此資訊可用來了解您的競爭對手在Amazon上的價格定位。 顯示的資訊包括：
 
 - 亞洲：10位數的Amazon產品識別碼。
-- 賣家：識別您是否為[!DNL Buy Box]賣家。 選項是/否。
+- 賣家：識別您是否為 [!DNL Buy Box] 賣家。 選項是/否。
 - 條件：識別為清單定義的條件。
 - 上市價：識別發佈清單的價格。
 - 運費：標識添加到清單中的運費。
@@ -59,7 +59,7 @@ __
 
 ## 最低競爭者定價 {#lowest-competitor-pricing}
 
-此索引標籤會顯示相同清單中Amazon競爭者的相關資訊。 此資訊可用於了解價格定位和[最低競爭者定價](./lowest-competitor-pricing.md)。 顯示的資訊包括：
+此索引標籤會顯示相同清單中Amazon競爭者的相關資訊。 此資訊可用於了解價格定位和 [最低競爭者定價](./lowest-competitor-pricing.md). 顯示的資訊包括：
 
 - 亞洲：10位數的Amazon產品識別碼。
 - 條件：識別為清單定義的條件。

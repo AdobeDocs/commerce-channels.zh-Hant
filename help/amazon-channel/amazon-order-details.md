@@ -1,6 +1,6 @@
 ---
 title: Amazon訂單詳細資料
-description: 在「Amazon商務」或「Magento Open Source管理員」中檢視Adobe Marketplace訂單的詳細資訊。
+description: 在Adobe Commerce或Magento Open Source管理員中檢視Amazon Marketplace訂單的詳細資訊。
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## 檢視Amazon訂單詳細資訊
 
-1. 按一下儲存卡上的&#x200B;**[!UICONTROL View Store]**。
+1. 按一下 **[!UICONTROL View Store]** 在商店卡上。
 
-1. 在&#x200B;_[!UICONTROL Recent Orders]_區段中，按一下訂單編號。
+1. 在 _[!UICONTROL Recent Orders]_區段，按一下訂單編號。
 
-   _[!UICONTROL Amazon Order Details]_頁面隨即開啟。
+   此 _[!UICONTROL Amazon Order Details]_頁面開啟。
 
 >[!NOTE]
 >
->如果您已在[訂單設定](./order-settings.md)中啟用訂單匯入，且訂單為[由Amazon(FBA)](./fulfilled-by.md)履行，則訂單詳細資料中某些欄位可能會顯示虛擬資料。 Amazon不會針對FBA訂單傳送下列資料。
+>如果您的 [順序設定](./order-settings.md) 順序是 [由Amazon(FBA)履行](./fulfilled-by.md)，您可能會在訂單詳細資料中看到某些欄位的虛擬資料。 Amazon不會針對FBA訂單傳送下列資料。
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### 訂單和發運詳細資訊標籤
 
-_[!UICONTROL Order and Shipping Details]_標籤會顯示從Amazon收到的詳細訂單資訊。
+此 _[!UICONTROL Order and Shipping Details]_標籤會顯示從Amazon收到的詳細訂單資訊。
 
 >[!IMPORTANT]
 >
@@ -54,18 +54,18 @@ _[!UICONTROL Order and Shipping Details]_標籤會顯示從Amazon收到的詳細
 >- `Shipping country`
 
 >
->編輯後，別忘了按一下&#x200B;**儲存順序**。
+>別忘了按一下 **儲存順序** 進行編輯之後。
 
 ![訂單和發運詳細資訊](assets/amazon-order-details.png)
 
 ### 訂單項目標籤
 
-_[!UICONTROL Order Items]_索引標籤會顯示從Amazon收到的與Amazon訂單相關聯的所有項目。
+此 _[!UICONTROL Order Items]_標籤會顯示從Amazon收到的與Amazon訂單相關聯的所有項目。
 
 ![訂單項目詳細資訊](assets/amazon-order-item-details.png)
 
 ### 追蹤標籤
 
-_[!UICONTROL Tracking]_標籤會顯示與Amazon順序相關的追蹤資訊。
+此 _[!UICONTROL Tracking]_索引標籤會顯示與Amazon訂單相關的追蹤資訊。
 
 ![追蹤詳細資料](assets/amazon-order-tracking-details.png)

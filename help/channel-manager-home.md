@@ -1,7 +1,7 @@
 ---
 solution: Commerce
-title: Adobe商務的管道管理員
-description: 瀏覽Adobe商務和Magento Open Source的銷售渠道文檔。
+title: Adobe Commerce頻道管理員
+description: 瀏覽Adobe Commerce和Magento Open Source的銷售管道檔案。
 feature: Overview
 role: User
 level: Beginner
@@ -13,16 +13,16 @@ ht-degree: 0%
 ---
 
 
-# Adobe商務的管道管理員概觀 {#commerce-channels-overview}
+# 適用於Adobe Commerce的管道管理員概觀 {#commerce-channels-overview}
 
-Adobe商務和Magento Open Source的渠道經理可將您商店中的產品目錄、訂單、發運和儲存配置與知名的市場站點整合。 這些強大的功能可讓您透過擷取新的店面流量並擴大銷售至其他網站商店，以增加收入。
+Adobe Commerce和Magento Open Source的管道管理員可將您商店中的產品目錄、訂單、發運和儲存設定與知名的市場網站整合。 這些強大的功能可讓您透過擷取新的店面流量並擴大銷售至其他網站商店，以增加收入。
 
 ## Amazon銷售渠道
 
-Amazon銷售管道是功能強大的擴充功能，可將您的[!DNL Commerce]管理員與[!DNL Amazon Seller Central]帳戶順暢整合。 上線後，商務會成為&#x200B;_中央命令中心_，用於管理和控制您的Amazon清單、訂單和庫存，以及Amazon商店的定價。
+Amazon銷售管道是功能強大的擴充功能，可順暢地整合您的 [!DNL Commerce] 使用 [!DNL Amazon Seller Central] 帳戶。 上線後，商務變成 _中央指揮中心_ 管理和控制Amazon清單、訂單和庫存，以及Amazon商店的定價。
 
 ## 其他資源
 
-[Commerce 2.4使用手冊Commerce開](https://docs.magento.com/user-guide/)
-[發人員檔案](https://devdocs.magento.com/)
+[Commerce 2.4使用手冊](https://docs.magento.com/user-guide/)
+[商務開發人員檔案](https://devdocs.magento.com/)
 

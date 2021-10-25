@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # 管理Amazon清單
 
-整合[!DNL Commerce]商店後，可隨時修改產品清單設定。 您可以存取[儲存控制面板](./amazon-store-dashboard.md)上的清單設定。
+產品清單設定可在您 [!DNL Commerce] 商店已整合。 您可以在 [儲存儀表板](./amazon-store-dashboard.md).
 
-若要依產品清單的清單狀態來存取產品清單，請按一下&#x200B;_[!UICONTROL Store Listings]_區段中的&#x200B;**[!UICONTROL Manage Listings]**。 預設情況下，[_&#x200B;產品清單&#x200B;_](./managing-listings-by-tab.md)頁面會開啟到_[!UICONTROL Active]_&#x200B;頁簽。
+若要依產品清單的清單狀態來存取產品清單，請按一下 **[!UICONTROL Manage Listings]** 在 _[!UICONTROL Store Listings]_區段。 此[_&#x200B;產品清單&#x200B;_](./managing-listings-by-tab.md)頁面隨即開啟_[!UICONTROL Active]_ 標籤。
 
-您也可以按一下&#x200B;_[!UICONTROL Store Listings]_區段中的&#x200B;**[!UICONTROL Active Listings]**、**[!UICONTROL Inactive Listings]**和&#x200B;**[!UICONTROL In Progress Listings]**以直接存取這些標籤。
+您也可以按一下 **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]**，和 **[!UICONTROL In Progress Listings]** 在 _[!UICONTROL Store Listings]_區段來直接存取這些標籤。
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** 是「準備 _列出清_ 單」或「不完 _整清單」_，具體取決於您的產品 [_清單_](./product-listing-actions.md) 操作設定。請參閱[依狀態管理清單/ Tab](./managing-listings-by-tab.md)中的標籤說明。
+>**[!UICONTROL In Progress Listings]** 不是 _準備列出_ 清單或您的 _未完成的清單_，視您的 [_產品清單動作_](./product-listing-actions.md) 設定。 請參閱 [按狀態/頁簽管理清單](./managing-listings-by-tab.md).
 
-請參閱[依狀態管理清單/ Tab](./managing-listings-by-tab.md)和[依動作管理清單](./managing-listings-by-action.md)。
+請參閱 [按狀態/頁簽管理清單](./managing-listings-by-tab.md) 和 [按操作管理清單](./managing-listings-by-action.md).
 
 ## 存取產品清單
 
-1. 在&#x200B;_Admin_&#x200B;側欄中，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**。
+1. 在 _管理_ 邊欄，轉到 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. 按一下商店卡上的&#x200B;**[!UICONTROL View Store]**。
+1. 按一下 **[!UICONTROL View Store]** 在商店卡上。
 
-1. 在存放區控制面板上，按一下&#x200B;_[!UICONTROL Store Listings]_區段中的&#x200B;**[!UICONTROL Manage Listings]**。
+1. 在商店控制面板上，按一下 **[!UICONTROL Manage Listings]** 在 _[!UICONTROL Store Listings]_區段。
 
 1. 若要檢視處於該狀態的清單，請按一下索引標籤。
 
-   預設會顯示&#x200B;_[!UICONTROL Active]_標籤。
+   此 _[!UICONTROL Active]_標籤。

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 標準價格規則操作
 
-標準價格規則操作允許您相對於[!DNL Commerce]目錄價格（或價格來源）以特定百分比或固定美元金額增加或減少Amazon清單價格。
+標準價格規則動作可讓您以相對於以下項目的特定百分比或固定美元金額，來增加或減少Amazon上市價格： [!DNL Commerce] 目錄價格（或價格來源）。
 
 標準價格規則操作的部分包括：
 
@@ -20,37 +20,37 @@ ht-degree: 0%
 
 ## 配置價格規則操作
 
-1. 對於&#x200B;**[!UICONTROL Rule Type]**，選擇`Standard price rule`。
+1. 針對 **[!UICONTROL Rule Type]**，選擇 `Standard price rule`.
 
-   此選項會停用&#x200B;_[!UICONTROL Select Rule Type]_區段中的其他欄位。
+   此選項會停用 _[!UICONTROL Select Rule Type]_區段。
 
-1. 視需要展開&#x200B;_[!UICONTROL Price Adjustment]_區段。
+1. 展開 _[!UICONTROL Price Adjustment]_區段（如果需要）。
 
-1. 對於&#x200B;**[!UICONTROL Price Action]**，選擇一個選項以確定要如何更改&#x200B;*[!UICONTROL Magento Price Source]*（在[清單價格](./listing-price.md)中定義）值。
+1. 針對 **[!UICONTROL Price Action]**，選擇選項以決定您要如何變更 *[!UICONTROL Magento Price Source]* (定義於 [上市價](./listing-price.md))值。
 
    - `Decrease By`  — 在列入Amazon之前，選擇要降低值的時間。
 
    - `Increase By`  — 在列入Amazon之前，選擇要增加值的時間。
 
-1. 對於&#x200B;**[!UICONTROL Apply]**，選擇一個選項和選項，以確定要如何調整[清單價格](./listing-price.md)值中定義的&#x200B;*[!UICONTROL Magento Price Source]*:
+1. 針對 **[!UICONTROL Apply]**，選擇選項和選項，以決定您要如何定義 *[!UICONTROL Magento Price Source]* 定義於 [上市價](./listing-price.md) 值：
 
-   - `Apply as percentage`  — 選擇何時要以百 *[!UICONTROL Magento Price Source]* 分比調整上市 [價](./listing-price.md) 值中定義的
+   - `Apply as percentage`  — 選擇要定義的時間 *[!UICONTROL Magento Price Source]* 定義於 [上市價](./listing-price.md) 以百分比調整的值
 
-   - `Apply as fixed amount`  — 選擇何時要將「上市價 *[!UICONTROL Magento Price Source]* 格」中定 [義](./listing-price.md) 的價格調整為固定金額。
+   - `Apply as fixed amount`  — 選擇要定義的時間 *[!UICONTROL Magento Price Source]* 定義於 [上市價](./listing-price.md) 值以固定金額調整。
 
-1. 對於&#x200B;**[!UICONTROL Adjustment Amount]**（必要），輸入價格調整的數值。
+1. 針對 **[!UICONTROL Adjustment Amount]** （必要），輸入價格調整的數值。
 
-   - 當&#x200B;*[!UICONTROL Apply]*&#x200B;設為`Apply as percentage`時，輸入百分比值(範例：輸入`25`以調整25%的價格)。
+   - 當 *[!UICONTROL Apply]* 設為 `Apply as percentage`，請輸入百分比值(範例：輸入 `25` 25%的價格調整)。
 
-   - 當&#x200B;*[!UICONTROL Apply]*&#x200B;設為`Apply as fixed amount`時，輸入固定金額的數值(例如：輸入`25`以調整$25的固定價格)。
+   - 當 *[!UICONTROL Apply]* 設為 `Apply as fixed amount`，輸入固定金額的數值(例如：輸入 `25` 25美元固定價格調整)。
 
-1. 完成後，按一下&#x200B;**[!UICONTROL Save pricing rule]**。
+1. 完成後，按一下 **[!UICONTROL Save pricing rule]**.
 
 ![標準價格規則](assets/ob-price-rule-action-standard-example.png)
 
 | 欄位 | 說明 |
 |---|---|
-| [!UICONTROL Rule Type] | 選擇`Standard price rule`。 |
-| [!UICONTROL Price Action] | 選項：<ul><li>**[!UICONTROL Decrease By]**  — 在列入Amazon之前， [!DNL Commerce] 選擇要降低定義的價格來源值的時間。</li><li>**[!UICONTROL Increase By]**  — 在列入Amazon之前， [!DNL Commerce] 選擇何時要增加定義的價格來源值。</li></ul> |
-| [!UICONTROL Apply] | 選項：<ul><li>**[!UICONTROL Apply as percentage]**  — 選擇何時要按百 [!DNL Commerce] 分比調整定義的價格來源值。</li><li>**[!UICONTROL Apply as fixed amount]**  — 選擇何時要按固 [!DNL Commerce] 定金額調整定義的價格來源值。</li></ul> |
-| [!UICONTROL Adjustment Amount] | 必填。<br><br>如果您選 `Apply as percentage` 擇 *[!UICONTROL Apply]*&#x200B;用於，請輸入百分比值(例如：輸 `25` 入25%的調整)。<br><br>如果您選 `Apply as fixed amount` 擇 *[!UICONTROL Apply]*&#x200B;用於固定金額，請輸入數值(例如：輸 `25` 入$25固定調整)。 |
+| [!UICONTROL Rule Type] | 選擇 `Standard price rule`. |
+| [!UICONTROL Price Action] | 選項：<ul><li>**[!UICONTROL Decrease By]**  — 選擇要定義的時間 [!DNL Commerce] 價格來源值將在上市至Amazon前降低。</li><li>**[!UICONTROL Increase By]**  — 選擇要定義的時間 [!DNL Commerce] 價格來源值在上市至Amazon前須增加。</li></ul> |
+| [!UICONTROL Apply] | 選項：<ul><li>**[!UICONTROL Apply as percentage]**  — 選擇要定義的時間 [!DNL Commerce] 價格來源值（以百分比調整）。</li><li>**[!UICONTROL Apply as fixed amount]**  — 選擇要定義的時間 [!DNL Commerce] 價格來源值（以固定金額調整）。</li></ul> |
+| [!UICONTROL Adjustment Amount] | 必填。<br><br>如果您選擇 `Apply as percentage` for *[!UICONTROL Apply]*，請輸入百分比值(範例：輸入 `25` 25%的調整)。<br><br>如果您選擇 `Apply as fixed amount` for *[!UICONTROL Apply]*，輸入固定金額的數值(例如：輸入 `25` 25美元固定調整)。 |

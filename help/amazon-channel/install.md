@@ -1,6 +1,6 @@
 ---
 title: 安裝擴充功能
-description: 若要整合您的 [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] 並透過 [!DNL Amazon Marketplace]銷售，請下載並安裝AmazonSales Channel擴充功能。
+description: 若要整合您的 [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] 然後通過 [!DNL Amazon Marketplace]，下載並安裝AmazonSales Channel擴充功能。
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
 source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
 workflow-type: tm+mt
@@ -13,41 +13,41 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe商務和Magento Open Source2.4.x版僅支援[!DNL Amazon Sales Channel]擴充功能4.0+版。 如果您執行的是2.3.x版，請參閱[相容Amazon銷售管道版本](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}的檔案。 如需版本相容性的詳細資訊，請參閱開發人員檔案中的[可用性](https://devdocs.magento.com/release/availability.html){target=&quot;_blank&quot;}頁面。
+>僅 [!DNL Amazon Sales Channel] Adobe Commerce和Magento Open Source2.4.x版支援擴充功能4.0+版。 如果您執行的是2.3.x版，請參閱 [相容的Amazon銷售管道版本](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}。 如需版本相容性的詳細資訊，請參閱 [可用性](https://devdocs.magento.com/release/availability.html)開發人員檔案中的{target=&quot;_blank&quot;}頁面。
 
-[!UICONTROL Amazon Sales Channel]擴充功能會安裝並新增功能，以整合您的商務目錄與[!DNL Amazon Seller Accounts]，以透過[!DNL Amazon Marketplace]銷售。 若要查看其他資訊，請參閱[!DNL Commerce Marketplace]中的[AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html)頁面，以及開發人員檔案中的[發行說明](https://devdocs.magento.com/extensions/amazon-sales/release-notes/)。
+此 [!UICONTROL Amazon Sales Channel] 擴充功能安裝並新增功能，將您的商務目錄與 [!DNL Amazon Seller Accounts] 通過 [!DNL Amazon Marketplace]. 若要檢閱其他資訊，請參閱 [AmazonSales Channel](https://marketplace.magento.com/magento-module-amazon.html) 頁面 [!DNL Commerce Marketplace] 和 [發行說明](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) 在開發人員檔案中。
 
 ## 需求
 
-- **商務例項**:此擴 [!DNL Amazon Sales Channel] 充功能可安裝在雲端基礎架構2.3.x版或更新版本上，具有Magento Open Source、Adobe商務和Adobe商務的執行個體上。2.1、2.2或1.x版不再支援此功能。
+- **商務例項**:此 [!DNL Amazon Sales Channel] 擴充功能可安裝在雲端基礎架構2.3.x版或更新版本上具有Magento Open Source、Adobe Commerce和Adobe Commerce的執行個體上。 2.1、2.2或1.x版不再支援此功能。
 - **商務Web帳戶**:您應有Commerce Web帳戶，可用來建立及追蹤API金鑰。
-- **API密鑰**:透過您的Commerce網站帳戶建立Amazon銷售管道API金鑰。下列指示包括這些步驟。
+- **API金鑰**:透過您的Commerce網站帳戶建立Amazon銷售管道API金鑰。 下列指示包括這些步驟。
 
 ## 安裝
 
-如需有關使用此程式使用撰寫器的詳細資訊，請參閱開發人員檔案中的[擴充功能安裝](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}指示。
+如需有關為此程式使用撰寫器的詳細資訊，請參閱 [擴充功能安裝](https://devdocs.magento.com/extensions/install/)開發人員檔案中的{target=&quot;_blank&quot;}指示。
 
-1. 登入[Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}。
+1. 登入 [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}。
 
-1. 按一下&#x200B;**[!UICONTROL Marketplace]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL My Purchases]**。
+1. 按一下 **[!UICONTROL Marketplace]** ，然後按一下 **[!UICONTROL My Purchases]**.
 
-1. 找到並選擇&#x200B;**[!UICONTROL Amazon Sales Channel]**。
+1. 尋找並選取 **[!UICONTROL Amazon Sales Channel]**.
 
 1. 在擴充功能頁面上，選取版本。
 
-1. 對於元件名稱和版本，按一下&#x200B;**[!UICONTROL Technical Details]**。
+1. 如需元件名稱和版本，請按一下 **[!UICONTROL Technical Details]**.
 
-1. 使用名稱和版本資訊更新`composer.json`檔案中的服務連接器條目。
+1. 使用名稱和版本資訊來更新 `composer.json` 檔案。
 
-   - 將副檔名的名稱和版本新增至您的`composer.json`檔案。
+   - 將擴充功能的名稱和版本新增至 `composer.json` 檔案。
 
-   - 導覽至您的[!DNL Commerce]專案目錄，並更新您的`composer.json`檔案。
+   - 導覽至 [!DNL Commerce] 專案目錄和更新您的 `composer.json` 檔案。
 
    ```bash
    composer require magento/services-connector:~1.0.3
    ```
 
-   - 輸入您的[驗證密鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}。 您的公開金鑰是您的使用者名稱；您的私密金鑰是您的密碼。
+   - 輸入 [驗證金鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}。 您的公開金鑰是您的使用者名稱；您的私密金鑰是您的密碼。
 
    - 等待撰寫器完成專案相依性的更新，並確保沒有錯誤。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 新增Amazon銷售管道API金鑰
 
-安裝後，輸入[API密鑰](./amazon-verify-api-key.md)以完成配置。
+安裝後，請輸入 [API金鑰](./amazon-verify-api-key.md) 完成配置。
 
 ## 設定Amazon通道設定選項
 
@@ -64,30 +64,30 @@ ht-degree: 0%
 
 1. 登入管理員。
 
-1. 在&#x200B;_Admin_&#x200B;側欄上，轉至&#x200B;**儲存** > _設定_ > **配置**。
+1. 在 _管理_ 邊欄，轉到 **商店** > _設定_ > **設定**.
 
-1. 按一下「**Sales Channel**」，然後按一下「**全域設定**」。
+1. 按一下 **Sales Channel**，然後 **全域設定**.
 
-1. 對於&#x200B;**清除日誌歷史記錄**，定義清除收集日誌的間隔。
+1. 針對 **清除日誌歷史記錄**，定義清除收集記錄檔的間隔。
 
-   選項包括`Once Daily`、`Once Weekly`和`Once Monthly`（預設）。
+   選項包括 `Once Daily`, `Once Weekly`，和 `Once Monthly` （預設）。
 
-1. （可選）對於&#x200B;**背景任務(CRON)源**，將設定更改為`Command Line (CLI) CRON`。
+1. （選用）適用於 **背景任務(CRON)源**，請將設定變更為 `Command Line (CLI) CRON`.
 
-   建議對&#x200B;**_進階使用者/管理員_**&#x200B;使用此設定。
+   建議對 **_進階使用者/管理員_**.
 
-1. 按一下&#x200B;**[!UICONTROL Save Config]**。
+1. 按一下 **[!UICONTROL Save Config]**.
 
 ## 更新擴充功能
 
-1. 登入[Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}。
+1. 登入 [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target=&quot;_blank&quot;}。
 
-1. 按一下&#x200B;**[!UICONTROL Marketplace]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL My Purchases]**。
+1. 按一下 **[!UICONTROL Marketplace]** ，然後按一下 **[!UICONTROL My Purchases]**.
 
-1. 找到並選擇&#x200B;**[!UICONTROL Amazon Sales Channel]**。
+1. 尋找並選取 **[!UICONTROL Amazon Sales Channel]**.
 
 1. 在擴充功能頁面上，選取版本。
 
-1. 對於元件名稱和版本，按一下&#x200B;**[!UICONTROL Technical Details]**。
+1. 如需元件名稱和版本，請按一下 **[!UICONTROL Technical Details]**.
 
-1. 在開發人員檔案中，完成[擴充功能升級指示](https://devdocs.magento.com/extensions/install/#upgrade-an-extension){target=&quot;_blank&quot;}。
+1. 完成 [擴充功能升級指示](https://devdocs.magento.com/extensions/install/#upgrade-an-extension)開發人員檔案中的{target=&quot;_blank&quot;}。

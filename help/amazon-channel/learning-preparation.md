@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # 學習與準備
 
-_[!UICONTROL Learning and Preparation]_檢視會顯示整合Amazon商店前建議的預先設定工作清單。 它還提供學習材料的連結，例如：
+此 _[!UICONTROL Learning and Preparation]_檢視會顯示整合Amazon商店前建議的預先設定工作清單。 它還提供學習材料的連結，例如：
 
-- 此[使用手冊](./overview.md)
+- 此 [使用手冊](./overview.md)
 - 教學影片
 
 ![學習與準備檢視](assets/learning-preparation.png)
