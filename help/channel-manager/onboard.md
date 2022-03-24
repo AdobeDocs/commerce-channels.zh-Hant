@@ -1,0 +1,67 @@
+---
+title: '"板載 [!DNL Channel Manager]"'
+description: 將實例連接到 [!DNL Channel Manager] 完成幾個單車步驟。
+role: User
+level: Intermediate
+source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
+
+---
+
+# 板載 [!DNL Channel Manager]
+
+通過在上安裝Channel Manager擴展，板載Channel Manager [!DNL Commerce] 實例和配置API連接，以在您的Commerce實例和Walmart Marketplace之間啟用通信和資料同步。
+
+完成登錄後，您可以通過 [!UICONTROL Channel Manager] 的上界 [!UICONTROL Commerce Admin Marketing] 的子菜單。
+
+![[!DNL Channel Manager] 管理視圖中的選項](assets/channel-manager-admin-view.png)
+
+## 登機概述
+
+1. [安裝 [!DNL Channel Manager] 擴展](install.md)。
+
+1. [配置 [!DNL Commerce Services Connector]](connect.md) 將Channel Manager與Commerce實例和其他支援服務整合。
+
+1. [連接 [!DNL Commerce] 儲存 [!DNL Walmart Marketplace]](connect.md)。
+
+## 先決條件
+
+- 驗證您是否有Walmart Marketplace Seller AccountWalmart在Walmart Marketplace上銷售的要求
+
+- **商業帳戶資訊** — 下載和安裝 [!DNL Channel Manager] 需要ID和憑據 [商業帳戶](https://docs.magento.com/user-guide/magento/magento-account.html)擁有對Windows Server的所有者訪問權限的{target=&quot;_blank&quot;} [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 實例。
+
+   - **影像ID**-[登錄](https://account.magento.com/customer/account/login/) 到Commerce帳戶以從 [!UICONTROL My Account - Magento settings]。 您需要此ID註冊 [!DNL Channel Manager] 服務測試程式。
+
+      ![[!DNL MAGEID] 在商業帳戶設定上](assets/mageid-my-commerce-account.png)
+
+   - **訪問密鑰 —** 獲取身份驗證密鑰以從Commerce Composer儲存庫下載Commerce擴展([!DNL repo.magento.com])。
+
+      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
+
+      在Adobe Commerce和Magento Open Source項目上，所有者可以 [共用訪問](https://docs.magento.com/user-guide/magento/magento-account-share.html) 允許受信任的員工和服務提供商使用所有者或許可證持有者帳戶的憑據下載擴展。
+
+      開 [!DNL Adobe Commerce] 在雲基礎架構項目上，用戶必須具有以下權限才能在 [!DNL Commerce] 實例：
+
+      - 超級用戶對雲項目的訪問
+      - 管理員對特定環境的訪問
+      - 一個 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 具有訪問Composer儲存庫權限的帳戶。 請參閱 [管理用戶訪問](https://devdocs.magento.com/cloud/project/user-admin.html)。
+
+- **下載Channel Manager Composer包的授權** — 將用於管理服務的Adobe帳戶的MAGE ID提供給協調您組織的Beta程式的商務代表。
+- **使用Composer和[!DNL Commerce CLI]**  — 請參閱 [常規CLI安裝](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}，瞭解有關使用這些工具在A上安裝和配置擴展的資訊[!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
+- 對於安裝了AmazonSales Channel的Commerce實例，請驗證 [AmazonSales Channel4.4.2版或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) 在安裝Channel Manager之前已安裝。
+
+
+### 要求
+
+- [Adobe Commerce2.4.x](https://devdocs.magento.com/release/released-versions.html)
+- [7.3菲律賓比索/7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
+- [作曲家1.x或更高版本](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+
+
+### 支援的平台
+
+- Adobe Commerce雲(ECE):2.4.x
+- Adobe Commerce駐地：2.4.x
+- Magento Open Source2.4.x
