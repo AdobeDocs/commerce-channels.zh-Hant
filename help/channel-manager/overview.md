@@ -1,15 +1,15 @@
 ---
-title: '"簡介 [!DNL Channel Manager]"'
+title: 關於 [!DNL Channel Manager]
 description: 瞭解如何安裝和使用 [!DNL Channel Manager] 將Adobe Commerce和Magento Open Source商店與第三方市場整合，並建立銷售渠道，從您的商務管理員無縫地管理市場清單、定價、庫存和銷售。
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # 概述
 
@@ -65,7 +65,7 @@ Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一�
 
    * 選擇「Adobe」作為解決方案提供商。
 
-   * 如下表所示設定權限。 有關詳細資訊，請參閱 [API憑據](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 的 _沃爾瑪市場銷售商幫助_。
+   * 如下表所示設定權限。 有關詳細資訊，請參閱 [API憑據](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 的 *沃爾瑪市場銷售商幫助*。
 
 |    **AdobeAPI鍵配置**
 | **權限** | **設定** | |—| |內容 |完全訪問 | |獲取源 |僅查看 | |清單 |完全訪問 | |項 |完全訪問 | |延遲時間 |完全訪問 | |順序 |完全訪問 | |價格 |完全訪問 | |報告 |僅查看 | |返回 |完全訪問 | |規則 |完全訪問 | |裝運 |完全訪問 |

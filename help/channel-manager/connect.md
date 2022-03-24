@@ -3,9 +3,10 @@ title: 連接到Commerce Services
 description: 將Channel Manager實例連接到 [!DNL Commerce services] 啟用Commerce實例、Channel Manager和其他支援服務之間的資料同步和通信。
 role: User
 level: Intermediate
-source-git-commit: ec950579a9b2220f9ec106b616779fc3503f3add
+exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,15 @@ ht-degree: 0%
 
 Commerce Services Connector將Channel Manager服務與Adobe Commerce和Magento Open Source實例整合。 該連接器使資料同步和在 [!DNL Commerce] 實例， [!DNL Channel Manager]以及其他支援服務。
 
-Commerce Services Connector安裝程式是使用Adobe所需的一次性流程 [Commerce SaaS服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;類似 [!DNL Channel Manager]。 [!DNL Live Search], [!DNL Product Recommendations]。 如果已為其他服務配置了連接器，則可以跳過此步驟。
+Commerce Services Connector安裝程式是使用Adobe所需的一次性流程 [Commerce SaaS服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;類似 [!DNL Channel Manager]。 [!DNL Live Search], [!DNL Product Recommendations]。 如果已為其他服務配置連接器，請跳過此步驟。
 
 ## 先決條件
 
-- **商業帳戶 [管理員訪問](https://docs.magento.com/user-guide/stores/admin.html){target=&quot;_blank&quot;** 到您的Commerce實例** — 帳戶所有者和管理員用戶可以使用 [!DNL Commerce] CLI命令 `admin:user:create`。
+- **商業帳戶** — 要在Commerce實例上安裝軟體，您必須擁有對Commerce平台具有「所有者」或「管理員」訪問權限的帳戶。
 
-- **Adobe Commerce [生產API密鑰](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;** — 啟用對Channel Manager所需服務的API訪問
+   帳戶所有者和管理員用戶可以使用 [!DNL Commerce] CLI命令 `admin:user:create`。
+
+- **Adobe Commerce生產API密鑰** — 此 [鍵](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}允許API訪問Channel Manager所需的服務。 您需要此密鑰的公共和私有憑據。
 
    要提供憑據，Commerce許可證持有者或帳戶所有者可選擇
    [共用訪問](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}，或給 [API密鑰](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}到受信任開發人員的憑據。
@@ -29,13 +32,13 @@ Commerce Services Connector安裝程式是使用Adobe所需的一次性流程 [C
 
 1. 開啟儲存服務配置。
 
-   - 在管理員中，選擇 [!UICONTROL Stores]。
+   - 在管理員中，選擇 **[!UICONTROL Stores]**。
 
-   - 下 *設定*&#x200B;選中 [!UICONTROL Configuration]。
+   - 下 *設定*&#x200B;選中 **[!UICONTROL Configuration]**。
 
-   - 在 [!UICONTROL Configuration] 頁面，展開 [!UICONTROL Services] 選擇 [!UICONTROL Commerce Services Connector]。
+   - 展開 **[!UICONTROL Services]** 選擇 **[!UICONTROL Commerce Services Connector]**。
 
-1. 從您的Adobe Commerce帳戶添加生產API密鑰。
+1. 從您的Adobe Commerce帳戶添加生產API密鑰憑據。
 
    ![[!DNL Commerce Service Connector] 服務 [!DNL Admin] 視圖](assets/commerce-services-connector-admin-service-view.png)
 
