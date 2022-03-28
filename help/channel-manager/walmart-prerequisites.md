@@ -1,13 +1,13 @@
 ---
 title: 沃爾瑪先決條件
 description: 驗證您是否擁有與渠道經理整合所需的Walmart Marketplace資訊和資源。
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
+source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # 沃爾瑪先決條件
 
@@ -34,8 +34,21 @@ Channel Manager需要以下資源和資訊來為Walmart Marketplace配置商業�
 
    * 如下表所示設定權限。 有關詳細資訊，請參閱 [API憑據](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 的 _沃爾瑪市場銷售商幫助_。
 
-|    **AdobeAPI鍵配置**
-| **權限** | **設定** | |—| |內容 |完全訪問 | |獲取源 |僅查看 | |清單 |完全訪問 | |項 |完全訪問 | |延遲時間 |完全訪問 | |順序 |完全訪問 | |價格 |完全訪問 | |報告 |僅查看 | |返回 |完全訪問 | |規則 |完全訪問 | |裝運 |完全訪問 |
+   **AdobeAPI鍵配置**
+
+   | **權限** | **設定** |
+   |----------------|-------------|
+   | 內容 | 完全訪問 |
+   | 獲取源 | 僅查看 |
+   | 庫存 | 完全訪問 |
+   | 項目 | 完全訪問 |
+   | 延遲時間 | 完全訪問 |
+   | 訂單 | 完全訪問 |
+   | 價格 | 完全訪問 |
+   | 報表 | 僅查看 |
+   | 返回 | 完全訪問 |
+   | 規則 | 完全訪問 |
+   | 裝運 | 完全訪問 |
 
 ## Walmart Marketplace商店狀態
 
