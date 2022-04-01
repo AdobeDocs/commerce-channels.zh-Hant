@@ -2,9 +2,9 @@
 title: 安裝 [!DNL Channel Manager]
 description: 安裝Channel Manager擴展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 4509528d1b084c9a91fd6be0d0a863782edb3bdd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -178,7 +178,6 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 ### 合成器鍵不正確
 
 如果 [訪問密鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}用於向Composer儲存庫進行身份驗證無效，或未連結到 [!DNL MAGE ID] 以前是註冊的 [!DNL Channel Manager] 服務，顯示以下錯誤。
-
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
