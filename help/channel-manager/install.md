@@ -2,9 +2,9 @@
 title: 安裝 [!DNL Channel Manager]
 description: 安裝Channel Manager擴展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4509528d1b084c9a91fd6be0d0a863782edb3bdd
+source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,12 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 
    ```bash
    $ composer require magento/channel-manager --no-update
+   ```
+
+1. 更新項目依賴項。
+
+   ```bash
+   $ composer update
    ```
 
 1. 添加、提交和推送代碼更改 — 包括對 `composer.lock` 和 `composer.json` 的子菜單。
