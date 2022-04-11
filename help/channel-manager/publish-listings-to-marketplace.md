@@ -2,25 +2,25 @@
 title: 向沃爾瑪發佈清單
 description: 向沃爾瑪市場發佈商品清單，開始銷售。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 # 向沃爾瑪發佈清單
 
-與其他市場一樣，沃爾瑪允許第三方銷售商列出其他銷售商銷售的商品。
+和其他市場一樣， [!DNL Walmart] 允許第三方銷售者列出他人銷售的商品。
 
-該平台使用UPC和GTIN等產品標識符來匹配已在銷售的項目。
-對於匹配的產品，現有的沃爾瑪市場會列出更新以包括商務產品。
+該平台使用UPC和GTIN等產品標識符來匹配現有的 [!DNL Walmart Marketplace] 清單。
+對於匹配的產品，在您發佈產品時，Walmart Marketplace會列出更新以包括Commerce產品選項 [!DNL Channel Manager]。
 
-通常，價格最低的產品會首先出現在結果中，但評論等其它因素也會影響佈局。
+通常，價格最低的產品在 [!DNL Walmart Marketplace] 上市，但評論等其它因素也會影響位置。
 
 ## 匹配產品
 
-當您匹配產品時，渠道經理會將產品資料發送到Walmart Marketplace，以搜索具有與映射的Commerce產品屬性匹配的屬性值的現有清單。 匹配條件由 [屬性映射配置](map-product-attributes-for-matching.md) 你的商店頻道。
+當您匹配產品時，Channel Manager會將產品資料發送到 [!DNL Walmart Marketplace] 搜索具有與映射的Commerce產品屬性匹配的屬性值的現有清單。 匹配條件由 [屬性映射配置](map-product-attributes-for-matching.md) 你的商店頻道。
 
 如果找到匹配項，則更新現有產品清單以添加您的優惠。
 

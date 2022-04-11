@@ -1,9 +1,10 @@
 ---
 title: 配置產品匹配
 description: 將Commerce產品與現有Walmart Marketplace清單匹配的映射屬性
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 ## 配置產品屬性設定
 
-1. 在已連接銷售渠道的產品清單頁面上，選擇 *草稿* 狀態。
+1. 在 [!UICONTROL Listings] 頁面，在 *草稿* 狀態。
 
 1. 選擇 **[!UICONTROL Settings]**。
 

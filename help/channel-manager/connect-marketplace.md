@@ -1,28 +1,28 @@
 ---
-title: 將Sales Channel連接到 [!DNL Walmart Marketplace]
+title: 將銷售渠道連接到 [!DNL Walmart Marketplace]
 description: 配置銷售渠道並連接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 
-# 連接到 [!DNL Walmart Marketplace]
+# 將銷售渠道連接到 [!DNL Walmart Marketplace]
 
 在您的 [!DNL Commerce] 例如，將Commerce商店連接到Walmart Marketplace。
 
-1. 通過 [為產品清單選擇Commerce商店](#select-the-commerce-store-for-the-sales-channel)。
+1. [建立銷售渠道](#create-the-sales-channel) 通過為產品清單選擇Commerce商店。
 
 1. [將通道連接到 [!DNL Walmart Marketplace] 通過添加Walmart API憑據](#connect-the-channel-to-walmart-marketplace)。
 
-1. [完成銷售渠道設定](#complete-store-setup) 因此，您可以從Channel Manger管理清單、庫存、定價和銷售。
+1. [完成銷售渠道設定](#complete-store-setup) 管理您的Walmart Marketplace產品分類的清單、庫存、定價和訂單。
 
 ## 建立銷售渠道
 
-1. 開啟Channel Manager。
+1. 開啟 [!DNL Channel Manager]。
 
    - 在管理員中，選擇 **[!UICONTROL Marketing** > _頻道&#x200B;_> **渠道管理器]**。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 將渠道連接到Walmart Marketplace
 
-1. 添加憑據 [!DNL Walmart Marketplace Adobe Production API key] 從 [!DNL Walmart Marketplace Seller] 帳戶。
+1. 添加憑據 [[!DNL Walmart Marketplace Adobe Production API key]](connect-marketplace.md#generate-a-walmart-marketplace-production-api-key) 從 [!DNL Walmart Marketplace Seller] 帳戶。
 
    - 如果您沒有憑據，請選擇 **[!UICONTROL Get API credentials]** 讓他們 [!DNL Walmart Marketplace Developer Portal]。
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
       將憑據添加到 [!DNL Channel Manager],Adobe隱藏客戶機密碼，並將值儲存在安全保管庫中。
 
-1. [!UICONTROL Save] 用於建立連接的配置。
+1. 選擇 [!UICONTROL Save] 應用配置並連接到 [!DNL Walmart marketplace]。
 
-   成功連接後，從 **[!UICONTROL Channel Manager > Marketplace Stores]**。
+成功連接後，從 **[!UICONTROL Channel Manager > Marketplace Stores]**。
 
-   ![[!DNL Walmart Marketplace API key] 配置頁](assets/manage-connected-stores.png)
+![[!DNL Walmart Marketplace API key] 配置頁](assets/manage-connected-stores.png)
 
 
 ### 排除連接問題
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 - 驗證WalmartAdobeAPI鍵的訪問配置是否具有正確的權限。 請參閱 [沃爾瑪先決條件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key)。
 
-- 確認Walmart API服務可從 [Walmart API狀態頁](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
+- 確認 [!DNL Walmart API] 服務可從 [Walmart API狀態頁](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
 
 ## 完成商店設定
 

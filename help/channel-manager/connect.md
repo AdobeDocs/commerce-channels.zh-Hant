@@ -1,17 +1,18 @@
 ---
-title: 連接到Commerce Services
-description: 將Channel Manager實例連接到 [!DNL Commerce services] 啟用Commerce實例、Channel Manager和其他支援服務之間的資料同步和通信。
+title: 連接到 [!DNL Commerce] 服務
+description: 將Channel Manager連接到 [!DNL Commerce] 服務，以啟用資料同步和在 [!DNL Commerce] 實例、 Channel Manager和其他支援服務。
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# 連接到Commerce Services
+
+# 連接到 [!DNL Commerce] 服務
 
 Commerce Services Connector將Channel Manager服務與Adobe Commerce和Magento Open Source實例整合。 該連接器使資料同步和在 [!DNL Commerce] 實例， [!DNL Channel Manager]以及其他支援服務。
 
@@ -25,8 +26,9 @@ Commerce Services Connector安裝程式是使用Adobe所需的一次性流程 [C
 
 - **Adobe Commerce生產API密鑰** — 此 [鍵](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}允許API訪問Channel Manager所需的服務。 您需要此密鑰的公共和私有憑據。
 
-   要提供憑據，Commerce許可證持有者或帳戶所有者可選擇
-   [共用訪問](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}，或給 [API密鑰](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}到受信任開發人員的憑據。
+>[!TIP]
+>
+>要提供憑據，Commerce許可證持有者或帳戶所有者可選擇 [共用訪問](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;}，或給 [API密鑰](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}到受信任開發人員的憑據。
 
 ## 配置Commerce Services連接器
 
@@ -34,7 +36,7 @@ Commerce Services Connector安裝程式是使用Adobe所需的一次性流程 [C
 
    - 在管理員中，選擇 **[!UICONTROL Stores]**。
 
-   - 下 *設定*&#x200B;選中 **[!UICONTROL Configuration]**。
+   - 下 *[!UICONTROL Settings]*&#x200B;選中 **[!UICONTROL Configuration]**。
 
    - 展開 **[!UICONTROL Services]** 選擇 **[!UICONTROL Commerce Services Connector]**。
 

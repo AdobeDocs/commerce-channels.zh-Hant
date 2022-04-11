@@ -4,14 +4,15 @@ description: 瞭解如何安裝和使用 [!DNL Channel Manager] 將Adobe Commerc
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
-# 概述
+
+# 關於 [!DNL Channel Manager]
 
 Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一個方便的工作區，以管理第三方市場(如沃爾瑪、Amazon和eBay)上的渠道銷售。 增加銷售並擴展到新市場，同時從您的商務管理員無縫管理銷售渠道運營。
 
@@ -19,7 +20,7 @@ Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一�
 
 ## Beta版本概述
 
-渠道經理的Beta版本支援希望在沃爾瑪市場上提供產品的Adobe Commerce或Magento Open Source銷售商。
+渠道經理的Beta版本支援希望銷售的Adobe Commerce或Magento Open Source銷售商 [!DNL Walmart Marketplace]。
 
 此版本支援以下管理銷售渠道操作的功能：
 
@@ -27,7 +28,7 @@ Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一�
 
 * 使用產品匹配將產品從渠道經理發布到沃爾瑪
 
-* 在Channel Manager中查看產品清單狀態，例如 *草案*。 *處理*。 *匹配*。 *錯誤*。
+* 管理產品清單和跟蹤狀態
 
 * 同步從Commerce到Walmart的匹配產品的庫存數量
 
@@ -45,7 +46,7 @@ Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一�
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | 將產品添加到Channel Manager | 從Commerce產品目錄中選擇產品，然後將其導入Channel Manager。 | **最多5分鐘** — 如果您選擇了許多產品，例如，整個產品目錄，則導入過程需要更長時間。 |
 | 在沃爾瑪市場上匹配產品 | 在渠道經理中選擇產品清單，然後發送到沃爾瑪進行匹配。 | **最多30分鐘** — 如果選擇了多個產品，則匹配過程將花費更長的時間，具體取決於選定的數量。 |
-| 庫存更新 | 在Oracle Commerce中庫存數量更改時。 渠道經理將更新同步到Walmart。 | **最多10分鐘** |
+| 庫存更新 | 當Oracle Commerce中的庫存數量發生變化時， [!DNL Channel Manager] 將更新同步到沃爾瑪。 | **最多10分鐘** |
 | 價格更新 | 當產品價格發生變化時，渠道經理會將更新同步到Walmart。 | **最多5分鐘** |
 | 從Walmart到Commerce的訂單同步 | 客戶在沃爾瑪市場上訂購商務產品。 沃爾瑪將訂單發給渠道經理。 訂單按訂單儀表板顯示。 | **最多30分鐘** |
 | 在Oracle Commerce Order Management中建立的訂單 | 渠道經理從Walmart訂單建立商務訂單，並更新訂單控制面板以包括商務訂單編號。 | **最多5分鐘** |
@@ -62,7 +63,7 @@ Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一�
 
 ### 設定Marketplace賣家帳戶
 
-1. [提交您的沃爾瑪銷售商申請](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [提交您的沃爾瑪銷售商申請](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)。
 2. 在獲得沃爾瑪批准後， [設定沃爾瑪賣家帳戶](https://sellerhelp.walmart.com/seller/s/guide?article=000008219)。
 
 ### 生成Walmart Marketplace API密鑰
@@ -73,7 +74,7 @@ Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一�
 
    * 選擇「Adobe」作為解決方案提供商。
 
-   * 如下表所示設定權限。 有關詳細資訊，請參閱 [API憑據](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 的 *沃爾瑪市場銷售商幫助*。
+   * 如下表所示設定權限。 有關詳細資訊，請參閱 [API憑據](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 的 *[!DNL Walmart Marketplace]賣家幫助*。
 
    **AdobeAPI鍵配置**
 
@@ -95,9 +96,9 @@ Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一�
 
 當您向沃爾瑪市場發佈產品時，列出產品的可用性取決於您的沃爾瑪市場商店的狀態：
 
-* 對於現場商店，在匹配操作完成後，您的產品優惠即會列出並可供銷售。
+* 對於即時商店，您的產品優惠將列出，並在匹配操作完成時可供銷售。
 
-* 對於不即時的商店，您的產品優惠將被提供，而且客戶無法看到。 一旦該商店開始上線，就會自動將臨時的清單推送到現場商店。
+* 對於不即時的商店，您的產品優惠將被提供，而且客戶無法看到。 當商店開始上線時，分時段的清單會自動推送到現場商店。
 
 
 ![[!DNL Walmart Seller Central] 分段產品](assets/walmart-seller-central-staged.png)

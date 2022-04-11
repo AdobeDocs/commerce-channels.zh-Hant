@@ -2,14 +2,15 @@
 title: 安裝 [!DNL Channel Manager]
 description: 安裝Channel Manager擴展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# 安裝通道管理器
+
+# 安裝 [!DNL Channel Manager]
 
 查看 [先決條件](onboard.md#prerequisites) 並在安裝Channel Manager之前收集所需資訊。
 
@@ -42,7 +43,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 
 ### 在本地實例上安裝
 
-請使用以下說明在Adobe Commerce和Magento Open Source平台上安裝。
+使用以下說明進行安裝 [!DNL Channel Manager] Adobe Commerce和Magento Open Source到一個內部案件。
 
 1. 登錄到 [!DNL Commerce] 伺服器 [具有權限的用戶](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;}要寫入 [!DNL Commerce] 檔案系統。
 
@@ -126,7 +127,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 
 有關使用分支的幫助，請參見 [開始建立分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)Adobe Commerce開發人員文檔中的{target=&quot;_blank&quot;}。
 
-安裝期間，副檔名(`&lt;VendorName>\_&lt;ComponentName>`) [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;}檔案。 您不需要直接編輯檔案。
+安裝期間，副檔名(`magento\channel-manager`) [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;}檔案。 您不需要直接編輯檔案。
 
 1. 在本地工作站上，更改為雲項目根目錄。
 
@@ -158,7 +159,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
    $ git push origin <branch-name>
    ```
 
-1. 構建和部署完成後，使用SSH登錄到遠程環境並驗證擴展安裝是否正確。
+1. 構建和部署過程完成後，使用SSH登錄到遠程環境並驗證擴展安裝是否正確。
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
    Module is enabled
    ```
 
-1. 安裝成功後，登錄到 [!UICONTROL Admin] 至 [配置Commerce Services連接器](connect.md)。
+1. 成功安裝擴展後，請登錄到 [!UICONTROL Admin] 至 [配置Commerce Services連接器](connect.md)。
 
    >[!NOTE]
    >

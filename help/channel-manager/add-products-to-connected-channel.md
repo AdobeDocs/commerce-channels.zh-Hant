@@ -1,37 +1,34 @@
 ---
-title: 將產品添加到渠道商店
+title: 將產品添加到連接的渠道
 description: 通過將產品從目錄添加到銷售渠道為市場銷售建立產品分類
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# 將產品添加到渠道商店
+# 將產品添加到連接的渠道
 
-從Channel Manager中，從 [!DNL Commerce] 沃爾瑪市場銷售目錄。
-
-要將產品同步到銷售渠道，所選產品必須具有以下屬性配置：
+要將產品同步到Walmart Marketplace銷售渠道，請從 [!DNL Commerce] 將產品目錄導入Channel Manager。 所選產品必須具有以下屬性配置：
 
 - **[!UICONTROL Publish to Channel Manager]** 屬性已啟用
 
 - 至少有一個產品屬性必須與 [必需的Walmart Marketplace屬性](map-product-attributes-for-matching.md)-GTIN、ISBN、ISSN、UPC、EAN
 
-保存選擇後，Channel Manager會將產品資料導入渠道。 此過程最多需要30分鐘。
+從導入產品的流程 [!DNL Commerce] 到Channel Manager最多需要30分鐘或更長時間，具體取決於您選擇的產品數。
 
 ## 將產品添加到銷售渠道
 
-1. 開啟與Channel Manager商店關聯的產品目錄。
-
-   從連接的銷售渠道商店中，選擇 **添加產品**。
+1. 從連接的銷售渠道商店中，選擇 **添加產品** 開啟產品目錄。
 
    ![將產品添加到連接的渠道](assets/add-initial-products-to-connected-channel.png)
 
    目錄將在新頁籤中開啟。
 
-1. 從目錄產品網格中，選擇要在Walmart Marketplace上銷售的產品。
+1. 從目錄產品網格中，選擇要銷售的產品 [!DNL Walmart Marketplace]。
 
    ![將產品發送到連接的渠道](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ ht-degree: 0%
 
 1. 返回至中的連接銷售渠道 [!DNL Channel Manager]。
 
-   導入操作完成後，查看產品 **[!UICONTROL Listings]**。 最初，產品 *草稿* 狀態。 選擇 [!UICONTROL Refresh products]**更新表。
+1. 導入操作完成後，查看產品 **[!UICONTROL Listings]**。
 
    ![導入到連接銷售渠道的產品](assets/products-in-marketplace-sales-channel.png)
+
+   最初，產品 *草稿* 狀態。 選擇 **[!UICONTROL Refresh products]** 按鈕。
+
