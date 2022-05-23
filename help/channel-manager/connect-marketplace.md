@@ -2,9 +2,9 @@
 title: 將銷售渠道連接到 [!DNL Walmart Marketplace]
 description: 配置銷售渠道並連接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
+source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 0%
 
 ## 建立銷售渠道
 
-1. 開啟 [!DNL Channel Manager]。
-
-   - 在管理員中，選擇 **[!UICONTROL Marketing** > _頻道&#x200B;_> **渠道管理器]**。
+1. 從管理員開啟 [!DNL Channel Manager] 通過 **[!UICONTROL Marketing** > _頻道&#x200B;_> **渠道管理器]**。
 
 1. 在 **[!UICONTROL Marketplaces available to connect]** 選擇 **[!UICONTROL Get Started]**。
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
    - 選擇 **[!UICONTROL Add Credentials]**。
 
-   - 在 [!UICONTROL Connect New Walmart Store] 的子菜單。
+   - 選擇 [!DNL Commerce] 儲存視圖以連接到市場。
 
       ![配置Commerce和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
@@ -49,9 +47,9 @@ ht-degree: 0%
 
    - 添加憑據 [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 從 [!DNL Walmart Marketplace Seller] 帳戶。
 
-   - 如果您沒有憑據，請選擇 **[!UICONTROL Get API credentials]** 讓他們 [!DNL Walmart Marketplace Developer Portal]。
+   - 如果您沒有憑據，請從 [!DNL Walmart Marketplace Developer Portal] 通過 **[!UICONTROL Get API credentials]**。
 
-      如果出現提示，請選擇您所在的區域（美國和加拿大），然後登錄。
+      在開發人員門戶上，選擇您的區域（美國和加拿大），然後登錄。
 
       ![[!DNL Walmart Marketplace] 帳戶登錄](assets/walmart-marketplace-login-page.png)
 
@@ -65,11 +63,11 @@ ht-degree: 0%
 
    - 返回到 [!DNL Channel Manager] 將憑據添加到 **[!UICONTROL Walmart Connection]** 的下界。
 
-      將憑據添加到 [!DNL Channel Manager],Adobe隱藏客戶機密碼，並將值儲存在安全保管庫中。
+      添加憑據時，Adobe會隱藏客戶端機密並將值儲存在安全保管庫中。
 
 1. 選擇 **[!UICONTROL Save Store]** 應用配置並連接到 [!DNL Walmart marketplace]。
 
-1. 成功連接後， [完整商店設定](complete-store-setup.md) 從 **[!UICONTROL Channel Manager]** 儲存清單頁面。
+1. 成功連接後， [完整商店設定](complete-store-setup.md) 從 **[!UICONTROL Channel Manager]** 儲存頁面。
 
 ![設定第一個儲存](assets/channel-manager-setup-first-store.png)
 

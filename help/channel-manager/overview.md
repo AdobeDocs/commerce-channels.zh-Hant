@@ -4,9 +4,9 @@ description: 瞭解如何安裝和使用 [!DNL Channel Manager] 將Adobe Commerc
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 [!DNL Channel Manager] 通過將您的Adobe Commerce或Magento Open Source產品目錄與 [!DNL Walmart US Marketplace]。
 
 ![[!DNL Channel Manager] 擴展管理員視圖](assets/channel-manager-home.png)
+
+渠道經理支援希望在沃爾瑪市場銷售的Adobe Commerce或Magento Open Source銷售商。
 
 安裝和配置後 [!DNL Channel Manager]，也請參見Wiki頁。 [!DNL Commerce] 管理員已擴展，因此您可以管理 [!DNL Walmart Marketplace] 與您的Commerce環境無縫地進行銷售操作。
 
@@ -32,8 +34,6 @@ ht-degree: 0%
 
 * **取消** — 當在Adobe Commerce取消訂單時，渠道經理會將更新的訂單資訊發送到市場，以複製相應市場訂單的操作。
 
-[!DNL Channel Manager] 支援Adobe Commerce或Magento Open Source賣家 [!DNL Walmart Marketplace]。
-
 ## Channel Manager操作的預期延遲
 
 資料同步過程 [!DNL Channel Manager] 和連結 [!DNL Walmart Marketplace] 商店需要一些時間才能完成。 查看的預期處理時間 [!DNL Channel Manager] 操作以幫助計畫銷售渠道運營工作。
@@ -41,13 +41,13 @@ ht-degree: 0%
 **Channel Manager操作的估計延遲**
 
 | **操作** | **說明** | **預期延遲** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| 將產品添加到Channel Manager | 從Commerce產品目錄中選擇產品，然後將其導入Channel Manager。 | **最多5分鐘** — 如果您選擇了許多產品，例如，整個產品目錄，則導入過程需要更長時間。 |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| 將產品添加到Channel Manager | 從Commerce產品目錄中選擇產品，然後將其導入Channel Manager。 | **最多五分鐘** — 如果您選擇了許多產品，例如，整個產品目錄，則導入過程需要更長時間。 |
 | 在沃爾瑪市場上匹配產品 | 在渠道經理中選擇產品清單，然後發送到沃爾瑪進行匹配。 | **最多30分鐘** — 如果選擇了多個產品，則匹配過程將花費更長的時間，具體取決於選定的數量。 |
 | 庫存更新 | 當Oracle Commerce中的庫存數量發生變化時， [!DNL Channel Manager] 將更新同步到沃爾瑪。 | **最多10分鐘** |
-| 價格更新 | 當產品價格發生變化時，渠道經理會將更新同步到Walmart。 | **最多5分鐘** |
+| 價格更新 | 當產品價格發生變化時，渠道經理會將更新同步到Walmart。 | **最多五分鐘** |
 | 從Walmart到Commerce的訂單同步 | 客戶在沃爾瑪市場上訂購商務產品。 沃爾瑪將訂單發給渠道經理。 訂單按訂單儀表板顯示。 | **最多30分鐘** |
-| 在Oracle Commerce Order Management中建立的訂單 | 渠道經理從Walmart訂單建立商務訂單，並更新訂單控制面板以包括商務訂單編號。 | **最多5分鐘** |
+| 在Oracle Commerce Order Management中建立的訂單 | 渠道經理從Walmart訂單建立商務訂單，並更新訂單控制面板以包括商務訂單編號。 | **最多五分鐘** |
 
 ## 沃爾瑪先決條件
 

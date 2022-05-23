@@ -2,9 +2,9 @@
 title: 管理清單
 description: 管理銷售渠道清單 [!DNL Commerce] 與Channel Manager一起儲存，用於Adobe Commerce和Magento Open Source。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
 
 通過完成以下任務，為Walmart Marketplace渠道建立產品分類：
 
-* [將產品從您的Commerce產品目錄添加到Channel Manager](add-products-to-connected-channel.md)
+* [將產品從您的Commerce產品目錄添加到Channel Manager](add-products-to-channel-store.md)
 
-* [配置產品匹配](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [映射目錄屬性](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## 向沃爾瑪發佈產品
 
 您可以使用產品匹配或通過手動上載新產品的產品清單在沃爾瑪市場上建立產品優惠。 有關說明，請參見 [將清單發佈到沃爾瑪市場](publish-listings-to-marketplace.md) 如以下主題中所述：
 
-* **[在沃爾瑪上匹配產品](publish-listings-to-marketplace.md)** — 將產品清單從您的渠道發佈到 [!DNL Walmart Marketplace] 通過更新銷售相同產品的現有清單。 匹配條件由 [屬性映射配置](map-product-attributes-for-matching.md) 你的頻道。
+* **[在沃爾瑪上匹配產品](publish-listings-to-marketplace.md)** — 將產品清單從您的渠道發佈到 [!DNL Walmart Marketplace] 通過更新銷售相同產品的現有清單。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的頻道。
 
 * **[手動上載新清單](publish-listings-to-marketplace.md#upload-new-product-listings)-** — 對於與沃爾瑪市場上現有清單不匹配的產品，請使用沃爾瑪產品類別Excel模板批量上傳產品清單。
 
@@ -97,6 +97,8 @@ ht-degree: 0%
 
 * **[!UICONTROL Match - Match in Stage]** — 標識上匹配的產品 [!DNL Walmart] 直到 [!DNL Walmart Marketplace] 商店是即時的。 當 [!DNL Walmart Marketplace] 商店就要開始了。
 
-* **[!UICONTROL Error]** — 標識與現有產品不匹配的產品 [!DNL Walmart Marketplace] 清單。 通過懸停在 *錯誤* 狀態標籤。
+* **[!UICONTROL Error]** — 標識與現有產品不匹配的產品 [!DNL Walmart Marketplace] 清單。
+
+* **[!UICONTROL Error description]** — 提供有關清單錯誤的詳細資訊。
 
    解決錯誤後，請重新提交產品以進行匹配。 請參閱 [排除產品匹配錯誤](publish-listings-to-marketplace.md#troubleshoot-product-match-errors)。

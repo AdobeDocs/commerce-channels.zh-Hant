@@ -2,9 +2,9 @@
 title: 管理沃爾瑪市場訂單
 description: 查看和管理 [!DNL Walmart Marketplace] 訂單 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->最多需要35分鐘 [!DNL Walmart Marketplace] 顯示順序 [!DNL Channel Manager] 清單。 [!DNL Walmart] 需要大約30分鐘來處理傳入的訂單，並將其發送到 [!DNL Channel Manager]。  在Channel Manager收到訂單後，在Adobe Commerce或Magento Open Source中建立和顯示訂單需要5分鐘。
+>最多需要35分鐘 [!DNL Walmart Marketplace] 顯示順序 [!DNL Channel Manager] 清單。 [!DNL Walmart] 需要大約30分鐘來處理傳入的訂單，並將其發送到 [!DNL Channel Manager]。 在Channel Manager收到訂單後，在Adobe Commerce或Magento Open Source中建立和顯示訂單大約需要5分鐘。
 
 ## 審閱訂單
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. 通過在儲存條目行中選擇鉛筆表徵圖開啟儲存視圖。
 
 1. 要查看訂單資訊，請選擇*[!UICONTROL *Orders]**。
+
+1. 通過檢查 **[狀態](#about-order-status)** 列中的設定。
 
 ## 查看訂單詳細資訊
 
@@ -54,6 +56,8 @@ ht-degree: 0%
 | [!UICONTROL Ship By Date] | 訂單必須發運的日期才能滿足 [!DNL Walmart Marketplace] 要求。 |
 | [!UICONTROL Order Status] | 指示中的當前訂單狀態 [!DNL Commerce] 訂單工作流。 成功將產品添加到時的狀態更新 [!DNL Channel Manager] 當你把產品 [!DNL Walmart Marketplace]。 如果操作失敗，則清單顯示「錯誤」狀態。 修復錯誤後， [!DNL Channel Manager] 重試該操作並更新狀態。 |
 
+| [!UICONTROL Error description]    |提供有關訂單的詳細資訊 *錯誤* 狀態|
+
 ### 關於訂單狀態
 
 [!UICONTROL Order Status] 提供有關 [!DNL Walmart Marketplace] 從Adobe Commerce或Magento Open Source處理訂單。 訂單狀態更新發生於 [!DNL Channel Manager] 從其中一個接收更新的訂單資訊 [!DNL Walmart Marketplace] 或 [!DNL Commerce] 訂單制度。 訂單可以具有以下狀態：
@@ -74,6 +78,6 @@ ht-degree: 0%
 
    退款完成後， [!DNL Commerce] 更新庫存數量以反映退款項目。 然後， [!DNL Channel Manager] 將更新同步到 [!DNL Walmart Marketplace]。
 
-* **[!UICONTROL Error]** — 由於缺少資訊或其他問題而未導入到訂單儲存庫的訂單。
+* **[!UICONTROL Error]** — 有錯誤的訂單。 訂單更新操作失敗時可能出錯。 例如，如果 [!DNL Channel Manager] 無法從沃爾瑪獲得新訂單。 如果 [!DNL Channel Manager] 無法將訂單發運或取消更新發送到 [!DNL Walmart Marketplace]。
 
-   要查看錯誤消息詳細資訊，請將滑鼠懸停在 *[!UICONTROL Error]* 狀態指示器。 解決錯誤後，訂單將自動更新以顯示當前資訊和狀態。
+* **[!UICONTROL Error description]** — 提供有關因資訊缺失或值無效、發運詳細資訊不正確或訂單取消失敗等問題而發生的訂單錯誤的詳細資訊。 說明有助於確定在 [!DNL Commerce] 實例或 [!DNL Walmart Marketplace]。

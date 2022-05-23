@@ -2,9 +2,9 @@
 title: 向沃爾瑪發佈清單
 description: 向沃爾瑪市場發佈商品清單，開始銷售。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## 匹配產品
 
-當您匹配產品時，Channel Manager會將產品資料發送到 [!DNL Walmart Marketplace] 搜索具有與映射的Commerce產品屬性匹配的屬性值的現有清單。 匹配條件由 [屬性映射配置](map-product-attributes-for-matching.md) 你的商店頻道。
+當您匹配產品時，Channel Manager會將產品資料發送到 [!DNL Walmart Marketplace] 搜索具有與映射的Commerce產品屬性匹配的屬性值的現有清單。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的商店頻道。
 
 如果找到匹配項，則更新現有產品清單以添加您的優惠。
 
 ### 先決條件
 
-在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求並配置屬性設定。 請參閱 [配置產品匹配](map-product-attributes-for-matching.md)。
+在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求並配置屬性設定。 請參閱 [映射目錄屬性](map-catalog-attributes.md)。
 
 #### 選擇並匹配產品
 
@@ -54,15 +54,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** 表示產品已成功匹配。 您的產品服務已發佈到現有的沃爾瑪市場清單中。 如果 [Marketplace商店不活動](walmart-prerequisites.md#walmart-marketplace-store-status)。 *[!UICONTROL Staged for Match]* 中 *[!UICONTROL Status detail]* 的雙曲餘切值。
 
-如果 [[!DNL Walmart Marketplace] 儲存不活動](walmart-prerequisites.md#walmart-marketplace-store-status)，也請參見Wiki頁。 *狀態詳細資訊* 列指示產品 *為匹配轉移*。 一旦 [!DNL Walmart Marketplace] 儲存已激活。
+如果 [[!DNL Walmart Marketplace] 儲存不活動](walmart-prerequisites.md#walmart-marketplace-store-status)，也請參見Wiki頁。 *狀態詳細資訊* 列指示產品 *為匹配轉移*。 在 [!DNL Walmart Marketplace] 儲存已激活。
 
-* **[!UICONTROL Error]** 指示以下選項之一：
+* **[!UICONTROL Error]** 指示匹配操作由於以下問題之一而失敗：
 
-   * 出現錯誤，匹配操作失敗。
+   * [!DNL Channel Manager] 由於連接問題，無法發送匹配。
 
    * 找不到匹配項。
 
-   * 找到匹配項，但由於從沃爾瑪市場返回錯誤，無法發佈清單。  缺少屬性，或作為暫存發佈，因為 [Marketplace商店不活動](walmart-prerequisites.md#walmart-marketplace-store-status)。
+   * 找到匹配項，但無法發佈清單，因為 [!DNL Walmart Marketplace] 返回了錯誤代碼。 請參閱 *狀態詳細資訊**，獲取錯誤說明。
 
 ### 查看沃爾瑪上市
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 先決條件
 
-* 驗證您是否遇到 [沃爾瑪先決條件](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx)。
+* 驗證您是否遇到 [沃爾瑪先決條件](walmart-prerequisites.md)。
 
 * 在您的Commerce產品目錄中，驗證要在Walmart Marketplace上列出的產品的目錄配置是否具有所有必需的屬性，並符合Walmart Marketplace內容指南。
 
