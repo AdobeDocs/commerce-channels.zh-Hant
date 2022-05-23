@@ -2,14 +2,14 @@
 title: 庫存和價格更新
 description: '"[!DNL Channel Manager] 同步Commerce商店和 [!DNL Walmart Marketplace] 以便您能夠從Commerce Admin管理您的銷售渠道操作'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# 庫存和價格更新
+# 更新庫存和定價
 
 [!DNL Channel Manager] 跟蹤產品的庫存和定價 [!DNL Commerce] 產品目錄和同步更新到連接的銷售渠道和 [!DNL Walmart Marketplace]。 同步確保產品清單反映當前庫存數量和定價。
 

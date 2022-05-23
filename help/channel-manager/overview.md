@@ -4,9 +4,9 @@ description: 瞭解如何安裝和使用 [!DNL Channel Manager] 將Adobe Commerc
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # 關於 [!DNL Channel Manager]
 
-Adobe Commerce和Magento Open Source的渠道經理在管理員中提供了一個方便的工作區，以管理第三方市場(如沃爾瑪、Amazon和eBay)上的渠道銷售。 增加銷售並擴展到新市場，同時從您的商務管理員無縫管理銷售渠道運營。
+[!DNL Channel Manager] 通過將您的Adobe Commerce或Magento Open Source產品目錄與 [!DNL Walmart US Marketplace]。
 
-![[!DNL Channel Manager] 擴展管理員視圖](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] 擴展管理員視圖](assets/channel-manager-home.png)
 
-## Beta版本概述
+安裝和配置後 [!DNL Channel Manager]，也請參見Wiki頁。 [!DNL Commerce] 管理員已擴展，因此您可以管理 [!DNL Walmart Marketplace] 與您的Commerce環境無縫地進行銷售操作。
 
-渠道經理的Beta版本支援希望銷售的Adobe Commerce或Magento Open Source銷售商 [!DNL Walmart Marketplace]。
+* **清單管理** — 通過將商品目錄中的產品與現有的沃爾瑪市場清單匹配，輕鬆發佈產品清單。
 
-此版本支援以下管理銷售渠道操作的功能：
+* **Inventory management** — 商戶市場銷售商帳戶中的物料將自動同步並從Commerce更新，以確保準確的庫存水準。
 
-* 在Adobe Commerce或Magento Open Source與沃爾瑪市場之間建立API連接
+* **定價更新** — 使用自動價格同步為市場清單維護準確的定價。 當Adobe Commerce的價格發生變化時，這些變化將在10分鐘內反映在市場上。
 
-* 使用產品匹配將產品從渠道經理發布到沃爾瑪
+* **訂單管理** — 當在市場中建立新訂單時，Channel Manager會將訂單與Adobe Commerce同步，並向市場發送訂單確認，以確保為每個訂單保留庫存。
 
-* 管理產品清單和跟蹤狀態
+* **發運管理** — 當訂單在Adobe Commerce標籤為已發運時，發運更新將發送到 [!DNL Walmart Marketplace]。 此通知確保銷售商滿足其履行SLA要求，並確保客戶收到其當前訂單的發運更新通知。
 
-* 同步從Commerce到Walmart的匹配產品的庫存數量
+* **取消** — 當在Adobe Commerce取消訂單時，渠道經理會將更新的訂單資訊發送到市場，以複製相應市場訂單的操作。
 
-* 從Commerce到Walmart的匹配產品同步目錄定價
+[!DNL Channel Manager] 支援Adobe Commerce或Magento Open Source賣家 [!DNL Walmart Marketplace]。
 
-* 從Walmart Marketplace接收訂單，並在 [!DNL Commerce] 訂單面板
-
-### Channel Manager操作的預期延遲
+## Channel Manager操作的預期延遲
 
 資料同步過程 [!DNL Channel Manager] 和連結 [!DNL Walmart Marketplace] 商店需要一些時間才能完成。 查看的預期處理時間 [!DNL Channel Manager] 操作以幫助計畫銷售渠道運營工作。
 

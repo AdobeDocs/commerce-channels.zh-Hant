@@ -2,9 +2,9 @@
 title: 安裝 [!DNL Channel Manager]
 description: 安裝Channel Manager擴展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 
 >[!NOTE]
 >
->有關安裝幫助 [!DNL Commerce] 使用CLI的軟體，請參見 [常規CLI安裝](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}。
+>有關安裝的幫助 [!DNL Commerce] 使用CLI的軟體，請參見 [常規CLI安裝](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}。
 
 ### 在本地實例上安裝
 

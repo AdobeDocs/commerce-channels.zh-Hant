@@ -2,9 +2,9 @@
 title: 將銷售渠道連接到 [!DNL Walmart Marketplace]
 description: 配置銷售渠道並連接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 06affb78c30086e11dd9ead70e6538ef3d1ff95b
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,7 @@ ht-degree: 0%
 
    - 在管理員中，選擇 **[!UICONTROL Marketing** > _頻道&#x200B;_> **渠道管理器]**。
 
-   - 選擇 **[!UICONTROL Connect New Store]**。
-
-      ![將Commerce儲存連接到 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/connect-commerce-store-to-marketplace.png)
-
-1. 從中的Channel Manager首頁 [!UICONTROL Marketplaces available to connect] 選擇 [!UICONTROL Get Started]。
+1. 在 **[!UICONTROL Marketplaces available to connect]** 選擇 **[!UICONTROL Get Started]**。
 
    ![將新的Walmart商店連接到 [!DNL Channel Manager]](assets/channel-manager-home.png)
 
@@ -39,9 +35,9 @@ ht-degree: 0%
 
    - 選擇 **[!UICONTROL Add Credentials]**。
 
-      ![配置Commerce和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+   - 在 [!UICONTROL Connect New Walmart Store] 的子菜單。
 
-   - 選擇要連接到市場的Commerce商店視圖。
+      ![配置Commerce和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - 輸入唯一 **[!UICONTROL store name]**。
 
@@ -73,7 +69,7 @@ ht-degree: 0%
 
 1. 選擇 **[!UICONTROL Save Store]** 應用配置並連接到 [!DNL Walmart marketplace]。
 
-成功連接後，從 **[!UICONTROL Channel Manager > Marketplace Stores]**。
+1. 成功連接後， [完整商店設定](complete-store-setup.md) 從 **[!UICONTROL Channel Manager]** 儲存清單頁面。
 
 ![設定第一個儲存](assets/channel-manager-setup-first-store.png)
 
@@ -86,25 +82,3 @@ ht-degree: 0%
 - 驗證WalmartAdobeAPI鍵的訪問配置是否具有正確的權限。 請參閱 [沃爾瑪先決條件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key)。
 
 - 確認 [!DNL Walmart API] 服務可從 [Walmart API狀態頁](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
-
-## 完成商店設定
-
-將Commerce商店連接到 [!DNL Walmart Marketplace]，可以從 [!DNL Channel Manager Stores] 的子菜單。
-
-要完成儲存設定，請執行以下操作：
-
-1. 在管理員中，選擇**[!UICONTROL Marketing** > **渠道管理器**]。
-
-   ![設定第一個儲存](assets/channel-manager-setup-first-store.png)
-
-1. 按一下最右列中的眼睛表徵圖開啟商店。
-
-1. 開始銷售渠道運營。
-
-   - [將產品從您的Commerce Catalog添加到Channel Manager](add-products-to-connected-channel.md)
-
-   - [使用產品匹配將產品發佈到沃爾瑪](publish-listings-to-marketplace.md)
-
-   - [查看和管理庫存和定價](inventory-and-price-updates.md)
-
-   - [從商務管理員查看和管理沃爾瑪訂單](manage-orders.md)

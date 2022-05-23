@@ -2,9 +2,9 @@
 title: 向沃爾瑪發佈清單
 description: 向沃爾瑪市場發佈商品清單，開始銷售。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 先決條件
 
-在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求並配置屬性設定。 請參閱 [配置產品匹配](map-product-attributes-for-matching.md)
+在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求並配置屬性設定。 請參閱 [配置產品匹配](map-product-attributes-for-matching.md)。
 
 #### 選擇並匹配產品
 
@@ -40,27 +40,29 @@ ht-degree: 0%
 
    一條消息指示發送以進行匹配的產品數。
 
-   ![將產品發送到連接的銷售渠道](assets/products-submit-for-matching.png)
+   ![將產品發送到連接的銷售渠道](assets/products-submitted-for-matching.png)
 
    所選產品的狀態更改為 [!UICONTROL *處理*] 直到匹配操作完成。 沃爾瑪市場完成比賽可能需要30分鐘。
 
 ### 檢查匹配狀態
 
-1. 選擇 **刷新產品** 更新最新產品狀態。
+1. 選擇 **刷新產品** 查看當前產品狀態。
 
 1. 檢查產品狀態。
 
-   匹配完成後，狀態可以是 *匹配* 或 *錯誤*。
+匹配完成後，狀態可以是 *匹配* 或 *錯誤*。
 
-   * **[!UICONTROL Match]** 表示產品已成功匹配。 您的產品服務已發佈到現有的沃爾瑪市場清單中。
+* **[!UICONTROL Match]** 表示產品已成功匹配。 您的產品服務已發佈到現有的沃爾瑪市場清單中。 如果 [Marketplace商店不活動](walmart-prerequisites.md#walmart-marketplace-store-status)。 *[!UICONTROL Staged for Match]* 中 *[!UICONTROL Status detail]* 的雙曲餘切值。
 
-   * **[!UICONTROL Error]** 指示以下選項之一：
+如果 [[!DNL Walmart Marketplace] 儲存不活動](walmart-prerequisites.md#walmart-marketplace-store-status)，也請參見Wiki頁。 *狀態詳細資訊* 列指示產品 *為匹配轉移*。 一旦 [!DNL Walmart Marketplace] 儲存已激活。
 
-      * 出現錯誤，匹配操作失敗。
+* **[!UICONTROL Error]** 指示以下選項之一：
 
-      * 找不到匹配項。
+   * 出現錯誤，匹配操作失敗。
 
-      * 已找到匹配，但產品已發佈為已轉移，因為 [Marketplace商店不活動](walmart-prerequisites.md#walmart-marketplace-store-status)。
+   * 找不到匹配項。
+
+   * 找到匹配項，但由於從沃爾瑪市場返回錯誤，無法發佈清單。  缺少屬性，或作為暫存發佈，因為 [Marketplace商店不活動](walmart-prerequisites.md#walmart-marketplace-store-status)。
 
 ### 查看沃爾瑪上市
 
@@ -68,9 +70,9 @@ ht-degree: 0%
 
 ### 排除產品匹配錯誤
 
-如果產品匹配操作失敗，則Walmart Marketplace將返回錯誤代碼，渠道管理器會在產品清單資訊中顯示錯誤狀態。
+如果產品匹配操作失敗並出現錯誤，則錯誤消息將顯示在 *[!UICONTROL Status detail]* 列 [!UICONTROL Channel Manager] 產品清單。
 
-通過懸停於 **錯誤** 狀態標籤。 返回的常見錯誤格式不正確或缺少必需的屬性。
+返回的常見錯誤格式不正確或缺少必需的屬性。
 
 #### 修復產品ID值
 
