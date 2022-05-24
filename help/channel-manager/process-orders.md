@@ -1,23 +1,23 @@
 ---
 title: 處理訂單
 description: 發運和取消說明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source。
-source-git-commit: 90ccbecd6d1433ae1312d79f7ae2d34c8f381b97
+exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-
 # 處理訂單
 
-如果您使用Adobe Commerce和Magento Open Source訂單管理管理 [!DNL Commerce] 商店銷售，流程 [!DNL Walmart Marketplace] Commerce的訂單。
+如果您使用Adobe Commerce和Magento Open Source訂單管理管理 [!DNL Commerce] 商店銷售，您可以 [!DNL Walmart Marketplace] 來自Commerce的訂單使用相同的工作流。
 
 在Commerce中處理訂單時，Channel Manager將更新同步到 [!DNL Walmart Marketplace]。 此更新確保Commerce的訂單狀態和發運資訊與在 [!DNL Walmart Marketplace]。
 
-* **訂單發運** — 沃爾瑪要求所有發貨的跟蹤編號。 如果庫存數量不足以填充整個訂單，則建立部分發運。 提交發運後，訂單更新將同步到 [!DNL Walmart Marketplace]。 然後，沃爾瑪會通知客戶訂單狀態和發貨詳細資訊。
+* **訂單發運** — 沃爾瑪要求所有發貨的跟蹤編號。 如果您沒有訂單中所有物料的庫存，則可以建立部分發運。 提交發運後，訂單更新將同步到 [!DNL Walmart Marketplace]。 然後，沃爾瑪會通知客戶訂單狀態和發貨詳細資訊。
 
-* **訂單取消** — 當取消 [!DNL Walmart Marketplace] 而沃爾瑪則要求取消訂單。 取消原因包括在發送給客戶的訂單取消通知中。 取消原因也顯示在 [!DNL Commerce] 訂單付款資訊。
+* **訂單取消** — 當取消 [!DNL Walmart Marketplace] 而沃爾瑪則要求在發送給客戶的訂單取消通知中包含取消原因。 取消原因也顯示在 [!DNL Commerce] 訂單付款資訊。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    ![Walmart Marketplace訂單的「商務訂單」詳細資訊視圖](assets/order-detail-with-external-order-id.png)
 
-   * 要選擇發運承運人並添加跟蹤編號，請選擇 **[!UICONTROL Add tracking number]**。
+   * 選擇發運承運人並通過選擇 **[!UICONTROL Add tracking number]**。
 
    * 根據需要填寫其餘的裝運單。 請參閱 [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) 的上界。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 在「訂單」表中，通過選擇 **商業訂單編號** 訂單。
 
-![Walmart Marketplace訂單的「商務訂單」詳細資訊視圖](assets/order-detail-with-external-order-id.png)
+   ![Walmart Marketplace訂單的「商務訂單」詳細資訊視圖](assets/order-detail-with-external-order-id.png)
 
 1. 取消訂單。
 
@@ -66,4 +66,4 @@ ht-degree: 0%
    * 選擇 **取消訂單**。
 
 
-1. 驗證是否已將更新發送到 [!DNL Walmart Marketplace] 通過檢查 [訂單狀態](manage-orders.md#about-order-status) 在 [!DNL Channel Manager]。
+1. 提交取消後，跟蹤 [訂單狀態](manage-orders.md#about-order-status) 在 [!DNL Channel Manager] 驗證更新已發送到 [!DNL Walmart Marketplace]。

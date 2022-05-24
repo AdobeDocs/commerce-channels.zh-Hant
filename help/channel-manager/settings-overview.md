@@ -1,17 +1,17 @@
 ---
 title: 設定概述
 description: 瞭解 [!DNL Channel Manager settings] 配置驗證並映射產品目錄屬性和協調銷售操作所需的運輸承運人 [!DNL Commerce] 和 [!DNL Walmart Marketplace]。
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-
 # 設定概述
 
-銷售渠道設定允許在以下位置之間通信和資料同步 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 這樣，您就可以通過 [!DNL Commerce] 管理員：
+銷售渠道設定允許在以下位置之間通信和資料同步 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 這樣，您就可以通過 [!DNL Commerce] 管理員。
 
 在 [!DNL Channel Manager]，在登錄過程中配置一些銷售渠道設定。 登錄後，您可以從 *設定* 的子菜單。
 
