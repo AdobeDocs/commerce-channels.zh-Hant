@@ -2,9 +2,9 @@
 title: 管理清單
 description: 管理銷售渠道清單 [!DNL Commerce] 與Channel Manager一起儲存，用於Adobe Commerce和Magento Open Source。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 ## 向沃爾瑪發佈產品
 
-您可以使用產品匹配或通過手動上載新產品的產品清單在沃爾瑪市場上建立產品優惠。 有關說明，請參見 [將清單發佈到沃爾瑪市場](publish-listings-to-marketplace.md) 如以下主題中所述：
+您可以使用產品匹配或通過手動上載新產品的產品清單在沃爾瑪市場上建立產品優惠。
 
 * **[在沃爾瑪上匹配產品](publish-listings-to-marketplace.md)** — 將產品清單從您的渠道發佈到 [!DNL Walmart Marketplace] 通過更新銷售相同產品的現有清單。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的頻道。
 
-* **[手動上載新清單](publish-listings-to-marketplace.md#upload-new-product-listings)-** — 對於與沃爾瑪市場上現有清單不匹配的產品，請使用沃爾瑪產品類別Excel模板批量上傳產品清單。
+* **[手動上載新清單](publish-listings-to-marketplace.md#upload-new-product-listings)** — 對於與Walmart Marketplace上現有清單不匹配的產品，請使用Walmart產品類別Excel模板批量上載產品清單。
 
 ## 列出控制項和列說明
 
@@ -87,15 +87,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Draft]** — 標識尚未 [已提交 [!DNL Walmart] 匹配](publish-listings-to-marketplace.md#match-products)。
 
-* **[!UICONTROL Processing]** — 標識在上提交供匹配的產品 [!DNL Walmart Marketplace]。 產品仍在 *處理* 狀態直到 [!DNL Walmart] 返回HTTP狀態消息，該消息指示匹配是否成功或是否出現錯誤。 要完成匹配操作，最多需要30分鐘 [!DNL Walmart Marketplace]。
+* **[!UICONTROL Processing]** — 標識提交以在 [!DNL Walmart Marketplace]。 產品仍在 *處理* 狀態直到 [!DNL Walmart] 返回HTTP狀態消息，該消息指示匹配是否成功或是否出現錯誤。 要完成匹配操作，最多需要30分鐘 [!DNL Walmart Marketplace]。
 
 * **[!UICONTROL Match]** — 標識成功匹配的產品 [!DNL Walmart]。
 
-   當產品屬性值 — 例如UPC代碼與現有產品中的UPC值匹配時，會出現匹配[!DNL Walmart Marketplace] 清單。 當產品匹配時，商務產品優惠將添加到沃爾瑪現有的清單中。
+   當產品屬性值（例如，UPC代碼）與現有產品中的UPC值匹配時，會出現匹配[!DNL Walmart Marketplace] 清單。 當產品匹配時，商務產品優惠將添加到沃爾瑪現有的清單中。
 
    檢查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 控制面板：複查更新的產品清單並驗證產品詳細資訊、價格和庫存數量。
 
-* **[!UICONTROL Match - Match in Stage]** — 標識上匹配的產品 [!DNL Walmart] 直到 [!DNL Walmart Marketplace] 商店是即時的。 當 [!DNL Walmart Marketplace] 商店就要開始了。
+* **[!UICONTROL Match - Match in Stage]** — 標識與 [!DNL Walmart] 直到 [!DNL Walmart Marketplace] 商店是即時的。 當 [!DNL Walmart Marketplace] 商店就要開始了。
 
 * **[!UICONTROL Error]** — 標識與現有產品不匹配的產品 [!DNL Walmart Marketplace] 清單。
 
