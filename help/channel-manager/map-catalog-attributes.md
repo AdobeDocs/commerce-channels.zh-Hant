@@ -2,9 +2,9 @@
 title: 映射目錄屬性
 description: 映射匹配的屬性[DNL! Commerce]產品到現有 [!DNL Walmart Marketplace] 清單和同步資料 [!DNL Channel Manager] 和 [!DNL Walmart]。
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 在發佈來自 [!DNL Commerce] 至 [!DNL Walmart Marketplace]，必須從 [!DNL Commerce] 從Walmart獲取相應標識符。
 需要此步驟才能匹配 [!DNL Commerce] 現有產品 [!DNL Walmart] 清單和同步產品資料 [!DNL Commerce] 和 [!DNL Walmart]。
 
-對於產品匹配，Commerce產品必須至少有一個產品屬性與以下產品標識符（產品ID）匹配， [!DNL Walmart]。
+對於產品匹配， [!DNL Commerce] product必須至少有一個與以下產品標識符（產品ID）匹配的產品屬性 [!DNL Walmart]。
 
-**需要的Walmart產品ID**
+**必需 [!DNL Walmart] 產品ID**
 
 | **接受類型** | **名稱** | **目的** | **可接受數字** |
 |-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. 在 [!UICONTROL Listings] 頁，選擇 **[!UICONTROL Settings]**。
 
-   - 查找要映射的Walmart Marketplace屬性。
+   - 查找 [!DNL Walmart Marketplace] 屬性。
 
    - 從 [!DNL Commerce] 儲存目錄。
 
-      以下示例將Walmart Marketplace UPC屬性映射到產品目錄中的UPC屬性。
+      以下示例映射 [!UICONTROL Walmart Marketplace UPC] 屬性。
    ![映射產品匹配條件的屬性](assets/products-map-attributes-for-match.png)
    - （可選）您可以映射多個屬性以增加匹配。 如果映射多個屬性，請選擇一個屬性作為 **主標識符**。 此
 

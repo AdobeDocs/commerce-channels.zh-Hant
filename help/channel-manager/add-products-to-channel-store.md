@@ -2,9 +2,9 @@
 title: 將產品添加到銷售渠道商店
 description: 建立產品分類 [!DNL Walmart Marketplace] 通過將產品從目錄添加到銷售渠道進行銷售
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 將產品添加到銷售渠道商店
 
-要將產品同步到Walmart Marketplace銷售渠道，請從 [!DNL Commerce] 將產品目錄導入Channel Manager。 所選產品必須具有以下屬性配置：
+將產品同步到 [!DNL Walmart Marketplace] 銷售渠道，您可以從 [!DNL Commerce] 將產品目錄導入Channel Manager。 所選產品必須具有以下屬性配置：
 
 - **[!UICONTROL Publish to Channel Manager]** 屬性已啟用
 
-- 至少有一個產品屬性必須與 [必需的Walmart Marketplace屬性](map-catalog-attributes.md)-GTIN、ISBN、ISSN、UPC、EAN
+- 至少有一個產品屬性必須與 [要求 [!DNL Walmart Marketplace] 屬性](map-catalog-attributes.md)-GTIN、ISBN、ISSN、UPC、EAN
 
 從導入產品的流程 [!DNL Commerce] 到Channel Manager最多需要30分鐘或更長時間，具體取決於您選擇的產品數。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - 滾動到 **[!UICONTROL Publish to Channel Manager]** 屬性並啟用它。
 
-   - 驗證產品屬性是否至少包括所需的沃爾瑪產品ID之一。
+   - 驗證產品屬性是否至少包括所需的 [!DNL Walmart Product IDs]。
 
    - 選擇 **[!UICONTROL Save]**。
 

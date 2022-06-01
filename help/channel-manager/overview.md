@@ -1,12 +1,12 @@
 ---
-title: 關於 [!DNL Channel Manager]
-description: 瞭解如何安裝和使用 [!DNL Channel Manager] 將Adobe Commerce和Magento Open Source商店與第三方市場整合，並建立銷售渠道，從您的商務管理員無縫地管理市場清單、定價、庫存和銷售。
+title: '"關於 [!DNL Channel Manager]"'
+description: 「瞭解如何安裝和使用 [!DNL Channel Manager] 將Adobe Commerce和Magento Open Source店與第三方市場整合，並建立銷售渠道，從您的商務管理員無縫地管理市場清單、定價、庫存和銷售。」
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ![[!DNL Channel Manager] 擴展管理員視圖](assets/channel-manager-home.png)
 
-渠道經理支援希望在沃爾瑪市場銷售的Adobe Commerce或Magento Open Source銷售商。
+渠道經理支援希望銷售的Adobe Commerce或Magento Open Source銷售商 [!DNL Walmart Marketplace]。
 
 安裝和配置後 [!DNL Channel Manager]，也請參見Wiki頁。 [!DNL Commerce] 管理員已擴展，因此您可以管理 [!DNL Walmart Marketplace] 與您的Commerce環境無縫地進行銷售操作。
 
-* **清單管理** — 通過將商品目錄中的產品與現有的沃爾瑪市場清單匹配，輕鬆發佈產品清單。
+* **清單管理** — 通過匹配您的產品，輕鬆發佈產品清單 [!DNL Commerce] 目錄到現有 [!DNL Walmart Marketplace] 清單。
 
 * **Inventory management** — 商戶市場銷售商帳戶中的物料將自動同步並從Commerce更新，以確保準確的庫存水準。
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 **Channel Manager操作的估計延遲**
 
 | **操作** | **說明** | **預期延遲** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | 將產品添加到Channel Manager | 從Commerce產品目錄中選擇產品，然後將其導入Channel Manager。 | **最多五分鐘** — 如果您選擇了許多產品，例如，整個產品目錄，則導入過程需要更長時間。 |
-| 在沃爾瑪市場上匹配產品 | 在渠道經理中選擇產品清單，然後發送到沃爾瑪進行匹配。 | **最多30分鐘** — 如果選擇了多個產品，則匹配過程將花費更長的時間，具體取決於選定的數量。 |
+| 匹配上的產品[!DNL Walmart Marketplace] | 在渠道經理中選擇產品清單，然後發送到沃爾瑪進行匹配。 | **最多30分鐘** — 如果選擇了多個產品，則匹配過程將花費更長的時間，具體取決於選定的數量。 |
 | 庫存更新 | 當Oracle Commerce中的庫存數量發生變化時， [!DNL Channel Manager] 將更新同步到沃爾瑪。 | **最多10分鐘** |
 | 價格更新 | 當產品價格發生變化時，渠道經理會將更新同步到Walmart。 | **最多五分鐘** |
 | 從Walmart到Commerce的訂單同步 | 客戶在沃爾瑪市場上訂購商務產品。 沃爾瑪將訂單發給渠道經理。 訂單按訂單儀表板顯示。 | **最多30分鐘** |

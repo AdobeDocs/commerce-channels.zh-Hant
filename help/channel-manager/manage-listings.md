@@ -2,9 +2,9 @@
 title: 管理清單
 description: 管理銷售渠道清單 [!DNL Commerce] 與Channel Manager一起儲存，用於Adobe Commerce和Magento Open Source。
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ ht-degree: 0%
 
 ## 將Commerce產品添加到Channel Manager
 
-通過完成以下任務，為Walmart Marketplace渠道建立產品分類：
+為 [!DNL Walmart Marketplace] 完成以下任務：
 
-* [將產品從您的Commerce產品目錄添加到Channel Manager](add-products-to-channel-store.md)
+* [添加您的產品 [!DNL Commerce] 產品目錄 [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [映射目錄屬性](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## 向沃爾瑪發佈產品
+## 將產品發佈到 [!DNL Walmart]
 
-您可以使用產品匹配或通過手動上載新產品的產品清單在沃爾瑪市場上建立產品優惠。
+您可以在 [!DNL Walmart Marketplace] 使用產品匹配或手動上載新產品的產品清單。
 
 * **[在沃爾瑪上匹配產品](publish-listings-to-marketplace.md)** — 將產品清單從您的渠道發佈到 [!DNL Walmart Marketplace] 通過更新銷售相同產品的現有清單。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的頻道。
 
-* **[手動上載新清單](publish-listings-to-marketplace.md#upload-new-product-listings)** — 對於與Walmart Marketplace上現有清單不匹配的產品，請使用Walmart產品類別Excel模板批量上載產品清單。
+* **[手動上載新清單](publish-listings-to-marketplace.md#upload-new-product-listings)** — 對於與上現有清單不匹配的產品 [!DNL Walmart Marketplace]，使用 [!DNL Walmart] 產品類別Excel模板，以批量上載產品清單。
 
 ## 列出控制項和列說明
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | **控制項** | **說明** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | 開啟 [!UICONTROL Admin Product Catalog] 頁面選擇要添加到 [!DNL Walmart Marketplace] 或更新產品屬性以滿足沃爾瑪市場清單要求。 |
-| [!UICONTROL Match products on Walmart] | 在選擇一個或多個處於「草稿」狀態的產品後，選擇「在沃爾瑪上匹配產品」以檢查是否可以添加到現有產品中的產品優惠 [!DNL Walmart Marketplace] 清單。 |
+| [!UICONTROL Match products on Walmart] | 在選擇一個或多個處於「草稿」狀態的產品後，選擇「匹配產品」(Match products on) [!DNL Walmart] 檢查是否可以添加到現有產品中 [!DNL Walmart Marketplace] 清單。 |
 | [!UICONTROL Refresh products] | 使用最新清單和狀態更新顯示。 此控制項還將清單視圖重置為預設排序順序並刪除任何篩選器。 |
 | [!UICONTROL Filter by *狀態*] | 通過選擇「清單」表上方的狀態計數卡之一，只顯示具有特定狀態的清單。 使用 *刷新產品* 按鈕。 |
 | [!UICONTROL Sort products] | 通過選擇任何列標題更改清單的排序順序。 |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** — 標識成功匹配的產品 [!DNL Walmart]。
 
-   當產品屬性值（例如，UPC代碼）與現有產品中的UPC值匹配時，會出現匹配[!DNL Walmart Marketplace] 清單。 當產品匹配時，商務產品優惠將添加到沃爾瑪現有的清單中。
+   當產品屬性值（例如，UPC代碼）與現有產品中的UPC值匹配時，會出現匹配[!DNL Walmart Marketplace] 清單。 當產品匹配時，將Commerce產品優惠添加到現有 [!DNL Walmart] 清單。
 
    檢查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 控制面板：複查更新的產品清單並驗證產品詳細資訊、價格和庫存數量。
 

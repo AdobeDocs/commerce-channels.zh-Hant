@@ -1,32 +1,32 @@
 ---
-title: 沃爾瑪先決條件
-description: 驗證您是否擁有與渠道經理整合所需的Walmart Marketplace資訊和資源。
+title: '"[!DNL Walmart] 先決條件"'
+description: '"驗證您是否具有 [!DNL Walmart Marketplace] 與Channel Manager整合的資訊和資源。」'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 沃爾瑪先決條件
+# [!DNL Walmart] 先決條件
 
-Channel Manager需要以下資源和資訊來為Walmart Marketplace配置商業銷售渠道。
+[!DNL Channel Manager] 需要以下資源和資訊來配置 [!DNL Commerce] 銷售渠道 [!DNL Walmart Marketplace.]
 
-* 批准在沃爾瑪上銷售和登錄註冊的Marketplace Seller帳戶的憑據
+* 批准銷售 [!DNL Walmart] 登錄註冊的Marketplace賣家帳戶的憑據
 
-* 將Adobe Commerce或Magento Open Source連接到Walmart Marketplace的API密鑰
+* 將Adobe Commerce或Magento Open Source連接到的API密鑰 [!DNL Walmart Marketplace]
 
-   Walmart Marketplace API密鑰支援Adobe Commerce或Magento Open Source的渠道經理與Walmart Marketplace之間的整合。 在啟動Channel Manager登錄過程之前，在Seller Central中設定API密鑰。
+   的 [!DNL Walmart Marketplace] API密鑰支援在 [!DNL Channel Manager] Adobe Commerce、Magento Open Source和沃爾瑪市場。 在啟動Channel Manager登錄過程之前，在Seller Central中設定API密鑰。
 
 ## 設定Marketplace賣家帳戶
 
 1. [提交您的沃爾瑪銷售商申請](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)。
-1. 在獲得沃爾瑪批准後， [設定沃爾瑪賣家帳戶](https://sellerhelp.walmart.com/seller/s/guide?article=000008219)。
+1. 在獲得 [!DNL Walmart]。 [設定沃爾瑪賣家帳戶](https://sellerhelp.walmart.com/seller/s/guide?article=000008219)。
 
-## 生成Walmart Marketplace Production API密鑰
+## 生成 [!DNL Walmart Marketplace] 生產API密鑰
 
-1. 轉到Walmart Marketplace以生成 [解決方案提供商生產API密鑰，用於Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey)。
+1. 轉到 [!DNL Walmart Marketplace] 生成 [解決方案提供商生產API密鑰，用於Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey)。
 
 1. 建立密鑰並配置權限：
 
@@ -50,12 +50,12 @@ Channel Manager需要以下資源和資訊來為Walmart Marketplace配置商業�
    | 規則 | 完全訪問 |
    | 裝運 | 完全訪問 |
 
-## Walmart Marketplace商店狀態
+## [!DNL Walmart Marketplace] 儲存狀態
 
-當您向沃爾瑪市場發佈產品時，列出產品的可用性取決於您的沃爾瑪市場商店的狀態：
+將產品發佈到市場時，列出可用性取決於您的 [!DNL Walmart Marketplace] 商店：
 
 * 對於即時商店，您的產品優惠將列出，並在匹配操作完成時可供銷售。
 
-* 對於不即時的商店，您的產品優惠將被提供，而且客戶無法看到。 當商店開始上線時，分時段的清單會自動推送到現場商店。
+* 對於不即時的商店，您的產品優惠將被提供，而且客戶無法看到。 當 [!DNL Walmart Marketplace] 商店開始上線，臨時清單被自動推送到現場商店。
 
 ![[!DNL Walmart Seller Central] 分段產品](assets/walmart-seller-central-staged.png)

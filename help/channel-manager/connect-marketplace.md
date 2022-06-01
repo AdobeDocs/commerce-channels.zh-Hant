@@ -2,22 +2,22 @@
 title: 將銷售渠道連接到 [!DNL Walmart Marketplace]
 description: 配置銷售渠道並連接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 將銷售渠道連接到 [!DNL Walmart Marketplace]
 
-在您的 [!DNL Commerce] 例如，將Commerce商店連接到Walmart Marketplace。
+在您的 [!DNL Commerce] 實例，連接 [!DNL Commerce] 儲存 [!DNL Walmart Marketplace]。
 
 1. [建立銷售渠道](#create-the-sales-channel) 通過為產品清單選擇Commerce商店。
 
-1. [將通道連接到 [!DNL Walmart Marketplace] 通過添加Walmart API憑據](#connect-the-channel-to-walmart-marketplace)。
+1. [將通道連接到 [!DNL Walmart Marketplace] 通過 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace)。
 
-1. [完成銷售渠道設定](#complete-store-setup) 管理您的Walmart Marketplace產品分類的清單、庫存、定價和訂單。
+1. [完成銷售渠道設定](#complete-store-setup) 管理清單、庫存、定價和訂單 [!DNL Walmart Marketplace] 產品分類。
 
 ## 建立銷售渠道
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Marketplaces available to connect]** 選擇 **[!UICONTROL Get Started]**。
 
-   ![將新的Walmart商店連接到 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![連接新 [!DNL Walmart] 儲存 [!DNL Channel Manager]](assets/channel-manager-home.png)
 
-1. 如果需要，請設定您的Walmart Marketplace賣家帳戶。
+1. 如果需要，請設定 [!DNL Walmart Marketplace Seller] 帳戶。
 
 1. 配置儲存和連接：
 
@@ -73,10 +73,10 @@ ht-degree: 0%
 
 ### 排除連接問題
 
-如果與沃爾瑪的聯繫失敗，請參閱 [Walmart Marketplace常見問題](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;}以獲取疑難解答提示。
+如果與 [!DNL Walmart] 失敗，查看 [Walmart Marketplace常見問題](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;}以獲取疑難解答提示。
 
 - 從 [!DNL Walmart Developer Portal]，驗證您是否複製了生產API密鑰的正確憑據 [!UICONTROL Adobe Inc.]
 
-- 驗證WalmartAdobeAPI鍵的訪問配置是否具有正確的權限。 請參閱 [沃爾瑪先決條件](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key)。
+- 驗證的訪問配置 [!UICONTROL Walmart Adobe API key] 具有正確的權限。 請參閱 [[!DNL Walmart Prerequisites]](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key)。
 
 - 確認 [!DNL Walmart API] 服務可從 [Walmart API狀態頁](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
