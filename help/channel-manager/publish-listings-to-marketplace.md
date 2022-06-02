@@ -2,9 +2,9 @@
 title: 向沃爾瑪發佈清單
 description: 將Commerce產品的清單發佈到 [!DNL Walmart Marketplace]開始賣。
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 先決條件
 
-在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求並配置屬性設定。 請參閱 [映射目錄屬性](map-catalog-attributes.md)。
+在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求並配置產品屬性設定。 請參閱 [映射目錄屬性](map-catalog-attributes.md)。
 
 #### 選擇並匹配產品
 
@@ -52,9 +52,7 @@ ht-degree: 0%
 
 匹配完成後，狀態可以是 *匹配* 或 *錯誤*。
 
-* **[!UICONTROL Match]** 表示產品已成功匹配。 您的產品服務已發佈到現有的沃爾瑪市場清單中。 如果 [Marketplace商店不活動](walmart-prerequisites.md#walmart-marketplace-store-status)。 *[!UICONTROL Staged for Match]* 中 *[!UICONTROL Status detail]* 的雙曲餘切值。
-
-如果 [[!DNL Walmart Marketplace] 儲存不活動](walmart-prerequisites.md#walmart-marketplace-store-status)，也請參見Wiki頁。 *狀態詳細資訊* 列指示產品 *為匹配轉移*。 在 [!DNL Walmart Marketplace] 儲存已激活。
+* **[!UICONTROL Match]** 表示產品已成功匹配。 您的產品服務已發佈到現有的沃爾瑪市場清單中。 如果 [Marketplace商店不活動](walmart-requirements.md#walmart-marketplace-store-status)。 *[!UICONTROL Staged for Match]* 中 *[!UICONTROL Status detail]* 的雙曲餘切值。 在 [!DNL Walmart Marketplace] 儲存已激活。
 
 * **[!UICONTROL Error]** 指示匹配操作由於以下問題之一而失敗：
 
@@ -116,7 +114,7 @@ ht-degree: 0%
 
 ### 先決條件
 
-* 驗證您是否遇到 [沃爾瑪先決條件](walmart-prerequisites.md)。
+* 驗證您是否遇到 [沃爾瑪要求](walmart-requirements.md)。
 
 * 在您的Commerce產品目錄中，驗證要在Walmart Marketplace上列出的產品的目錄配置是否具有所有必需的屬性，並符合Walmart Marketplace內容指南。
 

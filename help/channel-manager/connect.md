@@ -4,7 +4,7 @@ description: 將Channel Manager連接到 [!DNL Commerce] 服務，以啟用資�
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Commerce Services Connector將Channel Manager服務與Adobe Commerce和Magento O
 
 Commerce Services Connector安裝程式是使用Adobe所需的一次性流程 [Commerce SaaS服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html){target=&quot;_blank&quot;類似 [!DNL Channel Manager]。 [!DNL Live Search], [!DNL Product Recommendations]。 如果已為其他服務配置連接器，請跳過此步驟。
 
-## 先決條件
+## 要求
 
 - **商業帳戶** — 要在Commerce實例上安裝軟體，您必須擁有對Commerce平台具有「所有者」或「管理員」訪問權限的帳戶。
 
-   帳戶所有者和管理員用戶可以使用 [!DNL Commerce] CLI命令 `admin:user:create`。
+   帳戶所有者和超級用戶可以使用 [!DNL Commerce] CLI命令 `admin:user:create`。
 
 - **Adobe Commerce生產API密鑰** — 此 [鍵](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}允許API訪問Channel Manager所需的服務。 您需要此密鑰的公共和私有憑據。
 

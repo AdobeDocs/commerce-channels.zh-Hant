@@ -2,9 +2,9 @@
 title: 設定概述
 description: 瞭解 [!DNL Channel Manager settings] 配置驗證並映射產品目錄屬性和協調銷售操作所需的運輸承運人 [!DNL Commerce] 和 [!DNL Walmart Marketplace]。
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * **[映射運輸承運人](map-shipping-carriers.md)** — 處理前 [!DNL Walmart Marketplace] 訂單 [!DNL Commerce]，確保從您的 [!DNL Commerce] 實例到上的相應承運人 [!DNL Walmart Marketplace]。
 
-* **Walmart API憑據** — 在 [!DNL Channel Manager] 登機過程，您提供 [Walmart API憑據](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 從[!DNL Walmart Marketplace] 要連接的賣家帳戶 [!DNL Commerce] 至 [!DNL Walmart Marketplace] 通信和資料同步。 如果需要，可以從 *設定* 的子菜單。
+* **Walmart API憑據** — 在 [!DNL Channel Manager] 登機過程，您提供 [API憑據](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 從 [!DNL Walmart Marketplace] 要連接的賣家帳戶 [!DNL Commerce] 至 [!DNL Walmart Marketplace] 通信和資料同步。 如果需要，可以從 *設定* 的子菜單。

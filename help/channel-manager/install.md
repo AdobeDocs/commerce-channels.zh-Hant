@@ -2,9 +2,9 @@
 title: 安裝 [!DNL Channel Manager]
 description: 安裝Channel Manager擴展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 安裝 [!DNL Channel Manager]
 
-查看 [先決條件](onboard.md#prerequisites) 並在安裝Channel Manager之前收集所需資訊。
+查看 [要求](onboard.md#requirements) 並在安裝Channel Manager之前收集所需資訊。
 
 ## 更新最小穩定性設定
 
@@ -56,7 +56,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 1. 從 [!DNL Commerce] 項目根目錄，將Channel Manager添加到 `composer.json`。
 
    ```bash
-    $ composer require magento/channel-manager --no-update
+    composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. 如果出現提示，請輸入您的 [!DNL Commerce] 帳戶。
@@ -66,59 +66,55 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 1. 更新依賴項並安裝擴展。
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
 
-   的 `composer update` 命令更新所有依賴關係。 要僅更新與Channel Manager相關的依賴項，請改用以下命令： `composer update magento/channel-manager`。
+   的 `composer update` 命令僅更新所需的依賴項 [!DNL Channel Manager]。 要更新所有依賴關係，請改用以下命令： `composer update`。
 
 1. 等待Composer完成更新項目依賴項並解決所有錯誤。
 
-1. 驗證安裝
+1. 驗證模組安裝：
+
+   - 檢查模組狀態。
+
+      ```bash
+      bin/magento module:status Magento_SalesChannels
+      ```
+
+      示例響應：
+
+      ```terminal
+      Module is enabled
+      ```
+
+   - 如果未啟用模組，請啟用它。
 
    ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   示例響應：
-
-   ```terminal
-   Module is disabled
+   bin/magento module:enable Magento_SalesChannels
    ```
 
 1. 註冊擴展。
 
    ```bash
-   $ bin/magento setup:upgrade
+   bin/magento setup:upgrade
    ```
 
 1. 如果出現提示，請重新編譯 [!DNL Commerce] 項目。
 
    ```bash
-   $ bin/magento setup:di:compile
-   ```
-
-1. 驗證是否已啟用擴展：
-
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   示例響應：
-
-   ```bash
-   Module is enabled
+   bin/magento setup:di:compile
    ```
 
 1. 清除快取。
 
    ```bash
-   $ bin/magento cache:clean
+   bin/magento cache:clean
    ```
 
 1. 禁用維護模式。
 
    ```bash
-    $ bin/magento maintenance:disable
+   bin/magento maintenance:disable
    ```
 
 ### 在Adobe Commerce上安裝雲基礎架構實例
@@ -136,14 +132,16 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 1. 使用Composer名稱，將擴展添加到 `require` 的下界 `composer.json` 的子菜單。
 
    ```bash
-   $ composer require magento/channel-manager --no-update
+   composer require require magento/module-sales-channels-extension --no-update
    ```
 
-1. 更新項目依賴項。
+1. 更新依賴項並安裝擴展。
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
+
+   的 `composer update` 命令僅更新所需的依賴項 [!DNL Channel Manager]。 要更新所有依賴關係，請改用以下命令： `composer update`。
 
 1. 添加、提交和推送代碼更改 — 包括對 `composer.lock` 和 `composer.json` 的子菜單。
 
@@ -161,15 +159,18 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 
 1. 構建和部署過程完成後，使用SSH登錄到遠程環境並驗證擴展安裝是否正確。
 
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
+```bash
+   bin/magento module:status Magento_SalesChannels
+```
 
-   示例響應：
+示例響應：
 
-   ```terminal
-   Module is enabled
-   ```
+```terminal
+Module is enabled
+```
+
+如果模組被禁用， [在本地環境中啟用它](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 並部署更改。
+
 
 1. 成功安裝擴展後，請登錄到 [!UICONTROL Admin] 至 [配置Commerce Services連接器](connect.md)。
 

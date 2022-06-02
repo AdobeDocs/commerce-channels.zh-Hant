@@ -1,9 +1,9 @@
 ---
 title: 配置通道設定
 description: 配置渠道經理和銷售渠道設定以進行身份驗證，映射協調銷售操作所需的目錄屬性和運輸承運商 [!DNL Commerce] 和 [!DNL Walmart Marketplace]。
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * **[映射運輸承運人](map-shipping-carriers.md)** — 處理前 [!DNL Walmart Marketplace] 訂單 [!DNL Commerce]，確保從您的 [!DNL Commerce] 實例到上的相應承運人 [!DNL Walmart Marketplace]。
 
-* **Walmart API憑據** — 在 [!DNL Channel Manager] 登機過程，您提供 [Walmart API憑據](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 從 [!DNL Walmart Marketplace Seller] 連接帳戶 [!DNL Commerce] 至 [!DNL Walmart Marketplace] 通信和資料同步。 如果需要，可以從 *設定* 的子菜單。
+* **Walmart API憑據** — 在 [!DNL Channel Manager] 登機過程，您提供 [Walmart API憑據](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 從 [!DNL Walmart Marketplace Seller] 連接帳戶 [!DNL Commerce] 至 [!DNL Walmart Marketplace] 通信和資料同步。 如果需要，可以從 *設定* 的子菜單。

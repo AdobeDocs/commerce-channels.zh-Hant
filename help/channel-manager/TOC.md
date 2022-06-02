@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] 指南"'
 user-guide-description: 通過將Adobe Commerce或Magento Open Source與您的 [!DNL Walmart Marketplace]Seller Central] 帳戶。
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 - [指南概述](guide-overview.md)
 - 簡介 [!DNL Channel Manager] {#intro-to-channel-manager}
    - [關於Channel Manager](overview.md)
-   - [沃爾瑪先決條件](walmart-prerequisites.md)
+   - [沃爾瑪要求](walmart-requirements.md)
 - 板載 [!DNL Channel Manager] {#on-boarding}
    - [登機](onboard.md)
    - [安裝 [!DNL Channel Manager] 擴展](install.md)
