@@ -2,9 +2,9 @@
 title: 將產品添加到銷售渠道商店
 description: 建立產品分類 [!DNL Walmart Marketplace] 通過將產品從目錄添加到銷售渠道進行銷售
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,30 @@ ht-degree: 0%
 
 # 將產品添加到銷售渠道商店
 
-將產品同步到 [!DNL Walmart Marketplace] 銷售渠道，您可以從 [!DNL Commerce] 將產品目錄導入Channel Manager。 所選產品必須具有以下屬性配置：
+將產品添加到 [!DNL Walmart Marketplace] 銷售渠道 [!DNL Commerce] 產品目錄和導入 [!DNL Channel Manager]。
+根據您選擇的產品數量，導入過程可能需要30分鐘或更長時間。
+
+## 先決條件
+
+**[映射目錄屬性](map-catalog-attributes.md)** — 在 [!DNL Channel Settings] 配置，映射至少一個屬性 [!DNL Commerce] 將產品目錄添加到所需的沃爾瑪產品標識符之一 — GTIN、ISBN、ISSN、UPC、EAN。
+
+## 上市要求
+
+[!DNL Commerce] 產品清單必須具有以下必需的屬性配置：
 
 - **[!UICONTROL Publish to Channel Manager]** 屬性已啟用
 
-- 至少有一個產品屬性必須與 [要求 [!DNL Walmart Marketplace] 屬性](map-catalog-attributes.md)-GTIN、ISBN、ISSN、UPC、EAN
+- 為所需的Walmart屬性提供有效值。
 
-從導入產品的流程 [!DNL Commerce] 到Channel Manager最多需要30分鐘或更長時間，具體取決於您選擇的產品數。
+   - 至少一個與所需的 [!DNL Walmart Marketplace] 產品標識符 — GTIN、ISBN、ISSN、UPC、EAN。
+
+   - 指定的產品價格最多為兩個小數位，例如 `9.99`
+
+   - 指定的產品重量最多為兩個小數位，例如 `1.25`
+
+>[!TIP]
+>
+>有關優化銷售渠道清單的其他資訊，請參閱 [《沃爾瑪市場清單質量優化指南》](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf)。
 
 ## 添加產品
 
