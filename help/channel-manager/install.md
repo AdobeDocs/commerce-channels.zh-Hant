@@ -2,7 +2,7 @@
 title: 安裝 [!DNL Channel Manager]
 description: 安裝Channel Manager擴展。
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 1. 從 [!DNL Commerce] 項目根目錄，將Channel Manager添加到 `composer.json`。
 
    ```bash
-    composer require magento/module-sales-channels-extension --no-update
+    composer require magento/channel-manager --no-update
    ```
 
 1. 如果出現提示，請輸入您的 [!DNL Commerce] 帳戶。
@@ -66,7 +66,7 @@ Channel Manager的安裝說明取決於是在內部部署Adobe Commerce還是在
 1. 更新依賴項並安裝擴展。
 
    ```bash
-   composer update magento/module-sales-channels-extension
+   composer update magento/channel-manager
    ```
 
    的 `composer update` 命令僅更新所需的依賴項 [!DNL Channel Manager]。 要更新所有依賴關係，請改用以下命令： `composer update`。
