@@ -2,9 +2,9 @@
 title: 將銷售渠道連接到 [!DNL Walmart Marketplace]
 description: 配置銷售渠道並連接到Walmart Marketplace。
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # 將銷售渠道連接到 [!DNL Walmart Marketplace]
 
 在您的 [!DNL Commerce] 實例，連接 [!DNL Commerce] 儲存 [!DNL Walmart Marketplace]。
+
+>[!NOTE]
+>
+>Channel Manager要求在Walmart帳戶和Commerce商店視圖之間進行一對一連接。 無法將同一商店視圖連接到多個沃爾瑪帳戶。
 
 1. [建立銷售渠道](#create-the-sales-channel) 通過為產品清單選擇Commerce商店。
 

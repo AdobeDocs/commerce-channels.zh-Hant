@@ -4,9 +4,9 @@ description: 將實例連接到 [!DNL Channel Manager] 完成幾個單車步驟�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 - **商業帳戶資訊** — 下載和安裝 [!DNL Channel Manager] 需要 [商業帳戶](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 您需要具有「所有者」或「管理員」訪問權限的帳戶ID和憑據 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 實例。
 
-   - **影像ID**-[登錄](https://account.magento.com/customer/account/login/) 到Commerce帳戶以從 **[!UICONTROL My Account - Magento settings]**。 您需要此ID註冊 [!DNL Channel Manager] 服務測試程式。
+   - **影像ID**-[登錄](https://account.magento.com/customer/account/login/) 到Commerce帳戶以從 **[!UICONTROL My Account - Magento settings]**。
 
       ![[!DNL MAGEID] 在商業帳戶設定上](assets/mageid-my-commerce-account.png)
 
@@ -53,20 +53,23 @@ ht-degree: 0%
       請參閱 [管理用戶訪問](https://devdocs.magento.com/cloud/project/user-admin.html)。
 
 
-- **下載Channel Manager Composer包的授權** — 為Adobe通道提供Beta協調器，其MAGE ID [!DNL Commerce] 用於管理組織服務的帳戶。
 - **使用Composer和[!DNL Commerce CLI]**  — 請參閱 [常規CLI安裝](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;，瞭解有關使用這些工具在上安裝和配置擴展的資訊 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
-- [[!DNL Amazon Sales Channel] 4.4.2版或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果已激活 [!DNL Amazon Sales Channel] 為 [!DNL Commerce] 站點，驗證 [!DNL Commerce] 平台在安裝之前已安裝4.42版 [!DNL Channel Manager]。
+
+- [[!DNL Amazon Sales Channel] 4.4.2版或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果已激活 [!DNL Amazon Sales Channel] 為 [!DNL Commerce] 站點，驗證 [!DNL Commerce] 安裝前已安裝4.4.2版平台 [!DNL Channel Manager]。
+
 - [!DNL Inventory Management] Adobe Commerce和Magento Open Source
 
-   如果您計畫使用渠道經理進行庫存和訂單管理，則必須在Adobe Commerce和Magento Open Source實例上安裝並啟用Inventory management擴展。 通常，此擴展在Adobe Commerce和Magento Open Source2.3.x及更高版本上預設安裝並啟用。 有關詳細資訊，請參見 [安裝Inventory management](https://devdocs.magento.com/extensions/inventory-management/) 在Adobe Commerce開發人員文檔中。
+   如果您計畫使用渠道經理進行庫存和訂單管理，則必須在Adobe Commerce和Magento Open Source實例上安裝並啟用Inventory management擴展。 通常，此擴展在Adobe Commerce和Magento Open Source2.3.x及更高版本上預設安裝並啟用。
+
+   如果您已從2.2.x升級了Commerce，或者您已禁用了Inventory management，則必須更新安裝以包括所需的模組。 有關詳細資訊，請參見 [安裝Inventory management](https://devdocs.magento.com/extensions/inventory-management/) 在Adobe Commerce開發人員文檔中。
 
 ### 系統要求
 
 - [Adobe Commerce2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [7.3菲律賓比索/7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
 - [作曲家1.x或更高版本](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
-- [[!DNL Amazon Sales Channel] 4.4.2版或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果已激活 [!DNL Amazon Sales Channel] 為 [!DNL Commerce] 站點，驗證 [!DNL Commerce] 平台在安裝之前已安裝4.42版 [!DNL Channel Manager]。
-- [!DNL Inventory Management]
+- [[!DNL Amazon Sales Channel] 4.4.2版或更高版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) — 如果已激活 [!DNL Amazon Sales Channel] 為 [!DNL Commerce] 站點，驗證 [!DNL Commerce] 安裝前已安裝4.4.2版平台 [!DNL Channel Manager]。
+- [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
 
 ### 支援的平台
 

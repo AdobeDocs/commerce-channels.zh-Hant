@@ -2,17 +2,17 @@
 title: 將產品添加到銷售渠道商店
 description: 建立產品分類 [!DNL Walmart Marketplace] 通過將產品從目錄添加到銷售渠道進行銷售
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
+source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# 將產品添加到銷售渠道商店
+# 將產品添加到 [!DNL Channel Manager]
 
-將產品添加到 [!DNL Walmart Marketplace] 銷售渠道 [!DNL Commerce] 產品目錄和導入 [!DNL Channel Manager]。
+將產品添加到 [!DNL Walmart Marketplace] 銷售渠道，從 [!DNL Commerce] 將產品目錄導入 [!DNL Channel Manager]。
 根據您選擇的產品數量，導入過程可能需要30分鐘或更長時間。
 
 ## 先決條件
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Commerce] 產品清單必須具有以下必需的屬性配置：
 
-- **[!UICONTROL Publish to Channel Manager]** 屬性已啟用
+- **[!UICONTROL Connect to Channel Manager]** 屬性已啟用
 
 - 為所需的Walmart屬性提供有效值。
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
    ![將產品發送到銷售渠道商店](assets/select-products-from-catalog.png)
 
-1. 啟用 **[!UICONTROL Publish to Channel Manager]** 屬性。
+1. 啟用 **[!UICONTROL Connect to Channel Manager]** 屬性。
 
    - 從 **[!UICONTROL Actions]**&#x200B;選中 **[!UICONTROL Update attributes]**。
 
-   - 滾動到 **[!UICONTROL Publish to Channel Manager]** 屬性並啟用它。
+   - 滾動到 **[!UICONTROL Connect to Channel Manager]** 屬性並啟用它。
 
    - 驗證產品屬性是否至少包括所需的 [!DNL Walmart Product IDs]。
 

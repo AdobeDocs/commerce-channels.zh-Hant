@@ -2,20 +2,26 @@
 title: 庫存和價格更新
 description: '"[!DNL Channel Manager] 同步Commerce商店和 [!DNL Walmart Marketplace] 以便您能夠從Commerce Admin管理您的銷售渠道操作'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # 更新庫存和定價
 
-[!DNL Channel Manager] 跟蹤產品的庫存和定價 [!DNL Commerce] 產品目錄和同步更新到連接的銷售渠道和 [!DNL Walmart Marketplace]。 同步確保產品清單反映當前庫存數量和定價。
+[!DNL Channel Manager] 跟蹤產品的庫存和定價 [!DNL Commerce] 產品目錄並同步到連接的銷售渠道的更新， [!DNL Walmart Marketplace]。 同步操作確保產品清單反映當前庫存數量和定價。
+
+
+>[!IMPORTANT]
+>
+>之後 [!DNL Channel Manager] 已安裝並配置，所有庫存、價格和訂單更新都將自動同步。 如果您已經直接或通過其他整合在沃爾瑪市場銷售，請確保禁用以前的整合，並驗證Commerce店面的庫存水準和價格是否準確，以及是否與 [!DNL Walmart Marketplace] 在連接之前 [!DNL Channel Manager] 去現場集市商店。
+
 
 ## 庫存更新
 
-當產品庫存水準在 [!DNL Commerce]。 [!DNL Channel Manager] 同步對銷售渠道和 [!DNL Walmart Marketplace]。 庫存更新可能需要10分鐘才能跨銷售渠道同步到 [!DNL Walmart marketplace]。
+當產品庫存水準在 [!DNL Commerce]。 [!DNL Channel Manager] 同步更新到 [!DNL Walmart Marketplace]。 庫存更新可能需要10分鐘才能跨銷售渠道同步到 [!DNL Walmart marketplace]。
 
 * **更新產品目錄中的庫存數量** — 當 [!DNL Commerce] 庫存數量因 [手動庫存數量更改](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html)退款或取消， [!DNL Channel Manager] 將更改同步到連接的通道， [!DNL Walmart Marketplace]。
 
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 當產品價格在 [!DNL Commerce]。 [!DNL Channel Manager] 將更新同步到 [!DNL Walmart Marketplace]。 最多需要5分鐘，價格更改才能顯示在 [!DNL Walmart Marketplace] 清單。
 
-### 管理已發佈產品的定價
+### 管理連接產品的定價
 
 1. 從 [!UICONTROL Admin]選中 **[!UICONTROL Catalog > Products]**。
 1. 在產品網格中，查找要更新的產品並選擇 **[!UICONTROL Edit]**。
