@@ -1,10 +1,10 @@
 ---
-title: '"[!DNL Walmart] 要求"'
-description: '"驗證您是否具有[!DNL Walmart Marketplace]與Channel Manager整合的資訊和資源。」'
+title: '"[!DNL Walmart] 要求`'
+description: '''驗證您是否具有 [!DNL Walmart Marketplace]與Channel Manager整合的資訊和資源。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * 將Adobe Commerce或Magento Open Source連接到的API密鑰 [!DNL Walmart Marketplace]
 
-   的 [!DNL Walmart Marketplace] API密鑰支援在 [!DNL Channel Manager] Adobe Commerce、Magento Open Source和沃爾瑪市場。 在啟動Channel Manager登錄過程之前，在Seller Central中設定API密鑰。
+   的 [!DNL Walmart Marketplace] API密鑰支援在 [!DNL Channel Manager] Adobe [!DNL Commerce] 或是Magento Open Source和沃爾瑪市場。 在啟動Channel Manager登錄過程之前，在Seller Central中設定API密鑰。
 
 ## 設定 [!DNL Walmart Seller] 帳戶
 
@@ -62,5 +62,5 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->之後 [!DNL Channel Manager] 已安裝並配置，所有庫存、價格和訂單更新都將自動同步。 在禁用更新產品和訂單資料的任何其他整合併且準備好將Commerce更新同步到之前，不要將Channel Manager連接到即時Walmart Marketplace商店 [!DNL Walmart Marketplace]。
+>之後 [!DNL Channel Manager] 已安裝並配置，所有庫存、價格和訂單更新都將自動同步。 不連接 [!DNL Channel Manager] 直到您禁用更新產品和訂單資料的任何其他整合。 如果配置了其他整合，請驗證中的物料數量和價格 [!DNL Commerce] 與 [!DNL Walmart Marketplace] 在連接到即時商店之前。
 

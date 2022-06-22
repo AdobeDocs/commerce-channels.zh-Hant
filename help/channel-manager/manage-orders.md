@@ -1,23 +1,23 @@
 ---
-title: '"管理 [!DNL Walmart Marketplace] 訂單"'
-description: '"查看和管理 [!DNL Walmart Marketplace] 訂單 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。」'
+title: '''查看和跟蹤訂單 [!DNL Channel Manager]"'
+description: '''查看和管理 [!DNL Walmart Marketplace] 訂單 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# 管理 [!DNL Walmart Marketplace] 訂單
+# 查看和跟蹤訂單 [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] 訂單資料 [!DNL Commerce] 產品自動同步 [!DNL Channel Manager] 後 [!DNL Walmart] 處理訂單。
 
-在Commerce端，成功的同步將觸發以下操作：
+在 [!DNL Commerce] 另外，成功的同步將觸發以下操作：
 
 - [!DNL Channel Manager] 向沃爾瑪發出訂單確認。
 
-- 根據沃爾瑪訂單建立相應的商務訂單。
+- 對應 [!DNL Commerce] 訂單是根據沃爾瑪的訂單建立的。
 
 - 更新的訂單資訊顯示在 [!DNL Channel Manager] 訂單控制板。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 **列說明**
 
 | 欄位 | 說明 |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Walmart Order Number] | 在中分配給訂單的採購訂單編號 [!DNL Walmart Marketplace]。 當訂單最初導入到 [!DNL Channel Manager]，僅 [!DNL Walmart] 此時將顯示訂單編號。 當 [!DNL Commerce] 建立順序， [!DNL Walmart] 訂單號儲存在 [!UICONTROL External ID] 產品屬性。 |
 | [!DNL Commerce] 訂單編號 | 分配給 [!DNL Commerce] 根據 [!DNL Walmart Marketplace] 命令。 |
 | 項目 | 訂購的物料數 [!DNL Walmart Marketplace]。 |
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Deliver By Date] | 必須將訂單交付給客戶以滿足要求的日期 [!DNL Walmart Marketplace] UTC格式的要求。 |
 | [!UICONTROL Ship Method] | 的 [[!DNL Walmart Marketplace] 裝運方法](https://sellerhelp.walmart.com/s/guide?article=000007893) 的下界。 |
 | [!UICONTROL Last Update At] | 指示上次在中更新訂單資料的時間的時間戳 [!DNL Channel Manager] 的子菜單。 |
-| [!UICONTROL Status] | 指示中的當前訂單狀態 [!DNL Commerce] 訂單工作流。 從導入的訂單的初始狀態 [!DNL Walmart Marketplace] 是 _開啟_。 處理和更新Commerce訂單時會發生其他狀態更新 [!DNL Channel Manager] 成功將裝運、部分裝運和取消更新同步到 [!DNL Walmart Marketplace]。 |
+| [!UICONTROL Status] | 指示中的當前訂單狀態 [!DNL Commerce] 訂單工作流。 從導入的訂單的初始狀態 [!DNL Walmart Marketplace] 是 _開啟_。 當 [!DNL Commerce] 處理和 [!DNL Channel Manager] 成功將裝運、部分裝運和取消更新同步到 [!DNL Walmart Marketplace]。 |
 | [!UICONTROL Error Description] | 提供有關訂單的詳細資訊 _[!UICONTROL Error]_狀態。 |
 
 ## 訂單狀態
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Shipped]** — 已從 [!DNL Commerce] 商店。 當命令發出時， [!DNL Channel Manager] 將更新發送到 [!DNL Walmart Marketplace] 更新Walmart上的發運狀態，並提供發運的訂單跟蹤編號。
 
-- **[!UICONTROL Partially Shipped]** — 某些物料標籤為已發運，而其他物料等待發運的訂單。 訂單發運中的物料時， [!DNL Channel Manager] 將更新發送到 [!DNL Walmart Marketplace] 更新在Walmart上單獨發運的發運狀態，並提供發運的訂單跟蹤編號。
+- **[!UICONTROL Partially Shipped]** — 某些物料標籤為已發運，而其他物料等待發運的訂單。 訂單發運中的物料時， [!DNL Channel Manager] 將更新發送到 [!DNL Walmart Marketplace] 要將發運狀態更新為 _[!DNL Partially Shipped]_提供裝運的訂單跟蹤編號。
 
 - **[!UICONTROL Canceled]** — 已從 [!DNL Commerce] 商店。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果訂單物料以多發運方式發送，則訂單狀態為 [!DNL Channel Manager] 反映最後一個可用訂單狀態。 例如，如果第一個物料發運，並且在將訂單更新同步到時不返回任何錯誤 [!DNL Channel Manager] 和 [!DNL Walmart Marketplace]，也請參見Wiki頁。 [!DNL Channel Manager] 訂單狀態為 _[!UICONTROL Partially Shipped]_。  如果第二個物料已發運並 [!C渠道經理] 返回錯誤，訂單狀態更新到_[!UICONTROL Error]_。
+>如果訂單物料以多發運方式發送，則訂單狀態為 [!DNL Channel Manager] 反映最後一個可用訂單狀態。 例如，如果第一個物料發運，並且在將訂單更新同步到時不返回任何錯誤 [!DNL Channel Manager] 和 [!DNL Walmart Marketplace]，也請參見Wiki頁。 [!DNL Channel Manager] 訂單狀態為 _[!UICONTROL Partially Shipped]_。 如果第二個物料已發運並 [!DNL Channel Manager] 返回錯誤，訂單狀態更新到_[!UICONTROL Error]_。
 
 ## 審閱訂單
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 要查看訂單資訊，請選擇*[!UICONTROL *Orders]**。
 
-1. 通過檢查 **[狀態](#about-order-status)** 列中的設定。
+1. 通過檢查 **[狀態](#about-order-status)** 的雙曲餘切值。
 
 ## 查看訂單詳細資訊
 

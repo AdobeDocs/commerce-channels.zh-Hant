@@ -1,12 +1,12 @@
 ---
 title: 板載 [!DNL Channel Manager]
-description: 將實例連接到 [!DNL Channel Manager] 完成幾個單車步驟。
+description: '''將實例連接到 [!DNL Channel Manager] 完成幾個登機步驟。'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 - **商業帳戶資訊** — 下載和安裝 [!DNL Channel Manager] 需要 [商業帳戶](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 您需要具有「所有者」或「管理員」訪問權限的帳戶ID和憑據 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 實例。
 
-   - **影像ID**-[登錄](https://account.magento.com/customer/account/login/) 到Commerce帳戶以從 **[!UICONTROL My Account - Magento settings]**。
+   - **影像ID**-[登錄](https://account.magento.com/customer/account/login/) 到 [!DNL Commerce] 要獲取ID的帳戶 **[!UICONTROL My Account - Magento settings]**。
 
-      ![[!DNL MAGEID] 在商業帳戶設定上](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] 上 [!DNL Commerce] 帳戶設定](assets/mageid-my-commerce-account.png)
 
-   - **訪問密鑰 —** 獲取身份驗證密鑰以從Commerce Composer儲存庫下載Commerce擴展 `([!DNL repo.magento.com]`)。
+   - **訪問密鑰 —** 獲取要下載的驗證密鑰 [!DNL Commerce] 擴展 [!DNL Commerce] 合成器儲存庫 `([!DNL repo.magento.com]`)。
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

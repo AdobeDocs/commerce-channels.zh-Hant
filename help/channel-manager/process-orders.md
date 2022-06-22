@@ -1,10 +1,10 @@
 ---
 title: 處理訂單
-description: 發運和取消說明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source。
+description: '''裝運和取消說明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的命令。'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 之後 [!DNL Walmart Marketplace] 已確認訂單，並已成功發送至 [!DNL Channel Manager]，則 [商務訂單管理](https://docs.magento.com/user-guide/sales/orders-workspace.html) 處理訂單。
 
-Channel Manager將更新同步到 [!DNL Walmart Marketplace] 確保Commerce的訂單狀態和發運資訊與中跟蹤的資料匹配 [!DNL Walmart Marketplace]。
+Channel Manager將更新同步到 [!DNL Walmart Marketplace] 確保訂單狀態和發運資訊 [!DNL Commerce] 與 [!DNL Walmart Marketplace]。
 
 * **訂單發運** — 沃爾瑪要求所有發貨的跟蹤編號。 如果某些物料缺貨，您可以建立部分發運以發送當前可用的物料。 提交發運後，訂單更新將同步到 [!DNL Walmart Marketplace]。 然後，沃爾瑪會通知客戶訂單狀態和發貨詳細資訊。
 
 * **訂單取消** — 當取消 [!DNL Walmart Marketplace] 而沃爾瑪則要求在發送給客戶的訂單取消通知中包含取消原因。 取消原因也顯示在 [!DNL Commerce] 訂單付款資訊。 提交取消後，庫存更新將同步到 [!DNL Walmart Marketplace]。 然後，沃爾瑪會通知客戶訂單狀態和發貨詳細資訊。
 
-   在店面，必須取消整個訂單。 商業不允許部分取消。
+   在店面，必須取消整個訂單。 [!DNL Commerce] 不允許部分取消。
 
 處理和處理Commerce訂單時 [!DNL Channel Manager] 成功將裝運、部分裝運和取消更新同步到 [!DNL Walmart Marketplace]，訂單處理完成。
 
@@ -58,7 +58,7 @@ Channel Manager將更新同步到 [!DNL Walmart Marketplace] 確保Commerce的�
 
 1. 查看 [!DNL Walmart Marketplace] 訂單，選擇*[!UICONTROL *Orders]**。
 
-1. 在「訂單」表中，通過選擇 **商業訂單編號** 訂單。
+1. 在「訂單」表中，開啟 [訂單詳細資訊頁面](manage-orders.md#view-order-detail) 選擇 **商業訂單編號** 訂單。
 
    ![Oracle Commerce Order Detail視圖[!DNL Walmart Marketplace]訂單](assets/order-detail-with-external-order-id.png)
 

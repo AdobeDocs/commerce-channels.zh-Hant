@@ -1,13 +1,13 @@
 ---
 title: 管理Walmart Marketplace連接
-description: 更新API憑據以授權[DNL!]之間的連接 Commerce]儲存視圖和 [!DNL Walmart Marketplace]。 連接是連接Commerce產品清單並同步Commerce和Walmart之間的庫存、價格、訂單和發運資料所必需的。
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+description: '''更新API憑據以授權[DNL! Commerce]儲存視圖和 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 產品清單和同步庫存、價格、訂單和發運資料 [!DNL Commerce] 還有沃爾瑪。」'
+exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
+source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # 映射運輸承運人
 

@@ -1,10 +1,10 @@
 ---
 title: 將清單連接到沃爾瑪
-description: 將Commerce產品的清單連接到 [!DNL Walmart Marketplace]開始賣。
+description: '''連接清單 [!DNL Commerce] 產品 [!DNL Walmart Marketplace]開始賣。'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 - [!DNL Walmart Marketplace] 使用產品標識符（如UPC和GTIN）將產品與現有產品匹配 [!DNL Walmart Marketplace] 清單。
 
-- 對於匹配的產品，在將產品與 [!DNL Channel Manager]。
+- 對於匹配的產品，Walmart Marketplace會列出更新以包括 [!DNL Commerce] 將產品與 [!DNL Channel Manager]。
 
 - 通常，價格最低的產品在 [!DNL Walmart Marketplace] 上市，但評論等其它因素也會影響位置。
 
 ## 匹配產品
 
-當您匹配產品時，Channel Manager會將產品資料發送到 [!DNL Walmart Marketplace] 搜索具有與映射的Commerce產品屬性匹配的屬性值的現有清單。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的商店頻道。
+當您匹配產品時，Channel Manager會將產品資料發送到 [!DNL Walmart Marketplace] 搜索具有與映射的屬性值匹配的現有清單 [!DNL Commerce] 產品屬性。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的商店頻道。
 
 如果找到匹配項，則更新現有產品清單以添加您的優惠。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## 上載新產品清單
 
-對於在沃爾瑪市場上沒有匹配項的產品，請使用沃爾瑪產品類別Excel模板批量上傳產品清單。 您使用從您的Commerce實例導出的產品目錄資料填充Walmart模板。
+對於在沃爾瑪市場上沒有匹配項的產品，請使用沃爾瑪產品類別Excel模板批量上傳產品清單。 使用從您的 [!DNL Commerce] 實例。
 
 對於新產品清單，請檢查您的產品目錄以確保您計畫在沃爾瑪市場銷售的產品具有沃爾瑪市場產品清單所需的屬性。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 - 驗證您是否遇到 [沃爾瑪要求](walmart-requirements.md)。
 
-- 在您的Commerce產品目錄中，驗證要在Walmart Marketplace上列出的產品的目錄配置是否具有所有必需的屬性，並符合Walmart Marketplace內容指南。
+- 在 [!DNL Commerce] 產品目錄，驗證要在Walmart Marketplace上列出的產品的目錄配置是否具有所有必需的屬性，並符合Walmart Marketplace內容指南。
 
 - 驗證cron作業是否正在運行以完成導出操作。
 
@@ -135,16 +135,16 @@ ht-degree: 0%
 
    - 驗證模板是否包含產品清單的必需屬性和推薦屬性。
 
-1. 從 [!DNL Commerce] 管理員，選擇要從您的Adobe Commerce站點導出的產品資料。
+1. 從 [!DNL Commerce] 管理員，選擇要從Adobe導出的產品資料 [!DNL Commerce] 的子菜單。
 
    - 在管理員中，選擇 [!UICONTROL **系統** >資料傳輸> **導出**]。
 
    - 在 [!UICONTROL Export] 的 [!UICONTROL Entity Type] 欄位，選擇 [!UICONTROL **產品**]。
 
    - 在 [!UICONTROL Entity Attributes] 中，配置產品資料導出的選擇標準。
-   ![導出產品資料頁 [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![導出產品資料頁 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   使用篩選器來選擇和配置適用於您銷售的產品類別的屬性值。 確保包括沃爾瑪的必需屬性和推薦屬性(請參閱 [導出資料](https://docs.magento.com/user-guide/system/data-export.html) 詳細說明，請參閱《Adobe Commerce使用手冊》。)
+   使用篩選器來選擇和配置適用於您銷售的產品類別的屬性值。 確保包括沃爾瑪的必需屬性和推薦屬性(請參閱 [導出資料](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 有關詳細說明的使用手冊。)
 
    要從導出中忽略屬性，請選擇 [!UICONTROL **排除**] 的子菜單。
 

@@ -1,12 +1,12 @@
 ---
 title: '"[!DNL Channel Manager] 指南概述'
-description: 有關 [!DNL Channel Manager] 為Adobe Commerce和Magento Open Source管理員提供，包括安裝和安裝
+description: '''有關 [!DNL Channel Manager] 為Adobe Commerce和Magento Open Source管理員提供，包括安裝和登機。'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 概述
 
-本指南適用於Adobe Commerce和Magento Open Source的管理員。 它包括有關 [!DNL Channel Manager] 安裝、登機、配置和管理。 本指南假定您基本瞭解核心Commerce配置和功能。
+本指南適用於Adobe Commerce和Magento Open Source的管理員。 它包括有關 [!DNL Channel Manager] 安裝、登機、配置和管理。 本指南假定對核心有基本的理解 [!DNL Commerce] 配置和功能。
 
 [!DNL Channel Manager] 有兩個區域供管理員使用：
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 本指南包括：
 
-* 全部 [!DNL Channel Manager] — 從Commerce Admin完成的特定任務。
+* 全部 [!DNL Channel Manager] — 從中完成的特定任務 [!DNL Commerce] 管理員。
 * 全部 [!DNL Channel Manager] — 從命令行完成的特定任務。
 
 有關管理的詳細資訊 [!DNL Commerce] 平台、項目和網站，請參閱Adobe Commerce和Magento Open Source用戶和開發人員指南。

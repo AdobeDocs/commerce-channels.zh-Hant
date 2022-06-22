@@ -1,27 +1,27 @@
 ---
-title: 將銷售渠道連接到 [!DNL Walmart Marketplace]
-description: 配置銷售渠道並連接到Walmart Marketplace。
+title: '''連接 [!DNL Channel Manager] 至 [!DNL Walmart Marketplace]"'
+description: '"將Commerce商店視圖連接到 [!DNL Walmart Marketplace] 建立銷售渠道，管理Commerce產品清單、庫存、價格和Walmart Marketplace銷售訂單。」'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# 將銷售渠道連接到 [!DNL Walmart Marketplace]
+# 連接 [!DNL Channel Manager] 至 [!DNL Walmart Marketplace]
 
-在您的 [!DNL Commerce] 實例，連接 [!DNL Commerce] 儲存 [!DNL Walmart Marketplace]。
+在您的 [!DNL Commerce] 實例，在Channel Manager中建立銷售渠道並配置憑據以連接 [!DNL Channel Manager] 至 [!DNL Walmart Marketplace]。
 
->[!NOTE]
->
->Channel Manager要求在Walmart帳戶和Commerce商店視圖之間進行一對一連接。 無法將同一商店視圖連接到多個沃爾瑪帳戶。
-
-1. [建立銷售渠道](#create-the-sales-channel) 通過為產品清單選擇Commerce商店。
+1. [建立銷售渠道](#create-the-sales-channel) 選擇 [!DNL Commerce] 產品清單的儲存。
 
 1. [將通道連接到 [!DNL Walmart Marketplace] 通過 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace)。
 
 1. [完成銷售渠道設定](#complete-store-setup) 管理清單、庫存、定價和訂單 [!DNL Walmart Marketplace] 產品分類。
+
+>[!NOTE]
+>
+>渠道經理要求在Walmart帳戶和Walmart帳戶之間建立一對一的連接 [!DNL Commerce] 儲存視圖。 無法將同一商店視圖連接到多個沃爾瑪帳戶。
 
 ## 建立銷售渠道
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 
    - 選擇 **[!UICONTROL Add Credentials]**。
 
-   - 選擇 [!DNL Commerce] 儲存視圖以連接到市場。
+   - 選擇 [!DNL Commerce] 提供要在市場上銷售的產品的商店視圖。
 
-      ![配置Commerce和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![配置之間的連接 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - 輸入唯一 **[!UICONTROL store name]**。
 
-   - 選擇 **[!UICONTROL Adobe Commerce site]** 清單。
+   - 選擇 **[!UICONTROL Adobe [!DNL Commerce] site]** 用於產品清單和訂單處理。
 
-   - 添加 **[!UICONTROL email address]** 接收與服務通知相關的 [!DNL Channel Manager]。
+   - 接收與 [!DNL Channel Manager]，添加 **[!UICONTROL email address]**。
 
 1. 將通道連接到 [!DNL Walmart Marketplace]。
 

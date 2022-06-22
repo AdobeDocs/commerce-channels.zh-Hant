@@ -1,10 +1,10 @@
 ---
 title: 庫存和價格更新
-description: '"[!DNL Channel Manager] 同步Commerce商店和 [!DNL Walmart Marketplace] 以便您能夠從Commerce Admin管理您的銷售渠道操作'''
+description: '"[!DNL Channel Manager] 同步庫存和價格更新 [!DNL Commerce] 儲存 [!DNL Walmart Marketplace] 以便您可以從 [!DNL Commerce] 管理員'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->之後 [!DNL Channel Manager] 已安裝並配置，所有庫存、價格和訂單更新都將自動同步。 如果您已經直接或通過其他整合在沃爾瑪市場銷售，請確保禁用以前的整合，並驗證Commerce店面的庫存水準和價格是否準確，以及是否與 [!DNL Walmart Marketplace] 在連接之前 [!DNL Channel Manager] 去現場集市商店。
+>之後 [!DNL Channel Manager] 已安裝並配置，所有庫存、價格和訂單更新都將自動同步。 如果已在Walmart Marketplace上銷售，請確保禁用更新產品和訂單資料的任何其他整合。 然後，驗證 [!DNL Commerce] 儲存精確，且與中的資料匹配 [!DNL Walmart Marketplace] 在連接之前 [!DNL Channel Manager] 去現場集市商店。
 
 
 ## 庫存更新
