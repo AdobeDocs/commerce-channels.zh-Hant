@@ -4,9 +4,9 @@ description: '''有關 [!DNL Channel Manager] 為Adobe Commerce和Magento Open S
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 366edd4b4d3946c26c92b1367c7b68c9513edff8
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,5 @@ ht-degree: 0%
 
 從以下資源獲取有關Adobe Commerce和Magento Open Source的更多資訊和幫助：
 
-* [幫助中心](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;} — 請參閱 [!DNL Amazon Sales Channel] — 相關故障排除文章。
+* [幫助中心](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;
 * [支援票證](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;} — 提交票證以接收其他幫助。
