@@ -1,166 +1,164 @@
 ---
-title: 將清單連接到沃爾瑪
+title: 將上市業務連接到沃爾瑪
 description: '''連接清單 [!DNL Commerce] 產品 [!DNL Walmart Marketplace]開始賣。'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
 
-# 將清單連接到沃爾瑪
+# 將上市業務連接到沃爾瑪
 
-和其他市場一樣， [!DNL Walmart] 允許第三方銷售者列出他人銷售的商品。
+和其他市場一樣， [!DNL Walmart] 允許第三方銷售者列出由他人銷售的項目。
 
-- [!DNL Walmart Marketplace] 使用產品標識符（如UPC和GTIN）將產品與現有產品匹配 [!DNL Walmart Marketplace] 清單。
+- [!DNL Walmart Marketplace] 使用產品識別碼（如UPC和GTIN），將產品與現有 [!DNL Walmart Marketplace] 清單。
 
-- 對於匹配的產品，Walmart Marketplace會列出更新以包括 [!DNL Commerce] 將產品與 [!DNL Channel Manager]。
+- 對於匹配的產品，沃爾瑪市場將更新列入 [!DNL Commerce] 產品優惠方案，當您從 [!DNL Channel Manager].
 
-- 通常，價格最低的產品在 [!DNL Walmart Marketplace] 上市，但評論等其它因素也會影響位置。
+- 通常，價格最低的產品選件會先出現在 [!DNL Walmart Marketplace] 清單，但評論等其他因素也會影響版位。
 
 ## 匹配產品
 
-當您匹配產品時，Channel Manager會將產品資料發送到 [!DNL Walmart Marketplace] 搜索具有與映射的屬性值匹配的現有清單 [!DNL Commerce] 產品屬性。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的商店頻道。
+當您符合產品時，管道管理員會將產品資料傳送至 [!DNL Walmart Marketplace] 搜索具有與映射的屬性值的現有清單 [!DNL Commerce] 產品屬性。 符合條件由 [屬性映射配置](map-catalog-attributes.md) 的通道。
 
-如果找到匹配項，則更新現有產品清單以添加您的優惠。
+如果找到相符項目，則會更新現有的產品清單以新增優惠方案。
 
-### 先決條件
+### 必要條件
 
-在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求並配置產品屬性設定。 請參閱 [映射目錄屬性](map-catalog-attributes.md)。
+在匹配產品之前，請驗證您的產品目錄屬性值是否滿足Walmart要求，並配置產品屬性設定。 請參閱 [映射目錄屬性](map-catalog-attributes.md).
 
-#### 選擇並匹配產品
+#### 選取並比對產品
 
 1. 開啟連接的銷售渠道。
 
-1. 從 **[!UICONTROL Listings]**，選擇要匹配的產品 *[!UICONTROL Draft]* 狀態。
+1. 從 **[!UICONTROL Listings]**，請選取要比對的產品 *[!UICONTROL Draft]* 狀態。
 
    ![從清單中選擇產品併發送以進行匹配](assets/products-in-marketplace-sales-channel.png)
 
-1. 選擇 **[!UICONTROL Match Products]**。
+1. 選擇 **[!UICONTROL Match Products]**.
 
-   一條消息指示發送以進行匹配的產品數。
+   訊息會指出要比對的傳送產品數量。
 
-   ![將產品發送到連接的銷售渠道](assets/products-submitted-for-matching.png)
-
-   所選產品的狀態更改為 [!UICONTROL *處理*] 直到匹配操作完成。 沃爾瑪市場完成比賽可能需要30分鐘。
+   所選產品的狀態將更改為 [!UICONTROL *處理*] 直到匹配操作完成。 沃爾瑪市場完成比賽操作可能需要30分鐘。
 
 ### 檢查匹配狀態
 
-匹配完成後，選擇 **[!UICONTROL Refresh products]** 查看當前產品狀態。 *匹配* 或 *錯誤*。
+比對完成後，選取 **[!UICONTROL Refresh products]** 查看當前產品狀態。 *符合* 或 *錯誤*.
 
-- **[!UICONTROL Match]** 表示產品已成功匹配。 您的產品服務與沃爾瑪市場現有清單有關。 如果 [Marketplace商店不活動](walmart-requirements.md#walmart-marketplace-store-status)。 *[!UICONTROL Staged for Match]* 中 *[!UICONTROL Status detail]* 的雙曲餘切值。 在 [!DNL Walmart Marketplace] 儲存已激活。
+- **[!UICONTROL Match]** 表示產品已成功匹配。 你的產品報價與沃爾瑪Marketplace的一份上市交易有關。 若 [市場商店不活動](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 會顯示在 *[!UICONTROL Status detail]* 欄。 當 [!DNL Walmart Marketplace] 儲存已啟用。
 
-- **[!UICONTROL Error]** 指示匹配操作由於以下問題之一而失敗：
+- **[!UICONTROL Error]** 表示匹配操作由於以下問題之一而失敗：
 
-   - [!DNL Channel Manager] 由於連接問題，無法發送匹配。
+   - [!DNL Channel Manager] 由於連線問題，無法傳送以進行比對。
 
-   - 找不到匹配項。
+   - 未找到匹配項。
 
-   - 找到匹配，但無法連接清單，因為 [!DNL Walmart Marketplace] 返回了錯誤代碼。 查看 **[!UICONTROL Error Description]** 的子菜單。
+   - 找到匹配項，但無法連接清單，因為 [!DNL Walmart Marketplace] 傳回錯誤碼。 請參閱 **[!UICONTROL Error Description]** 以取得問題的相關資訊。
 
-### 查看沃爾瑪上市
+### 查看沃爾瑪上市情況
 
-匹配產品後，複查更新的產品清單並驗證產品詳細資訊、價格和庫存數量 [[!UICONTROL Walmart Marketplace Seller Account Items] 儀表板](https://seller.walmart.com/items-and-inventory/manage-items) 查看更新的產品。
+匹配產品後，複查更新的產品清單，並驗證產品詳細資訊、價格和庫存數量， [[!UICONTROL Walmart Marketplace Seller Account Items] 儀表板](https://seller.walmart.com/items-and-inventory/manage-items) 檢閱更新的產品。
 
-### 排除產品匹配錯誤
+### 疑難排解產品比對錯誤
 
-如果產品匹配操作失敗並出現錯誤，則錯誤消息將顯示在 *[!UICONTROL Status detail]* 列 [!UICONTROL Channel Manager] 產品清單。
+如果產品比對作業失敗並出現錯誤，錯誤訊息會顯示在 *[!UICONTROL Status detail]* 欄中 [!UICONTROL Channel Manager] 產品清單。
 
-返回的常見錯誤格式不正確或缺少必需的屬性。
+傳回的常見錯誤是格式錯誤的產品ID值或缺少必要屬性。
 
-#### 修復產品ID值
+#### 修正產品ID值
 
-| 類型 | 說明 | 示例 |
+| 類型 | 說明 | 範例 |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| UPC | GTIN-12,12位數，包括校驗位。 </br></br>如果UPC少於12位數（如8位的UPC-E），則添加尾零以滿足要求。 | 更改自 `45678912345` 至 `045678912345` |
-| 格丁 | GTIN-14,14位數，包括校驗位。 </br></br>如果GTIN少於14位，請添加前導零 </br>才能滿足要求。 | 更改 `456789123456` 至 `0045678912345` |
-| EAN | GTIN-13,13位數，包括校驗位。 </br></br>如果EAN少於13位，請添加行距 </br>零以滿足要求。 | 更改自 `4567891234` 至 `0004567891234` |
+| UPC | GTIN-12,12位數字，包括支票數字。 </br></br>如果UPC的位數少於12位數（如8位數的UPC-E），請添加結尾零以滿足要求。 | 變更自 `45678912345` to `045678912345` |
+| GTIN | GTIN-14,14位數字，包括支票數字。 </br></br>如果GTIN的位數少於14位數，請加上前導零 </br>才能滿足要求。 | 變更 `456789123456` to `0045678912345` |
+| EAN | GTIN-13,13位數字，包括支票數字。 </br></br>如果EAN的位數少於13位，請添加行距 </br>零以滿足要求。 | 變更自 `4567891234` to `0004567891234` |
 
-有關Walmart Marketplace錯誤代碼的詳細資訊，請參閱 [沃爾瑪賣家幫助](https://sellerhelp.walmart.com/s/guide?article=000005844)。
+有關Walmart Marketplace錯誤代碼的詳細資訊，請參閱 [沃爾瑪賣家幫助](https://sellerhelp.walmart.com/s/guide?article=000005844).
 
-## 上載新產品清單
+## 上傳新產品清單
 
-對於在沃爾瑪市場上沒有匹配項的產品，請使用沃爾瑪產品類別Excel模板批量上傳產品清單。 使用從您的 [!DNL Commerce] 實例。
+對於在Walmart Marketplace上沒有匹配的產品，使用Walmart產品類別Excel模板批量上載產品清單。 您使用從您的 [!DNL Commerce] 例項。
 
-對於新產品清單，請檢查您的產品目錄以確保您計畫在沃爾瑪市場銷售的產品具有沃爾瑪市場產品清單所需的屬性。
+對於新產品清單，請檢查您的產品目錄，以確保您計畫在沃爾瑪市場銷售的產品具有沃爾瑪市場產品清單所需的屬性。
 
 **Walmart Marketplace清單 — 屬性要求**
 
-| **屬性** | **需求級別** |
+| **屬性** | **需求層** |
 |--------------------------|-----------------------|
-| SKU | 必需 |
-| 產品名稱 | 必需 |
-| 產品ID類型 | 必需 |
-| 產品ID | 必需 |
-| 品牌 | 必需 |
-| 簡短描述 | 必需 |
-| 銷售價格 | 必需 |
-| 站點說明 | 必需 |
-| 主影像URL | 必需 |
-| 裝運重量 | 必需 |
-| 關鍵功能 | 推薦 |
-| 型號 | 推薦 |
-| 製造商名稱 | 推薦 |
-| 製造商部件號 | 推薦 |
-| 大小 | 推薦 |
-| 顏色 | 推薦 |
+| SKU | 必填 |
+| 產品名稱 | 必填 |
+| 產品ID類型 | 必填 |
+| 產品ID | 必填 |
+| 品牌 | 必填 |
+| 簡短說明 | 必填 |
+| 售價 | 必填 |
+| 網站說明 | 必填 |
+| 主影像URL | 必填 |
+| 裝運重量 | 必填 |
+| 主要功能 | 建議 |
+| 型號 | 建議 |
+| 製造商名稱 | 建議 |
+| 製造商部件號 | 建議 |
+| 大小 | 建議 |
+| 顏色 | 建議 |
 | 主影像URL | 可選 |
 | 其他影像URL | 可選 |
 | 製造商 | 可選 |
 
-### 先決條件
+### 必要條件
 
-- 驗證您是否遇到 [沃爾瑪要求](walmart-requirements.md)。
+- 確認您符合 [沃爾瑪要求](walmart-requirements.md).
 
-- 在 [!DNL Commerce] 產品目錄，驗證要在Walmart Marketplace上列出的產品的目錄配置是否具有所有必需的屬性，並符合Walmart Marketplace內容指南。
+- 在 [!DNL Commerce] 產品目錄，驗證要在Walmart Marketplace上列出的產品的目錄配置是否具有所有必需屬性，並符合Walmart Marketplace內容指南。
 
 - 驗證cron作業是否正在運行以完成導出操作。
 
-   - 有關內部實例，請參見 [配置並運行cron](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html)。
+   - 如需內部部署例項，請參閱 [設定並執行cron](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
 
-   - 有關Adobe雲基礎架構，請參見 [設定克隆作業](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html)。
+   - 有關Adobe雲基礎架構，請參閱 [設定cron作業](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
 
-### 建立要上載的產品資料檔案
+### 建立要上傳的產品資料檔案
 
-1. 從 [沃爾瑪賣家帳戶](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller)，從沃爾瑪賣家中心下載產品清單模板。
+1. 從 [沃爾瑪賣家賬戶](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller)，從沃爾瑪銷售中心下載產品清單模板。
 
-   - 在「產品目錄項」頁中，選擇 **[!UICONTROL Add Items]**。 然後，選擇 **[!UICONTROL Add items in bulk]**。
+   - 從「產品目錄項目」頁中，選擇 **[!UICONTROL Add Items]**. 然後，選取 **[!UICONTROL Add items in bulk]**.
 
-      ![在Walmart Marketplace物料配置中添加批量選項中的物料](assets/walmart-seller-account-add-items-bulk.png)
+      ![在Walmart Marketplace項目配置中以批量方式添加項目](assets/walmart-seller-account-add-items-bulk.png)
 
-   - 在下載頁面上，選擇 **[!UICONTROL Full Setup]**。 然後，選擇項目類別並下載類別模板。
+   - 在下載頁面上，選取 **[!UICONTROL Full Setup]**. 然後，選擇項目類別並下載類別模板。
 
-      ![下載Walmart Marketplace物料配置中的類別模板選項](assets/walmart-seller-account-full-setup-download.png)
+      ![在Walmart Marketplace項配置中下載類別模板選項](assets/walmart-seller-account-full-setup-download.png)
 
-   - 驗證模板是否包含產品清單的必需屬性和推薦屬性。
+   - 確認範本包含產品清單的必要和建議屬性。
 
-1. 從 [!DNL Commerce] 管理員，選擇要從Adobe導出的產品資料 [!DNL Commerce] 的子菜單。
+1. 從 [!DNL Commerce] 管理員，選取要從您的Adobe匯出的產品資料 [!DNL Commerce] 頁簽。
 
-   - 在管理員中，選擇 [!UICONTROL **系統** >資料傳輸> **導出**]。
+   - 在管理員中，選取 [!UICONTROL **系統** >資料傳輸> **匯出**].
 
-   - 在 [!UICONTROL Export] 的 [!UICONTROL Entity Type] 欄位，選擇 [!UICONTROL **產品**]。
+   - 在 [!UICONTROL Export] 頁面 [!UICONTROL Entity Type] 欄位，選擇 [!UICONTROL **產品**].
 
-   - 在 [!UICONTROL Entity Attributes] 中，配置產品資料導出的選擇標準。
-   ![導出產品資料頁 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
+   - 在 [!UICONTROL Entity Attributes] 表格，配置產品資料導出的選擇標準。
+   ![匯出產品資料頁面，位於 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   使用篩選器來選擇和配置適用於您銷售的產品類別的屬性值。 確保包括沃爾瑪的必需屬性和推薦屬性(請參閱 [導出資料](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 有關詳細說明的使用手冊。)
+   使用篩選器來選取和設定適用於您銷售的產品類別的屬性值。 確保包括沃爾瑪的必需屬性和推薦屬性。 (請參閱 [匯出資料](https://docs.magento.com/user-guide/system/data-export.html) 在Adobe [!DNL Commerce] 使用手冊，以取得詳細指示。)
 
-   要從導出中忽略屬性，請選擇 [!UICONTROL **排除**] 的子菜單。
+   若要從匯出中忽略屬性，請選取 [!UICONTROL **排除**] 核取方塊。
 
-1. 滾動到屬性表的末尾，然後選擇 [!UICONTROL **繼續**] 中設定網格顏色。
+1. 滾動到屬性表的末尾並選擇 [!UICONTROL **繼續**] 以開始資料匯出。
 
-   CSV導出檔案通過使用cron作業的消息隊列進行處理並保存在 `var/export/folder`。 (請參閱 [管理消息隊列](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) 的 *《 Commerce Developer Guide》*。)
+   CSV匯出檔案會透過使用cron工作的訊息佇列處理，並儲存在 `var/export/folder`. (請參閱 [管理消息隊列](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) 在 *Commerce開發人員指南*.)
 
 1. 開啟Walmart Marketplace產品類別的Excel模板，並使用Excel宏功能將導出的產品資料合併到Excel模板中。
 
-1. 使用導出的產品資料上載Excel檔案。
+1. 上傳包含匯出產品資料的Excel檔案。
 
-   - 返回到中的「產品目錄項」頁 [沃爾瑪賣家中心](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller)。
+   - 返回產品目錄項目頁面，位於 [沃爾瑪賣家中心](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller).
 
-   - 選擇 [!UICONTROL **添加項目** > **批量添加項目**]。
-   - 將已完成的電子錶格拖到「上載」部分。
-   - 選擇 [!UICONTROL **提交**]。
-   - 選擇&#x200B;[!UICONTROL  **活動源**] 的子菜單。
+   - 選擇 [!UICONTROL **新增項目** > **大量新增項目**].
+   - 將完成的試算表拖曳至「上傳」區段。
+   - 選擇 [!UICONTROL **提交**].
+   - 選取&#x200B;[!UICONTROL  **活動摘要**] 查看進度。
 
-有關完整說明，請參見 [使用完整項目規範批量添加項目](https://sellerhelp.walmart.com/s/guide?article=000007680) 的 [!DNL *沃爾瑪賣家幫助*]。
+如需完整指示，請參閱 [使用完整項目規格批量添加項目](https://sellerhelp.walmart.com/s/guide?article=000007680) 在 [!DNL *沃爾瑪賣家幫助*].
