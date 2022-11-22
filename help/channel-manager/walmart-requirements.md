@@ -2,9 +2,9 @@
 title: '[!DNL Walmart] 要求'
 description: '''確認您擁有所需的 [!DNL Walmart Marketplace]與Channel Manager整合的資訊和資源。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
+source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] 需要下列資源和資訊才能設定 [!DNL Commerce] 銷售管道 [!DNL Walmart Marketplace.]
 
-* 批准銷售 [!DNL Walmart] 登錄註冊的Marketplace賣家帳戶的憑證
+* A [!DNL Walmart] 賣家帳戶
 
 * 將Adobe Commerce或Magento Open Source連線至的API金鑰 [!DNL Walmart Marketplace]
 
@@ -21,8 +21,7 @@ ht-degree: 0%
 
 ## 設定 [!DNL Walmart Seller] 帳戶
 
-1. [提交您的沃爾瑪銷售商申請](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. 取得核准後 [!DNL Walmart], [設定你的沃爾瑪賣家賬戶](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+前往 [!DNL Walmart Seller Center] 設定 [沃爾瑪賣家賬戶](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## 產生 [!DNL Walmart Marketplace] 生產API金鑰
 
