@@ -1,27 +1,27 @@
 ---
-source-git-commit: 0a1505a47bfd7912c559cefb972e54cbd0bfd72e
+source-git-commit: 139bfba8155461ddf4471793c13e0b87f4a0b263
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 6%
 
 ---
-# Adobe商務使用者檔案
+# Adobe Commerce使用者檔案
 
 我們歡迎來自我們的社群，以及來自檔案團隊以外的Adobe員工貢獻心力。
 
 ## Adobe開放原始碼行為准則
 
-本項目已採用[Adobe開放原始碼行為准則](code-of-conduct.md)或[.NET Foundation行為准則](https://dotnetfoundation.org/code-of-conduct)。 如需詳細資訊，請參閱[貢獻](contributing.md)文章。
+本專案已採用 [Adobe 開放原始碼管理辦法](code-of-conduct.md)或 [.NET Foundation 管理辦法](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
 
 ## 關於您對Adobe內容的貢獻
 
-請參閱[Adobe檔案貢獻者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe檔案貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 您的投稿方式取決於您的身分，以及您要投稿的變更類型：
 
 ### 微幅變更
 
-如果您是出於善意而投稿進行微幅更新，請前往文章，按一下文章中的&#x200B;**Edit**&#x200B;連結，該連結會前往文章的GitHub來源。 然後，只要使用GitHub UI進行更新即可。 如需詳細資訊，請參閱一般[Adobe檔案貢獻者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) 。
+如果您出於好意要貢獻微幅更新，請造訪文章，然後按一下 **編輯** 文章中的連結，會前往文章的GitHub來源。 然後，只要使用GitHub UI進行更新即可。 請參閱一般 [Adobe檔案貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以取得更多資訊。
 
 您在此存放庫中針對檔案和程式碼範例提交的微幅更正或釐清，皆受Adobe使用條款所涵蓋。
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### 來自Adobe員工的重大更改
 
-若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用`https://git.corp.adobe.com/AdobeDocs`上的私人存放庫。
+若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用的私人存放庫，位於 `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群投稿人可使用GitHub UI進行基本編輯，或取用存放庫來進行重大投稿。
 
-如需詳細資訊，請參閱[Adobe檔案貢獻者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe檔案貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以取得詳細資訊。
 
 ## 如何使用Markdown來設定主題格式
 
@@ -56,5 +56,5 @@ If you submit a pull request with significant changes to documentation and code 
 
 在公開存放庫中，自動化標籤會指派給提取請求，以協助我們管理提取請求工作流程，並協助您了解提取請求的執行狀況：
 
-* **變更已傳送給作者**:提交人已收到擱置提取請求的通知。
+* **傳送至作者的變更**:提交人已收到擱置提取請求的通知。
 * **準備合併**:準備由我們的提取請求審核團隊審核。
