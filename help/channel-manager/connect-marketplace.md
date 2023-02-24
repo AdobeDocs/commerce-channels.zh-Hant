@@ -2,9 +2,9 @@
 title: 'Connect [!DNL Channel Manager] to [!DNL Walmart Marketplace]'
 description: '"將Commerce商店視圖連接到 [!DNL Walmart Marketplace] 建立銷售渠道，以管理Walmart Marketplace銷售的Commerce產品清單、庫存、價格和訂單。」'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,10 @@ ht-degree: 0%
 
 ### 疑難排解連線問題
 
-如果連線至 [!DNL Walmart] 失敗，請參閱 [Walmart Marketplace常見問題集](https://developer.walmart.com/faq/us/faq-auth/){target=&quot;_blank&quot;}以取得疑難排解提示。
+如果連線至 [!DNL Walmart] 失敗，請參閱 [Walmart Marketplace常見問題集](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} 疑難排解提示。
 
 - 從 [!DNL Walmart Developer Portal]，確認您已複製的生產API金鑰憑證正確無誤 [!UICONTROL Adobe Inc.]
 
 - 驗證 [!UICONTROL Walmart Adobe API key] 具有正確的權限。 請參閱 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- 確認 [!DNL Walmart API] 服務可從 [Walmart API狀態頁](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}。
+- 確認 [!DNL Walmart API] 服務可從 [Walmart API狀態頁](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

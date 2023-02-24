@@ -1,15 +1,15 @@
 ---
-title: 完成通道設定
+title: 完成管道設定
 description: '建立銷售渠道後， [!DNL Commerce] 將檢視儲存至 [!DNL Walmart Marketplace]，開啟通道並完成通道設定。 然後，啟動添加產品、管理清單、庫存、定價和訂單的流程 [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# 完成銷售渠道設定
+# 完成Sales Channel設定
 
 連線後 [!DNL Commerce] 儲存至 [!DNL Walmart Marketplace]，從完成商店設定 [!DNL Channel Manager] 首頁。
 

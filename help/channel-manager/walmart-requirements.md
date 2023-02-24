@@ -2,7 +2,7 @@
 title: '[!DNL Walmart] 要求'
 description: '''確認您擁有所需的 [!DNL Walmart Marketplace]與Channel Manager整合的資訊和資源。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%

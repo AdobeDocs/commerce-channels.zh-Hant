@@ -2,7 +2,7 @@
 title: 映射目錄屬性
 description: '映射匹配的屬性[DNL! Commerce]產品轉換至現有 [!DNL Walmart Marketplace] 清單和同步資料 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -41,5 +41,3 @@ ht-degree: 0%
       ![對應產品符合條件的屬性](assets/products-map-attributes-for-match.png)
 
    - 選擇 **[!UICONTROL Save]**.
-
-

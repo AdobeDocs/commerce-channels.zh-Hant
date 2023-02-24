@@ -1,15 +1,15 @@
 ---
-title: '查看和管理訂單 [!DNL Channel Manager]'
+title: '查看和管理訂單來源 [!DNL Channel Manager]'
 description: '''檢視和管理 [!DNL Walmart Marketplace] 訂購 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# 查看和跟蹤訂單 [!DNL Channel Manager]
+# 查看和跟蹤訂單來源 [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] 訂購資料 [!DNL Commerce] 產品會自動同步至 [!DNL Channel Manager] after [!DNL Walmart] 處理訂單。
 
@@ -175,6 +175,3 @@ ht-degree: 0%
    ![訂單詳細資訊訂購物料狀態歷史記錄 [!DNL Walmart Marketplace] 訂購](assets/order-detail-status-history.png)
 
 通過選擇 [!UICONTROL Invoice] 和 [!UICONTROL Credit Memo] 選項。 您也可以直接從 [[!UICONTROL Returns]](return-refund-orders.md) 控制面板。
-
-
-

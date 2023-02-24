@@ -2,7 +2,7 @@
 user-guide-title: '[!DNL Channel Manager] 指南'
 user-guide-description: 『將Adobe Commerce或Magento Open Source與 [!DNL Walmart Marketplace] 賣家中心賬戶。」
 breadcrumb-title: '[!DNL Channel Manager Guide]'
-source-git-commit: 8cfc006e295d12fce9edafed0806c2899368ef64
+source-git-commit: dc84f36fd7054bbd11a7492574bb662eaf097c4a
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
    - [管理Walmart連接](manage-wmt-connection.md)
 - 列出產品 {#list-products}
    - [管理清單](manage-listings.md)
-   - [將產品新增至Channel Store](add-products-to-channel-store.md)
+   - [將產品新增至管道商店](add-products-to-channel-store.md)
    - [將上市業務連接到沃爾瑪](connect-listings-to-marketplace.md)
 - 庫存和定價 {#inventory-pricing}
    - [更新庫存和定價](inventory-and-price-updates.md)

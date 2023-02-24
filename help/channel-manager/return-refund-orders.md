@@ -1,14 +1,15 @@
 ---
 title: 退貨訂單和退款訂單
-description: 「關於對從Analytics收到的退回請求發出全額或部分退款的指示 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager] 針對Adobe Commerce和Magento Open Source。」
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: 關於對從以下網站收到的返還請求發出全額或部分退款的指示 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager] Adobe Commerce和Magento Open Source。
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
 
 ---
 
-# 退貨和退貨訂單
+# 退貨訂單和退款訂單
 
 當採購員請求退貨時， [!DNL Walmart Marketplace]，沃爾瑪會建立回訪請求。 [!DNL Channel Manager] 監控這些請求的市集管道，並自動將傳回請求資訊同步至管道管理員。
 
@@ -189,5 +190,3 @@ ht-degree: 0%
 從接收返回資訊時，可能會發生錯誤 [!DNL Walmart Marketplace]，或 [!DNL Channel Manager] 同步狀態更新 [!DNL Commerce] to [!DNL Walmart Marketplace].
 
 如果返回更新的同步操作失敗，則 [!DNL Channel Manager] 傳回控制面板顯示 *[!UICONTROL Error]* 返回條目的狀態。 為確保退貨和退款資訊準確反映在Walmart Marketplace帳戶中，請手動更新您 [!DNL Walmart Marketplace] 儲存。
-
-

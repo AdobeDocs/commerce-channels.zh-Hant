@@ -4,9 +4,9 @@ description: '''將您的執行個體連結至 [!DNL Channel Manager] 服務，�
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 738c48b8b8075e7c8bbf883c58cc8de39bca355c
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 - **[Walmart Marketplace要求](walmart-requirements.md)** — 確認您符合與Channel Manager整合的要求，包括 [設定賣家帳戶](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) 並產生API金鑰以啟用整合。
 
-- **商務帳戶資訊** — 下載和安裝 [!DNL Channel Manager] 要求a [商務帳戶](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}。 您需要帳戶ID和憑證，且擁有 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 例項。
+- **商務帳戶資訊** — 下載和安裝 [!DNL Channel Manager] 要求a [商務帳戶](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. 您需要帳戶ID和憑證，且擁有 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 例項。
 
    - **影像ID**-[登入](https://account.magento.com/customer/account/login/) 到 [!DNL Commerce] 帳戶以從 **[!UICONTROL My Account - Magento settings]**.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
       請參閱 [管理使用者存取](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **使用撰寫器和的體驗[!DNL Commerce CLI]** — 請參閱 [一般CLI安裝](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}}，以了解如何使用這些工具在上安裝和管理擴充功能 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
+- **使用撰寫器和的體驗[!DNL Commerce CLI]** — 請參閱 [一般CLI安裝](https://devdocs.magento.com/extensions/install/){target="_blank"} 有關使用這些工具來安裝和管理擴展的資訊，請參見 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
 
 - **[[!DNL Amazon Sales Channel] 4.4.2版或更新版本](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)** — 如果已激活 [!DNL Amazon Sales Channel] 為 [!DNL Commerce] 網站，確認您的 [!DNL Commerce] 安裝之前，platform已安裝4.4.2版或更新版本 [!DNL Channel Manager].
 
