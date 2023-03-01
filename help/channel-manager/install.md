@@ -2,9 +2,9 @@
 title: '安裝 [!DNL Channel Manager]'
 description: '''安裝[!DNL Channel Manager] 擴充功能。'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
+source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Channel Manager的安裝說明取決於部署在本地還是雲基礎架構上�
 
 >[!NOTE]
 >
->如需安裝協助 [!DNL Commerce] 使用CLI的軟體，請參見 [一般CLI安裝](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}。
+>如需安裝協助 [!DNL Commerce] 使用CLI的軟體，請參見 [一般CLI安裝](https://devdocs.magento.com/extensions/install/){target="_blank"}.
 
 ### 安裝在本地實例上
 
 請依照下列指示進行安裝 [!DNL Channel Manager] 在Adobe Commerce上，並Magento Open Source至內部執行個體。
 
-1. 登入 [!DNL Commerce] 伺服器as a [權限使用者](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;}要寫入 [!DNL Commerce] 檔案系統。
+1. 登入 [!DNL Commerce] 伺服器as a [權限使用者](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} 寫給 [!DNL Commerce] 檔案系統。
 
-1. 將您的網站放入 [維護模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target=&quot;_blank&quot;}。
+1. 將您的網站放入 [維護模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
 
    ```bash
    $ bin/magento maintenance:enable
@@ -67,6 +67,7 @@ Channel Manager的安裝說明取決於部署在本地還是雲基礎架構上�
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
+
       範例回應：
 
       ```terminal
@@ -107,13 +108,13 @@ Channel Manager的安裝說明取決於部署在本地還是雲基礎架構上�
 
 將擴充功能新增至雲端例項時，請在開發分支中工作。
 
-如需分支的使用說明，請參閱 [開始建立分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)Adobe Commerce開發人員檔案中的{target=&quot;_blank&quot;}。
+如需分支的使用說明，請參閱 [開始建立分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} 在Adobe Commerce開發人員檔案中。
 
-安裝期間，擴充功能名稱(`magento\channel-manager`)會自動插入 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;}檔案。 您不需要直接編輯檔案。
+安裝期間，擴充功能名稱(`magento\channel-manager`)會自動插入 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} 檔案。 您不需要直接編輯檔案。
 
 1. 在本機工作站上，變更為雲端專案根目錄。
 
-1. 建立或簽出開發 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}。
+1. 建立或簽出開發 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
 
 1. 使用撰寫器名稱，將擴充功能新增至 `require` 區段 `composer.json` 檔案。
 
@@ -136,7 +137,7 @@ Channel Manager的安裝說明取決於部署在本地還是雲基礎架構上�
    ```
 
    ```bash
-   $ git commit -m “Install channel manager extension” 
+   $ git commit -m "Install channel manager extension" 
    ```
 
    ```bash
@@ -162,7 +163,7 @@ Module is enabled
 
    >[!NOTE]
    >
-   >如需將Channel Manager更新至新版本的指示，請參閱 [升級模組和擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target=&quot;_blank&quot;}。
+   >如需將Channel Manager更新至新版本的指示，請參閱 [升級模組和擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
 
 
 ## 疑難排解
@@ -171,7 +172,7 @@ Module is enabled
 
 ### 撰寫器密鑰不正確
 
-若 [存取金鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html)用於驗證到撰寫器儲存庫的{target=&quot;_blank&quot;}無效，或未連結到 [!DNL MAGE ID] 以前註冊 [!DNL Channel Manager] 服務時，會顯示下列錯誤。
+若 [存取金鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用於驗證到撰寫器儲存庫的無效，或未連結到 [!DNL MAGE ID] 以前註冊 [!DNL Channel Manager] 服務時，會顯示下列錯誤。
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -191,7 +192,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. 確認auth.json中的憑證相符 [與MAGE ID關聯的鍵](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;}用於註冊Channel Manager服務。
+1. 確認auth.json中的憑證相符 [與MAGE ID關聯的鍵](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用於註冊Channel Manager服務。
 
 ### PHP記憶體不足
 
@@ -203,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 使用以下任一方法解決記憶體問題：
 
-- [提高PHP的記憶體限制](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit)環境中的{target=&quot;_blank&quot;} `php.ini` 檔案。 此外，確認商務例項具有 [建議值](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target=&quot;_blank&quot;}以取得其他PHP設定。
+- [提高PHP的記憶體限制](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} 的其他PHP設定。
 
 - 從命令行指定記憶體限制。
 
@@ -219,7 +220,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 ### 缺少視圖
 
-如果您收到關於遺失的錯誤 `process_catalog_exporter_view` 在Channel Manager安裝期間，嘗試 [刷新索引器](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}。
+如果您收到關於遺失的錯誤 `process_catalog_exporter_view` 在Channel Manager安裝期間，嘗試 [刷新索引器](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
 
 ```bash
 php bin/magento indexer:refresh
@@ -227,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### 雲部署錯誤
 
-如需將擴充功能部署至雲端的問題，請參閱 [擴充功能部署失敗](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}。
+如需將擴充功能部署至雲端的問題，請參閱 [擴充功能部署失敗](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
