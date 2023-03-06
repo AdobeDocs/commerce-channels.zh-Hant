@@ -3,14 +3,14 @@ title: 板載AmazonSales Channel
 description: 了解預先設定工作、入門步驟，以及Amazon如何與Adobe Commerce和Magento Open Source中的AmazonSales Channel搭配使用。
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
-# 板載Amazon銷售渠道
+# 板載AmazonSales Channel
 
 本節說明預先設定工作、入門步驟，以及Amazon如何與Adobe Commerce和Magento Open Source中的Amazon銷售管道搭配運作的一些重要概念。
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->A [專業賣家帳戶](https://sell.amazon.com/){target=&quot;_blank&quot;} [!DNL Amazon Seller Central] 在北美或歐洲（英國）地區是必需的。 Amazon每月收取訂購費和銷售費。 請參閱 [Amazon:選擇您的銷售計畫](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}。<br><br>
+>A [專業賣家帳戶](https://sell.amazon.com/){target="_blank"} on [!DNL Amazon Seller Central] in the North America or European (UK) region is required. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan](https://sell.amazon.com/pricing.html){target="_blank"}.<br><br>
 >上線很簡單：建立商店，然後將其連結到您的 [!DNL Amazon Seller Central] 帳戶。
 >連線您的商店時，Amazon管道會嘗試匯入您的Amazon清單，並根據您的 [屬性對應](./attributes-view.md).<br><br>
 >您的Amazon銷售管道設定會影響您的Amazon清單。 您的初始清單、定價和產品設定是預設值。 您可以修改 [儲存設定](./ob-store-review.md) （清單、定價、訂單和報告） [!DNL Amazon Seller Central] 帳戶。

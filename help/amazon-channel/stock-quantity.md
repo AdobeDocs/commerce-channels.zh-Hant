@@ -3,9 +3,9 @@ title: 庫存/數量
 description: 要控制產品數量詳細資訊從您的商務商店同步到您的 [!DNL Amazon Seller Central] 帳戶，更新「庫存/數量」設定。
 redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 這些設定可用來同步來自您 [!DNL Commerce] 店面數量 [!DNL Amazon Seller Central] 帳戶。 此工具功能強大，可向購買者顯示緊急狀況，同時讓詳細目錄保持井然有序，以用於其他廣告。 例如，某些商戶的倉庫中可能有150件特定SKU的物料，並想要確定Amazon購物者可以購買其所有庫存。 其他商家可能希望一次只列出一個項目，以給最終用戶造成一種稀缺感。 在此情況下，請設定 *[!UICONTROL Maximum Listed Quantity]* to `1`.
 
-數量是地區屬性，並以 **[!UICONTROL Amazon Marketplace Country]** 設定期間定義 [商店整合](./store-integration.md). 產品數量變更時，此變更會影響共用該產品的所有Amazon清單 [!DNL Amazon Seller SKU] 在Amazon的商店裡賣的。 對共用的變更 [!DNL Amazon Seller SKU] 在美國，不會影響您為不同國家/地區設定的Amazon商店。 已整合的第一個Amazon商店（具有最舊的建立日期）會控制數量設定中的優先順序。
+數量是地區屬性，並以 **[!UICONTROL Amazon Marketplace Country]** 設定期間定義 [商店整合](./store-integration.md). 產品數量變更時，變更會影響共用該產品的所有Amazon清單 [!DNL Amazon Seller SKU] 在Amazon的商店裡賣的。 對共用的變更 [!DNL Amazon Seller SKU] 在美國，不會影響您為不同國家/地區設定的Amazon商店。 已整合的第一個Amazon商店（具有最舊的建立日期）會控制數量設定中的優先順序。
 
 >[!NOTE]
 >
->對於Adobe Commerce和Magento Open Source2.3.x使用者，Amazon銷售管道支援使用庫存管理擴充功能，不需進行任何額外設定。 請參閱 [管理庫存](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target=&quot;_blank&quot;}。
+>針對Adobe Commerce和Magento Open Source2.3.x使用者，Amazon銷售管道支援使用Inventory management擴充功能，不需進行任何額外設定。 請參閱 [管理庫存](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
 
 ## 配置庫存/數量設定 {#configure-stock--quantity-settings}
 

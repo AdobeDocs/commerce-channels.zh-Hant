@@ -3,9 +3,9 @@ title: 第三方清單
 description: 更新第三方清單設定，以判斷您的商務目錄是否從您現有的Amazon賣方中心清單匯入產品。
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - `Import Listing`  — （預設）選擇何時要將Amazon清單中的產品資訊匯入 [!DNL Commerce] 產品目錄。 此選項為預設值，建議使用。
 
-   - `Do Not Import Listing`  — 選擇手動 [建立和指派新產品](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} [!DNL Commerce] 目錄供您的Amazon清單使用。
+   - `Do Not Import Listing`  — 選擇手動 [建立和指派新產品](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} 至 [!DNL Commerce] 目錄供您的Amazon清單使用。
    >[!NOTE]
    >下列選項欄位只有在設為時才有效 `Import Listing`.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | 必填。 選項：<ul><li>**[!UICONTROL Import Listing]**  — （預設）選擇何時要將Amazon清單中的產品資訊匯入 [!DNL Commerce] 產品目錄。 </li><li>**[!UICONTROL Do Not Import Listing]**  — 選擇手動 [建立和指派新產品](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} [!DNL Commerce] 目錄供您的Amazon清單使用。</li></ul> |
+| [!UICONTROL Import Third Party Listings] | 必填。 選項：<ul><li>**[!UICONTROL Import Listing]**  — （預設）選擇何時要將Amazon清單中的產品資訊匯入 [!DNL Commerce] 產品目錄。 </li><li>**[!UICONTROL Do Not Import Listing]**  — 選擇手動 [建立和指派新產品](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} 至 [!DNL Commerce] 目錄供您的Amazon清單使用。</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | 僅在設為時啟用 `Import Listing`.<br>選擇 [!DNL Commerce] 屬性，以比對Amazon賣家SKU的Amazon屬性。 如果此屬性不存在，請參閱 [建立Amazon產品屬性以供Amazon比對](./ob-creating-magento-attributes.md). 如有需要，請檢閱您的 [!DNL Commerce] [屬性](./managing-attributes.md) 和建立或編輯屬性以符合此Amazon資料。 |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | 僅在設為時啟用 `Import Listing`.<br>選擇 [!DNL Commerce] 與Amazon ASIN的Amazon屬性相符的屬性。 如果此屬性不存在，請參閱 [建立Amazon產品屬性以供Amazon比對](./ob-creating-magento-attributes.md). 如有需要，請檢閱您的 [!DNL Commerce] [屬性](./managing-attributes.md) 和建立或編輯屬性以符合此Amazon資料。 |
 

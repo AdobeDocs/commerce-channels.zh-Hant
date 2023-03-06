@@ -2,14 +2,14 @@
 title: Amazon銷售管道的最佳作法和限制
 description: 檢閱使用適用於Adobe Commerce和Magento Open Source的Amazon銷售管道時的最佳作法和限制。
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Amazon銷售管道的最佳作法和限制
+# Amazon最佳作法和限制Sales Channel
 
 最佳實務包括：
 
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 - Amazon銷售管道可設定您的定價規則，以自動調整您的上市價格。 自動定價保障包括 [底價](./floor-price.md) 和 [可選上限價格](./optional-ceiling-price.md) 功能 [智慧重新定價規則](./intelligent-repricing-rules.md). 使用這些保障措施有助於確保您的上市價格不會低於成本或高於定義的價格。
 
-- Amazon銷售管道與Amazon之間的資料同步由 [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}設定。 內置節流 [!DNL Commerce] 而Amazon有助於確保資料傳輸順暢且高效，但在高電子商務流量時間（如黑色星期五）,Amazon的系統更新可能需要比平常更長的時間。 設定您的 [!DNL Commerce] cron每五分鐘運行一次。
+- Amazon銷售管道與Amazon之間的資料同步由 [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"} 設定。 內置節流 [!DNL Commerce] 而Amazon有助於確保資料傳輸順暢且高效，但在高電子商務流量時間（如黑色星期五）,Amazon的系統更新可能需要比平常更長的時間。 設定您的 [!DNL Commerce] cron每五分鐘運行一次。
 
-- Amazon銷售管道會匯入您的Amazon訂單資訊。 若要在Amazon銷售管道中管理Amazon訂單，您必須確保 [順序設定](./order-settings.md) 定義來匯入和建立對應的 [!DNL Commerce] 每筆Amazon訂單的訂單。 如果未定義，則您只能檢視Amazon訂單資訊。 所有透過Amazon銷售的稅款仍透過 [!DNL Amazon Seller Central] 帳戶。 在一些州，Amazon需要自動收稅和繳稅。 對於其他州，賣方可以選擇手動或自動計算稅。 請參閱 [Amazon:稅收政策](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target=&quot;_blank&quot;}。 您可能需要登入 [!DNL Amazon Seller Central] 帳戶以檢視Amazon稅務政策檔案。
+- Amazon銷售管道會匯入您的Amazon訂單資訊。 若要在Amazon銷售管道中管理Amazon訂單，您必須確保 [順序設定](./order-settings.md) 定義來匯入和建立對應的 [!DNL Commerce] 每筆Amazon訂單的訂單。 如果未定義，則您只能檢視Amazon訂單資訊。 所有透過Amazon銷售的稅款仍透過 [!DNL Amazon Seller Central] 帳戶。 在一些州，Amazon需要自動收稅和繳稅。 對於其他州，賣方可以選擇手動或自動計算稅。 請參閱 [Amazon:稅收政策](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. 您可能需要登入 [!DNL Amazon Seller Central] 帳戶以檢視Amazon稅務政策檔案。
 
-- 對於英國地區，最佳做法是註冊 [Amazon增值稅計算服務](https://sell.amazon.co.uk/learn/vat-resources/){target=&quot;_blank&quot;}，再開始使用Amazon銷售管道。
+- 對於英國地區，最佳做法是註冊 [Amazon增值稅計算服務](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} 開始使用Amazon銷售管道之前。
 
 
    >[!NOTE]

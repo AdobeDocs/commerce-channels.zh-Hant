@@ -2,7 +2,7 @@
 title: Amazon完成工作流程
 description: 從Amazon清單完成訂單會遵循從訂單提交到發運的特定順序。
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%

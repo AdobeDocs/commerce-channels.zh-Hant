@@ -2,14 +2,14 @@
 title: 按狀態/頁簽管理產品清單
 description: 當您管理Amazon清單時，可以根據狀態將動作套用至清單。
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# 依狀態/索引標籤管理產品清單
+# 按狀態/頁簽管理產品清單
 
 此 _[!UICONTROL Product Listings]_頁面包含數個標籤，您可從中檢視所有清單的狀態，並將產品與Amazon清單配對。
 

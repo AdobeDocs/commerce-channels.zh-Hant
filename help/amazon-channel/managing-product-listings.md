@@ -2,7 +2,7 @@
 title: 管理Amazon清單
 description: AmazonSales Channel提供多種工具，協助您從商務管理員管理Amazon清單。
 exl-id: 895fd0f1-29ec-4ae5-af5b-eb5d99f5752a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%

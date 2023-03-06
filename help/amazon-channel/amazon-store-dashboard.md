@@ -2,15 +2,14 @@
 title: Amazon商店儀表板
 description: 使用Amazon商店控制面板，從商務管理員檢視您Amazon商店的活動。
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
-# Amazon商店控制面板
-
+# Amazon商店儀表板
 
 在 _[!UICONTROL Amazon Stores]_在Amazon銷售管道首頁上檢視，按一下&#x200B;**[!UICONTROL View Store]**在商店卡上以開啟商店控制面板。
 

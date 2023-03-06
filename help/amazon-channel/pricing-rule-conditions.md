@@ -3,16 +3,16 @@ title: 價格規則條件
 description: 使用價格規則條件來確定哪些產品符合上市價格規則的條件。
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # 價格規則條件
 
-條件決定哪些產品符合價格規則。 定義Amazon定價規則的條件時，遵循的邏輯和程式與定義 [購物車價格規則](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} [!DNL Commerce].
+條件決定哪些產品符合價格規則。 定義Amazon定價規則的條件時，遵循的邏輯和程式與定義 [購物車價格規則](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 此程式可能簡單或詳細，視您的目錄設定而定。 您可以定義條件，以便 `ALL` 或 `ANY` 條件中， `TRUE` 或 `FALSE` 若是產品，則產品符合套用定價規則的資格。
 
-條件以 [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}。 若要將規則套用至所有產品，請將條件區段保留空白。
+條件以 [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. 若要將規則套用至所有產品，請將條件區段保留空白。
 
 >[!NOTE]
 >
->如果您想根據特定產品屬性定義條件， **用於促銷規則條件** 屬性必須設為 `Yes` 在 [店面屬性](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}取得。
+>如果您想根據特定產品屬性定義條件， **用於促銷規則條件** 屬性必須設為 `Yes` 在 [店面屬性](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} （針對屬性）。
 
 ![價格規則條件 — 第1行](assets/ob-price-rules-condition-1.png)
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![價格規則條件組合](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]**  — 可用的產品屬性取決於 [屬性的設定](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}。 若要讓屬性顯示在清單中， *[!UICONTROL Use for Promo Rule Conditions]* 屬性必須設為 `Yes` 在 [店面屬性](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}。
+   **[!UICONTROL Product Attribute]**  — 可用的產品屬性取決於 [屬性的設定](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
 
    - 針對 **[!UICONTROL Product Attribute]**，選擇要定義為條件基礎的屬性。 在此範例中，選取的條件為 `Category`.
 

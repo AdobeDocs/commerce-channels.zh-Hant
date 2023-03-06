@@ -2,7 +2,7 @@
 title: 未完成的清單
 description: Amazon銷售管道提供 [!UICONTROL Incomplete] 標籤，幫助您識別並符合不完整Amazon清單的資格要求。
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 未完成的清單
 
-此 _[!UICONTROL Incomplete]_索引標籤會列出 [!DNL Commerce] 符合Amazon資格要求的目錄產品(定義於 [清單規則](./listing-rules.md))，但缺少Amazon所需的資訊(例如Amazon ASIN或定義的產品條件)。
+此 _[!UICONTROL Incomplete]_索引標籤會列出 [!DNL Commerce] 符合Amazon資格要求的目錄產品(定義於 [清單規則](./listing-rules.md))，但缺少Amazon所需的資訊(例如Amazon ASIN或已定義的產品條件)。
 
 清單不完整有四個可能的原因，每個原因都以其狀態識別。
 
@@ -48,7 +48,7 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 | 欄 | 說明 |
 |--- |--- |
 | [!UICONTROL Amazon Seller SKU] | 由Amazon指派給產品的SKU（庫存保管單位），用以識別產品、選項、價格和製造商。 |
-| [!UICONTROL ASIN] | 10個字母和/或數字的唯一區塊，用於識別項目。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是10個字母和/或數字的唯一塊，用於標識項目。 對於帳簿，ASIN與ISBN號相同，但是對於所有其他產品，當項目上載到其目錄時將建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到項目ASIN，以及與項目相關的詳細資訊。 |
+| [!UICONTROL ASIN] | 10個字母和/或數字的唯一區塊，用於識別項目。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是10個字母和/或數字的唯一塊，用於標識項目。 對於帳簿，ASIN與ISBN號相同，但是對於所有其他產品，當將項目上載到其目錄時將建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到項目ASIN，以及與項目相關的詳細資訊。 |
 | [!UICONTROL Product Listing Name] | 產品的名稱。 |
 | [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品。 |
 | [!UICONTROL Landed Price] | 產品的掛牌價加其運價。 |

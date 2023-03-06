@@ -2,14 +2,14 @@
 title: 「智慧重新定價規則：最低價格'
 description: 使用底價設定來決定智慧定價規則的最低價格，以管理您的Amazon清單。
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-# 智慧重新定價規則：底價
+# 智慧重新定價規則：最低價格
 
 智慧重新定價規則的章節包括：
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 針對 **[!UICONTROL Floor Price Source]**，選擇價格來源屬性。
 
-   選擇 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}，表示您的相對下限。 例如，若您不希望Amazon清單價格低於項目成本，您可以選擇 *成本* 屬性。
+   選擇 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 表示你的相對下限。 例如，若您不希望Amazon清單價格低於項目成本，您可以選擇 *成本* 屬性。
 
 1. 針對 **[!UICONTROL Floor Price Action]**，選擇選項。
 

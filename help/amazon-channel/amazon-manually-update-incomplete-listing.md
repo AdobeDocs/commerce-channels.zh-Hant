@@ -2,7 +2,7 @@
 title: 更新所需資訊（未完成清單）
 description: Amazon銷售管道提供「不完整」標籤，用於監控Amazon所需資訊遺失的商務目錄產品。
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%

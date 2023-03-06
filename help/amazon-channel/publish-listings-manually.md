@@ -2,7 +2,7 @@
 title: 手動發佈Amazon清單
 description: 需要時，您可以向商務管理員手動發佈已結束的Amazon清單。
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%

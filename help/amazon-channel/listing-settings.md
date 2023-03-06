@@ -3,7 +3,7 @@ title: 查看清單設定
 description: 使用清單設定來定義您 [!DNL Commerce] 目錄產品列於 [!DNL Amazon Marketplace].
 redirect_from: /sales-channels/asc/ob-listing-settings.html
 exl-id: 939babd0-8e6d-40b8-a42a-fc5c7dc3f98b
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 清單設定可從 [儲存儀表板](./amazon-store-dashboard.md).
 
-這些設定可定義 [!DNL Commerce] 目錄產品列於Amazon。 您的清單設定包含數個類別，可讓您定義Amazon銷售管道與您各自之間的互動和通訊 [!DNL Amazon Seller Central] 帳戶。
+這些設定可定義 [!DNL Commerce] 目錄產品列於Amazon。 您的清單設定包含數個類別，可讓您定義Amazon銷售管道與各自之間的互動和通訊 [!DNL Amazon Seller Central] 帳戶。
 
 設定清單設定時，您需決定一些基本功能參數：
 

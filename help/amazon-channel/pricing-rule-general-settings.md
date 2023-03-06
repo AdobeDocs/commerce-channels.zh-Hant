@@ -3,7 +3,7 @@ title: 定價規則一般設定
 description: 使用價格規則一般設定來定義上市價格規則的主要特徵。
 redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%

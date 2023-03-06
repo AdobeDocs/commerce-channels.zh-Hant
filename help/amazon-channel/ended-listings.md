@@ -2,7 +2,7 @@
 title: 已結束的清單
 description: AmazonSales Channel提供「已結束」標籤，供您檢閱已結束的Amazon Marketplace清單，當您選擇時，這些清單可重新發佈。
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 | 欄 | 說明 |
 |--- |--- |
 | [!UICONTROL Amazon Seller SKU] | 由Amazon指派給產品的SKU（庫存保管單位），用以識別產品、選項、價格和製造商。 |
-| [!UICONTROL ASIN] | 10個字母和/或數字的唯一區塊，用於識別項目。<br><br>ASIN代表Amazon標準識別碼。 ASIN是10個字母和/或數字的唯一塊，用於標識項目。 對於帳簿，ASIN與ISBN號相同，但是對於所有其他產品，當項目上載到其目錄時將建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到項目ASIN，以及與項目相關的詳細資訊。 |
+| [!UICONTROL ASIN] | 10個字母和/或數字的唯一區塊，用於識別項目。<br><br>ASIN代表Amazon標準識別碼。 ASIN是10個字母和/或數字的唯一塊，用於標識項目。 對於帳簿，ASIN與ISBN號相同，但是對於所有其他產品，當將項目上載到其目錄時將建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到項目ASIN，以及與項目相關的詳細資訊。 |
 | [!UICONTROL Product Listing Name] | 產品的名稱。 |
 | [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品。 |
 | [!UICONTROL Landed Price] | 產品的掛牌價加其運價。 |

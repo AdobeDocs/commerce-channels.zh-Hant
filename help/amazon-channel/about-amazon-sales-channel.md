@@ -1,15 +1,15 @@
 ---
-title: 關於Amazon銷售管道
+title: 關於AmazonSales Channel
 description: 使用Amazon銷售管道擴充功能，將Adobe Commerce或Magento Open Source與您的Amazon銷售中心帳戶順暢整合。
 exl-id: 11752491-d0da-4ff7-a0a7-d17d4fa1bfc9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
-# 關於Amazon銷售管道
+# 關於AmazonSales Channel
 
 Adobe Commerce的管道經理提供Amazon銷售管道擴充功能，可順暢地整合您的 [!DNL Commerce] 使用 [!DNL Amazon Seller Central] 帳戶。 之後 [入門](./amazon-onboarding-home.md), [!DNL Commerce] 成為「中央指揮中心」，負責管理和控制Amazon清單、訂單和庫存，以及Amazon商店的定價。
 
@@ -121,7 +121,7 @@ Adobe Commerce的管道經理提供Amazon銷售管道擴充功能，可順暢地
 
 - 管理多個 [!DNL Amazon Marketplace] 地區（國家）。
 
-- 使用 [[!DNL Commerce] 貨幣轉換工具](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}。
+- 使用 [[!DNL Commerce] 貨幣轉換工具](https://docs.magento.com/user-guide/stores/currency-configuration.html){target="_blank"}.
 
 - 管理來自您產品位置和Amazon履行中心的發貨。
 

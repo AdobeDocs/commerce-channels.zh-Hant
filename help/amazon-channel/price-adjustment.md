@@ -2,7 +2,7 @@
 title: 價格調整
 description: 配置價格調整以在您確定Amazon競爭者價格來源時定義價格計算。
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

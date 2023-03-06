@@ -2,9 +2,9 @@
 title: 建立並指派產品
 description: AmazonSales Channel提供 [!UICONTROL New Third Party] 標籤，以協助建立及指派具有Amazon清單的相符商務目錄產品。
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 0%
 
    - 針對 **[!UICONTROL Website Ids]**，選擇要關聯產品的網站(storefront)。
 
-      此清單中的選項取決於您的 [!DNL Commerce] [儲存配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;}設定。
+      此清單中的選項取決於您的 [!DNL Commerce] [儲存配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定。
 
    - 針對 **[!UICONTROL Attribute Set Id]** （必要），選擇選項。
 
-      `Default` 是預設選取項目。 此清單中的選項取決於您的 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;}。
+      `Default` 是預設選取項目。 此清單中的選項取決於您的 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 您已設定。
 
    - 針對 **[!UICONTROL Visibility]**，選擇新產品的選項。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    - 針對 **[!UICONTROL Assign Tax Class]**，請為產品選擇選項。
 
-      此清單中顯示的選項取決於 [稅種](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;}。
+      此清單中顯示的選項取決於 [稅種](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 您已設定。
 
    - 完成後，按一下 **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ ht-degree: 0%
 
    - 針對 **[!UICONTROL Website Ids]**，選擇要關聯產品的網站(storefront)。
 
-      此清單中的選項取決於您的 [!DNL Commerce] [儲存配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;}設定。
+      此清單中的選項取決於您的 [!DNL Commerce] [儲存配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定。
 
    - 針對 **[!UICONTROL Attribute Set Id]** （必要），選擇選項。
 
-      `Default` 是預設選取項目。 此清單中的選項取決於您的 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;}。
+      `Default` 是預設選取項目。 此清單中的選項取決於您的 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 您已設定。
 
    - 針對 **[!UICONTROL Visibility]**，選擇新產品的選項。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    - 針對 **[!UICONTROL Assign Tax Class]**，請為產品選擇選項。
 
-      此清單中顯示的選項取決於 [稅種](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;}。
+      此清單中顯示的選項取決於 [稅種](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 您已設定。
 
    - 完成後，按一下 **[!UICONTROL Create Catalog Products]**.
 
@@ -127,8 +127,8 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | （必要）如果已啟用，產品會顯示在 [!DNL Commerce] 店面。 如果已停用，產品不會顯示在 [!DNL Commerce] 店面。 |
-| [!UICONTROL Categories] | 您可以輸入新產品的類別名稱，或按一下向下箭頭以顯示選項來選取類別。 選項視您的 [類別](https://docs.magento.com/user-guide/catalog/category-create.html){target=&quot;_blank&quot;}配置。 |
-| [!UICONTROL Website Ids] | （必要）選擇要關聯產品的網站（店面）。 選項視您的 [!DNL Commerce] [儲存配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;}設定 |
-| 屬性集Id | 選擇屬性集。 選項視您的設定而定 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target=&quot;_blank&quot;}。 |
+| [!UICONTROL Categories] | 您可以輸入新產品的類別名稱，或按一下向下箭頭以顯示選項來選取類別。 選項視您的 [類別](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} 設定。 |
+| [!UICONTROL Website Ids] | （必要）選擇要關聯產品的網站（店面）。 選項視您的 [!DNL Commerce] [儲存配置](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定 |
+| 屬性集Id | 選擇屬性集。 選項視您的設定而定 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
 | [!UICONTROL Visibility] | 選項：<ul><li>**[!UICONTROL Not Visible Individually]**  — 產品不會顯示在 [!DNL Commerce] storefront（變型產品最常見）。</li><li>**[!UICONTROL Catalog]**  — 允許透過與網站內相關聯的類別來存取產品。</li><li>**搜尋**  — 僅允許通過搜索工具找到產品。</li><li>**[!UICONTROL Catalog and Search]**  — 允許通過類別結構和使用搜索工具訪問產品。</li></ul> |
-| [!UICONTROL Assign Tax Class] | 為新產品分配稅類。 選項視您的設定而定 [稅種](https://docs.magento.com/user-guide/tax/tax-class.html){target=&quot;_blank&quot;}。 |
+| [!UICONTROL Assign Tax Class] | 為新產品分配稅類。 選項視您的設定而定 [稅種](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |

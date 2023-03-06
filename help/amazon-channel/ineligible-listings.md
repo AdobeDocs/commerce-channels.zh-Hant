@@ -2,14 +2,14 @@
 title: 不合格清單
 description: Amazon銷售管道提供 [!UICONTROL Ineligible] 標籤來協助您管理項目，但根據您目前的上市規則，不符合作為清單的資格。
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-# 不符合資格的清單
+# 不合格清單
 
 此 _[!UICONTROL Ineligible]_標籤會顯示目前已在Amazon上發佈，但根據您目前的上市規則，不符合上市資格的所有產品清單。 如果先前的產品符合條件，並且已修改清單規則使其現在不符合條件，則與產品相關聯的數量會降為0，而產品會標示為_&#x200B;不合格&#x200B;_. 不過，它仍存在於您的 [!DNL Amazon Seller Account].
 
@@ -49,7 +49,7 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 | 欄 | 說明 |
 |--- |--- |
 | [!UICONTROL Amazon Seller SKU] | 由Amazon指派給產品的SKU（庫存保管單位），用以識別產品、選項、價格和製造商。 |
-| [!UICONTROL ASIN] | 10個字母和/或數字的唯一區塊，用於識別項目。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是10個字母和/或數字的唯一塊，用於標識項目。 對於帳簿，ASIN與ISBN號相同，但是對於所有其他產品，當項目上載到其目錄時將建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到項目ASIN，以及與項目相關的詳細資訊。 |
+| [!UICONTROL ASIN] | 10個字母和/或數字的唯一區塊，用於識別項目。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是10個字母和/或數字的唯一塊，用於標識項目。 對於帳簿，ASIN與ISBN號相同，但是對於所有其他產品，當將項目上載到其目錄時將建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到項目ASIN，以及與項目相關的詳細資訊。 |
 | [!UICONTROL Product Listing Name] | 產品的名稱。 |
 | [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品。 |
 | [!UICONTROL Landed Price] | 產品的掛牌價加其運價。 |

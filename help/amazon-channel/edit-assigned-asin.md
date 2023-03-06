@@ -2,14 +2,14 @@
 title: 編輯已分配的ASIN
 description: 如果商務產品與您其中一個Amazon清單的匹配不當，請變更該產品的ASIN值。
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# 編輯已指派的ASIN
+# 編輯已分配的ASIN
 
 您可以編輯指派給產品的Amazon ASIN值，位於 [!DNL Commerce] 目錄。 如果目錄產品與您其中一個Amazon清單的匹配不當，此功能將有所幫助。 變更清單的指派ASIN不會變更由Amazon指派給產品的ASIN。 它只會變更目錄產品相符的Amazon清單。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 - 為更新的ASIN建立清單
 - 更新Amazon銷售管道中的清單資訊
 
-## 編輯已指派的ASIN
+要編輯已分配的ASIN:
 
 1. 檢視 _[!UICONTROL Product Listings]_頁面(_[!UICONTROL Inactive]_, _[!UICONTROL Active]_，或_[!UICONTROL Ineligible]_ 標籤)。
 

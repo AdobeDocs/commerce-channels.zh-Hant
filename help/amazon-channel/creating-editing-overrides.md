@@ -2,7 +2,7 @@
 title: 建立和編輯覆蓋
 description: 使用AmazonSales Channel覆寫將變更套用至單一Amazon清單或多個清單。
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -78,7 +78,7 @@ __
 
 ## 編輯或移除多個清單的覆寫 {#edit-override-multiple-listings}
 
-此 _[!UICONTROL Edit Listing Overrides]_動作可在_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_，和 _[!UICONTROL Ineligible]_頁簽。
+此 _[!UICONTROL Edit Listing Overrides]_動作可在_[!UICONTROL Inactive]_, _[!UICONTROL Active]_,_[!UICONTROL Overrides]_，和 _[!UICONTROL Ineligible]_標籤。
 
 >[!NOTE]
 >

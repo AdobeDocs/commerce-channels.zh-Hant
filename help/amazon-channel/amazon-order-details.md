@@ -2,7 +2,7 @@
 title: Amazon訂單詳細資料
 description: 在Adobe Commerce或Magento Open Source管理員中檢視Amazon Marketplace訂單的詳細資訊。
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -52,7 +52,6 @@ ht-degree: 0%
 >- `Shipping region`
 >- `Shipping postal code`
 >- `Shipping country`
-
 >
 >別忘了按一下 **儲存順序** 進行編輯之後。
 

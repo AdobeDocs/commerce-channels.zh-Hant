@@ -2,7 +2,7 @@
 title: 「智慧重新定價規則：選擇規則類型
 description: 建立智慧型重新定價規則，根據競爭者定價決定您的Amazon上市價格。
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%

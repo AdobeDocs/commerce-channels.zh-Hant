@@ -2,9 +2,9 @@
 title: 預設商店設定
 description: 修改預設的商務設定，以自訂您商店的AmazonSales Channel。
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 | 設定 | 預設 | 說明 | 位置 |
 |--- |--- |--- |--- |
-| [!UICONTROL Import Amazon Orders] | `Enabled` | 建立對應的 [!DNL Commerce] 從Amazon收到新訂單時的訂單，可在 [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}工作流程。 當 `Disabled`,Amazon會訂購匯入訂單資訊以供檢閱，但您必須在 [!DNL Amazon Seller Central] 帳戶。 | [順序設定](./order-settings.md) |
+| [!UICONTROL Import Amazon Orders] | `Enabled` | 建立對應的 [!DNL Commerce] 從Amazon收到新訂單時的訂單，可在 [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流程。 當 `Disabled`,Amazon會訂購匯入訂單資訊以供檢閱，但您必須在 [!DNL Amazon Seller Central] 帳戶。 | [順序設定](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | 來自Amazon訂單的客戶資料不會匯入至 [!DNL Commerce] 資料庫。 匯入的Amazon訂單會以訪客結帳的形式處理。 如果您想要建置 [!DNL Commerce] 客戶資料庫，您應將此設定變更為 `Build New Customer Account`. | [順序設定](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] 目錄產品(符合Amazon的資格要求)以自動發佈至Amazon並建立Amazon清單。 如果您想要手動檢閱和發佈產品，應將此設定變更為 `Do Not Automatically List Eligible Products`. 等待手動發佈的產品會顯示在 [_準備列出_](./ready-to-list.md) 標籤。 | [產品清單動作](./product-listing-actions.md) |
 | [!UICONTROL Magento Price Source] | `Price` | 定義價格來源屬性，作為Amazon清單的基礎。 如果您不想使用 [!DNL Commerce] `Price` 屬性作為定價規則所依據的基本價格，您應將此設定變更為其他屬性。 | [上市價](./listing-price.md) |

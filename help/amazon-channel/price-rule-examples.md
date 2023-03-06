@@ -2,7 +2,7 @@
 title: 價格規則範例
 description: 若要協助您設計Amazon清單的定價規則，請根據常見案例檢閱這些範例。
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -144,7 +144,7 @@ ht-degree: 2%
 
 套用規則後的最終價格：15美元
 
-### 所有競爭者的價格的最低價格和使用所有競爭者的產品條件
+### 最低價格與所有競爭者的價格，並使用所有競爭者的產品條件
 
 | 欄位 | 設定 |
 |----------|-----|
@@ -160,10 +160,10 @@ ht-degree: 2%
 
 | 價格 | 條件 |
 |----------|----|
-| 17美元 | 新增 |
-| 15美元 | 新增 |
-| 14美元 | 已使用；很好 |
-| 13美元 | 已使用；好 |
+| $17 | 新增 |
+| $15 | 新增 |
+| $14 | 已使用；很好 |
+| $13 | 已使用；好 |
 
 #### 產品1
 
@@ -190,7 +190,7 @@ ht-degree: 2%
 | 欄位 | 設定 |
 |----------|-----|
 | [!UICONTROL VAT] | 10% |
-| [!UICONTROL Ceiling price source] | 10美元 |
+| [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1.25歐元：1美元 |
 
 [最高價格](./optional-ceiling-price.md) 在歐洲(VAT)市場：$10 x 1.25 = $12.50
@@ -207,7 +207,7 @@ ht-degree: 2%
 |----------|----|
 | 優先順序 | 1 |
 | 增值稅 | 10% |
-| 最高價格來源 | 10美元 |
+| 最高價格來源 | $10 |
 | 貨幣轉換 | 1.25歐元：1美元 |
 
 [最高價格](./optional-ceiling-price.md) 在歐洲(VAT)市場：$10 x 1.25 = $12.50
@@ -221,7 +221,7 @@ ht-degree: 2%
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | 增加者 |
 | [!UICONTROL Apply] | 以固定金額應用 |
-| [!UICONTROL Adjustment Amount] | 5.00美元 |
+| [!UICONTROL Adjustment Amount] | $5.00 |
 
 當 [上限價格](./optional-ceiling-price.md) 即會點擊，則會在智慧型定價規則之上套用標準定價規則。
 

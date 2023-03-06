@@ -2,9 +2,9 @@
 title: 取消未發運的訂單
 description: 通過您的Amazon取消待定或部分發運（未發運）訂單 [!DNL Seller Central] 帳戶。
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Amazon訂單只有在 `Unshipped` 狀態。 如果訂單待定或部分發運（
 >
 >對於取消訂單以外的任務：
 >
->- 若您有 [訂單匯入](./order-settings.md) 啟用時，會在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}。
+>- 若您有 [訂單匯入](./order-settings.md) 啟用時，會在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
 >- 若 [訂單匯入](./order-settings.md) 停用時，您必須在 [!DNL Amazon Seller Central].
 
 

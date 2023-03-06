@@ -2,9 +2,9 @@
 title: 記錄和儲存報表
 description: 使用記錄檔和儲存報表，查看Adobe Commerce或Magento Open Source存放區以及Amazon Marketplace清單中發生的情況。
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ Amazon銷售管道擴充功能包含一些寶貴記錄和儲存報表，可讓�
 
 >[!TIP]
 >
->您也可以在需要進行疑難排解時，檢查記錄檔以取得其他資訊。 請參閱 [銷售管道管理員設定](./sales-channel-settings.md). Amazon銷售渠道同步記錄將寫入 `{Commerce Root}/var/log/channel_amazon.log` 檔案和可在 [開發人員模式](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}。
+>您也可以在需要進行疑難排解時，檢查記錄檔以取得其他資訊。 請參閱 [銷售管道管理員設定](./sales-channel-settings.md). Amazon銷售渠道同步記錄將寫入 `{Commerce Root}/var/log/channel_amazon.log` 檔案和可在 [開發人員模式](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.

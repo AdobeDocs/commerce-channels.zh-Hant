@@ -3,7 +3,7 @@ title: 價格規則動作
 description: 使用價格規則活動來定義應用於價格來源的調整計算，以確定Amazon上市價格。
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

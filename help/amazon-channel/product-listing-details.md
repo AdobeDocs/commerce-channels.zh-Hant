@@ -2,7 +2,7 @@
 title: 查看清單詳細資訊
 description: 若要了解您Amazon清單和個別SKU/產品變更上的競爭量度，請檢閱產品清單詳細資料頁面。
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -57,7 +57,7 @@ __
 
 ![產品清單詳細資訊：Buy Box競爭者定價](assets/amazon-listing-details-buy-box-2.png)
 
-## 最低競爭者定價 {#lowest-competitor-pricing}
+## 競爭者最低定價 {#lowest-competitor-pricing}
 
 此索引標籤會顯示相同清單中Amazon競爭者的相關資訊。 此資訊可用於了解價格定位和 [最低競爭者定價](./lowest-competitor-pricing.md). 顯示的資訊包括：
 

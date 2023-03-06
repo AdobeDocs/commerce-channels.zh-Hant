@@ -3,9 +3,9 @@ title: 上市規則
 description: 使用上市規則可決定發佈為Amazon Marketplace清單的商務目錄產品。
 redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 - 如果您希望所有產品都發佈至Amazon清單，請勿為上市規則定義任何條件。
 
-- 如果您想要限制發佈至Amazon的目錄產品，請定義清單規則條件。 定義您的Amazon清單規則的條件時，遵循定義 [購物車價格規則](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}。
+- 如果您想要限制發佈至Amazon的目錄產品，請定義清單規則條件。 定義您的Amazon清單規則的條件時，遵循定義 [購物車價格規則](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 - 如果您的清單規則排除產品，該產品的資格狀態會變更為 `Ineligible`. 不符合資格的產品不會發佈至Amazon。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |---|---|
-| [!UICONTROL Websites] | 可用的選項取決於 [網站](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;}您已在 [!DNL Commerce] 設定。 針對列於Amazon的合格產品選取網站。 只能選取一個網站，因為每個網站都需要在Amazon銷售管道中建立的唯一Amazon商店。 |
+| [!UICONTROL Websites] | 可用的選項取決於 [網站](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 你在 [!DNL Commerce] 設定。 針對列於Amazon的合格產品選取網站。 只能選取一個網站，因為每個網站都需要在Amazon銷售管道中建立的唯一Amazon商店。 |
 | [!UICONTROL Conditions] | 用於定義 [!DNL Commerce] Amazon地區內產品資格的屬性。 請參閱 [範例：定義條件](./ob-define-condition-example.md). |
 
 ## 條件工作區
@@ -50,7 +50,7 @@ ht-degree: 0%
 - 如果所選網站中的所有產品都符合資格，請勿新增條件。
 - 有一組複雜的後端程式可直接與Amazon的系統通訊。 根據您嘗試列出的項目數，以及Amazon系統可能有多忙（例如黑色星期五），您的項目可能需要一些時間才會列在Amazon上。
 
-如需條件的詳細資訊，請參閱 [說明條件](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}。
+如需條件的詳細資訊，請參閱 [說明條件](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 ## 清單規則預覽
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Preview Changes]**.
 
-1. 在 _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_，和 _[!UICONTROL New Listings]_標籤。
+1. 在 _[!UICONTROL Ineligible Listings]_,_[!UICONTROL Eligible Listings]_，和 _[!UICONTROL New Listings]_頁簽。
 
 1. 如果您的清單符合您的期望，請按一下 **[!UICONTROL Save and close]**.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Product ID] | 分配給的唯一的連續編號 [!DNL Commerce] 新增目錄產品時。 |
 | [!UICONTROL Thumbnail] | 顯示主要產品影像的縮圖。 |
-| [!UICONTROL Name] | 在 [!DNL Commerce] [產品網格](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}。 |
+| [!UICONTROL Name] | 在 [!DNL Commerce] [產品網格](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
 | [!UICONTROL Type] | 在 [!DNL Commerce] 產品格線。 |
 | [!UICONTROL Attribute Set] | 作為產品範本使用的屬性集名稱，在 [!DNL Commerce] 產品格線。 |
 | [!UICONTROL SKU] | 分配給產品的唯一庫存保持單位，在 [!DNL Commerce] 產品格線。 |

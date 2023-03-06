@@ -2,9 +2,9 @@
 title: 管理訂單
 description: 您可以在「訂單設定」中啟用訂單匯入，以便從商務管理員輕鬆管理Amazon訂單。
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: 1d1b888db4de4f6e3658af768cd6f5cf30828788
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ## 啟用訂單導入
 
-之後 [商店整合](./store-integration.md), [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) 設定 `Enabled` 依預設。 使用此設定，會對應 [!DNL Commerce] 系統會為您的Amazon訂單建立訂單，並可在 [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}工作流程。
+之後 [商店整合](./store-integration.md), [**[!UICONTROL Import Amazon Orders]**](./order-settings.md#configure-order-settings) 設定 `Enabled` 依預設。 使用此設定，會對應 [!DNL Commerce] 系統會為您的Amazon訂單建立訂單，並可在 [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} 工作流程。
 
 >[!NOTE]
 >
 >無論訂單匯入設定為何，Amazon訂單都存在於 [!DNL Amazon Seller Central] 帳戶 [商店整合](./store-integration.md) 未匯入。
 
-匯入的Amazon訂單會在 [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}工作流，就像您的其他工作流 [!DNL Commerce] 商店。 按一下 *[!UICONTROL Order Number]* 欄以開啟 [[!DNL Commerce] 訂單處理](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target=&quot;_blank&quot;}。 請參閱 [檢視Amazon訂單](./amazon-orders-all.md).
+匯入的Amazon訂單會在 [[!DNL Commerce] 訂購](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"} workflow, just like your other [!DNL Commerce] stores. Click the Amazon order number in the *[!UICONTROL Order Number]* column to open the order in the [[!DNL Commerce] order process](https://docs.magento.com/user-guide/sales/order-processing.html#order-view-descriptions){target="_blank"}. 請參閱 [檢視Amazon訂單](./amazon-orders-all.md).
 
 ### 訂單導入流程
 
@@ -32,8 +32,8 @@ ht-degree: 0%
 | 變更 | 動作 |
 |---|---|
 | 對Amazon下單。 | <ul><li>Amazon將訂單狀態設為 `Pending`.</li><li>訂單資訊傳送至 [!DNL Commerce].</li><li>訂單已新增至 [_Amazon訂購_ 表格](./amazon-orders-all.md) 帶 `Pending` 狀態。</li></ul> |
-| Amazon將訂單狀態變更為 `Unshipped`. | <ul><li>狀態變更會傳送至 [!DNL Commerce].</li><li>在 [_Amazon訂購_ 表格](./amazon-orders-all.md)，訂單狀態會變更為 `Unshipped`.</li><li>在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}，對應的 [!DNL Commerce] 使用 `Processing` 狀態。</li></ul> |
-| 在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}, [!DNL Commerce] 處理訂單，且狀態變更為 `Shipped`. | <ul><li>在 [_Amazon訂購_ 表格](./amazon-orders-all.md)，訂單狀態會變更為 `Shipped`.</li><li>在下一個cron作業上，訂單狀態會變更為 `Complete` 在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}。</li></ul> |
+| Amazon將訂單狀態變更為 `Unshipped`. | <ul><li>狀態變更會傳送至 [!DNL Commerce].</li><li>在 [_Amazon訂購_ 表格](./amazon-orders-all.md)，訂單狀態會變更為 `Unshipped`.</li><li>在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}，對應 [!DNL Commerce] 使用 `Processing` 狀態。</li></ul> |
+| 在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}, [!DNL Commerce] 處理訂單，且狀態變更為 `Shipped`. | <ul><li>在 [_Amazon訂購_ 表格](./amazon-orders-all.md)，訂單狀態會變更為 `Shipped`.</li><li>在下一個cron作業上，訂單狀態會變更為 `Complete` 在 [[!DNL Commerce] 訂購工作流](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.</li></ul> |
 
 ### 訂單建立封鎖程式
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 | 藍本 | 解決方案 |
 |---|---|
 | 項目不存在於 [!DNL Commerce] 目錄。 | [建立產品](./creating-assigning-catalog-products.md) 在 [!DNL Commerce] 目錄和 [手動比對](./creating-assigning-catalog-products.md) 它和產品。 |
-| 目錄中的項目已停用。 | 請確定 [產品狀態](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target=&quot;_blank&quot;}已啟用。 |
-| 訂購的物料無存貨。 | 更新或設定 [產品選項](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target=&quot;_blank&quot;}表示數量和來源。 |
+| 目錄中的項目已停用。 | 請確定 [產品狀態](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} 啟用。 |
+| 訂購的物料無存貨。 | 更新或設定 [產品選項](https://docs.magento.com/user-guide/catalog/inventory-product-stock-options.html){target="_blank"} 數量和來源。 |
 
 當無法匯入訂單時，螢幕頂端會顯示類似下列的系統訊息：
 

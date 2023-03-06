@@ -2,7 +2,7 @@
 title: 『入門：建立清單規則'
 description: 完成Amazon銷售管道入門程式時，請建立初始上市規則，為您的 [!DNL Commerce] 產品。
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%

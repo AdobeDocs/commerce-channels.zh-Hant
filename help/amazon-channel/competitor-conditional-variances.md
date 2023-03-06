@@ -2,9 +2,9 @@
 title: 「智慧重新定價規則：競爭者條件差異
 description: 透過建立智慧型重新定價規則，根據競爭者定價和產品狀況，決定您的Amazon上市價格。
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 針對 **[!UICONTROL Conditional Variance]**，選擇選項：
 
-- `Use all competitor's product conditions`  — （預設）選擇您的產品與任何可用條件進行比較的時間（如果所列條件不符合）。
+- `Use all competitor's product conditions`  — （預設）選擇您的產品與任何可用條件進行比較的時間（如果您所列出的條件不存在相符項目）。
 
 - `Use Only Matching Competitor's Product Condition`  — 選擇您希望產品在相同條件下僅與競爭對手的產品進行比較的時間。 若不存在相符項目，則會以 _Magento價格來源_ 定義於 [上市價](./listing-price.md).
 
@@ -39,13 +39,13 @@ ht-degree: 0%
 
    當 _[!UICONTROL Apply Variance]_功能，則會針對您的每個Amazon條件顯示其他變異欄位。 當您提供的產品與競爭對手的狀況不同時，此功能可讓您使用智慧型重新定價規則。 若要了解條件變異數背後的計算，您必須先了解所有變異數都是由基本符合價格決定。
 
-   顯示的條件變異選項是根據 `Condition` 會使用 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}。 對於所有對應的條件，您可以定義1-100的變異百分比。 例外是可收集的，在這種情況下，可以套用大於100的百分比。
+   顯示的條件變異選項是根據 `Condition` 會使用 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. 對於所有對應的條件，您可以定義1-100的變異百分比。 例外是可收集的，在這種情況下，可以套用大於100的百分比。
 
 ![智慧重新定價規則 — 競爭者條件差異](assets/amazon-competitor-cond-variances.png)
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Competitor Conditional Variances] | 選項： <ul><li>**[!UICONTROL Use all competitor's product conditions]**  — 如果您列出產品的條件不存在相符項目，則此選項會與任何可用條件相符。 它會先嘗試符合您的條件，然後從 `New` 條件 `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]**  — 此選項會根據您產品的條件而相符。 若不存在相符項目，則產品價格 _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]**  — 此選項會先嘗試根據您的產品條件進行比對。 如果沒有相符的條件，則會套用相對於您的產品條件和最低競爭者條件的變異數（百分比）。</li></ul><br><br>根據您對「條件」的清單設定而顯示的條件變異選項，這些設定是使用 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}。 對於所有對應的條件，您可以表示1-100的變異百分比。 例外是可收集的，在這種情況下，可以套用大於100的百分比。<br><br>當您提供的產品與競爭對手的狀況不同時，此功能可讓您使用智慧型重新定價規則。 若要了解條件變異數背後的計算，您必須先了解所有變異數都是由基本符合價格決定。 |
+| [!UICONTROL Competitor Conditional Variances] | 選項： <ul><li>**[!UICONTROL Use all competitor's product conditions]**  — 如果您列出產品的條件不存在相符項目，則此選項會與任何可用條件相符。 它會先嘗試符合您的條件，然後從 `New` 條件 `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]**  — 此選項會根據您產品的條件而相符。 若不存在相符項目，則產品價格 _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]**  — 此選項會先嘗試根據您的產品條件進行比對。 如果沒有相符的條件，則會套用相對於您的產品條件和最低競爭者條件的變異數（百分比）。</li></ul><br><br>根據您對「條件」的清單設定而顯示的條件變異選項，這些設定是使用 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. 對於所有對應的條件，您可以表示1-100的變異百分比。 例外是可收集的，在這種情況下，可以套用大於100的百分比。<br><br>當您提供的產品與競爭對手的狀況不同時，此功能可讓您使用智慧型重新定價規則。 若要了解條件變異數背後的計算，您必須先了解所有變異數都是由基本符合價格決定。 |
 
 ## 計算條件變數基數
 

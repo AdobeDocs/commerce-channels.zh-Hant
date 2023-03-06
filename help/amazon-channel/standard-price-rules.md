@@ -2,14 +2,14 @@
 title: 標準價格規則動作
 description: 使用標準價格規則動作，以相對於商務目錄價格（或價格來源）增加或減少Amazon上市價格。
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# 標準價格規則操作
+# 標準價格規則動作
 
 標準價格規則動作可讓您以相對於以下項目的特定百分比或固定美元金額，來增加或減少Amazon上市價格： [!DNL Commerce] 目錄價格（或價格來源）。
 

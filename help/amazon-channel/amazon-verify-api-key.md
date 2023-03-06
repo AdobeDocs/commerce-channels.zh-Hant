@@ -2,9 +2,9 @@
 title: 新增或驗證Amazon API金鑰
 description: 在您的商務設定中，經過驗證的Amazon API金鑰可讓您將您的商店與Amazon賣家帳戶整合。
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    - 如果您未登入，系統會提示您輸入 [!DNL Commerce] 帳戶使用者名稱和密碼 _[!UICONTROL API Portal]_頁簽。
 
-   - 如果您沒有帳戶，請造訪 [the [!DNL Commerce] 帳戶頁面](https://account.magento.com/customer/account/login/){target=&quot;_blank&quot;}並註冊。 此帳戶應是您公司或業務的一部分。
+   - 如果您沒有帳戶，請造訪 [the [!DNL Commerce] 帳戶頁面](https://account.magento.com/customer/account/login/){target="_blank"} 和註冊。 此帳戶應是您公司或業務的一部分。
 
 1. 如有需要，您可以在 _[!UICONTROL API Portal]_標籤 [!DNL Commerce] 帳戶。
 

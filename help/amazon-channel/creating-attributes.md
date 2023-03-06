@@ -2,9 +2,9 @@
 title: 建立和編輯屬性
 description: AmazonSales Channel提供「屬性」檢視，協助您檢閱目前的Amazon屬性和連結的商務屬性。
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 針對 **[!UICONTROL Comparable on Storefront]**，設為 `Yes` 如果屬性值可用於Amazon的「比較依據」功能。
 
-1. 選擇 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target=&quot;_blank&quot;}作為屬性，然後選取一或多個「儲存檢視」來將Amazon值匯入。
+1. 選擇 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} ，然後選取一或多個「儲存檢視」 ，將Amazon值匯入。
 
    如果範圍設定為 `Global`, _[!UICONTROL Store View]_建立屬性後無法變更。
 
@@ -75,8 +75,8 @@ ht-degree: 0%
 | [!UICONTROL Use for Promo Rule Conditions] | 切換為 `Yes` 允許屬性可用於促銷條件中的參數。 |
 | [!UICONTROL Used in Search] | 指出屬性和值是否可用於產品搜尋。 |
 | [!UICONTROL Comparable on Storefront] | 指出屬性值是否可用於Amazon的「比較依據」功能。 |
-| [!UICONTROL Magento Product Attribute Scope] | 指出 [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target=&quot;_blank&quot;}取得。 選項：全域/商店檢視<br>設為時 `Global`，則建立屬性後就無法編輯「商店檢視」。 |
-| [!UICONTROL Store Views (to import values into to)] | 僅當作用域設定為 `Store View`. 選擇 [商店檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html)將Amazon屬性值同步到的{target=&quot;_blank&quot;}。 選擇 `All Store Views (Global)` 會更新所有 [!DNL Commerce] 儲存檢視。 |
+| [!UICONTROL Magento Product Attribute Scope] | 指出 [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} （針對屬性）。 選項：全域/商店檢視<br>設為時 `Global`，則建立屬性後就無法編輯「商店檢視」。 |
+| [!UICONTROL Store Views (to import values into to)] | 僅當作用域設定為 `Store View`. 選擇 [商店檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 將Amazon屬性值同步至的URL。 選擇 `All Store Views (Global)` 會更新所有 [!DNL Commerce] 儲存檢視。 |
 
 ## 編輯屬性 {#edit-an-attribute}
 
@@ -114,5 +114,5 @@ ht-degree: 0%
 | [!UICONTROL Select Magento Product Attribute] | 指示所選 [!DNL Commerce] 屬性，以連結至列出的Amazon屬性名稱。 如果您想要變更連結的 [!DNL Commerce] 屬性，從下拉式清單中選擇其他屬性。 值會根據設定同步。 |
 | [!UICONTROL Amazon Attribute Name] | 顯示Amazon屬性的名稱，如 [!DNL Amazon Seller Central]. 選取的 [!DNL Commerce] 屬性連結至此Amazon屬性。 您無法透過 [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | 指出Amazon屬性值是否覆寫現有 [!DNL Commerce] 值，會影響所有具有此 [!DNL Commerce] 屬性。<ul><li>**請勿覆寫現有的Magento值**  — （預設）保留 [!DNL Commerce] 值，保留不同的值 [!DNL Commerce] 和Amazon店。</li><li>**覆寫現有Magento值**  — 將Amazon值儲存於 [!DNL Commerce] 值 [!DNL Commerce] 產品目錄。</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | 編輯屬性時，如果屬性是使用 `Global` 範圍。 指出 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html)已建立{target=&quot;_blank&quot;}，並將其設定為 `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | 選擇您的 [!DNL Commerce] [商店檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html)將Amazon屬性值同步到的{target=&quot;_blank&quot;}。 選擇 `All Store Views (Global)` 會更新所有商店檢視的值。 |
+| [!UICONTROL Magento Product Attribute Scope] | 編輯屬性時，如果屬性是使用 `Global` 範圍。 指出 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 已建立，並設為 `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | 選擇您的 [!DNL Commerce] [商店檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 來同步Amazon屬性值。 選擇 `All Store Views (Global)` 會更新所有商店檢視的值。 |
