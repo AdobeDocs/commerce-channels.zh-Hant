@@ -2,9 +2,9 @@
 title: '[!DNL Amazon Sales Channel] 發行說明'
 description: 請參閱發行說明，了解 [!DNL Amazon Sales Channel] 版本。
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
+source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 0%
 
 ## v4.4.4
 
-[!DNL Amazon sales channel]  4.4.4與Adobe Commerce 2.3.x版和2.4.0版相容，但僅支援2.4.1+版、Magento Open Source、Adobe Commerce和Adobe Commerce雲端基礎架構。
+*2023年3月7日*
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![修正問題](../assets/fix.svg) 新增對Adobe Commerce 2.4.6和PHP 8.2的支援。
 
@@ -49,34 +51,34 @@ ht-degree: 0%
 
 ## v4.4.3
 
-[!DNL Amazon sales channel]  4.4.3與Adobe Commerce 2.3.x版和2.4.0版相容，但僅支援2.4.1+版、Magento Open Source、Adobe Commerce和Adobe Commerce雲端基礎架構。
+*2023年3月7日*
 
-此版本 [!DNL Amazon sales channel] 包含下列修正。
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![修正](../assets/fix.svg) 新增對Adobe Commerce 2.4.4的支援。
 
 ## v4.4.2
 
-[!DNL Amazon sales channel]  4.4.2與Adobe Commerce 2.3.x版和2.4.0版相容，但僅支援2.4.1+版、Magento Open Source、Adobe Commerce和Adobe Commerce雲端基礎架構。
+*2021年11月11日*
 
-此版本 [!DNL Amazon sales channel] 包含下列修正。
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![修正](../assets/fix.svg) 更新相依性以支援其他更新的擴充功能。
 ![修正](../assets/fix.svg) 新增對PHP 8.1的支援。
 
 ## v4.4.1
 
-[!DNL Amazon sales channel] 4.4.1與Adobe Commerce 2.3.x版和2.4.0版相容，但僅支援2.4.1+版、Magento Open Source、Adobe Commerce和Adobe Commerce雲端基礎架構。
+*2021年11月11日*
 
-此版本 [!DNL Amazon sales channel]  包含下列修正。
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![修正](../assets/fix.svg) 變更Adobe Commerce接收 _使用者名稱_ 欄位。 之前，在建立訂單期間，當 _使用者名稱_ 欄位包含特殊字元。 Adobe Commerce現在獲得 _使用者名稱_ 資料並篩選掉特殊字元，以便成功建立順序。
 
 ## v4.4.0
 
-[!DNL Amazon sales channel] 4.4.0與Adobe Commerce 2.3.x版和2.4.0版相容，但僅支援2.4.1+版、Magento Open Source、Adobe Commerce和Adobe Commerce雲端基礎架構。
+*2021年4月9日*
 
-此版本 [!DNL Amazon sales channel] 包含下列改良和修正。
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![新增](../assets/new.svg) 在設定中新增唯讀模式支援。 請參閱 [銷售渠道設定](sales-channel-settings.md).
 
@@ -92,9 +94,9 @@ ht-degree: 0%
 
 ## v4.3.0
 
-[!DNL Amazon sales channel] 4.3.0與Adobe Commerce 2.3.x和2.4.0版相容。僅針對雲端基礎架構上的Magento Open Source、Adobe Commerce和Adobe Commerce 2.4.1+版提供支援。
+*2021年3月3日*
 
-此版本 [!DNL Amazon sales channel] 包含下列改良和修正。
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![修正](../assets/fix.svg) <!--CHAN-xxxx-->此 _訂單詳細資訊_ 功能已重新設計，不再依賴 _導入訂單_ 設定。 訂單詳細資料現在會顯示在AmazonSales Channel介面中，用於所有訂單。
 
@@ -108,9 +110,11 @@ ht-degree: 0%
 
 ## v4.2.0
 
-[!DNL Amazon sales channel] 4.2.0與Adobe Commerce 2.3.x版相容，但僅支援雲端基礎架構上的Magento Open Source、Adobe Commerce和Adobe Commerce 2.4.x版。 如果您有之前的 [!DNL Amazon sales channel] 版本，並嘗試將Adobe Commerce更新至2.4.0版時，系統會提示您更新擴充功能，然後您才能完成Adobe Commerce更新。
+*2021年3月3日*
 
-此版本 [!DNL Amazon sales channel] 包含新功能以及改良和修正。
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
+
+如果您有之前的 [!DNL Amazon sales channel] 版本，並嘗試將Adobe Commerce更新至2.4.0版時，系統會提示您更新擴充功能，然後您才能完成Adobe Commerce更新。
 
 ![已知問題](../assets/bug.svg) 當 [!DNL Amazon sales channel] 4.2.0已與2.4.0版和 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) 啟用時，會出現一個已知問題，導致無法在您的商務目錄中新增產品。 此問題將在未來的Commerce版本中解決。
 
@@ -136,7 +140,9 @@ ht-degree: 0%
 
 ## v4.1.0
 
-AmazonSales Channel4.1.0與Adobe Commerce 2.3.x的雲端基礎架構上的Commerce Open Source、Adobe Commerce和Adobe Commerce相容。 此版AmazonSales Channel包含使用者介面增強功能，以及微幅錯誤修正。
+*2020年5月7日*
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![新增](../assets/new.svg) <!--4247, 4230-->已變更訂單匯入程式，使其符合商務訂單需求。 這些變更會修正商務無法為匯入訂單建立對應訂單的問題。 請參閱 [管理訂單](managing-orders.md) 以取得訂單封鎖程式和解決方案的相關資訊。
 
@@ -164,7 +170,9 @@ AmazonSales Channel4.1.0與Adobe Commerce 2.3.x的雲端基礎架構上的Commer
 
 ## v4.0.0
 
-AmazonSales Channel4.0.0與雲端基礎架構上Magento Open Source、Adobe Commerce和Adobe Commerce 2.3.0、2.3.1、2.3.2、2.3.3和2.3.4版相容。 此版本的AmazonSales Channel包含許多使用者介面升級，以及微幅錯誤修正。
+*2020年3月25日*
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 >[!IMPORTANT]
 >
@@ -180,7 +188,9 @@ AmazonSales Channel4.0.0與雲端基礎架構上Magento Open Source、Adobe Comm
 
 ## v3.0.1
 
-AmazonSales Channel3.0.1與Adobe Commerce 2.2.4+和2.3.x版的雲端基礎架構Magento Open Source、Adobe Commerce和Adobe Commerce相容。
+*2019年11月11日*
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![修正](../assets/fix.svg) **數值欄位設定**: <!--CHAN-3779-->需要數值的欄位已更新，僅接受數值字元。 範例：定價規則設定>調整金額欄位
 
@@ -190,7 +200,9 @@ AmazonSales Channel3.0.1與Adobe Commerce 2.2.4+和2.3.x版的雲端基礎架構
 
 ## v3.0.0
 
-AmazonSales Channel3.0.0與Adobe Commerce 2.2.4+和2.3.x版的雲端基礎架構Magento Open Source、Adobe Commerce和Adobe Commerce相容。
+*2019年10月7日*
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 ![新增](../assets/new.svg) **Amazon UK Marketplace現已推出**:建立和整合商務商店時，使用者可選擇英國市場。 此英國升級包括對以下項目的額外支援：
 
@@ -208,7 +220,7 @@ AmazonSales Channel3.0.0與Adobe Commerce 2.2.4+和2.3.x版的雲端基礎架構
 
 ## v2.0.0
 
-AmazonSales Channel2.0.0與雲端基礎架構上的Magento Open Source、Adobe Commerce和Adobe Commerce 2.2.4+和2.3.x版相容。
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
 
 >[!NOTE]
 >
