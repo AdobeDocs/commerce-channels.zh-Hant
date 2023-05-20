@@ -1,6 +1,6 @@
 ---
-title: 預先設定任務
-description: 在整合Adobe Commerce或Amazon中的Magento Open Source存放區之前，請先檢閱要完成的必要工作。
+title: 預設定任務
+description: 在整合Adobe Commerce或AmazonMagento Open Source商店之前，請查看要完成的所需任務。
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,74 +9,74 @@ ht-degree: 0%
 
 ---
 
-# 預先設定任務
+# 預設定任務
 
-之前 [商店整合](./store-integration.md)，您必須確保 [!DNL Amazon Seller Central] 帳戶和 [!DNL Commerce] 帳戶已準備好進行整合。 若要成功整合，有一些必要的預先設定工作。
+之前 [儲存整合](./store-integration.md)，您必須確保 [!DNL Amazon Seller Central] 帳戶和 [!DNL Commerce] 帳戶已準備好進行整合。 要成功整合，需要執行一些預設定任務。
 
-當您在Amazon銷售管道中設定第一個Amazon商店時，會顯示設定工作的清單。 建議您先檢閱這些工作，再進行 [新增Amazon商店](./store-integration.md). 新增第一家商店後，您可以在Amazon銷售管道的「學習與準備」檢視中檢閱這些工作 [首頁](./amazon-sales-channel-home.md).
+當您在Amazon銷售渠道中設定您的第一家Amazon商店時，將顯示安裝任務清單。 建議您先查看這些任務 [添加Amazon商店](./store-integration.md)。 添加第一家商店後，您可以在Amazon銷售渠道的「學習和準備」視圖中查看這些任務 [首頁](./amazon-sales-channel-home.md)。
 
-## 1.啟用 [!DNL Commerce]
+## 1。在中啟用後台任務 [!DNL Commerce]
 
-之間同步的所有產品和資料 [!DNL Commerce] 而Amazon是由 [cron job](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. 當您完成新增或更新清單以及接收訂單等工作時，cron工作會在您的 [!DNL Commerce] 後端和 [!DNL Amazon Seller Central] 帳戶。
+在以下時間之間同步的所有產品和資料 [!DNL Commerce] Amazon由 [克倫](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}。 當您完成添加或更新清單和接收訂單等任務時，cron作業會在您的 [!DNL Commerce] 後端 [!DNL Amazon Seller Central] 帳戶。
 
-- [啟用 [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
+- [啟用 [!DNL Commerce] 克隆](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}。
 
-- 為獲得最佳效能， [set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} 每五分鐘執行一次。
+- 為了獲得最高效能， [集 [!DNL Commerce] 克隆](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} 每五分鐘跑一次。
 
 ## 2.建立 [!DNL Amazon Seller Central] 帳戶
 
-在開始設定Amazon銷售管道之前，您必須具備有效 [!DNL Amazon Seller Central] 帳戶。 若您的 [北美（美國、加州、MX）](https://sell.amazon.com/){target="_blank"} or [European (UK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target="_blank"} 地區，您可以完成Amazon的賣方帳戶設定程式。
+在開始設定Amazon銷售渠道之前，您必須具有 [!DNL Amazon Seller Central] 帳戶。 如果您在中沒有現有的Amazon賣家帳戶 [北美（美國，加利福尼亞，墨西哥）](https://sell.amazon.com/){target="_blank"} or [European (UK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target="_blank"} 區域，您可以完成Amazon的賣家帳戶設定流程。
 
-Amazon銷售管道需要 [!DNL Professional Seller] 帳戶 [!DNL Amazon Seller Central]. Amazon每月收取訂購費和銷售費。 請參閱 [Amazon:選擇您的銷售計畫](https://sell.amazon.com/pricing.html){target="_blank"}.
+Amazon銷售渠道需要 [!DNL Professional Seller] 帳戶 [!DNL Amazon Seller Central]。 Amazon每月收取訂購費和銷售費。 請參閱 [Amazon:選擇銷售計畫](https://sell.amazon.com/pricing.html){target="_blank"}。
 
-## 3.確認您為Amazon認可賣家
+## 3.確保你是Amazon的賣家
 
-若要整合，您必須取得核准 [!DNL Amazon Seller Central] 帳戶。 您的帳戶對產品或類別不得有任何限制。 建立清單之前，有些產品和類別需要獲得批准。 檢閱Amazon的類別和產品核准政策，確保產品獲得核准。 請參閱 [Amazon:需要批准的類別和產品](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} （需要賣方中心登錄）。
+要整合，必須獲得批准 [!DNL Amazon Seller Central] 帳戶。 您的帳戶不得對產品或類別有任何限制。 某些產品和類別在建立清單之前需要獲得批准。 查看Amazon的類別和產品批准政策，確保您的產品獲得批准。 請參閱 [Amazon:需要批准的類別和產品](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} （需要賣方中心登錄）。
 
-也請務必確認您已在 [!DNL Amazon Seller Central] 帳戶：
+另外，還必須確保在 [!DNL Amazon Seller Central] 帳戶：
 
-- 確保您的回訪政策與Amazon回訪政策一樣好或更好。 請參閱 [Amazon:返回策略](https://www.amazon.com/gp/help/customer/display.html){target="_blank"}.
+- 確保你的回返政策與Amazon的回返政策一樣好或更好。 請參閱 [Amazon:返回策略](https://www.amazon.com/gp/help/customer/display.html){target="_blank"}。
 
 - 確保已配置稅務設定。 請參閱 [Amazon:稅收政策](https://sellercentral.amazon.com/gp/help/external/help.html){target="_blank"} （需要賣方中心登錄）。
 
-- 請確定您的運送方法已正確設定。 要設定發運方法， [!DNL Commerce] 提供給客戶以履行Amazon訂單，請更新 [Amazon:運送設定](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target="_blank"} 在 [!DNL Amazon Seller Central] 帳戶。
+- 確保正確配置了您的發運方法。 設定發運方法 [!DNL Commerce] 提供給客戶以履行您的Amazon訂單，更新 [Amazon:裝運設定](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target="_blank"} 在 [!DNL Amazon Seller Central] 帳戶。
 
-## 4.確認您的VAT已針對您的商店進行設定
+## 4.確保為商店配置增值稅
 
-（主要供英國銷售商使用。） Amazon建議您註冊 [Amazon增值稅計算服務](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon){target="_blank"}. 如果您選擇不同的方法，則需對增值稅合規性負責。
+（主要供英國賣家使用。） Amazon建議註冊 [Amazon增值稅計稅服務](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon){target="_blank"}。 如果您選擇其他方法，則您將負責增值稅合規性。
 
 >[!NOTE]
 >
->Amazon可能需要10到14天的時間來驗證和啟用您的增值稅計算服務帳戶。
+>Amazon可能需要10至14天時間驗證並激活您的增值稅計算服務帳戶。
 
-## 5.增加自動目錄比對的數量
+## 5.增加自動目錄匹配數
 
-在上線期間，Amazon銷售管道會使用產品屬性，將您現有的Amazon清單（若適用）與您 [!DNL Commerce] 目錄。 上線後，這些產品屬性將用來發佈 [!DNL Commerce] 目錄項目至Amazon清單，並在 [!DNL Commerce] 和Amazon。
+在入門期間，Amazon銷售渠道使用產品屬性將您現有的Amazon清單（如果適用）與您的現有產品匹配 [!DNL Commerce] 目錄。 登錄後，這些產品屬性用於發佈 [!DNL Commerce] 將目錄項目列到Amazon清單，並在 [!DNL Commerce] 和Amazon。
 
-若要具有 [!DNL Commerce] 產品會自動與Amazon清單相符，您應為 [!DNL Commerce] 目錄。 設定Amazon銷售管道商店之前，您應先新增 [!DNL Commerce] 產品屬性以符合這些Amazon屬性，例如：ASIN、EAN、ISBN、UPC或GCID。 請參閱 [在中建立產品屬性 [!DNL Commerce]](./ob-creating-magento-attributes.md).
+具有 [!DNL Commerce] 產品自動與Amazon清單匹配，您應為 [!DNL Commerce] 目錄。 在設定Amazon銷售渠道商店之前，應添加 [!DNL Commerce] 與這些Amazon屬性匹配的產品屬性，例如：ASIN、EAN、ISBN、UPC或GCID。 請參閱 [在中建立產品屬性 [!DNL Commerce]](./ob-creating-magento-attributes.md)。
 
-## 6.設定您的貨幣和轉換（視需要）
+## 6。配置幣種和轉換（根據需要）
 
-如果您的Amazon商店使用的貨幣與針對 [!DNL Commerce] 商店， [啟用貨幣](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
+如果您的Amazon商店使用的貨幣與為您的 [!DNL Commerce] 商店， [啟用幣種](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}。
 
-## 7.建立產品條件屬性（視需要）
+## 7。建立產品條件屬性（根據需要）
 
-如果您的Amazon清單包含多個產品條件(例如 _new_, _used_，或 _贊_)，建立 [!DNL Commerce] 屬性和指派條件值。 在上線期間，您必須對應此屬性至Amazon條件產品屬性。 請參閱 [建立Amazon的屬性](./ob-creating-magento-attributes.md).
+如果您的Amazon清單包含多個產品條件(例如 _新_。 _已使用_&#x200B;或 _新_)，建立 [!DNL Commerce] 屬性和賦值條件值。 在載入到「Amazon條件」產品屬性期間，必須映射此屬性。 請參閱 [為Amazon建立屬性](./ob-creating-magento-attributes.md)。
 
-## 8.設定 [!DNL Amazon Seller Central] 裝運方法
+## 8.配置 [!DNL Amazon Seller Central] 運輸方法
 
-要設定要為履行Amazon訂單提供的發運方法，請參閱 [設定與運送設定][10] 在 [!DNL Amazon Seller Central] 帳戶。
+要設定要用於履行Amazon訂單的發運方法，請參閱： [設定和裝運設定][10] 在 [!DNL Amazon Seller Central] 帳戶。
 
 ## 其他配置
 
-當您的Amazon帳戶設定並啟用時，有幾個 [!DNL Commerce] 有助於簡化Amazon銷售管道入門流程的建議。
+當你的Amazon帳戶設定為活動時，有幾個 [!DNL Commerce] 有助於簡化Amazon銷售渠道的入門流程的建議。
 
-### 檢閱並記下您要排除的任何產品
+### 複查並記錄要排除的任何產品
 
-您可能不想在Amazon上列出某些產品。 Amazon銷售管道有一個清單規則引擎，可用來判斷哪些產品符合發佈至Amazon的資格。 [上市規則](./listing-rules.md) 可讓您選取要發佈（或未發佈）至您的產品子集 [!DNL Amazon Seller Central] 帳戶，例如依類別選擇或定義一或多個產品屬性。 贊 [!DNL Commerce] [目錄](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+您可能不希望某些產品在Amazon上列出。 Amazon銷售渠道有一個清單規則引擎，用於確定哪些產品有資格發佈到Amazon。 [上市規則](./listing-rules.md) 允許您選擇要發佈（或未發佈）到您的產品的子集 [!DNL Amazon Seller Central] 帳戶，如按類別選擇或定義一個或多個產品屬性。 像 [!DNL Commerce] [目錄](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}。
 
-### 設定您的 [!DNL Amazon Seller Central] 非活動地區
+### 設定 [!DNL Amazon Seller Central] 區域至非活動
 
-為協助您在整合期間進行無錯誤的資料轉換，建議您將Amazon地區設為 `Inactive` 狀態位於「設定>帳戶資訊>假期設定」。 請參閱 [Amazon:假期的清單狀態][11]. 完成設定後，將狀態變回 `Active` 在Amazon。
+為幫助在整合期間實現無錯誤的資料過渡，建議您將Amazon地區設定為 `Inactive` 設定>帳戶資訊>假期設定中的狀態。 請參閱 [Amazon:列出假期狀態][11]。 完成設定後，將狀態更改回 `Active` 在Amazon。
 
 ![下一個表徵圖](assets/btn-next.png) [**繼續建立 [!DNL Commerce] 屬性**](./ob-creating-magento-attributes.md)

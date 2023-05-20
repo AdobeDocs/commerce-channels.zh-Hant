@@ -1,6 +1,6 @@
 ---
-title: 檢視Amazon訂單
-description: 在Adobe Commerce或Magento Open Source管理員中檢視您的Amazon Marketplace訂單。
+title: 查看Amazon訂單
+description: 在Adobe Commerce或Magento Open Source管理員中查看您的Amazon市場訂單。
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -9,44 +9,44 @@ ht-degree: 0%
 
 ---
 
-# 檢視Amazon訂單
+# 查看Amazon訂單
 
-有兩種方式可檢視您的Amazon訂單： _[!UICONTROL Recent Orders]_和_[!UICONTROL All Orders]_.
+查看您的Amazon訂單有兩種方法： _[!UICONTROL Recent Orders]_和_[!UICONTROL All Orders]_。
 
-兩個選項都會顯示從Amazon收到的基本訂單資訊，包括：
+兩個選項都向您顯示從Amazon收到的基本訂單資訊，包括：
 
-- 購買日期
+- 採購日期
 - 訂單編號
 - 狀態
-- 購買者名稱
+- 採購員姓名
 - 總計
 - 訂單附註
 
-_[!UICONTROL All Orders]_「視圖」為訂單搜索添加篩選選項。
+_[!UICONTROL All Orders]_「視圖」(view)為訂單搜索添加篩選選項。
 
 >[!NOTE]
 >
->除了 _[!UICONTROL Order Notes]_欄、_[!UICONTROL Amazon orders]_ 表格會填入從Amazon收到的訂單資訊。 此 _訂單附註_ 欄更新者 [!DNL Commerce] 訂單處理。
+>除 _[!UICONTROL Order Notes]_列_[!UICONTROL Amazon orders]_ 表中填有從Amazon收到的訂單資訊。 的 _訂單附註_ 列更新者 [!DNL Commerce] 按順序排列。
 
-## 最近訂購
+## 最近訂單
 
-您可以在 _[!UICONTROL Recent Orders]_區段 [儲存儀表板](./amazon-store-dashboard.md).
+您可以在 _[!UICONTROL Recent Orders]_的下界 [儲存儀表板](./amazon-store-dashboard.md)。
 
-![最近訂購](assets/amazon-recent-orders-imported.png)
+![最近訂單](assets/amazon-recent-orders-imported.png)
 
-### 檢視最近的Amazon訂單
+### 查看最近的Amazon訂單
 
 1. 按一下 **[!UICONTROL View Store]** 在商店卡上。
 
-1. 在 _[!UICONTROL Recent Orders]_區段。
+1. 在 _[!UICONTROL Recent Orders]_的子菜單。
 
-1. 若要檢視訂單詳細資料，請按一下 _[!UICONTROL Order Number]_欄。
+1. 要查看訂單詳細資訊，請按一下 _[!UICONTROL Order Number]_的雙曲餘切值。
 
-   此 _[!UICONTROL Amazon Order Details]_頁面。
+   的 _[!UICONTROL Amazon Order Details]_的上界。
 
 ## 查看所有訂單
 
-您可以在 _[!UICONTROL Amazon orders]_頁面(亦稱為_[!UICONTROL All Orders]_ 檢視)。 Amazon Orders表格類似於 _[!UICONTROL Recent Orders]_區段，但可讓您檢視所有Amazon訂單，並透過下列篩選選項縮小訂單清單的範圍：
+您可以查看您的所有Amazon訂單 _[!UICONTROL Amazon orders]_頁(也稱為_[!UICONTROL All Orders]_ )。 「Amazon訂單」表與 _[!UICONTROL Recent Orders]_的子菜單，但允許您查看所有Amazon訂單，並使用以下篩選器選項縮小訂單清單範圍：
 
 - [!UICONTROL Purchase Date (range)]
 - [!UICONTROL Order Number]
@@ -54,52 +54,52 @@ _[!UICONTROL All Orders]_「視圖」為訂單搜索添加篩選選項。
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon訂購](assets/amazon-orders-list-all.png)
+![Amazon訂單](assets/amazon-orders-list-all.png)
 
-### 檢視所有Amazon訂單
+### 查看所有Amazon訂單
 
 1. 按一下 **[!UICONTROL View Store]** 在商店卡上。
 
-1. 按一下 **[!UICONTROL All Orders]** 在 _[!UICONTROL Recent Orders]_區段。
+1. 按一下 **[!UICONTROL All Orders]** 的 _[!UICONTROL Recent Orders]_的子菜單。
 
-1. 要縮小清單或搜索特定訂單編號，請完成 **[!UICONTROL Filter by]** 參數，按一下 **[!UICONTROL Apply filters]**.
+1. 要縮小清單或搜索特定訂單編號，請完成 **[!UICONTROL Filter by]** 參數，按一下 **[!UICONTROL Apply filters]**。
 
-1. 若要檢視訂單詳細資料，請按一下 _[!UICONTROL Order Number]_欄。
+1. 要查看訂單詳細資訊，請按一下 _[!UICONTROL Order Number]_的雙曲餘切值。
 
-   此 _[!UICONTROL Amazon Order Details]_頁面。
+   的 _[!UICONTROL Amazon Order Details]_的上界。
 
-## 使用篩選
+## 使用篩選器
 
-您可以在 _[!UICONTROL Filter by]_區段。 進行選取，然後按一下&#x200B;**[!UICONTROL Apply filters]**. 您所套用的篩選器會出現在訂單格線上方。
+您可以將篩選器應用於訂單清單 _[!UICONTROL Filter by]_的子菜單。 進行選擇，然後按一下&#x200B;**[!UICONTROL Apply filters]**。 您應用的篩選器顯示在訂單網格的上方。
 
-![檢視Amazon訂單的篩選器](assets/amazon-orders-filter-view.png)
+![用於查看Amazon訂單的篩選器](assets/amazon-orders-filter-view.png)
 
-### 變更套用的篩選
+### 更改應用的篩選器
 
-- 您可以在 _[!UICONTROL Filter by]_區段。 按一下&#x200B;**[!UICONTROL Apply filters]**以更新順序網格上方顯示的順序清單和篩選選項。
+- 您可以在 _[!UICONTROL Filter by]_的子菜單。 按一下&#x200B;**[!UICONTROL Apply filters]**來更新訂單清單和出現在訂單網格上方的篩選器選項。
 
-- 您可以按一下 `x` 按一下 **[!UICONTROL Clear all filters]**. 移除篩選器會更新順序清單，以及顯示在順序格線上方的篩選選項。
+- 您可以通過按一下 `x` 按一下 **[!UICONTROL Clear all filters]**。 刪除篩選器會更新訂單清單以及顯示在訂單網格上方的篩選器選項。
 
-- 如果訂單清單很長，您可以使用格線下方的分頁控制項來檢視更多訂單。
+- 如果訂單清單很長，則可以使用網格下的分頁控制項查看更多訂單。
 
 >[!TIP]
 >
->訂單檢視的幾項秘訣：
+>有關訂單視圖的一些提示：
 >
->- 如果您有多個Amazon商店整合，則在商店檢視之間切換時，可能需要重新整理頁面檢視，以更新目前商店的訂單清單和分頁檢視。
->- 依欄排序時，排序僅套用至目前的清單檢視。 篩選清單然後排序您檢視的頁面是最佳作法。
->- 根據視圖窗口的寬度，您可能會在列中看到重疊的文本。 若要展開要繞排的文字欄，請拓寬視窗檢視。
->- 篩選依據時 _[!UICONTROL Total]_，按整數篩選。 輸入小數量可能會導致結果中出現錯誤。
+>- 如果您有多個Amazon儲存整合，則可能需要在儲存視圖之間切換時刷新頁面視圖以更新當前儲存的訂單清單和分頁視圖。
+>- 按列排序時，排序僅應用於當前清單視圖。 過濾清單，然後對您正在查看的頁面進行排序是一種最佳做法。
+>- 根據視圖窗口的寬度，您可能會在列中看到重疊的文本。 要展開要換行的文本的列，請拓寬窗口視圖。
+>- 篩選時 _[!UICONTROL Total]_，按整數篩選。 輸入小數量可能會導致結果出錯。
 
 
 ### 預設列
 
-| 欄 | 說明 |
+| 列 | 說明 |
 |---|---|
-| [!UICONTROL Filter by] | 僅適用於 _[!UICONTROL All Orders]_檢視。<br>根據以下內容縮小訂單清單：<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
-| [!UICONTROL Purchase Date] | 從Amazon收到的購買日期。 |
-| [!UICONTROL Order Number] | 由產生並從Amazon接收的訂單編號。 若要檢視「Amazon訂單詳細資料」畫面，請按一下連結。 |
-| [!UICONTROL Status] | 訂單的狀態，如Amazon所收到。 選項： `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
-| [!UICONTROL Buyer's Name] | 下訂單的人的姓名，如從Amazon收到的。 |
-| [!UICONTROL Grand Total] | 從Amazon收到的訂單的總貨幣值。 |
-| [!UICONTROL Order Notes] | 訂單處理時記錄的最新動作 [!DNL Commerce]. 資訊包括但不限於訂單匯入錯誤和訂單處理更新。<br>**附註**:此欄位已更新為 [!DNL Commerce] 訂單處理。 |
+| [!UICONTROL Filter by] | 僅在 _[!UICONTROL All Orders]_的子菜單。<br>根據以下各項縮小訂單清單：<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
+| [!UICONTROL Purchase Date] | 購買日期，從Amazon收到。 |
+| [!UICONTROL Order Number] | 由Amazon生成並從其接收的訂單號。 要查看「Amazon訂單詳細資訊」螢幕，請按一下連結。 |
+| [!UICONTROL Status] | 訂單狀態，如Amazon所收。 選項： `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
+| [!UICONTROL Buyer's Name] | 從Amazon收到的下單者的姓名。 |
+| [!UICONTROL Grand Total] | 從Amazon收到的訂單的總幣種值。 |
+| [!UICONTROL Order Notes] | 在中處理訂單時記錄的最新操作 [!DNL Commerce]。 資訊包括但不限於訂單導入錯誤和訂單處理更新。<br>**注釋**:此欄位由 [!DNL Commerce] 按順序排列。 |

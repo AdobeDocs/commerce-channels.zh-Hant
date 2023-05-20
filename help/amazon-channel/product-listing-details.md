@@ -1,6 +1,6 @@
 ---
 title: 查看清單詳細資訊
-description: 若要了解您Amazon清單和個別SKU/產品變更上的競爭量度，請檢閱產品清單詳細資料頁面。
+description: 要瞭解有關您的Amazon清單和單個SKU/產品更改的競爭標準，請查看產品清單詳細資訊頁面。
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
 source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
@@ -11,14 +11,14 @@ ht-degree: 0%
 
 # 查看清單詳細資訊
 
-此 _[!UICONTROL Product Listing Details]_頁面會顯示您作用中產品清單的其他資訊，包括「清單活動記錄」，其中會顯示個別SKU/產品上的變更。 此資訊可協助您了解產品及個別SKU/產品變更的競爭量度。 本頁面的其他資訊包括：
+的 _[!UICONTROL Product Listing Details]_頁面顯示有關您當前產品清單的其他資訊，包括顯示單個SKU/產品更改的清單活動日誌。 此資訊可以幫助您瞭解有關產品和單個SKU/產品更改的競爭標準。 本頁的其他資訊包括：
 
-- **[!UICONTROL Listing Details]**  — 產品詳細資訊，包括名稱和Amazon賣家SKU
-- **[!UICONTROL Listing Activity Log]**  — 本次上市所發生的所有更改的歷史記錄，如定價和數量/股票更改。 無需採取任何進一步動作。 此記錄可供檢閱，以了解變更記錄。
-- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon的資料 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 狀態與競爭者定價
-- **[!UICONTROL Lowest Competitor Pricing]**  — 關於最低Amazon競爭對手的定價和反饋資訊的資訊
+- **[!UICONTROL Listing Details]**  — 產品詳細資訊，包括名稱和Amazon銷售商SKU
+- **[!UICONTROL Listing Activity Log]**  — 此上市發生的所有更改（如定價和數量/股票更改）的歷史記錄。 無需採取進一步行動。 提供此日誌供審閱以瞭解更改歷史記錄。
+- **[!UICONTROL Buy Box Competitor Pricing]** -Amazon資料 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 狀態和競爭對手定價
+- **[!UICONTROL Lowest Competitor Pricing]**  — 有關Amazon最低競爭對手的定價和反饋資訊
 
-Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
+Amazon銷售渠道首頁共用一些共同的 [工作區控制項](./workspace-controls.md) 允許您自定義顯示的資料。
 
 ## 清單詳細資訊
 
@@ -34,41 +34,41 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 
 顯示Amazon清單的所有最近活動。 顯示的資訊包括：
 
-- Amazon賣家SKU:標識為清單定義的保存單位(SKU)。
-- 亞洲：識別10位數的Amazon產品識別碼。
-- 清單操作：識別針對清單所發生的動作類型。
-- 評論：提供與發生的清單動作類型相關的其他詳細資料。
-- 執行時間：識別動作發生的日期和時間。
+- Amazon賣家SKU:標識為上市定義的庫存單位(SKU)。
+- 亞洲：標識10位Amazon產品標識符。
+- 清單操作：標識為清單發生的操作類型。
+- 注釋：提供與發生的清單操作類型相關的其他詳細資訊。
+- 執行時間：標識操作發生的日期和時間。
 
 ![產品清單詳細資訊 — 清單活動日誌](assets/amazon-listing-activity-log.png)
 __
 
-## Buy Box競爭者定價 {#buy-box-competitor-pricing}
+## Buy Box競爭對手定價 {#buy-box-competitor-pricing}
 
-此索引標籤顯示持有 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 清單的位置。 此資訊可用來了解您的競爭對手在Amazon上的價格定位。 顯示的資訊包括：
+此標籤顯示有關持有 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 清單的位置。 此資訊可用於瞭解您的競爭對手在Amazon的價格定位。 顯示的資訊包括：
 
-- 亞洲：10位數的Amazon產品識別碼。
-- 賣家：識別您是否為 [!DNL Buy Box] 賣家。 選項是/否。
-- 條件：識別為清單定義的條件。
-- 上市價：識別發佈清單的價格。
-- 運費：標識添加到清單中的運費。
-- 地價：標識上市價格以及上市的運費。
-- 上次更新：識別從Amazon更新定價資訊的日期和時間。
+- 亞洲：10位Amazon產品標識符。
+- 賣家：標識您是否是 [!DNL Buy Box] 賣家。 選項是/否
+- 條件：標識為清單定義的條件。
+- 上市價格：標識發佈上市的價格。
+- 發運價格：標識添加到清單的發運價格。
+- 到岸價格：標識上市價格加上上市的發運價格。
+- 上次更新時間：標識從Amazon更新定價資訊的日期和時間。
 
-![產品清單詳細資訊：Buy Box競爭者定價](assets/amazon-listing-details-buy-box-2.png)
+![產品清單詳細資訊：Buy Box競爭對手定價](assets/amazon-listing-details-buy-box-2.png)
 
-## 競爭者最低定價 {#lowest-competitor-pricing}
+## 最低競爭對手定價 {#lowest-competitor-pricing}
 
-此索引標籤會顯示相同清單中Amazon競爭者的相關資訊。 此資訊可用於了解價格定位和 [最低競爭者定價](./lowest-competitor-pricing.md). 顯示的資訊包括：
+此頁籤顯示有關同一清單的Amazon競爭對手的資訊。 此資訊可用於瞭解價格定位和 [最低競爭對手定價](./lowest-competitor-pricing.md)。 顯示的資訊包括：
 
-- 亞洲：10位數的Amazon產品識別碼。
-- 條件：識別為清單定義的條件。
+- 亞洲：10位Amazon產品標識符。
+- 條件：標識為清單定義的條件。
 - 履行渠道：確定負責履行的交易方。 選項：商人/Amazon。
-- 上市價：識別發佈清單的價格。
-- 運費：標識添加到清單中的運費。
-- 地價：標識上市價格以及上市的運費。
-- 意見評等：識別最低價格商家的Amazon意見評等。
-- 反饋計數：識別最低價格商家的Amazon意見計數。
-- 上次更新：識別從Amazon更新定價資訊的日期和時間。
+- 上市價格：標識發佈上市的價格。
+- 發運價格：標識添加到清單的發運價格。
+- 到岸價格：標識上市價格加上上市的發運價格。
+- 反饋評級：標識價格最低的商家的Amazon反饋評級。
+- 反饋計數：標識最低價格商家的Amazon反饋計數。
+- 上次更新時間：標識從Amazon更新定價資訊的日期和時間。
 
-![產品清單詳細資訊 — 最低競爭者定價](assets/amazon-listing-details-lowest-comp.png)
+![產品清單詳細資訊 — 最低競爭對手定價](assets/amazon-listing-details-lowest-comp.png)

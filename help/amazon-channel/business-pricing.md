@@ -1,58 +1,58 @@
 ---
 title: (B2B)業務價格
-description: 您可以列出 [!DNL Commerce] store products on the Amazon Business (B2B) site by enabling business in your Amazon [!DNL Seller Central] 帳戶。
+description: 您可以列出 [!DNL Commerce] 在Amazon商務(B2B)站點上儲存產品，方法是：在Amazon [!DNL Seller Central] 帳戶。
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
 
 # (B2B)業務價格
 
-(B2B)商業價格設定是商店清單設定的一部分。 清單設定可從 [儲存儀表板](./amazon-store-dashboard.md).
+(B2B)業務價格設定是您的商店清單設定的一部分。 從 [儲存儀表板](./amazon-store-dashboard.md)。
 
-[!DNL Amazon Business] 是市集，專屬於Amazon註冊的商業帳戶，且僅適用於美國、法國、德國和英國。 如果Marketplace允許B2B業務定價，則可在清單設定中編輯它。
+[!DNL Amazon Business] 是一個僅在Amazon註冊的商業帳戶使用的市場，僅在美國、法國、德國和英國可用。 如果市場允許B2B業務定價，則在清單設定中可編輯。
 
-[!DNL B2B Business Pricing] 可讓具有商業帳戶的商戶以Amazon購物體驗的預期效能互相購買。 通過B2B業務定價，企業可以根據購買的數量提供分層定價。
+[!DNL B2B Business Pricing] 讓擁有商戶的商戶能夠相互購買，並具備預期的Amazon購物體驗。 通過B2B業務定價，企業可以根據購買的數量提供分層定價。
 
-若您的產品要列於 [!DNL Amazon Business (B2B)] 網站，您必須先在 [!DNL Amazon Seller Central] 帳戶。 如需B2B功能的詳細資訊，請參閱 [Amazon:B2B中央](https://sellercentral.amazon.com/gp/help/G202161480/){target=&quot;_blank&quot;}（需要賣方中心登入）。
+要在 [!DNL Amazon Business (B2B)] 站點，您必須首先在 [!DNL Amazon Seller Central] 帳戶。 有關B2B功能的詳細資訊，請參見 [Amazon:B2B中心](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} （需要Sler Central登錄）。
 
 ## 配置(B2B)業務價格設定
 
-1. 按一下 **[!UICONTROL Listing Settings]** 在商店控制面板上。
+1. 按一下 **[!UICONTROL Listing Settings]** 在商店儀表板上。
 
-1. 展開 _[!UICONTROL (B2B) Business Price]_區段。
+1. 展開 _[!UICONTROL (B2B) Business Price]_的子菜單。
 
-1. 針對 **[!UICONTROL Enable Business Pricing]**，選擇選項。
+1. 對於 **[!UICONTROL Enable Business Pricing]**，也請參見Wiki頁。
 
-   - `Disabled`  — （預設）選擇您不想啟用企業對企業銷售的時間。 選擇此區段中的所有其他欄位時，都會停用。
+   - `Disabled`  — （預設）選擇您不想啟用企業對企業銷售的時間。 選擇此部分中的所有其他欄位時都被禁用。
 
-   - `Enabled`  — 選擇何時啟用企業對企業銷售。 啟用後，所有定價規則都已套用後，業務價格會設為等於價目表價格。 如果已啟用，則業務價格將遵循網站定價範圍。 商業價格不能低於1美元。
+   - `Enabled`  — 選擇何時啟用企業對企業的銷售。 啟用後，在應用所有定價規則後，將業務價格設定為等於價目表價格。 業務價格遵循網站定價範圍（如果已啟用）。 業務價格不能低於1美元。
 
-1. 針對 **[!UICONTROL Enable Tiered Pricing]**，選擇選項。
+1. 對於 **[!UICONTROL Enable Tiered Pricing]**，也請參見Wiki頁。
 
-   - `Disabled`  — （預設）選擇所有訂單數量需要相同的上市價格。 選擇後，所有 _[!UICONTROL Pricing Level]_此區段中的欄位已停用。
+   - `Disabled`  — （預設）選擇所有訂單數量的相同清單價格。 選擇後，全部 _[!UICONTROL Pricing Level]_此部分中的欄位被禁用。
 
-   - `Enabled`  — 選擇要根據訂單數量啟用定價調整的時間。 選擇後， _[!UICONTROL Pricing Level]_欄位。
+   - `Enabled`  — 選擇何時根據訂單數量啟用定價調整。 選擇後， _[!UICONTROL Pricing Level]_欄位。
 
-1. 完成 **[!UICONTROL Pricing Level]** 設定。
+1. 完成 **[!UICONTROL Pricing Level]** 的子菜單。
 
-   您可以定義最多五個數量/折扣設定，以設定企業清單的層級定價。 在每行中，輸入要應用的數量閾值和折扣百分比。 例如，若您輸入 `5` 在第一行的第一個欄位中， `5` 在第二個欄位中，當其他企業購買數量為5個或更多時，價格會套用5%的折扣。
+   您最多可以定義五個數量/折扣設定，以設定業務清單的層定價。 在每行中，輸入要應用的數量閾值和折扣百分比。 例如，如果您 `5` 第一行的 `5` 在第二個欄位中，當另一個企業購買數量為5或5以上的產品時，價格將應用5%的折扣。
 
-1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
+1. 完成後，按一下 **[!UICONTROL Save listing settings]**。
 
-![Amazon業務定價(B2B)](assets/amazon-business-pricing.png)
+![Amazon商業定價(B2B)](assets/amazon-business-pricing.png)
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Enable Business Pricing] | 選項： <ul><li>**[!UICONTROL Disabled]**  — （預設）選擇您不想啟用業務對業務銷售的時間。 選取此選項時，此區段中的所有其他欄位都會停用。</li><li>**[!UICONTROL Enabled]**  — 選擇您希望啟用業務以實現業務銷售的時間。 選擇後，所有定價規則都應用完後，業務價格將設定為等於標價。 如果已啟用，則業務價格將遵循網站定價範圍。 商業價格不能低於1美元。</li></ul> |
-| [!UICONTROL Enable Tiered Pricing] | （必要）選項： <ul><li>**[!UICONTROL Disabled]**  — （預設）選擇所有訂單數量需要相同的上市價格。 選擇後，所有 _[!UICONTROL Pricing Level]_此區段中的欄位已停用。</li><li>**[!UICONTROL Enabled]**  — 選擇何時啟用根據訂單數量進行調整的定價。 選擇後， _[!UICONTROL Pricing Level]_欄位。</li></ul> |
-| [!UICONTROL Pricing Level One-Five (qty/discount)] | 啟用分層定價時，您可以定義最多五個數量/折扣設定，為企業清單設定分層定價。 在每行中，輸入要應用的數量閾值和折扣百分比。 例如，若您輸入 `5` 在第一行的第一個欄位中， `5` 在第二個欄位中，當其他企業購買數量為5個或更多時，價格會套用5%的折扣。 |
+| [!UICONTROL Enable Business Pricing] | 選項： <ul><li>**[!UICONTROL Disabled]**  — （預設）選擇您不希望啟用業務對業務銷售的時間。 選中後，此部分中的所有其他欄位都將被禁用。</li><li>**[!UICONTROL Enabled]**  — 選擇您希望何時啟用業務銷售。 選擇後，在應用所有定價規則後，將業務價格設定為等於價目表價格。 業務價格遵循網站定價範圍（如果已啟用）。 業務價格不能低於1美元。</li></ul> |
+| [!UICONTROL Enable Tiered Pricing] | （必需）選項： <ul><li>**[!UICONTROL Disabled]**  — （預設）選擇所有訂單數量的相同清單價格。 選擇後，全部 _[!UICONTROL Pricing Level]_此部分中的欄位被禁用。</li><li>**[!UICONTROL Enabled]**  — 選擇何時啟用根據訂單數量調整的定價。 選擇後， _[!UICONTROL Pricing Level]_欄位。</li></ul> |
+| [!UICONTROL Pricing Level One-Five (qty/discount)] | 啟用「分層定價」後，您最多可以定義五個數量/折扣設定，以設定業務清單的分層定價。 在每行中，輸入要應用的數量閾值和折扣百分比。 例如，如果您 `5` 第一行的 `5` 在第二個欄位中，當另一個企業購買數量為5個或5個以上時，價格將應用5%的折扣。 |
 
-**快速存取** - [!UICONTROL Listing Settings] 區段
+**快速訪問** - [!UICONTROL Listing Settings] 節
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)
