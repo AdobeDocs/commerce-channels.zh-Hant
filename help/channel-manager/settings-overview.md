@@ -1,6 +1,6 @@
 ---
 title: 設定概述
-description: '瞭解 [!DNL Channel Manager settings] 配置驗證並映射產品目錄屬性和協調銷售操作所需的運輸承運人 [!DNL Commerce] 和 [!DNL Walmart Marketplace]'
+description: '瞭解 [!DNL Channel Manager settings] 設定驗證，並對應產品目錄屬性與出貨承運商，以協調銷售作業介於 [!DNL Commerce] 和 [!DNL Walmart Marketplace].'
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # 設定概述
 
-銷售渠道設定允許在以下位置之間通信和資料同步 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 這樣你就能 [!DNL Walmart Marketplace] 銷售業務 [!DNL Commerce] 管理員。
+Sales channel設定可讓您在 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 以便您管理 [!DNL Walmart Marketplace] 銷售作業 [!DNL Commerce] 管理員。
 
-在 [!DNL Channel Manager]，在登錄過程中配置一些銷售渠道設定。 登錄後，您可以通過選擇 **[!UICONTROL Channel Settings]** 從 [!UICONTROL Listings] 和 [!UICONTROL Orders] 儀表板。
+在 [!DNL Channel Manager]，您可在上線流程中設定一些銷售管道設定。 上線後，您可以透過選擇以下專案檢視和管理設定 **[!UICONTROL Channel Settings]** 從 [!UICONTROL Listings] 和 [!UICONTROL Orders] 儀表板。
 
-* **[沃爾瑪連接](manage-wmt-connection.md)** — 在 [!DNL Channel Manager] 登機過程，您提供 [API憑據](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 從 [!DNL Walmart Marketplace] 要連接的賣家帳戶 [!DNL Commerce] 至 [!DNL Walmart Marketplace] 通信和資料同步。 如果需要，可以從 *通道設定* 的子菜單。
+* **[沃爾瑪連線](manage-wmt-connection.md)** — 期間 [!DNL Channel Manager] 上線流程，由您提供 [API認證](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 從您的 [!DNL Walmart Marketplace] 要連線的賣家帳戶 [!DNL Commerce] 至 [!DNL Walmart Marketplace] 用於通訊和資料同步。 如有需要，您可以從以下位置更新這些認證： *頻道設定* 頁面。
 
-* **[映射唯一標識符](map-catalog-attributes.md)** — 在連接清單之前 [!DNL Commerce] 至 [!DNL Walmart Marketplace]，從您的 [!DNL Commerce] 從Walmart獲取相應標識符。 需要此步驟才能匹配 [!DNL Commerce] 現有產品 [!DNL Walmart] 清單和同步產品資料 [!DNL Commerce] 和 [!DNL Walmart]。
+* **[對應唯一識別碼](map-catalog-attributes.md)** — 從以下連結清單之前： [!DNL Commerce] 至 [!DNL Walmart Marketplace]，從以下專案對應至少一個唯一識別碼： [!DNL Commerce] 類別目錄至來自Walmart的對應識別碼。 需要此步驟才能比對 [!DNL Commerce] 產品至現有 [!DNL Walmart] 清單及同步化產品資料的方式 [!DNL Commerce] 和 [!DNL Walmart].
 
-* **[映射運輸承運人](map-shipping-carriers.md)** — 處理前 [!DNL Walmart Marketplace] 訂單 [!DNL Commerce]，確保從您的 [!DNL Commerce] 實例到上的相應承運人 [!DNL Walmart Marketplace]。
+* **[對應出貨承運商](map-shipping-carriers.md)** — 處理之前 [!DNL Walmart Marketplace] 訂單來源 [!DNL Commerce]，請確定您對應 [!DNL Commerce] 執行個體至上的對應電信業者 [!DNL Walmart Marketplace].

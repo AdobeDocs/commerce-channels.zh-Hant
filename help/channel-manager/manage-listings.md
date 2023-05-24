@@ -1,6 +1,6 @@
 ---
 title: 管理清單
-description: '''管理銷售渠道清單 [!DNL Commerce] 與Channel Manager一起為Adobe Commerce和Magento Open Source商店。'
+description: '管理銷售管道清單 [!DNL Commerce] 與Adobe Commerce和Magento Open Source的管道管理員一起儲存。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
 source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
@@ -11,95 +11,95 @@ ht-degree: 0%
 
 # 管理清單
 
-管理產品清單 [!DNL Walmart Marketplace] 銷售渠道。
+管理產品清單 [!DNL Walmart Marketplace] Channel Manager UI中的銷售管道。
 
-單個清單的「狀態」(Status)指明產品在 [!DNL Channel Manager] 工作流，以便您可以確定後續步驟並解決任何錯誤。
+個別清單的狀態表示產品在 [!DNL Channel Manager] 工作流程，方便您決定後續步驟並解決任何錯誤。
 
-![連接的銷售渠道的清單頁面](assets/listings-dashboard-view.png)
+![連線銷售管道的清單頁面](assets/listings-dashboard-view.png)
 
-您可以從「清單」視圖完成以下任務。
+您可以從「清單」檢視完成下列作業。
 
-* 查看當前清單
+* 檢視目前清單
 * 排序和篩選清單
-* 添加產品
-* 匹配產品
-* 跟蹤清單狀態
-* 查看清單的錯誤描述，該清單具有錯誤狀態
+* 新增產品
+* 比對產品
+* 追蹤清單狀態
+* 檢閱錯誤狀態清單的錯誤說明
 
-## 查看產品清單
+## 檢視產品清單
 
-1. 從管理員，轉到 [!UICONTROL **營銷** > **渠道管理器**]。
+1. 從管理員，前往 [!UICONTROL **行銷** > **頻道管理員**].
 
-1. 從「商店」清單中，選擇商店條目行中的眼睛表徵圖以開啟商店視圖。
+1. 從「商店」清單中，選取商店專案列中的眼睛圖示，以開啟商店檢視。
 
-1. 選擇 [!UICONTROL **清單**]。
+1. 選取 [!UICONTROL **清單**].
 
-1. 排序 *清單* 通過在 *清單* 的子菜單。
+1. 排序 *清單* 選取「 」中的任何欄標題即可檢視 *清單* 表格。
 
-1. 篩選 *清單* 查看。
+1. 篩選 *清單* 選取其中一個狀態計數卡以檢視。
 
-1. 通過選擇 **刷新產品**。
+1. 重設排序順序並透過選取以下專案移除篩選器 **重新整理產品**.
 
-## 添加 [!DNL Commerce] 產品到Channel Manager
+## 新增 [!DNL Commerce] 產品至管道管理員
 
-為 [!DNL Walmart Marketplace] 完成以下任務：
+為建立產品分類 [!DNL Walmart Marketplace] 完成下列工作來建立頻道：
 
-* [添加您的產品 [!DNL Commerce] 產品目錄 [!DNL Channel Manager]](add-products-to-channel-store.md)
+* [從新增產品 [!DNL Commerce] 目標產品目錄 [!DNL Channel Manager]](add-products-to-channel-store.md)
 
-* [映射目錄屬性](map-catalog-attributes.md#configure-product-attribute-settings)
+* [對應目錄屬性](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## 匹配上的產品 [!DNL Walmart]
+## 比對產品於 [!DNL Walmart]
 
-您可以在 [!DNL Walmart Marketplace] 使用產品匹配或手動上載新產品的產品清單。
+您可以在上建立產品優惠方案 [!DNL Walmart Marketplace] 使用產品比對或手動上傳新產品的產品清單。
 
-* **[在沃爾瑪上匹配產品](connect-listings-to-marketplace.md)** — 將產品清單從渠道連接到 [!DNL Walmart Marketplace] 通過更新銷售相同產品的現有清單。 匹配條件由 [屬性映射配置](map-catalog-attributes.md) 你的頻道。
+* **[匹配沃爾瑪的產品](connect-listings-to-marketplace.md)** — 將產品清單從您的頻道連結至 [!DNL Walmart Marketplace] 更新銷售相同產品的現有清單。 符合條件由 [attribute-mapping設定](map-catalog-attributes.md) 您的頻道。
 
-* **[手動上載新清單](connect-listings-to-marketplace.md#upload-new-product-listings)** — 對於與上現有清單不匹配的產品 [!DNL Walmart Marketplace]，使用 [!DNL Walmart] 產品類別Excel模板，以批量上載產品清單。
+* **[手動上傳新清單](connect-listings-to-marketplace.md#upload-new-product-listings)** — 針對不符合上現有清單的產品 [!DNL Walmart Marketplace]，使用 [!DNL Walmart] 產品類別Excel範本可大量上傳產品清單。
 
-## 列出控制項和列說明
+## 列出控制項與欄位摘要
 
-下表介紹了可用於 [!UICONTROL Listings]。
+下清單格說明可用的控制項和資料行 [!UICONTROL Listings].
 
 **控制項[!UICONTROL Listings]**
 
-| **控制項** | **說明** |
+| **控制** | **說明** |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Add Products] | 開啟 [!UICONTROL Admin Product Catalog] 頁面選擇要添加到 [!DNL Walmart Marketplace] 或更新產品屬性以滿足沃爾瑪市場清單要求。 |
-| [!UICONTROL Match products on Walmart] | 在中選擇一個或多個產品後 [!UICONTROL Draft] 狀態，選擇 [!UICONTROL Match products on Walmart] 檢查是否可以添加到現有產品中 [!DNL Walmart Marketplace] 清單。 |
-| [!UICONTROL Refresh products] | 使用最新清單和狀態更新顯示。 此控制項還將清單視圖重置為預設排序順序並刪除任何篩選器。 |
-| [!UICONTROL Filter by *狀態*] | 通過選擇「清單」(Listing)表格上方的狀態卡之一，僅顯示具有特定狀態的清單。 通過選擇 **[!UICONTROL Refresh products]**。 |
-| [!UICONTROL Sort products] | 通過選擇任何列標題更改清單的排序順序。 |
+| [!UICONTROL Add Products] | 開啟 [!UICONTROL Admin Product Catalog] 選擇產品以新增至您的頁面 [!DNL Walmart Marketplace] 分類，或更新產品屬性以符合沃爾瑪市集列出的要求。 |
+| [!UICONTROL Match products on Walmart] | 在中選取一或多個產品後 [!UICONTROL Draft] 狀態，選取 [!UICONTROL Match products on Walmart] 以檢查可新增至現有產品的優惠方案 [!DNL Walmart Marketplace] 清單。 |
+| [!UICONTROL Refresh products] | 以最新的清單和狀態更新顯示。 此控制項也會將清單檢視重設為預設的排序順序，並移除任何篩選器。 |
+| [!UICONTROL Filter by *狀態*] | 選取「清單」表格上方的其中一個狀態卡，僅顯示具有特定狀態的清單。 選取以移除篩選器 **[!UICONTROL Refresh products]**. |
+| [!UICONTROL Sort products] | 選取任何欄標題，變更清單的排序順序。 |
 
 
-**列說明**
+**欄說明**
 
 | **欄位** | **說明** |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Product name] | 來自的產品名稱 [!DNL Commerce] 儲存目錄。 |
-| [!UICONTROL SKU (Unique ID)] | 分配給產品的SKU [!DNL Commerce] 目錄。 |
-| [!UICONTROL  Quantity] | 在Adobe Commerce或Magento Open Source的庫存量。 |
-| [!UICONTROL Price] | 來自 [!DNL Commerce] 儲存目錄。 目錄價格更新將同步到Channel Manager，然後發送到 [!DNL Walmart Marketplace]  讓列出的項目顯示當前價格。 |
-| [!UICONTROL Status] | 指示中的當前訂單狀態 [!DNL Commerce] 訂單工作流。 成功將產品添加到時的狀態更新 [!DNL Channel Manager] 和市場上的產品匹配。 如果操作失敗，清單將顯示錯誤狀態。 修復錯誤後， [!DNL Channel Manager] 重試該操作並更新狀態。 |
-| [!UICONTROL Error Description] | 提供具有 `[!DNL Error]` 狀態。 |
+| [!UICONTROL Product name] | 來自的產品名稱 [!DNL Commerce] 存放區目錄。 |
+| [!UICONTROL SKU (Unique ID)] | 指派給產品的SKU [!DNL Commerce] 目錄。 |
+| [!UICONTROL  Quantity] | Adobe Commerce或Magento Open Source中可用的庫存量。 |
+| [!UICONTROL Price] | 產品價格來自 [!DNL Commerce] 存放區目錄。 目錄價格更新會同步至「管道管理員」，然後傳送至 [!DNL Walmart Marketplace]  以便列出的專案顯示目前的價格。 |
+| [!UICONTROL Status] | 指示中目前的訂單狀態 [!DNL Commerce] 訂單工作流程。 當您成功新增產品到時，狀態會更新 [!DNL Channel Manager] 以及當您比對市場上的產品時。 如果作業失敗，清單會顯示錯誤狀態。 修正錯誤後， [!DNL Channel Manager] 請重試操作並更新狀態。 |
+| [!UICONTROL Error Description] | 為產品提供其他錯誤資訊，包括 `[!DNL Error]` 狀態。 |
 
 ### 關於清單狀態
 
-在「清單」工作區中，「狀態」標籤顯示產品在 [!DNL Channel Manager] 工作流，以便您可以確定後續步驟並解決錯誤。 清單可以具有以下狀態標籤：
+在「清單」工作區中，「狀態」標籤會顯示產品在 [!DNL Channel Manager] 工作流程，方便您決定後續步驟並解決錯誤。 清單可以有下列狀態標籤：
 
-* **[!UICONTROL Draft]** — 標識尚未 [已提交 [!DNL Walmart] 匹配](connect-listings-to-marketplace.md#match-products)。
+* **[!UICONTROL Draft]** — 識別尚未使用的產品 [已提交至 [!DNL Walmart] 進行比對](connect-listings-to-marketplace.md#match-products).
 
-* **[!UICONTROL Processing]** — 標識提交以在 [!DNL Walmart Marketplace]。 產品仍在 *處理* 狀態直到 [!DNL Walmart] 返回HTTP狀態消息，該消息指示匹配是否成功或是否出現錯誤。 要完成匹配操作，最多需要30分鐘 [!DNL Walmart Marketplace]。
+* **[!UICONTROL Processing]** — 識別提交以供比對的產品 [!DNL Walmart Marketplace]. 產品保留在 *處理中* 狀態直到 [!DNL Walmart] 傳回HTTP狀態訊息，指出相符是否成功，或是否有錯誤。 最多可能需要30分鐘，匹配作業才能在 [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Match]** — 標識成功匹配的產品 [!DNL Walmart]。
+* **[!UICONTROL Match]** — 識別成功比對的產品 [!DNL Walmart].
 
-   當產品屬性值（例如，UPC代碼）與現有產品中的UPC值匹配時，會出現匹配 [!DNL Walmart Marketplace] 清單。 當產品匹配時，將將Commerce產品優惠添加到現有清單中。
+   當產品屬性值（例如UPC代碼）與現存的UPC值相符時，就會發生相符專案 [!DNL Walmart Marketplace] 清單。 當產品符合時，Commerce產品選件會新增到現有清單中。
 
-   檢查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 控制面板：複查更新的產品清單並驗證產品詳細資訊、價格和庫存數量。
+   檢查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 資料面板，可複查更新的產品清單，並驗證產品詳細資訊、價格及存貨數量。
 
-* **[!UICONTROL Match - Match in Stage]** — 標識與 [!DNL Walmart] 直到 [!DNL Walmart Marketplace] 商店是即時的。 具有此狀態的產品在 [!DNL Walmart Marketplace] 商店就要開始了。
+* **[!UICONTROL Match - Match in Stage]** — 識別相符的產品 [!DNL Walmart] 在URL之前 [!DNL Walmart Marketplace] 存放區已上線。 具有此狀態的產品會在以下狀況時自動連線： [!DNL Walmart Marketplace] 商店上線。
 
-* **[!UICONTROL Error]** — 標識與現有產品不匹配的產品 [!DNL Walmart Marketplace] 清單。
+* **[!UICONTROL Error]** — 識別不匹配現有產品的產品 [!DNL Walmart Marketplace] 清單。
 
 * **[!UICONTROL Error description]** — 提供有關清單錯誤的詳細資訊。
 
-   解決錯誤後，請重新提交產品以進行匹配。 請參閱 [排除產品匹配錯誤](connect-listings-to-marketplace.md#troubleshoot-product-match-errors)。
+   解決錯誤後，請重新提交產品以進行比對。 另請參閱 [產品比對錯誤疑難排解](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
