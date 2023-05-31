@@ -1,15 +1,15 @@
 ---
-title: 新增訂價規則
+title: 新增Amazon定價規則
 description: 使用定價規則來管理您Commerce產品目錄的Amazon Marketplace上的定價。
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# 新增訂價規則
+# 新增Amazon定價規則
 
 整合商店後，您可以隨時設定或修改定價規則。 定價規則是的一部分 [清單設定](./listing-settings.md) 而且可以從 [存放區儀表板](./amazon-store-dashboard.md).
 

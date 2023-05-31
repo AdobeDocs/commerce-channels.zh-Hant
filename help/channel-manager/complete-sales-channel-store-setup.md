@@ -2,7 +2,7 @@
 title: 完成管道設定
 description: '建立連線銷售管道之後 [!DNL Commerce] 將檢視儲存至 [!DNL Walmart Marketplace]，開啟管道並完成管道設定。 然後，開始新增產品、管理清單、存貨、訂價及訂單的處理 [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 1. 從「管理員」中選取「**」[!UICONTROL Marketing** > **頻道管理員**].
 
-   ![管理管道管理員存放區](assets/channel-manager-setup-first-store.png)
+   ![管理管道管理員存放區](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 1. 選取商店的眼睛圖示，以開啟銷售管道商店。
 

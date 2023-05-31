@@ -2,7 +2,7 @@
 title: 編輯指派的ASIN
 description: 若不適當地符合您的其中一個Amazon清單，請變更Commerce產品的ASIN值。
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 - 建立已更新ASIN的清單
 - 更新Amazon sales channel中的清單資訊
 
-若要編輯指派的ASIN：
+**_若要編輯指派的ASIN：_**
 
 1. 檢視以下專案的清單： _[!UICONTROL Product Listings]_頁面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，或_[!UICONTROL Ineligible]_ 標籤)。
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. 若要儲存變更，請按一下 **[!UICONTROL Save Listing Update]**.
 
-![編輯指派的ASIN](assets/amazon-assigned-asin-edit.png)
+![編輯指派的ASIN](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

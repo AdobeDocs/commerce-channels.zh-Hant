@@ -1,15 +1,15 @@
 ---
-title: 依狀態/標籤管理產品清單
+title: 依狀態/標籤管理Amazon產品清單
 description: 當您管理Amazon清單時，可以根據狀態將動作套用至清單。
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# 依狀態/標籤管理產品清單
+# 依狀態/標籤管理Amazon產品清單
 
 此 _[!UICONTROL Product Listings]_頁面包含數個索引標籤，您可在其中檢視所有清單的狀態，並將產品與Amazon清單比對。
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 另請參閱 [依動作管理清單](./managing-listings-by-action.md).
 
-![產品清單標籤](assets/amazon-product-listings-tabs.png)
+![產品清單標籤](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | 標籤 | 說明 | 動作 |
 |--- |--- |--- |

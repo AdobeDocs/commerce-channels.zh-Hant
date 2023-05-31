@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] 需求'
 description: '確認您具備下列必要條件 [!DNL Walmart Marketplace]與Channel Manager整合的資訊和資源。'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * 對於未上線的商店，您的產品選件會進行暫存，且客戶無法看到。 當 [!DNL Walmart Marketplace] 商店上線，分階段清單會自動推送至上線商店。
 
-![[!DNL Walmart Seller Central] 暫存產品](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] 暫存產品](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

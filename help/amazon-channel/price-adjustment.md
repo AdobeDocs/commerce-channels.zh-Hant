@@ -1,15 +1,15 @@
 ---
-title: 價格調整
+title: Amazon sales channel - [!UICONTROL Price Adjustment]
 description: 設定價格調整，以便在您識別Amazon競爭者價格來源時定義價格計算。
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# 價格調整
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    - 時間 **[!UICONTROL Apply]** 設為 `Apply as fixed amount`，輸入固定金額的數值(範例： enter `25` 25美元的固定調整)。
 
-![智慧型重新訂價規則 — 價格調整](assets/amazon-price-adjustment.png)
+![智慧型重新訂價規則 — 價格調整](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |---|---|

@@ -2,7 +2,7 @@
 title: 建立別名Amazon賣家SKU
 description: 您可以使用別名Amazon賣家SKU，從Commerce目錄產品建立多區域Amazon清單。
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Save Listing Update]**.
 
-![建立別名Amazon賣家SKU](assets/amazon-alias-sku-create.png)
+![建立別名Amazon賣家SKU](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |

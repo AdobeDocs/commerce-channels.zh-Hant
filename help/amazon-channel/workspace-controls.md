@@ -1,10 +1,10 @@
 ---
-title: 工作區控制項
+title: Amazon sales channel - Workspace控制
 description: AmazonSales Channel提供工作區控制項，可協助您找出清單、檢視資訊，以及輕鬆套用動作。
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Amazon銷售管道 [首頁](./amazon-sales-channel-home.md) 有一些常見的工作區控制項，包括篩選器、預設檢視、欄和匯出。 並非所有頁面都具有相同的控制選項。
 
-![AmazonSales Channel工作區控制項範例](assets/amazon-workspace-controls.png)
+![AmazonSales Channel工作區控制項範例](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## 動作
 
@@ -21,7 +21,7 @@ Amazon銷售管道 [首頁](./amazon-sales-channel-home.md) 有一些常見的�
 
 例如，當選取器顯示在 _[!UICONTROL Attributes]_頁面中，包含_[!UICONTROL Re-import Product Attribute Values]_ 動作。 選擇此動作會偵測對應 [!DNL Amazon Seller Central] 帳戶並重新整理 [!DNL Commerce] 在左側欄中勾選每個Amazon存放區專案的資料。
 
-![動作功能表範例](assets/amazon-sales-channel-home-actions-option.png)
+![動作功能表範例](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## 篩選器
 
@@ -37,11 +37,11 @@ Amazon銷售管道 [首頁](./amazon-sales-channel-home.md) 有一些常見的�
 
 設定好篩選選項後，按一下 **[!UICONTROL Apply Filters]** 以篩選列出的資料。 按一下「取消」結束「篩選器」控制項而不套用。
 
-![篩選器控制項範例](assets/workspace-controls-filters.png)
+![篩選器控制項範例](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
 將篩選器套用至資料後， **[!UICONTROL Active Filters]** 資訊隨即顯示。 您可以按一下 ![清除篩選器圖示](assets/x-icon-clear-filters.png) 圖示以清除特定的篩選選項，或按一下 **[!UICONTROL Clear All]** 以清除所有套用的篩選器。
 
-![作用中篩選器範例](assets/applied-filters-line.png)
+![作用中篩選器範例](assets/applied-filters-line.png){width="700"}
 
 ## 檢視
 
@@ -72,7 +72,7 @@ Amazon銷售管道 [首頁](./amazon-sales-channel-home.md) 有一些常見的�
 - 若要新增資料欄至頁面，請選取核取方塊。
 - 若要從頁面中移除資料欄，請勿選取核取方塊。
 
-![欄控制項範例](assets/workspace-controls-columns.png)
+![欄控制項範例](assets/workspace-controls-columns.png){width="400"}
 
 核取方塊變更會立即顯示。 如果您進行變更並退出頁面，頁面會返回到預設欄顯示。 對於您定期進行的變更，您可以將欄變更儲存為「檢視」控制項中的自訂檢視。 然後，您就可以在「檢視」控制項中切換，而不必手動新增或移除欄。
 
@@ -89,4 +89,4 @@ Amazon銷售管道 [首頁](./amazon-sales-channel-home.md) 有一些常見的�
 
 產生的資料檔案會自動儲存到您指定的資料夾以供下載。
 
-![匯出控制](assets/workspace-controls-export.png)
+![匯出控制](assets/workspace-controls-export.png){width="250"}

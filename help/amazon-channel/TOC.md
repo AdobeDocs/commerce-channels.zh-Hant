@@ -2,9 +2,9 @@
 user-guide-title: AmazonSales Channel使用手冊
 user-guide-description: 將Adobe Commerce或Magento Open Source與您的整合，透過Amazon產生銷售 [!DNL Amazon Seller Central] 帳戶。
 breadcrumb-title: Amazon sales channel
-source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,11 @@ ht-degree: 0%
 
 # Amazon sales channel - [!DNL channel manager] 適用於Adobe Commerce {#amazon}
 
-- [指南概述](guide-overview.md)
+- [AmazonSales Channel使用手冊](guide-overview.md)
 - [Amazon銷售管道簡介](overview.md)
-- [發行說明](release-notes.md)
 - 快速入門 {#getting-started}
-   - [關於Amazon sales channel](about-amazon-sales-channel.md)
    - [關於Amazon Marketplace](about-amazon-marketplace.md)
-   - [關於Amazon和您的Commerce目錄](about-listings-and-catalog.md)
+   - [Amazon和Commerce目錄](about-listings-and-catalog.md)
    - [最佳作法和限制](amazon-best-practices.md)
    - [安裝擴充功能](install.md)
 - 入門 {#onboarding}
@@ -113,3 +111,4 @@ ht-degree: 0%
    - [常見訂單處理任務](common-order-processing.md)
    - [履行工作流程](fulfillment-workflows.md)
    - [取消未出貨的訂單](cancel-unshipped-order.md)
+- [發行說明](release-notes.md)

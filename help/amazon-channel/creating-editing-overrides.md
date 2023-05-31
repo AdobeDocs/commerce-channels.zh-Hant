@@ -1,10 +1,10 @@
 ---
-title: 建立和編輯覆寫
+title: 建立和編輯Amazon銷售管道覆寫
 description: 使用AmazonSales Channel覆寫，將您的變更套用至單一Amazon清單或多個清單。
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**以開啟「產品清單修訂」頁面。
 
-   ![建立Amazon清單覆寫](assets/amazon-select-create-override.png)
+   ![建立Amazon清單覆寫](assets/amazon-select-create-override.png){width="220"}
 
 1. 為確保您檢視正確的清單，請確認 _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 下列範例顯示定義新價格的覆寫 `$55`，的新處理時間 `1 day`，的新條件 `Used; Like New`和新的賣家備註文字。
 
-![Amazon清單覆寫範例](assets/amazon-overrides-edit.png)
+![Amazon清單覆寫範例](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## 編輯或移除單一清單的覆寫 {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    此 _[!UICONTROL Product Listing Overrides]_頁面隨即開啟。
 
-   ![選取Amazon清單覆寫](assets/amazon-select-edit-overrides.png)
+   ![選取Amazon清單覆寫](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. 為確保您覆寫正確的清單，請確認 _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 搭配 _建立覆寫_ 範例。 下列範例顯示先前建立之覆寫的編輯，其定義的新價格為 `$50`，移除「處理時間」覆寫，並保留先前的「條件」和「賣家備註」覆寫。
 
-![編輯或移除覆寫](assets/amazon-overrides-edit-2.png)
+![編輯或移除覆寫](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## 編輯或移除多個清單的覆寫 {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ __
 
    此 _[!UICONTROL Product Listing Overrides]_頁面隨即開啟。
 
-   ![選取Amazon清單覆寫](assets/amazon-actions-edit-listing-overrides.png)
+   ![選取Amazon清單覆寫](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. 若要編輯您的 _[!UICONTROL Override]_設定，定義您要變更的型別（價格、處理時間、條件、賣家備註）的區段。
 

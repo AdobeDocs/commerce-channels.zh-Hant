@@ -1,16 +1,15 @@
 ---
-title: 清單規則
+title: Amazon sales channel - [!UICONTROL Listing Rules]
 description: 使用清單規則可決定以Amazon Marketplace清單形式發佈的Commerce目錄產品。
-redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
 
-# 清單規則
+# [!UICONTROL Listing Rules]
 
 您可以存取中存放區的清單規則 [存放區儀表板](./amazon-store-dashboard.md).
 
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 - 如果您希望將所有產品發佈至Amazon清單，請勿為清單規則定義任何條件。
 
-- 如果您想要限制發佈至Amazon的目錄產品，請定義清單規則條件。 定義Amazon清單規則的條件，會遵循與定義條件相同的邏輯和程式 [購物車價格規則](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+- 如果您想要限制發佈至Amazon的目錄產品，請定義清單規則條件。 定義Amazon清單規則的條件，會遵循與定義條件相同的邏輯和程式 [購物車價格規則](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 - 如果您的清單規則排除產品，則該產品的資格狀態會變更為 `Ineligible`. 不符合資格的產品不會發佈至Amazon。
 
@@ -28,7 +27,7 @@ ht-degree: 0%
 
 數量和資格狀態的變更會影響市集中針對同一地區商店銷售而共用Amazon賣家SKU的所有清單(定義見 _[!UICONTROL Amazon Marketplace Country]_期間 [存放區整合](./store-integration.md))。 但是，對共用的 [!DNL Amazon Seller SKU] 不會在一個地區影響產品在其他國家/地區的Amazon清單。
 
-![清單規則](assets/ob-listing-rules.png)
+![清單規則](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## 設定清單規則設定
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |---|---|
-| [!UICONTROL Websites] | 可用的選項取決於 [網站](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 您已設定在 [!DNL Commerce] 設定。 為Amazon上列出的合格產品選取網站。 只能選取一個網站，因為每個網站都需要在Amazon銷售管道中建立唯一的Amazon商店。 |
+| [!UICONTROL Websites] | 可用的選項取決於 [網站](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 您已設定在 [!DNL Commerce] 設定。 為Amazon上列出的合格產品選取網站。 只能選取一個網站，因為每個網站都需要在Amazon銷售管道中建立唯一的Amazon商店。 |
 | [!UICONTROL Conditions] | 用於定義 [!DNL Commerce] 適用於您Amazon區域內產品資格的屬性。 另請參閱 [範例：定義條件](./ob-define-condition-example.md). |
 
 ## 條件工作區
@@ -50,7 +49,7 @@ ht-degree: 0%
 - 如果所選網站內的所有產品都符合條件，請勿新增條件。
 - 直接與Amazon的系統通訊時，有一組複雜的後端程式。 根據您嘗試列出的專案數量，以及Amazon的系統可能有多忙（例如「黑色星期五」），您的專案可能需要一些時間才會列在Amazon上。
 
-如需條件的詳細資訊，請參閱 [說明條件](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
+如需條件的詳細資訊，請參閱 [說明條件](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html).
 
 ## 清單規則預覽
 
@@ -90,7 +89,7 @@ ht-degree: 0%
 
    如果您的清單未如預期顯示，請按一下 **[!UICONTROL Back]** 並修改您的規則和條件，直到清單符合您的預期為止。
 
-![清單規則預覽](assets/amazon-listing-rule-preview.png)
+![清單規則預覽](assets/amazon-listing-rule-preview.png){width="600" zoomable="yes"}
 
 ### 列出預覽記錄
 
@@ -98,11 +97,11 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Product ID] | 指派給的唯一、連續編號 [!DNL Commerce] 新增目錄產品時。 |
 | [!UICONTROL Thumbnail] | 顯示主要產品影像的縮圖。 |
-| [!UICONTROL Name] | 產品的名稱，受管理於 [!DNL Commerce] [產品格線](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
+| [!UICONTROL Name] | 產品的名稱，受管理於 [!DNL Commerce] [產品格線](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |
 | [!UICONTROL Type] | 產品的型別，管理於 [!DNL Commerce] 產品格線。 |
 | [!UICONTROL Attribute Set] | 作為產品範本使用的屬性集名稱，管理於 [!DNL Commerce] 產品格線。 |
 | [!UICONTROL SKU] | 指派給產品的唯一庫存單位，管理於 [!DNL Commerce] 產品格線。 |
 | [!UICONTROL Visibility] | 指出產品可見的位置，並在下列位置管理： [!DNL Commerce] 產品格線。 選項：<ul><li>`Not visible individually`</li><li>`Catalog`</li><li>`Search`</li><li>`Catalog, Search`</li></ul> |
 | 狀態 | 表示產品的狀態，管理於 [!DNL Commerce] 產品格線。 選項： `Enabled` / `Disabled` |
 
-![清單預覽工作流程](assets/listing-preview-flowchart.png)
+![清單預覽工作流程](assets/listing-preview-flowchart.png){width="500" zoomable="yes"}

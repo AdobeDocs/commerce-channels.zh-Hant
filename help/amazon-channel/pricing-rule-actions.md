@@ -1,11 +1,11 @@
 ---
-title: 價格規則動作
+title: Amazon sales channel — 價格規則動作
 description: 使用價格規則動作來定義套用至價格來源的調整計算，以決定Amazon清單價格。
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---

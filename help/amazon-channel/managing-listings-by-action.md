@@ -1,15 +1,15 @@
 ---
-title: 依動作管理產品清單
+title: 依動作管理Amazon產品清單
 description: 當您管理Amazon清單時，可以將動作套用至個別或多個清單。
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 依動作管理產品清單
+# 依動作管理Amazon產品清單
 
 此 _[!UICONTROL Product Listings]_頁面包含數個索引標籤，您可在其中檢視所有清單的狀態，並將產品與Amazon清單比對。
 

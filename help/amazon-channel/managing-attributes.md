@@ -1,15 +1,15 @@
 ---
-title: 管理屬性
+title: 管理Amazon清單的屬性
 description: 您可以管理Commerce產品屬性與Amazon屬性的對應，以確保系統之間的產品資訊準確。
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# 管理屬性
+# 管理Amazon清單的屬性
 
 Amazon和 [!DNL Commerce] 兩者都使用用於定義產品的產品屬性系統（稱為屬性）。 屬性可定義產品的說明、內容、影像、價格和各種資料。
 
@@ -23,7 +23,7 @@ Amazon sales channel可讓您視需要存取、檢閱、建立和管理屬性，
 
 如需有關的詳細資訊 [!DNL Commerce] 和Amazon屬性集及值，請參閱：
 
-- [管理屬性基本知識](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [管理屬性基本知識](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [建立屬性](./creating-attributes.md#create-an-attribute)
 - [編輯現有屬性](./creating-attributes.md#edit-an-attribute)
 - [檢視屬性對應](./amazon-matching-attributes-values.md)

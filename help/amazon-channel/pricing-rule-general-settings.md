@@ -1,16 +1,15 @@
 ---
-title: 訂價規則一般設定
+title: Amazon sales channel — 定價規則一般設定
 description: 使用價格規則一般設定來定義上市價格規則的主要特性。
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
 
-# 訂價規則一般設定
+# 定價規則一般設定
 
 定義規則的名稱、說明、作用中日期和優先順序。
 
@@ -48,7 +47,7 @@ ht-degree: 0%
 >
 >若要捨棄後續規則，訂價規則必須具有定義 **優先順序** 值。
 
-![定價規則一般設定](assets/amazon-pricing-rule-general.png)
+![定價規則一般設定](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |---|---|

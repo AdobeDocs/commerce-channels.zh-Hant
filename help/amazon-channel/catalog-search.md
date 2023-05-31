@@ -1,16 +1,16 @@
 ---
-title: 目錄搜尋
+title: Amazon清單的目錄搜尋
 description: 若要設定有助於將符合條件的Commerce目錄產品與Amazon清單對應的屬性比對，請更新「目錄搜尋」設定。
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# 目錄搜尋
+# Amazon清單的目錄搜尋
 
 _目錄搜尋_ 設定是商店清單設定的一部分。 清單設定可從以下位置存取： [存放區儀表板](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ _目錄搜尋_ 設定是商店清單設定的一部分。 清單設定可從以�
 
 1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
 
-![目錄搜尋](assets/amazon-catalog-search.png)
+![目錄搜尋](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |

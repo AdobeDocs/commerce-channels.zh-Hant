@@ -2,9 +2,9 @@
 title: 退貨單與退款單
 description: 針對收到的退貨請求發出全部或部分退款的指示 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager] 適用於Adobe Commerce和Magento Open Source。
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 1. 管道管理員會建立具有已接收狀態的對應傳回要求，並新增傳回ID編號([!UICONTROL RMA #])重新命名為 [!UICONTROL Returns] 儀表板。 於 [!DNL Orders] 儀表板，與退貨更新相關聯的訂單狀態詳細資訊，以包含 [!UICONTROL Return requested] 檢視及處理退貨的連結。
 
-1. 商戶會在下列步驟之後建立「銷退折讓單」，以處理與退貨相關的退款 [Adobe Commerce退款工作流程](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). 所有退款均使用離線方式處理。
+1. 商戶會在下列步驟之後建立「銷退折讓單」，以處理與退貨相關的退款 [Adobe Commerce退款工作流程](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). 所有退款均使用離線方式處理。
 
 1. [!DNL Channel Manager] 將退款更新傳送至Walmart marketplace，以便更新退貨狀態來反映Adobe Commerce已完成的退款。
 
 在店面管理員中，您可以透過開啟銷售管道商店並選取 **[!UICONTROL Returns]**.
 
-![管道經理退貨儀表板，用於處理從收到的退貨請求的退款 [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![管道經理退貨儀表板，用於處理從收到的退貨請求的退款 [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ ht-degree: 0%
 
    * 從 [!UICONTROL Status Details] 欄，選取 **[!UICONTROL Create credit memo]** 若要開啟訂單詳細資訊頁面，請執行下列步驟： [!DNL Commerce].
 
-      如果訂單尚未開立商業發票，「訂單明細」頁面會顯示錯誤訊息，提示您建立訂單。 選取 **[!UICONTROL Create invoice]**. 然後， [建立並儲存發票](https://docs.magento.com/user-guide/sales/invoices.html).
+      如果訂單尚未開立商業發票，「訂單明細」頁面會顯示錯誤訊息，提示您建立訂單。 選取 **[!UICONTROL Create invoice]**. 然後， [建立並儲存發票](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * 在訂單詳細資訊頁面上，選取 **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 1. 選取以檢視退貨的退款詳細資料 **[!UICONTROL View credit memo]**.
 
-   ![退款銷退折讓單，用於退款退回的專案 [!DNL Walmart Marketplace] 訂購](assets/refund-credit-memo-for-marketplace-order.png)
+   ![退款銷退折讓單，用於退款退回的專案 [!DNL Walmart Marketplace] 訂購](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

@@ -1,15 +1,15 @@
 ---
-title: 已結束的清單
+title: 已結束的Amazon清單
 description: AmazonSales Channel提供「已結束」標籤，可供檢閱已結束的Amazon Marketplace清單，您可選擇重新發佈這些清單。
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# 已結束的清單
+# 已結束的Amazon清單
 
 此 _[!UICONTROL Ended]_索引標籤會顯示已從以下位置手動結束（移除）的所有Amazon產品： [!DNL Amazon Seller Central] 帳戶。 這些產品符合所有清單要求，並可隨時重新發佈，不需要其他資訊。 如果產品位於_[!UICONTROL Ineligible]_ 索引標籤上，您可以選擇修改 [清單設定](./listing-settings.md) 讓您的產品符合清單資格。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 若要發佈清單，請參閱 [手動發佈Amazon清單](./publish-listings-manually.md).
 
-![已結束的Amazon清單](assets/amazon-ended-listings.png)
+![已結束的Amazon清單](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 

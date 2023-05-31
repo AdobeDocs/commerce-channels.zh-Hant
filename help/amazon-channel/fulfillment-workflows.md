@@ -2,7 +2,7 @@
 title: Amazon履行工作流程
 description: Amazon清單中的訂單履行會遵循從訂單提交到出貨的特定順序。
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%

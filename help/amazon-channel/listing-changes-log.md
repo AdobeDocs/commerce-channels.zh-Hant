@@ -1,15 +1,15 @@
 ---
-title: 列出變更記錄
+title: Amazon sales channel - [!UICONTROL Listing Changes Log]
 description: AmazonSales Channel提供清單變更記錄，協助您監控Amazon賣家帳戶中受影響的變更。
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# 列出變更記錄
+# [!UICONTROL Listing Changes Log]
 
 「清單變更記錄」會顯示您專案中所發生的變更。 [!DNL Amazon Seller Account] 以反映您的Amazon銷售管道設定。 此記錄會指出已在Amazon和Amazon銷售管道之間同步的全域變更。 此記錄包含產品SKU的變更清單，例如動作型別（變更）、變更的簡短說明以及變更日期。
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 
-![列出變更記錄](assets/amazon-listing-changes-log.png)
+![列出變更記錄](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## 預設欄
 

@@ -1,8 +1,8 @@
 ---
-title: 準備列出
+title: Amazon sales channel - [!UICONTROL Ready to List]
 description: Amazon銷售管道提供「準備列出」標籤，協助您檢閱符合資格但未自動列出的Commerce產品。
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >[!NOTE]
 >如果您有處理中的清單，清單數量會顯示在標籤上方的訊息中。
 
-![準備列出](assets/amazon-ready-to-list.png)
+![準備列出](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## 預設欄
 

@@ -3,9 +3,9 @@ title: 管理Amazon定價
 description: 您可以使用定價規則，將Amazon清單的定價設定為與商務區不同。
 redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Amazon sales channel可讓您設定定價規則，讓您設定Amazon清單價格
    >
    >如果Amazon區域設為，智慧型重新定價規則就無法正常運作 `Inactive` 狀態，就像在上線期間一樣。 您的訂價計算取決於您的運費，而且您的地區必須位於 `Active` 要從Amazon同步的運費狀態。
    >
-   >若要更新Amazon帳戶中的地區狀態，請前往「設定>帳戶資訊>假期設定」。 請參閱 [Amazon：休假的清單狀態](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target="_blank"} （需要使用Seller Central登入）。
+   >若要更新Amazon帳戶中的地區狀態，請前往「設定>帳戶資訊>假期設定」。 請參閱 [Amazon：休假的清單狀態](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （需要使用Seller Central登入）。
 
-Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}. 您可以建立複雜的規則，讓您變更特定產品、特定類別內的產品，甚至具有特定屬性的價格。
+Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). 您可以建立複雜的規則，讓您變更特定產品、特定類別內的產品，甚至具有特定屬性的價格。
 
 您可以為Amazon清單新增定價規則。 價格規則可用於根據一組已定義的條件自動調整您的上市價格。 價格規則會觸發，並在您的產品在Amazon上上市之前計算調整後的價格。
 
@@ -41,9 +41,9 @@ Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https:
 - [條件](./pricing-rule-conditions.md)：決定哪些產品符合價格規則的條件。
 - [動作](./pricing-rule-actions.md)：定義套用至價格來源的調整計算，以決定掛牌價格。
 
-您可以建立 [標準訂價規則](./standard-price-rules.md) 會自動調整相對於所選Amazon的上市價格 **[!UICONTROL Magento Price Source]** 在您的 [上市價格](./listing-price.md) 設定。 Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}. 您可以建立複雜規則，自動變更特定產品、特定類別內的產品或具有特定屬性的產品的價格。 您可以完成傳統設定，並重新訂定產品價格，以根據固定金額或百分比增加或減少。
+您可以建立 [標準訂價規則](./standard-price-rules.md) 會自動調整相對於所選Amazon的上市價格 **[!UICONTROL Magento Price Source]** 在您的 [上市價格](./listing-price.md) 設定。 Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html). 您可以建立複雜規則，自動變更特定產品、特定類別內的產品或具有特定屬性的產品的價格。 您可以完成傳統設定，並重新訂定產品價格，以根據固定金額或百分比增加或減少。
 
-另一個強大的工具是 [智慧型重新定價](./intelligent-repricing-rules.md) 根據競爭者調整Amazon上市價格的功能 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 價格或 [最低競爭者價格](./lowest-competitor-pricing.md). 類似於 [!DNL Commerce] [目錄價格規則](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}，此進階功能可讓您建立複雜的規則，以操控您的Amazon價格。 規則可定義特定產品、特定類別內的產品，或甚至具有特定產品屬性的價格變更範圍。
+另一個強大的工具是 [智慧型重新定價](./intelligent-repricing-rules.md) 根據競爭者調整Amazon上市價格的功能 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 價格或 [最低競爭者價格](./lowest-competitor-pricing.md). 類似於 [!DNL Commerce] [目錄價格規則](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html)，此進階功能可讓您建立複雜的規則，以操控您的Amazon價格。 規則可定義特定產品、特定類別內的產品，或甚至具有特定產品屬性的價格變更範圍。
 
 使用智慧型重新定價，根據競爭者的定價調整您的Amazon上市價格。 Amazon sales channel已內建保護機制，可讓您設定來保護利潤或避免與意見反應不佳的商家價格競爭。 使用 [智慧型重新訂價規則](./intelligent-repricing-rules.md)，Amazon清單價格可以自動調整為固定或百分比金額（向上或向下），或甚至與 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 價格或 [最低競爭者價格](./lowest-competitor-pricing.md) 以每個專案為基礎。 您甚至可以棧疊規則，提供無限制的彈性。
 
@@ -53,7 +53,7 @@ Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https:
 
 另一個定價選項是 [價格覆寫](./overrides.md)，此專案是在個別清單層級設定。 A [價格覆寫](./overrides.md) 可設定，且覆寫會忽略/優先於所有其他預設值、設定和規則。 一個 [覆寫](./overrides.md) 可設定價格、處理時間、條件和賣家備註（少數例外）。
 
-![定價規則](assets/amazon-pricing-rules.png)
+![定價規則](assets/amazon-pricing-rules.png){width="600" zoomable="yes"}
 
 ## 預設欄
 

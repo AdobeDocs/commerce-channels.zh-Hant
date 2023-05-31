@@ -2,7 +2,7 @@
 title: 「智慧型重新訂價規則：選取規則型別」
 description: 建立智慧型重新訂價規則，根據競爭者的定價來決定您的Amazon清單價格。
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 >
 >您可以使用這些競爭者定價和意見回饋選項，避免讓您的定價以意見回饋差且銷售品質較低產品的競爭者為依據。
 
-![智慧型重新訂價規則 — 選取規則型別](assets/ob-intelligent-price-rule-type.png)
+![智慧型重新訂價規則 — 選取規則型別](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |

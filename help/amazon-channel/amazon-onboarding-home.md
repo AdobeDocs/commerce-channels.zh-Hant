@@ -1,16 +1,16 @@
 ---
-title: 上線AmazonSales Channel
+title: 「上線 [!DNL Amazon Sales Channel]"
 description: 瞭解預先設定任務、上線步驟，以及Amazon如何在Adobe Commerce和Magento Open Source中搭配AmazonSales Channel使用。
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# 上線AmazonSales Channel
+# 上線 [!DNL Amazon Sales Channel]
 
 本節說明預先設定任務、入門步驟，以及Amazon如何在Adobe Commerce和Magento Open Source中搭配Amazon銷售管道使用的一些重要概念。
 

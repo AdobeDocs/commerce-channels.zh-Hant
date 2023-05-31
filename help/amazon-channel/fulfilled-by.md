@@ -1,16 +1,16 @@
 ---
-title: 履行者
+title: Amazon清單的完成者設定
 description: 使用「履行者」設定來決定如何履行（出貨）Amazon清單中的訂單。
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# 履行者
+# Amazon清單的完成者設定
 
 _[!UICONTROL Fulfilled By]_設定是商店清單設定的一部分。 清單設定可從以下位置存取： [存放區儀表板](./amazon-store-dashboard.md).
 
@@ -46,12 +46,12 @@ _[!UICONTROL Fulfilled By]_設定是商店清單設定的一部分。 清單設�
 
 1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
 
-![履行者設定](assets/amazon-fulfilled-by.png)
+![履行者設定](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Product Fulfilled By] | 選項：<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM)選擇是否履行訂單。 下訂單時，存貨會從您的帳戶中扣除。 [!DNL Commerce] 目錄。 建立新產品時，會指派「已履行商家」的履行方式。</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA)選擇Amazon是否履行訂單。 使用此履行方式，產品詳細目錄不會從您的帳目中扣除 [!DNL Commerce] 下訂單時建立目錄。 建立產品時，其建立方式 _[!UICONTROL Fulfilled by Amazon (FBA)]_作為履行型態。 確保您的產品符合FBA履行資格(在 [!DNL Amazon Seller Central] 帳戶。 FBA詳細目錄也可透過以下方式直接管理 [!DNL Amazon Seller Central] 帳戶。 使用此履行方法，不會推出相對於您的數量的數量更新 [!DNL Commerce] 目錄，因此無法使用中說明的某些行銷工具 [庫存/數量設定](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]**  — 選擇您是否擁有 [!DNL Commerce] 決定是由商家履行或由Amazon履行的屬性。 選擇後， **[!UICONTROL Fulfilled by Attribute]** 啟用。</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | 選擇 [!DNL Commerce] 用來決定履行方式的屬性。<br><br>例如，如果屬性為 _履行者_ 而您選擇屬性值作為 _[!UICONTROL Fulfilled By Merchant]_或_[!UICONTROL Fulfilled By Amazon (FBA)]_，系統會將該值作為新產品的履行型別。 身為商家，您應確保產品符合以下範疇的FBA履行資格： [!DNL Amazon Seller Central] 帳戶。 FBA詳細目錄也可透過您的Amazon賣家帳戶直接管理。<br><br>選項取決於您為Amazon產品設定的屬性。 |
+| [!UICONTROL Fulfilled By Attribute] | 選擇 [!DNL Commerce] 用來決定履行方式的屬性。<br><br>例如，如果屬性為 _履行者_ 而您選擇屬性值作為 `Fulfilled By Merchant` 或 `Fulfilled By Amazon (FBA)`，系統會將該值作為新產品的履行型別。 身為商家，您應確保產品符合以下範疇的FBA履行資格： [!DNL Amazon Seller Central] 帳戶。 FBA詳細目錄也可透過您的Amazon賣家帳戶直接管理。<br><br>選項取決於您為Amazon產品設定的屬性。 |
 
 **快速存取** - [!UICONTROL Listing Settings] 區段
 

@@ -1,17 +1,17 @@
 ---
-title: 建立 [!DNL Commerce] Amazon的屬性
+title: 為Amazon建立Commerce屬性
 description: 在完成Amazon銷售管道上線流程之前，請確定您已具備 [!UICONTROL Commerce] 產品屬性。
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# 建立 [!DNL Commerce] Amazon的屬性
+# 為Amazon建立Commerce屬性
 
-上線之前 [!DNL Amazon Seller Central] 帳戶，最佳作法是新增 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} 以對應您的產品清單。 完成入門後，您可以透過以下方式管理產品屬性： [屬性](./managing-attributes.md) 的標籤 [Amazon銷售管道首頁](./amazon-sales-channel-home.md) 頁面。
+上線之前 [!DNL Amazon Seller Central] 帳戶，最佳作法是新增 [!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 以對應您的產品清單。 完成入門後，您可以透過以下方式管理產品屬性： [屬性](./managing-attributes.md) 的標籤 [Amazon銷售管道首頁](./amazon-sales-channel-home.md) 頁面。
 
 這些指示詳細說明如何建立 [!DNL Commerce] Amazon ASIN和Amazon條件的屬性。 建議建立其他屬性，包括Amazon EAN、Amazon ISBN和Amazon UPC。 如果您想要使用Amazon清單價格作為定價規則的價格來源，您也可以建立Amazon Price屬性。 在上線期間設定您的清單和定價設定時，會使用這些屬性。 在建立Amazon清單以及更新和同步時，也使用這些屬性 [!DNL Commerce] 包含Amazon清單的目錄。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Save Attribute]**.
 
-![Amazon ASIN屬性](assets/creating-asin-attribute.png)
+![Amazon ASIN屬性](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## 建立Amazon條件產品屬性
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Save Attribute]**.
 
-![Amazon條件屬性](assets/creating-amazon-condition-attribute.png)
+![Amazon條件屬性](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![「下一步」圖示](assets/btn-next.png) [**繼續新增或驗證API金鑰**](./amazon-verify-api-key.md)

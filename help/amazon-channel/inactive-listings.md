@@ -1,15 +1,15 @@
 ---
-title: 非使用中清單
+title: 非作用中Amazon清單
 description: Amazon銷售管道提供 [!UICONTROL Inactive] 標籤以監視您目前的非作用中 [!DNL Amazon Marketplace] 清單。
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# 非使用中清單
+# 非作用中Amazon清單
 
 此 _[!UICONTROL Inactive]_索引標籤會顯示您已發佈至Amazon但在上未啟用的產品。 [!DNL Amazon Marketplace]. 您的清單可能由於一些不同原因而處於非使用中狀態。 例如，您可能沒有資格列出該特定品牌。 非作用中清單是由Amazon的清單標準與您的 [!DNL Amazon Seller Central] 帳戶許可權。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >如果您有處理中的清單，標籤上方會出現一則訊息，指出清單的數量。
 
-![非作用中Amazon清單](assets/amazon-inactive-listings.png)
+![非作用中Amazon清單](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 

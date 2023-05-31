@@ -1,15 +1,15 @@
 ---
-title: 新的協力廠商清單
+title: 新的協力廠商Amazon清單
 description: 將新的Amazon清單比對Commerce目錄中的產品，藉此管理這些清單。
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# 新的協力廠商清單
+# 新的協力廠商Amazon清單
 
 此 _[!UICONTROL New Third Party]_索引標籤顯示您現有的和產品不相符的Amazon清單。 [!DNL Commerce] 目錄。 若要針對數量、價格、處理時間等使用清單管理，您的每個Amazon清單都必須與中的產品比對（指派） [!DNL Commerce] 目錄。 您有幾個選項可以將清單指派給中的產品 [!DNL Commerce] 目錄。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >如果您有處理中的清單，標籤上方會顯示一則訊息，指出清單的數量。
 
-![新的協力廠商清單](assets/amazon-listings-new-third-party.png)
+![新的協力廠商清單](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 

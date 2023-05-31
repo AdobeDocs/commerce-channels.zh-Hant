@@ -2,9 +2,9 @@
 title: 存貨與價格更新
 description: '[!DNL Channel Manager] 同步庫存與價格更新，以便 [!DNL Commerce] 存放區和 [!DNL Walmart Marketplace] 以便您能透過以下網站管理銷售管道作業： [!DNL Commerce] 管理員'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 當產品存貨層次在中變更時 [!DNL Commerce]， [!DNL Channel Manager] 將更新同步至 [!DNL Walmart Marketplace]. 庫存更新最多可能需要10分鐘，才能在銷售管道間同步至 [!DNL Walmart marketplace].
 
-* **更新產品目錄中的庫存數量** — 當 [!DNL Commerce] 庫存數量變更的原因為 [手動庫存數量變更](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html)，退款或取消， [!DNL Channel Manager] 將變更同步至連線的通道，並 [!DNL Walmart Marketplace].
+* **更新產品目錄中的庫存數量** — 當 [!DNL Commerce] 庫存數量變更的原因為 [手動庫存數量變更](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html)，退款或取消， [!DNL Channel Manager] 將變更同步至連線的通道，並 [!DNL Walmart Marketplace].
 
 * **減少庫存量以反映 [!DNL Walmart Marketplace] 訂購** — 在 [!DNL Walmart Marketplace] 訂單同步至 [!DNL Channel Manager]， [!DNL Channel Manager] 將更新傳送至 [!DNL Commerce] 訂購系統。 [!DNL Commerce] 會根據順序調整庫存量。 然後，更新後的數量會同步至 [!DNL Walmart Marketplace]. 在同步處理作業完成之前，您可能會在sales channel清單和 [!DNL Walmart].
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 1. 視需要複查並更新價格。
 1. **[!UICONTROL Save]** 變更。
 
-如需管理產品價格設定的協助，請前往 [!DNL Commerce]，請參閱 [管理定價](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.
+如需管理產品價格設定的協助，請前往 [!DNL Commerce]，請參閱 [管理定價](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html).

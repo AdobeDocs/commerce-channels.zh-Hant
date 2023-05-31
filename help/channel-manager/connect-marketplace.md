@@ -2,7 +2,7 @@
 title: '連線 [!DNL Channel Manager] 至 [!DNL Walmart Marketplace]'
 description: 將Commerce商店檢視連線至 [!DNL Walmart Marketplace] 建立銷售管道，以管理Commerce產品清單、存貨、價格和Walmart Marketplace銷售訂單。」
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Marketplaces available to connect]** 區段，選取 **[!UICONTROL Get Started]**.
 
-   ![連線新增 [!DNL Walmart] 儲存至 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![連線新增 [!DNL Walmart] 儲存至 [!DNL Channel Manager]](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 1. 如有需要，請設定 [!DNL Walmart Marketplace Seller] 帳戶。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    - 選取 [!DNL Commerce] 提供您要在Marketplace上銷售之產品的商店檢視。
 
-      ![設定之間的連線 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![設定之間的連線 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
 
    - 輸入唯一值 **[!UICONTROL store name]**.
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
       在開發人員入口網站上，選取您所在的地區（美國和加拿大），然後登入。
 
-      ![[!DNL Walmart Marketplace] 帳戶登入](assets/walmart-marketplace-login-page.png)
+      ![[!DNL Walmart Marketplace] 帳戶登入](assets/walmart-marketplace-login-page.png){width="600"}
 
    - 在API金鑰表單上，複製並儲存 **[!UICONTROL Client ID]** 和 **[!UICONTROL Client Secret]** 的值 [!UICONTROL Adobe Inc Production API key] 至安全位置。
 
-      ![[!DNL Walmart Marketplace API key] 設定頁面](assets/walmart-api-key-management-form.png)
+      ![[!DNL Walmart Marketplace API key] 設定頁面](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
 
       >[!NOTE]
       >
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 成功連線後， [完成商店設定](complete-sales-channel-store-setup.md) 從 **[!UICONTROL Channel Manager]** 商店頁面。
 
-![設定第一個存放區](assets/channel-manager-setup-first-store.png)
+![設定第一個存放區](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 ### 疑難排解連線問題
 

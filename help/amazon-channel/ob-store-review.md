@@ -1,15 +1,15 @@
 ---
-title: 存放區設定
+title: 檢閱Amazon銷售管道的商店設定
 description: 在您完成Amazon銷售管道上線流程後，請檢閱並更新 [!DNL Commerce] 存放區設定。
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# 存放區設定
+# 檢閱Amazon銷售管道的商店設定
 
 在您建立並整合Amazon銷售管道商店後，請檢閱商店預設設定，以確保您的產品、清單、定價和其他設定正確無誤。
 
@@ -27,4 +27,4 @@ ht-degree: 0%
    - **[!UICONTROL Logs]** - [清單變更](./listing-changes-log.md) 和 [通訊錯誤](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)— 檢閱中的電子郵件和Amazon銷售管道商店名稱設定 [!DNL Commerce] 管理員。
 
-![存放區儀表板](assets/ob-store-review.png)
+![存放區儀表板](assets/ob-store-review.png){width="600" zoomable="yes"}

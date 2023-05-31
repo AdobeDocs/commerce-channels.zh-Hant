@@ -1,15 +1,15 @@
 ---
-title: 預先設定任務
+title: 的預先設定任務 [!DNL Amazon sales channel]
 description: 在AmazonSales Channel中整合Adobe Commerce或Magento Open Source商店之前，請先檢閱要完成的必要工作。
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
 
-# 預先設定任務
+# 的預先設定任務 [!DNL Amazon sales channel]
 
 早於 [存放區整合](./store-integration.md)，您必須確保 [!DNL Amazon Seller Central] 帳戶與您的 [!DNL Commerce] 帳戶已準備好進行整合。 為了成功整合，有一些必要的預先設定工作。
 
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## 1.在中啟用背景工作 [!DNL Commerce]
 
-所有產品和資料都同步於 [!DNL Commerce] 而Amazon是由 [cron工作](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. 當您完成新增或更新清單和接收訂單等作業時，cron工作會在您之間 [!DNL Commerce] 後端與您的 [!DNL Amazon Seller Central] 帳戶。
+所有產品和資料都同步於 [!DNL Commerce] 而Amazon是由 [cron工作](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). 當您完成新增或更新清單和接收訂單等作業時，cron工作會在您之間 [!DNL Commerce] 後端與您的 [!DNL Amazon Seller Central] 帳戶。
 
-- [啟用 [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
+- [啟用 [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html).
 
-- 為獲得最佳效能， [set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} 每五分鐘執行一次。
+- 為獲得最佳效能， [set [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html) 每五分鐘執行一次。
 
 ## 2.建立您的 [!DNL Amazon Seller Central] 帳戶
 
@@ -57,7 +57,7 @@ Amazon sales channel需要 [!DNL Professional Seller] 帳戶於 [!DNL Amazon Sel
 
 ## 6.視需要設定貨幣和轉換
 
-如果您的Amazon商店使用的貨幣與為設定的貨幣不同 [!DNL Commerce] 商店， [啟用貨幣](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
+如果您的Amazon商店使用的貨幣與為設定的貨幣不同 [!DNL Commerce] 商店， [啟用貨幣](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) 並設定 [貨幣轉換率](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html).
 
 ## 7.建立產品條件屬性（視需要）
 
@@ -65,7 +65,7 @@ Amazon sales channel需要 [!DNL Professional Seller] 帳戶於 [!DNL Amazon Sel
 
 ## 8.設定您的 [!DNL Amazon Seller Central] 送貨方法
 
-若要設定您要提供的送貨方式，以完成Amazon訂單，請參閱 [設定和送貨設定][10] 在您的 [!DNL Amazon Seller Central] 帳戶。
+若要設定您要提供的送貨方式，以完成Amazon訂單，請參閱 _設定和送貨設定_ 在您的 [!DNL Amazon Seller Central] 帳戶。
 
 ## 其他設定
 
@@ -73,10 +73,10 @@ Amazon sales channel需要 [!DNL Professional Seller] 帳戶於 [!DNL Amazon Sel
 
 ### 檢閱並記下您要排除的任何產品
 
-您可能不希望某些產品列在Amazon上。 Amazon sales channel有一個清單規則引擎，可用來判斷哪些產品符合發佈至Amazon的資格。 [清單規則](./listing-rules.md) 可讓您選取要發佈（或未發佈）至您的產品的子集 [!DNL Amazon Seller Central] 帳戶，例如依類別選取或定義一或多個產品屬性。 按讚 [!DNL Commerce] [目錄](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+您可能不希望某些產品列在Amazon上。 Amazon sales channel有一個清單規則引擎，可用來判斷哪些產品符合發佈至Amazon的資格。 [清單規則](./listing-rules.md) 可讓您選取要發佈（或未發佈）至您的產品的子集 [!DNL Amazon Seller Central] 帳戶，例如依類別選取或定義一或多個產品屬性。 按讚 [!DNL Commerce] [目錄](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) 或 [購物車](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) 價格規則，用於Amazon清單資格的產品屬性必須具備 **[!UICONTROL Use for Promo Rule Conditions]** 設定為 `Yes`. 請參閱 **[!UICONTROL Use for Promo Rule Conditions]** 在 [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ### 設定您的 [!DNL Amazon Seller Central] 區域至非使用中
 
-為協助在整合期間順利轉換資料，建議您將Amazon區域設為 `Inactive` 「設定>帳戶資訊>休假設定」中的狀態。 請參閱 [Amazon：休假的清單狀態][11]. 完成設定後，將狀態變更回 `Active` 在Amazon中。
+為協助在整合期間順利轉換資料，建議您將Amazon區域設為 `Inactive` 「設定>帳戶資訊>休假設定」中的狀態。 完成設定後，將狀態變更回 `Active` 在Amazon中。
 
 ![「下一步」圖示](assets/btn-next.png) [**繼續建立 [!DNL Commerce] 屬性**](./ob-creating-magento-attributes.md)

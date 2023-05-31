@@ -1,19 +1,19 @@
 ---
-title: 屬性
+title: Amazon清單的屬性
 description: AmazonSales Channel提供 [!UICONTROL Attributes] 標籤來監視Amazon和Commerce屬性清單，以及它們如何對應以符合產品。
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# 屬性
+# Amazon清單的屬性
 
 此 _[!UICONTROL Attributes]_檢視會顯示您的Amazon清單和 [!DNL Commerce] 屬性。 此清單也會指出已對應用於產品比對的屬性。 如需詳細資訊，請參閱 [管理屬性](./managing-attributes.md).
 
-![屬性檢視](assets/amazon-attributes-view.png)
+![屬性檢視](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
 從 _[!UICONTROL Attributes]_檢視，您就可以檢閱表格中的屬性設定和 [建立或編輯](./creating-attributes.md) 屬性。
 

@@ -1,21 +1,21 @@
 ---
-title: 最低競爭者價格
+title: Amazon sales channel - [!UICONTROL Lowest Competitor Pricing]
 description: 此 [!UICONTROL Amazon Sales Channel] 提供 [!UICONTROL Lowest Competitor Pricing] 索引標籤來協助您瞭解競爭對手在Amazon上的價格定位。
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# 最低競爭者價格
+# [!UICONTROL Lowest Competitor Pricing]
 
 此 _[!UICONTROL Lowest Competitor Pricing]_標籤上的_[!UICONTROL Product Listing Details]_ 頁面會顯示最低的最終起岸價格，但會細分為出貨價與掛牌價。 這些資訊可用來瞭解您的競爭對手在Amazon上的價格定位。
 
 [智慧型重新訂價規則](./intelligent-repricing-rules.md) 可設定為根據競爭者價格調整您的定價。
 
-![最低競爭者價格](assets/amazon-listing-details-lowest-comp.png)
+![最低競爭者價格](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
 
 ## 存取最低競爭者定價詳細資料
 

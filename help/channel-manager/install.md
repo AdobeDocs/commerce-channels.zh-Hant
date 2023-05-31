@@ -2,9 +2,9 @@
 title: '安裝 [!DNL Channel Manager]'
 description: '安裝[!DNL Channel Manager] 副檔名。'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 
 >[!NOTE]
 >
->如需安裝的協助 [!DNL Commerce] 使用CLI的軟體，請參閱 [一般CLI安裝](https://devdocs.magento.com/extensions/install/){target="_blank"}.
+>如需安裝的協助 [!DNL Commerce] 使用CLI的軟體，請參閱 [安裝擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ### 安裝在內部部署執行個體上
 
 使用這些指示來安裝 [!DNL Channel Manager] Adobe Commerce和Magento Open Source至內部部署執行個體。
 
-1. 登入 [!DNL Commerce] server as a [具有許可權的使用者](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} 以寫入 [!DNL Commerce] 檔案系統。
+1. 登入 [!DNL Commerce] server as a [具有許可權的使用者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) 以寫入 [!DNL Commerce] 檔案系統。
 
-1. 將您的網站放入 [維護模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
+1. 將您的網站放入 [維護模式](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
@@ -108,13 +108,13 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 
 將擴充功能新增至雲端例項時，請在開發分支中工作。
 
-如需使用分支的協助，請參閱 [開始建立分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} (位於Adobe Commerce開發人員檔案中)。
+如需使用分支的協助，請參閱 [開始建立分支](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) 在 _雲端基礎結構上的Commerce指南_.
 
-在安裝期間，擴充功能名稱(`magento\channel-manager`)會自動插入 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} 檔案。 您不需要直接編輯檔案。
+在安裝期間，擴充功能名稱(`magento\channel-manager`)會自動插入 [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 檔案。 您不需要直接編輯檔案。
 
 1. 在本機工作站上，變更至雲端專案根目錄。
 
-1. 建立或簽出開發 [分支](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
+1. 建立或簽出開發 [分支](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
 1. 使用Composer名稱，將擴充功能新增至 `require` 部分 `composer.json` 檔案。
 
@@ -156,14 +156,14 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 Module is enabled
 ```
 
-如果模組已停用， [在您的本機環境中啟用它](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 並部署您的變更。
+如果模組已停用， [在您的本機環境中啟用它](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) 並部署您的變更。
 
 
 1. 成功安裝擴充功能後，請登入 [!UICONTROL Admin] 至 [設定Commerce服務聯結器](connect.md).
 
    >[!NOTE]
    >
-   >如需將Channel Manager更新至新版本的指示，請參閱 [升級模組和擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
+   >如需將Channel Manager更新至新版本的指示，請參閱 [升級模組和擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
 ## 疑難排除
@@ -172,7 +172,7 @@ Module is enabled
 
 ### 不正確的撰寫器金鑰
 
-如果 [存取金鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用於驗證Composer存放庫無效，或未連結到 [!DNL MAGE ID] 用於註冊 [!DNL Channel Manager] 服務，會顯示下列錯誤。
+如果 [存取金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用於驗證Composer存放庫無效，或未連結到 [!DNL MAGE ID] 用於註冊 [!DNL Channel Manager] 服務，會顯示下列錯誤。
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -192,7 +192,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. 確認auth.json中的認證相符 [與影像ID相關聯的金鑰](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} 用於註冊Channel Manager服務。
+1. 確認auth.json中的認證相符 [與影像ID相關聯的金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用於註冊Channel Manager服務。
 
 ### PHP的記憶體不足
 
@@ -204,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 使用下列其中一種方法來解決記憶體問題：
 
-- [增加PHP的記憶體限制](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} 用於其他PHP設定。
+- [增加PHP的記憶體限制](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) 在環境中 `php.ini` 檔案。 此外，請確認商務例項具有 [建議值](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) 用於其他PHP設定。
 
 - 從命令列指定記憶體限制。
 
@@ -220,7 +220,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 ### 缺少檢視
 
-如果您收到有關遺失的錯誤 `process_catalog_exporter_view` 在安裝管道管理員期間，請嘗試 [重新整理索引器](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
+如果您收到有關遺失的錯誤 `process_catalog_exporter_view` 在安裝管道管理員期間，請嘗試 [重新整理索引器](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html).
 
 ```bash
 php bin/magento indexer:refresh
@@ -228,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### 雲端部署錯誤
 
-如需將擴充功能部署至雲端的問題，請參閱 [擴充功能部署失敗](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
+如需將擴充功能部署至雲端的問題，請參閱 [擴充功能部署失敗](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html).

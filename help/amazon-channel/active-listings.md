@@ -1,15 +1,15 @@
 ---
-title: 作用中的清單
+title: 作用中的Amazon清單
 description: Amazon銷售管道提供作用中標籤，可監視作用中Amazon清單及與Adobe Commerce目錄中的產品相符的專案。
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# 作用中的清單
+# 作用中的Amazon清單
 
 此 _[!UICONTROL Active]_索引標籤顯示您的Amazon清單，這些清單會在 [!DNL Amazon Marketplace] 和已符合您網站上的產品 [!DNL Commerce] 目錄。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >如果您有處理中的清單，清單數量會顯示在標籤上方的訊息中。
 
-![作用中的清單](assets/amazon-active-listings.png)
+![作用中的清單](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 

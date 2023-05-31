@@ -2,7 +2,7 @@
 title: 新增產品至管道管理員
 description: '''建立產品分類 [!DNL Walmart Marketplace] 將目錄中的產品新增至在「管道管理員」中設定的銷售管道進行銷售。 '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 1. 從連線的銷售管道商店中，選取 **新增產品** 以開啟產品目錄。
 
-   ![新增產品至銷售管道商店](assets/add-initial-products-to-connected-channel.png)
+   ![新增產品至銷售管道商店](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    目錄會在新標籤中開啟。
 
 1. 從目錄產品格線中，選取銷售產品 [!DNL Walmart Marketplace].
 
-   ![將產品傳送至銷售管道商店](assets/select-products-from-catalog.png)
+   ![將產品傳送至銷售管道商店](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. 啟用 **[!UICONTROL Connect to Channel Manager]** 所選專案的屬性。
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
       確認訊息隨即顯示。
 
-      ![從目錄匯入產品至銷售管道確認訊息](assets/product-import-from-catalog-confirmation.png)
+      ![從目錄匯入產品至銷售管道確認訊息](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      如果訊息指出已排程更新，請使用 [佇列:consumers:開始](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] 立即處理更新的命令。
+      如果訊息指出已排程更新，請使用 [佇列:consumers:開始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 立即處理更新的命令。
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ ht-degree: 0%
 
 1. 選取「 」，更新檢視以顯示新增至「管道管理員」的新產品 **[!UICONTROL Draft]** 狀態卡。
 
-   ![產品已匯入連線銷售管道](assets/products-in-marketplace-sales-channel.png)
+   ![產品已匯入連線銷售管道](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

@@ -1,11 +1,11 @@
 ---
-title: 產品清單條件
+title: Amazon銷售管道 — 產品清單條件
 description: 使用產品清單條件設定，將您的Commerce產品對應至Amazon產品條件，例如「新增」或「整新」。
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Amazon需要產品清單才能有定義的條件。 如果您的所有產品具�
 
 1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
 
-![產品清單條件](assets/amazon-product-listing-condition.png)
+![產品清單條件](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |---|---|

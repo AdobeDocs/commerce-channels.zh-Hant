@@ -1,10 +1,10 @@
 ---
-title: 更新必要資訊（不完整的清單）
+title: 更新Amazon必要資訊
 description: Amazon sales channel提供「不完整」索引標籤，用於監控缺少Amazon所需資訊的Commerce目錄產品。
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 清單現在與您的目錄相符，然後清單會根據您的cron和清單設定更新並發佈到Amazon。 它也會從 _[!UICONTROL Incomplete]_標籤。
 
-![手動指定ASIN以排除清單相符專案](assets/amazon-listing-update-assign-asin.png)
+![手動指定ASIN以排除清單相符專案](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## 更新必要資訊（找到多個相符專案） {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 若要儲存產品相符專案，請按一下 **[!UICONTROL Save Listing Update]**.
 
-![從多個可能的相符專案手動選取ASIN](assets/amazon-listing-update-multiple-matches.png)
+![從多個可能的相符專案手動選取ASIN](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## 更新必要資訊（具有變體） {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ ht-degree: 0%
 
 1. 若要儲存產品相符專案，請按一下 **[!UICONTROL Save Listing Update]**.
 
-![從可能的變體比對中手動選取ASIN](assets/amazon-listing-update-multiple-matches.png)
-
 ## 更新必要資訊（缺少條件） {#update-required-info-missing-condition}
 
 1. 檢視清單于 _[!UICONTROL Incomplete]_定位於 [管理清單](./managing-product-listings.md).
@@ -79,4 +77,4 @@ ht-degree: 0%
 
 1. 若要儲存產品相符專案，請按一下 **[!UICONTROL Save Listing Update]** .
 
-![手動更新遺漏的條件](assets/amazon-update-listing-missing-condition.png)
+![手動更新遺漏的條件](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

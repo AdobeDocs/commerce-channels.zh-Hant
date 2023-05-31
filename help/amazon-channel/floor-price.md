@@ -2,9 +2,9 @@
 title: 「智慧型重新訂價規則：底價」
 description: 使用底價設定來決定智慧型訂價規則的最低價格，以管理您的Amazon清單。
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 對象 **[!UICONTROL Floor Price Source]**，選擇價格來源屬性。
 
-   選擇 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 表示您的相對樓層限制。 例如，如果您不想讓Amazon的清單價格低於專案的成本，您可以選擇 *成本* 屬性。
+   選擇 [!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 表示您的相對樓層限制。 例如，如果您不想讓Amazon的清單價格低於專案的成本，您可以選擇 *成本* 屬性。
 
 1. 對象 **[!UICONTROL Floor Price Action]**，選擇一個選項。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 在此範例中，底價設定為高於料號成本3%。
 
-![智慧型重新訂價規則範例 — 底價](assets/ob-intelligent-pricde-rule-floor-price.png)
+![智慧型重新訂價規則範例 — 底價](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |

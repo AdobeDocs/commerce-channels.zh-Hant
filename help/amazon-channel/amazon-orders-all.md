@@ -2,7 +2,7 @@
 title: 檢視Amazon訂單
 description: 在Adobe Commerce或Magento Open Source管理員中檢視您的Amazon Marketplace訂單。
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_檢視新增訂單搜尋的篩選選項。
 
 您可以檢視您最近的訂單，位於 _[!UICONTROL Recent Orders]_部分 [存放區儀表板](./amazon-store-dashboard.md).
 
-![最近的訂單](assets/amazon-recent-orders-imported.png)
+![最近的訂單](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### 檢視最近的Amazon訂單
 
@@ -54,7 +54,7 @@ _[!UICONTROL All Orders]_檢視新增訂單搜尋的篩選選項。
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon訂單](assets/amazon-orders-list-all.png)
+![Amazon訂單](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### 檢視所有Amazon訂單
 
@@ -72,7 +72,7 @@ _[!UICONTROL All Orders]_檢視新增訂單搜尋的篩選選項。
 
 您可以在以下位置將篩選器套用至您的訂單清單： _[!UICONTROL Filter by]_區段。 進行選取並按一下&#x200B;**[!UICONTROL Apply filters]**. 您套用的篩選器會顯示在「訂單」格線上方。
 
-![檢視Amazon訂單的篩選器](assets/amazon-orders-filter-view.png)
+![檢視Amazon訂單的篩選器](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### 變更套用的篩選器
 

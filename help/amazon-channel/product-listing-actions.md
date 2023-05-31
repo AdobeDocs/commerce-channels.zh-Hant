@@ -1,11 +1,11 @@
 ---
-title: 產品清單動作
+title: Amazon sales channel — 產品清單動作
 description: 使用產品清單動作設定來定義您的Commerce目錄與Amazon的互動方式。
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 完成後，按一下 **[!UICONTROL Save listing settings]**.
 
-![產品清單動作](assets/amazon-product-listing-actions.png)
+![產品清單動作](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |

@@ -1,15 +1,15 @@
 ---
-title: 清單不完整
+title: 不完整的Amazon清單
 description: Amazon銷售管道提供 [!UICONTROL Incomplete] 標籤來協助您識別並符合未完成Amazon清單的資格要求。
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# 清單不完整
+# 不完整的Amazon清單
 
 此 _[!UICONTROL Incomplete]_索引標籤會列出 [!DNL Commerce] 符合您Amazon資格要求的目錄產品(定義於 [清單規則](./listing-rules.md))，但遺失Amazon所需的資訊(例如Amazon ASIN或定義的產品條件)。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >如果您有處理中的清單，清單的數量會顯示在標籤上方的訊息中。
 
-![不完整的Amazon清單](assets/amazon-incomplete-listings.png)
+![不完整的Amazon清單](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 

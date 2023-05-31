@@ -1,15 +1,15 @@
 ---
-title: 「入門：建立清單規則」
+title: 建立Amazon清單規則
 description: 完成Amazon銷售管道上線流程時，請建立初始清單規則，以便為產生Amazon清單 [!DNL Commerce] 產品。
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# 入門：建立清單規則
+# 建立Amazon清單規則
 
 清單規則可在上線期間定義，但亦可隨時修改。 上線後，您可以存取 [清單規則](./listing-rules.md) 在商店上 [儀表板](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 在「清單預覽」中檢閱您的清單：
 
-   ![清單預覽](assets/amazon-ob-listing-preview.png)
+   ![清單預覽](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]**  — 根據您目前的清單規則設定，此標籤上列出的產品不符合Amazon清單的資格。
 

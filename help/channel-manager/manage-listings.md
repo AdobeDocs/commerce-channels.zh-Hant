@@ -2,7 +2,7 @@
 title: 管理清單
 description: '管理銷售管道清單 [!DNL Commerce] 與Adobe Commerce和Magento Open Source的管道管理員一起儲存。'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 個別清單的狀態表示產品在 [!DNL Channel Manager] 工作流程，方便您決定後續步驟並解決任何錯誤。
 
-![連線銷售管道的清單頁面](assets/listings-dashboard-view.png)
+![連線銷售管道的清單頁面](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 您可以從「清單」檢視完成下列作業。
 

@@ -1,10 +1,10 @@
 ---
-title: 價格規則範例
+title: Amazon銷售管道 — 價格規則範例
 description: 若要協助您為Amazon清單設計定價規則，請根據常見案例檢閱這些範例。
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ ht-degree: 2%
 
 在此範例中，最具競爭力的價格是透過檢視Amazon來定義 [競爭者的最低價格](./lowest-competitor-pricing.md) 正面意見佔95%，最低數量為1,000個商家評論。
 
-![價格調整範例](assets/amazon-price-adjustment-example.png)
+![價格調整範例](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 根據這些引數執行搜尋後，競爭性價格會回到$25。
 

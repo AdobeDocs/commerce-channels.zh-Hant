@@ -2,7 +2,7 @@
 title: 管理Walmart市集連線
 description: '''更新API認證以授權[DNL！之間的連線 Commerce]商店檢視和 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 產品清單，並同步化存貨、價格、訂單和出貨資料，介於 [!DNL Commerce] 還有沃爾瑪。'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 若要修改證明資料，請選取 **[!UICONTROL Change Credentials]**
 
-   ![更新Walmart API認證以授權連線](assets/update-connection-credentials.png)
+   ![更新Walmart API認證以授權連線](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
 1. 輸入 **[!UICONTROL Walmart Client ID]** 和 **[!UICONTROL Walmart Client Secret]**.
 

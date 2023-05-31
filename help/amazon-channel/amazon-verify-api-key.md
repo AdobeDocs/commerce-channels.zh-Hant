@@ -2,9 +2,9 @@
 title: 新增或驗證Amazon API金鑰
 description: 在您的Commerce設定中，已驗證的Amazon API金鑰可讓您將商店與Amazon賣家帳戶整合。
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    如果您是第一次存取Amazon銷售管道，或您的API金鑰需要更新，系統會提示您完成此程式。
 
-   ![取得並新增Amazon API金鑰提示](assets/amazon-api-verification-prompt.png)
+   ![取得並新增Amazon API金鑰提示](assets/amazon-api-verification-prompt.png){width="500"}
 
 1. 按一下 **[!UICONTROL Sign in]** 存取 [!DNL Commerce] 網站帳戶。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    若要建立API金鑰，請輸入如下說明 `Amazon Sales Channel` 並按一下 **[!UICONTROL Add New]**. 隨即產生新金鑰，並顯示您輸入的名稱。 按一下 **[!UICONTROL Copy]** 以複製新金鑰。
 
-   ![產生或複製API金鑰](assets/amazon-add-api-key.png)
+   ![產生或複製API金鑰](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
 1. 產生並複製新金鑰後，返回 _[!UICONTROL Amazon Sales Channel]_定位字元。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Save Config]**. 您現在可以返回Amazon銷售管道。
 
-   ![在您的商店設定中新增API金鑰](assets/config-magento-services-api-screen.png)
+   ![在您的商店設定中新增API金鑰](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
 1. 於 _[!UICONTROL Admin]_側欄，前往&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 

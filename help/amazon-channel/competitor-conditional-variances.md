@@ -2,9 +2,9 @@
 title: 「智慧型重新訂價規則：競爭者條件差異」
 description: 建立智慧型重新訂價規則，根據競爭者的定價和產品狀況來決定您的Amazon清單價格。
 exl-id: c52230e3-4e47-45bc-80e0-170530f58987
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ ht-degree: 0%
 
    當 _[!UICONTROL Apply Variance]_功能已選取，則會針對您的每個Amazon條件顯示其他變異欄位。 此功能可讓您在提供與競爭者處於不同狀況的產品時，使用智慧型重新定價規則。 若要瞭解條件變異數背後的計算，您必須先瞭解所有變異數都是根據基本比對價來決定。
 
-   出現的條件變異選項是根據您的清單設定 `Condition` 對應至條件值的變數 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. 對於所有對應的條件，您可以定義1-100的差異百分比。 可收集專案則為例外，在此情況下，可套用大於100的百分比。
+   出現的條件變異選項是根據您的清單設定 `Condition` 對應至條件值的變數 [!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). 對於所有對應的條件，您可以定義1-100的差異百分比。 可收集專案則為例外，在此情況下，可套用大於100的百分比。
 
-![智慧型重新訂價規則 — 競爭者條件差異](assets/amazon-competitor-cond-variances.png)
+![智慧型重新訂價規則 — 競爭者條件差異](assets/amazon-competitor-cond-variances.png){width="500" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Competitor Conditional Variances] | 選項： <ul><li>**[!UICONTROL Use all competitor's product conditions]**  — 若您列出產品的條件不符合，則此選項會比對任何可用條件。 它會先嘗試符合您的條件，然後從 `New` 完成情況 `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]**  — 此選項符合您產品的條件。 若不存在相符專案，則產品價格為 _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]**  — 此選項會先嘗試比對您的產品條件。 如果不存在相符條件，則會套用相對於您的產品條件和最低競爭者條件的變異數（以百分比表示）。</li></ul><br><br>根據您條件清單設定（已使用「 」對應至條件值）顯示的條件變異選項 [!DNL Commerce] [產品屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. 對於所有對應的條件，您可以表示差異百分比1-100。 可收集專案則為例外，在此情況下，可套用大於100的百分比。<br><br>此功能可讓您在提供與競爭者處於不同狀況的產品時，使用智慧型重新定價規則。 若要瞭解條件變異數背後的計算，您必須先瞭解所有變異數都是根據基本比對價來決定。 |
+| [!UICONTROL Competitor Conditional Variances] | 選項： <ul><li>**[!UICONTROL Use all competitor's product conditions]**  — 若您列出產品的條件不符合，則此選項會比對任何可用條件。 它會先嘗試符合您的條件，然後從 `New` 完成情況 `Used; Acceptable`.</li><li>**[!UICONTROL Use only matching competitor's product condition]**  — 此選項符合您產品的條件。 若不存在相符專案，則產品價格為 _[!UICONTROL Magento Price Source]_.</li><li>>**[!UICONTROL Apply variance (if competitor's product condition differs)]**  — 此選項會先嘗試比對您的產品條件。 如果不存在相符條件，則會套用相對於您的產品條件和最低競爭者條件的變異數（以百分比表示）。</li></ul><br><br>根據您條件清單設定（已使用「 」對應至條件值）顯示的條件變異選項 [!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html). 對於所有對應的條件，您可以表示差異百分比1-100。 可收集專案則為例外，在此情況下，可套用大於100的百分比。<br><br>此功能可讓您在提供與競爭者處於不同狀況的產品時，使用智慧型重新定價規則。 若要瞭解條件變異數背後的計算，您必須先瞭解所有變異數都是根據基本比對價來決定。 |
 
 ## 計算條件變異數基礎
 
@@ -55,18 +55,18 @@ ht-degree: 0%
 
 計算條件差異基礎的公式如下：
 
-![條件變異數基準計算公式](assets/amazon-cond-variance-calc-1.png)
+![條件變異數基準計算公式](assets/amazon-cond-variance-calc-1.png){width="300"}
 
 ## 範例
 
 條件變異數設定如下：
 
-![條件變異數設定範例](assets/amazon-cond-variances.png)
+![條件變異數設定範例](assets/amazon-cond-variances.png){width="500" zoomable="yes"}
 
 - BMC = 100 （競爭者條件=新增）
 - MCV = 80 （商家條件=已使用；良好）
 - BMP = $7.99 （基本比對價格=相符競爭條件的最低價格）
 
-![條件變異數基準計算範例](assets/amazon-cond-variance-calc-2.png)
+![條件變異數基準計算範例](assets/amazon-cond-variance-calc-2.png){width="300"}
 
 使用上述的條件差異基準計算，您的條件差異基準= $6.39。此計算方式是價格規則動作所使用的競爭者價格來源，詳情請參閱 [價格調整](./price-adjustment.md).

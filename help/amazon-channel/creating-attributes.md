@@ -1,10 +1,10 @@
 ---
-title: 建立和編輯屬性
+title: 建立和編輯Amazon銷售管道的屬性
 description: AmazonSales Channel提供「屬性」檢視，協助您檢閱目前的Amazon屬性和連結的Commerce屬性。
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 對象 **[!UICONTROL Comparable on Storefront]**，設定為 `Yes` 屬性值是否可用於Amazon的「比較對象」功能。
 
-1. 選擇 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 屬性，然後選取一或多個要將Amazon值匯入的「商店檢視」。
+1. 選擇 [!DNL Commerce] [範圍](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 屬性，然後選取一或多個要將Amazon值匯入的「商店檢視」。
 
    如果範圍設定為 `Global`，則 _[!UICONTROL Store View]_建立屬性後即無法變更。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 儲存後，您可能會想要編輯屬性以檢閱設定並比對Amazon和 [!DNL Commerce] 屬性的值。 您也可以指出Amazon值是否應該覆寫 [!DNL Commerce] 值。
 
-![建立屬性設定](assets/amazon-attribute-settings-create.png)
+![建立屬性設定](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |
@@ -75,8 +75,8 @@ ht-degree: 0%
 | [!UICONTROL Use for Promo Rule Conditions] | 切換至 `Yes` 讓屬性可用於促銷條件內的引數。 |
 | [!UICONTROL Used in Search] | 表示屬性和值是否可用於產品搜尋。 |
 | [!UICONTROL Comparable on Storefront] | 指出屬性值是否可用於Amazon的「比較依據」功能。 |
-| [!UICONTROL Magento Product Attribute Scope] | 指示 [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 屬性的。 選項：全域/商店檢視<br>當設定為 `Global`，建立屬性後即無法編輯存放區檢視。 |
-| [!UICONTROL Store Views (to import values into to)] | 僅在範圍設定為時顯示 `Store View`. 選擇 [存放區檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon屬性值會同步至該處。 選擇 `All Store Views (Global)` 更新全部的值 [!DNL Commerce] 存放區檢視。 |
+| [!UICONTROL Magento Product Attribute Scope] | 指示 [範圍](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 屬性的。 選項：全域/商店檢視<br>當設定為 `Global`，建立屬性後即無法編輯存放區檢視。 |
+| [!UICONTROL Store Views (to import values into to)] | 僅在範圍設定為時顯示 `Store View`. 選擇 [存放區檢視](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Amazon屬性值會同步至該處。 選擇 `All Store Views (Global)` 更新全部的值 [!DNL Commerce] 存放區檢視。 |
 
 ## 編輯屬性 {#edit-an-attribute}
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 完成後，按一下 **[!UICONTROL Save Attribute Settings]**.
 
-![編輯屬性設定](assets/amazon-attribute-settings-edit.png)
+![編輯屬性設定](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |
@@ -114,5 +114,5 @@ ht-degree: 0%
 | [!UICONTROL Select Magento Product Attribute] | 指示選取的專案 [!DNL Commerce] 要連結至所列Amazon屬性名稱的屬性。 如果您想要變更連結的 [!DNL Commerce] 屬性，請從下拉式清單中選擇其他屬性。 值會根據設定進行同步。 |
 | [!UICONTROL Amazon Attribute Name] | 顯示Amazon屬性的名稱，如中所定義 [!DNL Amazon Seller Central]. 選取的 [!DNL Commerce] 此Amazon屬性的屬性連結。 您無法透過編輯此值 [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | 指出Amazon屬性值是否會覆寫現有的 [!DNL Commerce] 值，影響所有具有此功能的產品 [!DNL Commerce] 屬性。<ul><li>**不要覆寫現有的Magento值** - （預設）保留 [!DNL Commerce] 值，保留不同的值 [!DNL Commerce] 和Amazon商店。</li><li>**覆寫現有Magento值**  — 將Amazon值儲存於 [!DNL Commerce] 中的值 [!DNL Commerce] 產品目錄。</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | 編輯屬性時未顯示(如果屬性是使用 `Global` 範圍。 指示 [!DNL Commerce] [範圍](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 已建立並設為 `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | 選擇您的 [!DNL Commerce] [存放區檢視](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} ，以同步Amazon屬性值。 選擇 `All Store Views (Global)` 會更新所有商店檢視中的值。 |
+| [!UICONTROL Magento Product Attribute Scope] | 編輯屬性時未顯示(如果屬性是使用 `Global` 範圍。 指出 [!DNL Commerce] [範圍](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 已建立並設為 `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | 選擇您的 [!DNL Commerce] [存放區檢視](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) ，以同步Amazon屬性值。 選擇 `All Store Views (Global)` 會更新所有商店檢視中的值。 |

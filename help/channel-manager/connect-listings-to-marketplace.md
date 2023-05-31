@@ -2,9 +2,9 @@
 title: 將清單連結至沃爾瑪
 description: '連線以下專案的清單 [!DNL Commerce] 產品目標 [!DNL Walmart Marketplace]開始銷售。'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 從 **[!UICONTROL Listings]**，選取產品以比對 *[!UICONTROL Draft]* 狀態。
 
-   ![從清單中選取產品並傳送以進行比對](assets/products-in-marketplace-sales-channel.png)
+   ![從清單中選取產品並傳送以進行比對](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
 1. 選取 **[!UICONTROL Match Products]**.
 
@@ -115,9 +115,9 @@ ht-degree: 0%
 
 - 確認cron工作正在執行中，以完成匯出操作。
 
-   - 如需內部部署執行個體，請參閱 [設定並執行cron](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
+   - 如需內部部署執行個體，請參閱 [設定並執行cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - 如需Adobe雲端基礎結構的相關資訊，請參閱 [設定cron工作](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
+   - 如需Adobe雲端基礎結構的相關資訊，請參閱 [設定cron工作](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### 建立要上傳的產品資料檔案
 
@@ -125,11 +125,11 @@ ht-degree: 0%
 
    - 從產品目錄專案頁面中，選取 **[!UICONTROL Add Items]**. 然後，選取 **[!UICONTROL Add items in bulk]**.
 
-      ![在Walmart Marketplace專案組態中新增大量專案選項](assets/walmart-seller-account-add-items-bulk.png)
+      ![在Walmart Marketplace專案組態中新增大量專案選項](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - 在下載頁面上，選取 **[!UICONTROL Full Setup]**. 然後，選取料號分類並下載分類範本。
 
-      ![在Walmart Marketplace專案設定中下載類別範本選項](assets/walmart-seller-account-full-setup-download.png)
+      ![在Walmart Marketplace專案設定中下載類別範本選項](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - 確認範本包含產品清單的必要和建議屬性。
 
@@ -140,15 +140,14 @@ ht-degree: 0%
    - 於 [!UICONTROL Export] 中的頁面 [!UICONTROL Entity Type] 欄位，選取 [!UICONTROL **產品**].
 
    - 在 [!UICONTROL Entity Attributes] 表格中，設定產品資料匯出的選取條件。
-   ![在中匯出產品資料頁面 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   使用篩選條件來選取和設定屬性值，這些屬性值適用於您銷售的產品類別。 請務必加入沃爾瑪必要和建議的屬性。 (請參閱 [匯出資料](https://docs.magento.com/user-guide/system/data-export.html) 在Adobe中 [!DNL Commerce] 使用手冊以取得詳細指示。)
+      使用篩選條件來選取和設定屬性值，這些屬性值適用於您銷售的產品類別。 請務必加入沃爾瑪必要和建議的屬性。 (請參閱 [匯出資料](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) 在Adobe中 [!DNL Commerce] 使用手冊以取得詳細指示。)
 
-   若要在匯出中省略屬性，請選取 [!UICONTROL **排除**] 核取方塊。
+      若要在匯出中省略屬性，請選取 [!UICONTROL **排除**] 核取方塊。
 
 1. 捲動至屬性表格的結尾並選取 [!UICONTROL **繼續**] 以開始匯出資料。
 
-   CSV匯出檔案會透過訊息佇列使用cron工作進行處理，並儲存在 `var/export/folder`. (請參閱 [管理訊息佇列](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) 在 *Commerce開發人員指南*.)
+   CSV匯出檔案會透過訊息佇列使用cron工作進行處理，並儲存在 `var/export/folder`. (請參閱 [管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 在 *設定指南*.)
 
 1. 開啟Walmart Marketplace產品類別的Excel範本，並使用Excel巨集功能將匯出的產品資料合併至Excel範本。
 

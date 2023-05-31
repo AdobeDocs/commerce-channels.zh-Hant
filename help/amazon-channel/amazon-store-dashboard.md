@@ -2,7 +2,7 @@
 title: Amazon商店控制面板
 description: 使用Amazon商店控制面板，從Commerce管理員檢視Amazon商店的活動。
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 您也可以存取 [存放區設定](./ob-store-review.md)， [管理您的清單](./managing-product-listings.md)，並檢視銷售資料和最近的訂單資訊。
 
-![Amazon Store控制面板](assets/amazon-store-dashboard.png)
+![Amazon Store控制面板](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 商店儀表板的標題會顯示與商店卡片上所顯示的基本商店資訊相同：
 

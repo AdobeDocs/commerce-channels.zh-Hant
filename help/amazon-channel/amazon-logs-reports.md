@@ -1,15 +1,15 @@
 ---
-title: 記錄檔和存放區報告
+title: Amazon清單的記錄檔和存放區報告
 description: 使用記錄檔和商店報告來檢視Adobe Commerce或Magento Open Source商店的狀況，以及您的Amazon Marketplace清單。
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# 記錄檔和存放區報告
+# Amazon清單的記錄檔和存放區報告
 
 Amazon Sales Channel擴充功能包括一些重要的記錄檔和商店報告，可讓您檢視影響Amazon清單和訂單的變更。 您可以使用這些報表來檢視商店中發生的事，並瞭解各種清單狀態。
 
@@ -29,4 +29,4 @@ Amazon Sales Channel擴充功能包括一些重要的記錄檔和商店報告，
 
 >[!TIP]
 >
->如需疑難排解的其他資訊，您也可以檢視記錄檔。 另請參閱 [sales channel管理設定](./sales-channel-settings.md). Amazon sales channel synchronization logging會寫入 `{Commerce Root}/var/log/channel_amazon.log` 檔案及檢視位置 [開發人員模式](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>如需疑難排解的其他資訊，您也可以檢視記錄檔。 另請參閱 [sales channel管理設定](./sales-channel-settings.md). Amazon sales channel synchronization logging會寫入 `{Commerce Root}/var/log/channel_amazon.log` 檔案及檢視位置 [開發人員模式](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

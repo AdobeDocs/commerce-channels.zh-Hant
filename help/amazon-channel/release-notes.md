@@ -1,15 +1,15 @@
 ---
-title: '''[!DNL Amazon Sales Channel] 發行說明'
+title: '''[!DNL Amazon Sales Channel] 版本注意事項'
 description: 如需瞭解所有資訊，請參閱發行說明 [!DNL Amazon Sales Channel] 發行版本。
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
-# 發行說明
+# [!DNL Amazon Sales Channel] 發行說明
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 ![已修正的問題](../assets/fix.svg) 修正和改良
 ![已知問題](../assets/bug.svg) 已知問題
 
-另請參閱 [即將發行的版本](https://devdocs.magento.com/release/){target="_blank"} 版本設定、支援和相容性。
+另請參閱 [即將發行的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 版本設定、支援和相容性。
 
 ## v4.4.4
 
@@ -116,13 +116,13 @@ ht-degree: 0%
 
 如果您有前一個 [!DNL Amazon sales channel] 已安裝版本，並嘗試將Adobe Commerce更新至2.4.0版，系統會提示您先更新擴充功能，然後才能完成Adobe Commerce更新。
 
-![已知問題](../assets/bug.svg) 時間 [!DNL Amazon sales channel] 4.2.0已與2.4.0版整合，而且 [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) 已啟用，有一個已知問題阻止在您的商務目錄中新增產品。 此問題將在未來的Commerce版本中解決。
+![已知問題](../assets/bug.svg) 時間 [!DNL Amazon sales channel] 4.2.0已與2.4.0版整合，而且 [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) 已啟用，有一個已知問題阻止在您的商務目錄中新增產品。 此問題將在未來的Commerce版本中解決。
 
 ![新增](../assets/new.svg) [!DNL Amazon sales channel] 已增強以接受文字型位址資料，並將其比對至標準化的位址格式，包括城市、州和郵遞區號。 此更新可讓訂單和運送資料與Amazon同步（同步），而不會出現地址錯誤。<br/>例如，購物者輸入城市、州/省、郵遞區號如下 `Escondido, californiA 92025-1501`. AmazonSales Channel會匯入資料並將資料與標準格式配對，如下所示 `Escondido, CA 92025`，然後以這個標準化格式將其同步回Amazon。
 
 ![新增](../assets/new.svg) 新增對PHP 7.4的支援。
 
-![新增](../assets/new.svg) <!--CHAN-4334-->新增對Adobe Commerce 2.4.x的支援。舊版可能與Commerce 2.4.x相容，但不受支援。 另請參閱 [即將發行的版本](https://devdocs.magento.com/release/){：target=&quot;_blank&quot;}以瞭解版本相容性。 必須先將AmazonSales Channel更新至4.2.0，才能完成Adobe Commerce 2.4.0更新。
+![新增](../assets/new.svg) <!--CHAN-4334-->新增對Adobe Commerce 2.4.x的支援。舊版可能與Commerce 2.4.x相容，但不受支援。 另請參閱 [即將發行的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 版本相容性。 必須先將AmazonSales Channel更新至4.2.0，才能完成Adobe Commerce 2.4.0更新。
 
 ![修正](../assets/fix.svg) <!--CHAN-4431-->已修正導致下列問題的原因： _存取遭拒_ 英國客戶的錯誤。
 
@@ -210,7 +210,7 @@ ht-degree: 0%
 
 - [產品稅捐代碼](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} 資訊。
 
-![新增](../assets/new.svg) **改善的記錄**： <!--CHAN-3642, 3672-->已實作 **啟用偵錯記錄** 在需要疑難排解時收集其他同步化資料的功能。 請參閱 [Sales Channel設定](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) 設定參考中的主題。
+![新增](../assets/new.svg) **改善的記錄**： <!--CHAN-3642, 3672-->已實作 **啟用偵錯記錄** 在需要疑難排解時收集其他同步化資料的功能。 請參閱 [Sales Channel設定](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) 設定參考中的主題。
 
 ![修正](../assets/fix.svg) **產品目錄**： <!--CHAN-3687-->修正無法將以Amazon清單匯入的影像套用至對應Commerce目錄產品的問題。
 

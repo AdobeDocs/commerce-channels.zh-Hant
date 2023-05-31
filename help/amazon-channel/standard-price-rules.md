@@ -1,15 +1,15 @@
 ---
-title: 標準價格規則作業
+title: Amazon sales channel — 標準價格規則動作
 description: 使用標準價格規則動作，增加或減少相對於Commerce目錄價格（或價格來源）的Amazon清單價格。
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# 標準價格規則作業
+# 標準價格規則動作
 
 Amazon標準價格規則動作可讓您以特定百分比或相對於 [!DNL Commerce] 型錄價格（或價格來源）。
 
@@ -32,7 +32,7 @@ Amazon標準價格規則動作可讓您以特定百分比或相對於 [!DNL Comm
 
    - `Increase By`  — 選擇您想要在列為Amazon之前增加值的時間。
 
-1. 對象 **[!UICONTROL Apply]**，選擇一個選項和一個選項，以決定您要如何定義 *[!UICONTROL Magento Price Source]* 在中定義 [清單價格](./listing-price.md) 要調整的值：
+1. 對象 **[!UICONTROL Apply]**，選擇一個選項以決定如何定義 *[!UICONTROL Magento Price Source]* 在中定義 [清單價格](./listing-price.md) 要調整的值：
 
    - `Apply as percentage`  — 選擇您想要定義何時 *[!UICONTROL Magento Price Source]* 在中定義 [清單價格](./listing-price.md) 值已根據百分比調整
 
@@ -46,7 +46,7 @@ Amazon標準價格規則動作可讓您以特定百分比或相對於 [!DNL Comm
 
 1. 完成後，按一下 **[!UICONTROL Save pricing rule]**.
 
-![標準價格規則](assets/ob-price-rule-action-standard-example.png)
+![標準價格規則](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |---|---|

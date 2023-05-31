@@ -1,17 +1,17 @@
 ---
-title: 存放區整合
+title: 與的存放區整合 [!DNL Amazon Seller Account]
 description: 開始入門流程之前，您必須建立（新增） AmazonSales Channel商店，並將其連結至您的Amazon賣家帳戶。
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# 存放區整合
+# 與的存放區整合 [!DNL Amazon Seller Account]
 
-若要開始使用Amazon銷售管道，您必須建立（新增） Amazon銷售管道商店，並將其連結至您的Amazon賣家帳戶。 這兩個步驟會整合 [!DNL Commerce] 和Amazon帳戶共用資料、同步產品等。
+若要開始使用Amazon sales channel，您必須建立（新增） Amazon sales channel商店，並將其連線到您的 [!DNL Amazon Seller Account]. 這兩個步驟會整合 [!DNL Commerce] 和Amazon帳戶共用資料、同步產品等。
 
 _您需要的主要登入認證 [!DNL Amazon Seller Central] 帳戶（用來建立賣家帳戶的電子郵件或電話）以連線您的商店。_
 
@@ -29,7 +29,7 @@ _您需要的主要登入認證 [!DNL Amazon Seller Central] 帳戶（用來建�
 
    此 _[!UICONTROL Add Amazon sales channel]_頁面隨即開啟。
 
-   ![新增Amazon sales channel store](assets/amazon-store-integration.png)
+   ![新增Amazon sales channel store](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. 對象 **[!UICONTROL Magento Website to use for Amazon Listing]**，選擇您的 [!DNL Commerce] 為此Amazon sales channel商店連線的網站。
 
@@ -84,7 +84,7 @@ _您需要的主要登入認證 [!DNL Amazon Seller Central] 帳戶（用來建�
 
    若要檢視商店儀表板，請按一下 **[!UICONTROL View Store]** 在商店資訊卡上。
 
-![Amazon銷售管道首頁（含新商店卡）](assets/asc-dashboard-after-2fa.png)
+![Amazon銷售管道首頁（含新商店卡）](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 您新的Amazon銷售管道商店現在已連線至您的 [!DNL Amazon Seller Central] 帳戶。
 

@@ -1,41 +1,137 @@
 ---
-title: '"[!DNL Amazon Sales Channel] 使用手冊」'
+title: 「簡介 [!DNL Amazon Sales Channel]"
 description: '"[!DNL Amazon Sales Channel] 可讓商戶順暢地銷售產品， [!DNL Amazon Marketplace].」'
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: 74e58c95479b624ad9993d613776b4d33c492080
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# [!DNL Amazon Sales Channel] 使用手冊
-
-[!DNL Amazon Sales Channel] 可讓商戶順暢地銷售產品， [!DNL Amazon Marketplace].
+# 簡介 [!DNL Amazon Sales Channel]
 
 身為Adobe Commerce或Magento Open Source商家，您可以使用 [!DNL Amazon Sales Channel] 擴充功能，可將您的商店與全球最大的網際網路購物目的地整合。 此擴充功能可透過連線來啟用Amazon銷售 [!DNL Commerce] 搭配您的 [!DNL Amazon Seller Central] 帳戶並提供目錄和訂單資料的自動化和同步化。 完整管理所有Amazon清單、實作簡易或智慧型訂價規則，並透過單一維護訂單與存貨 [!DNL Commerce] 儀表板。
+
+晚於 [入門](./amazon-onboarding-home.md)， [!DNL Commerce] 會成為「中央指揮中心」，用於管理和控制Amazon商店的Amazon清單、訂單和庫存以及定價。 [存放區整合](./store-integration.md) 連線您的 [!DNL Commerce] 執行個體和Amazon之間的資料同步。 Amazon sales channel可讓您：
+
+- [上線](./amazon-onboarding-home.md) 並整合一或多個 [!DNL Amazon Seller Central] 具有Adobe Commerce或Magento Open Source的帳戶。
+
+- 匯入並同步處理您現有的Amazon清單，並比對您產品中的專案。 [!DNL Commerce] 目錄，建立集中式產品目錄。
+
+- 建立並管理您產品的Amazon清單 [!DNL Commerce] 目錄。
+
+- 檢視與履行（出貨）訂單于 [!DNL Commerce] 和Amazon，同步訂單狀態、付款和退款資訊。
+
+- 檢視分析記錄檔和錯誤 [具競爭力的價格](./competitive-price-analysis.md)， [清單變更](./listing-changes-log.md)、和 [溝通問題](./communication-errors-log.md).
+
+存取您的Amazon商店，以檢視及管理Amazon銷售管道上的所有功能、帳戶資訊、清單、訂單等 [首頁](./amazon-sales-channel-home.md).
+
+## 促銷與定價
+
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
+
+- 同步Amazon清單定價至 [!DNL Commerce] 型錄價格（或替代價格屬性）。
+
+- 啟用MSRP [刪除式定價](./listing-price.md#configure-listing-price-settings) 在您的Amazon清單中增加客戶價值主張。
+
+- 啟用和管理 [最低廣告價格(MAP)](./listing-price.md#configure-listing-price-settings) 在您的Amazon清單中。
+
+- 設定其他 [VAT稅](./listing-price.md#configure-listing-price-settings) 在您的Amazon定價中。
+
+- 在「 」中設定「可用數量」的自訂值 [庫存/數量設定](./stock-quantity.md#configure-stock--quantity-settings) 與您的Amazon清單一起顯示，以增加購買者的急迫性。
+
+## 定價規則
+
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
+
+- 建立可棧疊、彈性且複雜的架構 [定價規則](./pricing-products.md) 管理日常銷售或季節性促銷活動的Amazon定價。
+
+- 建立 [floor](./floor-price.md) 和 [上限](./optional-ceiling-price.md) 價格可保護您最低與最高的價格。
+
+- 建立和管理 [智慧型重新訂價規則](./intelligent-repricing-rules.md) 會自動調整與其他Amazon競爭者相關的產品定價([最低競爭者](./lowest-competitor-pricing.md) 和 [Buy Box](./buy-box-competitor-pricing.md) 價格)。
+
+## 目錄摘要管理
+
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
+
+- 匯入您現有的Amazon清單（產品），並與中的現有或建立產品相符 [!DNL Commerce] 目錄。
+
+- 發佈您的 [!DNL Commerce] Amazon以建立Amazon清單。
+
+- 建立 [覆寫](./creating-editing-overrides.md) 設定個別價格、處理時間、條件和賣家備註訊息。
+
+- 匯入和對應產品 [屬性](./attributes-view.md) 從您的Amazon清單，自動比對產品於 [!DNL Commerce] 目錄。
+
+- 設定多個搜尋引數以比對Amazon清單與您的 [!DNL Commerce] 目錄。
+
+- 定義 [清單規則](./listing-rules.md) 以判斷您的 [!DNL Commerce] 產品符合在Amazon上列出的資格。
+
+- 設定預設值 [處理時間](./product-listing-actions.md) 以取得您新的Amazon清單。
+
+- 根據 [!DNL Commerce] 屬性。
+
+- 為每個條件型別新增賣家備註（選擇性）。
+
+- 將Amazon清單匯入您的時，實施數量臨界值 [!DNL Commerce] 目錄。
+
+- 檢視建議 [清單改善](./listing-improvements.md).
+
+## 訂單管理與客戶服務
+
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
+
+- Amazon和中的支援與處理訂單 [!DNL Commerce].
+
+- [匯入](./order-settings.md#configure-order-settings) 您的Amazon訂單 [!DNL Commerce] 或將其保留在Amazon中。
+
+- 定義您的 [!DNL Commerce] 網站商店與您的Amazon訂單建立關聯，以便匯入和管理訂單。
+
+- 檢視、取消與出貨訂單 [!DNL Commerce] 和/或Amazon，視您網站上的 [履行設定](./fulfilled-by.md).
+
+- 將您的Amazon訂單狀態對應至中的自訂狀態 [!DNL Commerce] （選擇性）。
+
+- 檢視和管理訂單錯誤以解決問題並與客戶聯絡。
+
+- 將訂單追蹤資料傳送至 [!DNL Amazon Seller Central] 帳戶。
+
+- [取消訂單](./cancel-unshipped-order.md) 並選取原因回應。
+
+- 檢視 [最近訂單](./amazon-store-dashboard.md) Amazon訂單的相關資訊。
+
+## 報告
+
+使用 [!DNL Amazon Sales Channel] 擴充功能中，您可以檢閱下列相關報表資訊：
+
+- 依使用中、非使用中、合格及未完成等狀態的清單。
+
+- 等待出貨的訂單。
+
+- 最近的訂單。
+
+- Amazon [列出變更記錄](./listing-changes-log.md) 複查產品/清單摘要變更（例如價格與數量）。
+
+- 產品 [Buy Box](./buy-box-competitor-pricing.md) 競爭者定價資料。
+
+- 產品 [最低競爭者價格](./lowest-competitor-pricing.md) 資料。
+
+## 支援全球銷售
+
+使用 [!DNL Amazon Sales Channel] 擴充功能上，您可以：
+
+- 管理多個 [!DNL Amazon Marketplace] 地區（國家/地區）。
+
+- 支援多種貨幣，使用 [Commerce貨幣設定工具](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html).
+
+- 管理產品地點與Amazon履行中心的出貨。
+
+## 客戶管理
+
+建置您的 [!DNL Commerce] 客戶資料庫建立者： [匯入客戶資料](./order-settings.md#configure-order-settings) 與您的Amazon訂單相關聯。 透過您擴充的客戶清單，提升您的行銷潛力 [!DNL Amazon Marketplace] 清單和 [!DNL Commerce] 店面。
+
 
 快速入門很容易。 入門流程會引導您建立 [!DNL Amazon Seller Central] 帳戶並整合您的Amazon sales channel商店和 [!DNL Commerce] 目錄，用於管理Amazon清單、訂單、存貨及履行。 中央儀表板會顯示所有Amazon銷售管道商店整合和Amazon清單的狀態更新。 接觸全球的新客戶 [!DNL Amazon Marketplace] 簡化並自動化流程 — 幾乎不需要任何成本與勞力，即可建立新系統。
 
 整合您的 [!DNL Amazon Seller Central] 帳戶， [!DNL Amazon Sales Channel] 擴充功能可讓您管理帳戶，並在以下兩者之間同步資料： [!DNL Commerce] 和Amazon。 它可讓您直接透過建立清單、管理促銷、設定價格，以及管理存貨與履行 [!DNL Commerce] 管理員。 這些選項包括定價規則，可監控相同料號的Amazon定價，並自動調整價格以提高競爭力。
 
-## 指南概述
-
-本指南會介紹一些基本的 [!DNL Amazon Seller Central] 資訊，設定Amazon銷售管道的需求。 此外，還包含入門和整合程式、可用商店、產品、價格和其他選項的詳細資訊，以及您如何使用Amazon銷售管道來管理以下專案的清單和銷售情形： [!DNL Amazon Marketplace]. 使用左側邊欄瀏覽各種功能，並深入研究以存取詳細資訊和程式。
-
-| 區域 | 說明 |
-|----|----|
-| [關於Amazon sales channel](./about-amazon-sales-channel.md) | 進一步瞭解Amazon銷售管道基本知識、主要功能、最佳實務等。 |
-| [上線Amazon銷售管道](./amazon-onboarding-home.md) | 快速建立Amazon商店並整合 [!DNL Amazon Seller Central]. 啟動並執行Amazon銷售管道，以開始銷售。 |
-| [Amazon銷售管道首頁](./amazon-sales-channel-home.md) | 進一步瞭解Amazon銷售管道首頁，以及可用的選項和工作。 檢視有關Amazon存放區的摘要資訊，並存取存放區詳細資訊和設定。 |
-| [管理屬性](./attributes-view.md) | Amazon sales channel將產品對映至 [!DNL Commerce] 使用產品屬性的目錄和Amazon。 進一步瞭解如何建立、對應及管理這些屬性。 |
-| [管理商店設定](./ob-store-review.md) | 檢視並修改您的商店設定，包括清單設定、訂單設定以及清單和定價規則。 |
-| [管理清單](./managing-product-listings.md) | 當您透過Amazon Marketplace銷售時，可以更新、新增和管理您的清單（設定、規則和定價）。 進一步瞭解如何建立和修改商店及清單設定。 |
-| [管理訂單與履行](./managing-orders.md) | Amazon sales channel透過Amazon支援訂單履行與出貨，並且 [!DNL Commerce]. 直接透過Amazon進一步瞭解履行 [!DNL Commerce]，以及訂單管理選項。 |
-| [檢視記錄與報告](./amazon-logs-reports.md) | 深入瞭解追蹤的錯誤以及Amazon與之間的互動 [!DNL Commerce]. |
-
-## 其他Adobe Commerce檔案
-
-- [Adobe Commerce使用手冊](https://docs.magento.com/user-guide/){target="_blank"}
-- [Adobe Commerce開發人員指南](https://devdocs.magento.com/){target="_blank"}

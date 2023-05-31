@@ -2,7 +2,7 @@
 title: Amazon訂單詳細資料
 description: 在Adobe Commerce或Magento Open Source管理員中檢視您Amazon Marketplace訂單的詳細資料。
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Amazon訂單詳細資料
 
-![Amazon訂單詳細資料](assets/amazon-order-details-header.png)
+![Amazon訂單詳細資料](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## 檢視Amazon訂單詳細資料
 
@@ -55,16 +55,16 @@ ht-degree: 0%
 >
 >別忘了按一下 **儲存訂單** 編輯之後。
 
-![訂單與送貨詳細資料](assets/amazon-order-details.png)
+![訂單與送貨詳細資料](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### 訂單專案頁標
 
 此 _[!UICONTROL Order Items]_索引標籤會顯示從Amazon收到的與Amazon訂單相關聯的所有專案。
 
-![訂單料號明細](assets/amazon-order-item-details.png)
+![訂單料號明細](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### 「追蹤」標籤
 
 此 _[!UICONTROL Tracking]_索引標籤會顯示與Amazon訂單相關聯的追蹤資訊。
 
-![追蹤詳細資料](assets/amazon-order-tracking-details.png)
+![追蹤詳細資料](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

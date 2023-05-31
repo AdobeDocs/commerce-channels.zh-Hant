@@ -1,15 +1,15 @@
 ---
-title: 檢視清單詳細資訊
+title: 檢視Amazon清單詳細資料
 description: 若要瞭解Amazon清單和個別SKU/產品變更的競爭指標，請檢閱產品清單詳細資訊頁面。
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# 檢視清單詳細資訊
+# 檢視Amazon清單詳細資料
 
 此 _[!UICONTROL Product Listing Details]_頁面會顯示有效產品清單的其他資訊，包括清單活動記錄（顯示個別SKU /產品上的變更）。 此資訊可協助您瞭解關於您的產品和個別SKU/產品變更的競爭指標。 本頁的其他資訊包括：
 
@@ -28,7 +28,7 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![清單詳細資訊](assets/amazon-product-listing-details.png)
+![清單詳細資訊](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## 列出活動記錄 {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 - 備註：提供與所發生之清單動作型別相關的其他詳細資料。
 - 執行時間：識別動作發生的日期和時間。
 
-![產品清單詳細資料 — 清單活動記錄](assets/amazon-listing-activity-log.png)
+![產品清單詳細資料 — 清單活動記錄](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Buy Box競爭者定價 {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ __
 - 起岸價格：識別清單價格加上清單的出貨價格。
 - 上次更新：識別從Amazon更新定價資訊的日期和時間。
 
-![產品清單詳細資料：Buy Box競爭者定價](assets/amazon-listing-details-buy-box-2.png)
+![產品清單詳細資料：Buy Box競爭者定價](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## 最低競爭者價格 {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ __
 - 意見計數：識別最低價格商家的Amazon意見計數。
 - 上次更新：識別從Amazon更新定價資訊的日期和時間。
 
-![產品清單詳細資料 — 最低競爭者定價](assets/amazon-listing-details-lowest-comp.png)
+![產品清單詳細資料 — 最低競爭者定價](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

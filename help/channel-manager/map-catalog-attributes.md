@@ -2,9 +2,9 @@
 title: 對應目錄屬性
 description: '對應屬性以符合[DNL！ Commerce]產品至現有 [!DNL Walmart Marketplace] 清單和同步資料 [!DNL Channel Manager] 和 [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | ISSN | 國際標準序號 | 8位數的序號，用於識別所有媒體印刷和電子媒體上所遞送的各類雜誌、期刊、報章和期刊 | 8位數 |
 | UPC | 通用產品代碼 | 標準零售追蹤代碼 | 12位數 |
 
-如果您的目錄沒有相符的屬性， [新增或轉換現有的目錄屬性](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+如果您的目錄沒有相符的屬性， [新增或轉換現有的目錄屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## 對應唯一識別碼
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 
       以下範例對應 [!UICONTROL Walmart Marketplace UPC] 屬性至產品目錄中的UPC屬性。
 
-      ![對應產品符合條件的屬性](assets/products-map-attributes-for-match.png)
+      ![對應產品符合條件的屬性](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - 選取 **[!UICONTROL Save]**.

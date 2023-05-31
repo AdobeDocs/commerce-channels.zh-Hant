@@ -2,16 +2,16 @@
 title: 處理訂單
 description: '''送貨與取消說明 [!DNL Walmart Marketplace] Adobe Commerce和Magento Open Source的訂單。'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # 處理訂單
 
-晚於 [!DNL Walmart Marketplace] 訂單已確認並成功傳送至 [!DNL Channel Manager]，您會使用 [Commerce訂單管理](https://docs.magento.com/user-guide/sales/orders-workspace.html) 以處理訂單。
+晚於 [!DNL Walmart Marketplace] 訂單已確認並成功傳送至 [!DNL Channel Manager]，您會使用 [Commerce訂單管理](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html#orders-workspace) 以處理訂單。
 
 頻道管理員將更新同步到 [!DNL Walmart Marketplace] 以確保訂單狀態與出貨資訊來自 [!DNL Commerce] 符合中追蹤的資料 [!DNL Walmart Marketplace].
 
@@ -37,18 +37,17 @@ ht-degree: 0%
 
 1. 檢視 [!DNL Walmart Marketplace] 訂購，選取 **[!UICONTROL Orders]**.
 
-1. 在「訂單」表格中，選取下列專案以開啟要出貨的訂單： **商務訂單編號**.
+1. 在「訂單」表格中，選取下列專案以開啟要出貨的訂單： **[!UICONTROL Commerce Order Number]**.
 
 1. 選取下列專案，為全部或部份訂單建立及提交出貨 **[!UICONTROL Ship]**.
 
-   ![的商務訂單詳細資料檢視 [!DNL Walmart Marketplace] 訂購](assets/order-detail-with-external-order-id.png)
+   ![的商務訂單詳細資料檢視 [!DNL Walmart Marketplace] 訂購](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
    * 選擇出貨承運商，並透過選取 **[!UICONTROL Add tracking number]**.
 
-      ![的商務訂單詳細資料檢視 [!DNL Walmart Marketplace] 訂購](assets/order-shipment-add-tracking-number.png)
+      ![的商務訂單詳細資料檢視 [!DNL Walmart Marketplace] 訂購](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
-
-   * 視需要完成其餘的送貨表格。 另請參閱 [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) 以取得詳細指示。
+   * 視需要完成其餘的送貨表格。 另請參閱 [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) 以取得詳細指示。
 
 1. 提交出貨後，追蹤 [訂單狀態](manage-orders.md#about-order-status) 在 [!DNL Channel Manager] 驗證更新是否已傳送至 [!DNL Walmart Marketplace].
 
@@ -60,20 +59,20 @@ ht-degree: 0%
 
 1. 選取銷售管道商店的眼睛圖示，以開啟商店檢視。
 
-1. 檢視 [!DNL Walmart Marketplace] 訂購，選取*[!UICONTROL *Orders]**。
+1. 檢視 [!DNL Walmart Marketplace] 訂購，選取*[!UICONTROL Orders]**。
 
-1. 在「訂單」表格中，開啟 [訂單詳細資訊頁面](manage-orders.md#view-order-detail) 藉由選取 **商務訂單編號** 以取消訂單。
+1. 在「訂單」表格中，開啟 [訂單詳細資訊頁面](manage-orders.md#view-order-detail) 藉由選取 **[!UICONTROL Commerce Order Number]** 以取消訂單。
 
-   ![的商務訂單詳細資料檢視[!DNL Walmart Marketplace]訂購](assets/order-detail-with-external-order-id.png)
+   ![的商務訂單詳細資料檢視[!DNL Walmart Marketplace]訂購](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 1. 取消訂單。
 
    * 選取 **取消** 從「訂單明細」功能表。
 
-   * 於 [!UICONTROL Cancel Order] 表單中，選取 **取消原因**.
-   ![的商務訂單詳細資料檢視 [!DNL Walmart Marketplace] 訂購](assets/cancel-order-reason-selector.png)
+   * 於 [!UICONTROL Cancel Order] 表單中，選取 **[!UICONTROL Cancellation reason]**.
+   ![的商務訂單詳細資料檢視 [!DNL Walmart Marketplace] 訂購](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
-   * 選取 **取消訂單**.
+   * 選取 **[!UICONTROL Cancel Order]**.
 
 
 1. 提交取消後，追蹤 [訂單狀態](manage-orders.md#about-order-status) 在 [!DNL Channel Manager] 驗證更新是否已傳送至 [!DNL Walmart Marketplace].

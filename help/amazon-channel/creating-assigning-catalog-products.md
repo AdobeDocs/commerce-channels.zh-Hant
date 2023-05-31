@@ -1,10 +1,10 @@
 ---
-title: 建立及指派產品
+title: 建立並指派Amazon銷售管道的產品
 description: AmazonSales Channel提供 [!UICONTROL New Third Party] 索引標籤來協助建立和指派具有Amazon清單的相符的Commerce目錄產品。
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 0%
 
    - 對象 **[!UICONTROL Website Ids]**，選擇要與產品相關聯的網站（店面）。
 
-      此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定。
+      此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - 對象 **[!UICONTROL Attribute Set Id]** （必要），選擇一個選項。
 
-      `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 您已設定。
+      `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已設定。
 
    - 對象 **[!UICONTROL Visibility]**，選擇新產品的選項。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    - 對象 **[!UICONTROL Assign Tax Class]**，選擇產品的選項。
 
-      此清單中顯示的選項取決於 [稅捐類別](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 您已設定。
+      此清單中顯示的選項取決於 [稅捐類別](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已設定。
 
    - 完成後，按一下 **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ ht-degree: 0%
 
    - 對象 **[!UICONTROL Website Ids]**，選擇要與產品相關聯的網站（店面）。
 
-      此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定。
+      此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - 對象 **[!UICONTROL Attribute Set Id]** （必要），選擇一個選項。
 
-      `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 您已設定。
+      `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已設定。
 
    - 對象 **[!UICONTROL Visibility]**，選擇新產品的選項。
 
@@ -116,19 +116,19 @@ ht-degree: 0%
 
    - 對象 **[!UICONTROL Assign Tax Class]**，選擇產品的選項。
 
-      此清單中顯示的選項取決於 [稅捐類別](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 您已設定。
+      此清單中顯示的選項取決於 [稅捐類別](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已設定。
 
    - 完成後，按一下 **[!UICONTROL Create Catalog Products]**.
 
 目錄產品是在以下位置建立的： [!DNL Commerce] 目錄並指派給從中建立它的Amazon清單。 清單現在與其各自的Amazon清單相符時，該清單會從 [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 標籤並出現在 [_[!UICONTROL Active]_](./active-listings.md) 標籤。
 
-![建立Commerce目錄產品](assets/amazon-magento-catalog-product.png)
+![建立Commerce目錄產品](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | （必要）如果已啟用，產品會顯示在 [!DNL Commerce] 店面。 如果停用，產品將不會顯示在您的 [!DNL Commerce] 店面。 |
-| [!UICONTROL Categories] | 您可以輸入新產品的類別名稱，或按一下向下箭頭以顯示選項來選取類別。 選項取決於您的 [類別](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} 設定。 |
-| [!UICONTROL Website Ids] | （必要）選擇要與產品相關聯的網站（店面）。 選項取決於您的 [!DNL Commerce] [存放區設定](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 設定 |
-| 屬性集ID | 選擇屬性集。 選項取決於您設定的值 [!DNL Commerce] [屬性集](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
+| [!UICONTROL Categories] | 您可以輸入新產品的類別名稱，或按一下向下箭頭以顯示選項來選取類別。 選項取決於您的 [類別](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) 設定。 |
+| [!UICONTROL Website Ids] | （必要）選擇要與產品相關聯的網站（店面）。 選項取決於您的 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定 |
+| 屬性集ID | 選擇屬性集。 選項取決於您設定的值 [!DNL Commerce] [屬性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
 | [!UICONTROL Visibility] | 選項：<ul><li>**[!UICONTROL Not Visible Individually]**  — 您的未檢視此產品 [!DNL Commerce] 店面（最常見於變體產品）。</li><li>**[!UICONTROL Catalog]**  — 允許透過在網站中與產品相關聯的類別來存取產品。</li><li>**搜尋**  — 僅允許透過搜尋工具找到產品。</li><li>**[!UICONTROL Catalog and Search]**  — 允許透過類別結構和使用搜尋工具來存取產品。</li></ul> |
-| [!UICONTROL Assign Tax Class] | 指定新產品的稅捐類別。 選項取決於您設定的值 [稅捐類別](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |
+| [!UICONTROL Assign Tax Class] | 指定新產品的稅捐類別。 選項取決於您設定的值 [稅捐類別](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |

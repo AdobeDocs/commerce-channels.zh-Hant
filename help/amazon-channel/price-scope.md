@@ -1,19 +1,19 @@
 ---
-title: 價格範圍
+title: Amazon銷售管道 — 價格範圍
 description: 使用Commerce定價範圍，根據多個網站或全域管理定價。
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
 # 價格範圍
 
-[!DNL Commerce] 提供您專屬的設定 [定價範圍](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} to be set to `Global` or `Website`. If pricing is set to `Global`, there is a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} 位於核心Commerce使用手冊中。
+[!DNL Commerce] 提供您專屬的設定 [定價範圍](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) 將設為 `Global` 或 `Website`. 如果訂價設為 `Global`，所有網站都有單一價格來源。 如果訂價設為 `Website`，您的網站可能會因應不同專案的定價而有所差異，同時也會有後援預設定價值(請參閱 [價格範圍](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html))。
 
-如果您將目錄價格範圍從 `Global` 至 `Website`，所有價格型別屬性也會變更為 `Website`. 另請參閱 [新增網站](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"}.
+如果您將目錄價格範圍從 `Global` 至 `Website`，所有價格型別屬性也會變更為 `Website`. 另請參閱 [新增網站](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 
 選擇網站價格時，有兩個價格來源：
 

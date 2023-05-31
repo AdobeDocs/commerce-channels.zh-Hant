@@ -1,15 +1,15 @@
 ---
-title: Sales Channel設定
+title: 銷售管道設定
 description: 若要管理Amazon銷售管道功能的記錄、cron來源和同步，請更新Commerce設定。
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Sales Channel設定
+# 銷售管道設定
 
 當 [!DNL Amazon Sales Channel] 已安裝擴充功能，預設值是在Amazon sales channel的「管理員」中設定。 您可以在Amazon商店的組態設定中修改這些設定。 這些設定包括：
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 1. 對象 **[!UICONTROL Background Tasks (CRON) Source]**，選擇 `Magento CRON`.
 
-   此選項可讓Amazon銷售管道使用您的 [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) 用來決定通訊和資料同步間隔的設定 [!DNL Amazon Seller Central].
+   此選項可讓Amazon銷售管道使用您的 [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 用來決定通訊和資料同步間隔的設定 [!DNL Amazon Seller Central].
 
 1. 對象 **[!UICONTROL Enable Debug Logging]**，選擇 `Enabled` 以便在需要疑難排解時收集其他同步處理資料。
 
-   Amazon sales channel logging會寫入 `{Commerce Root}/var/log/channel_amazon.log` 檔案及檢視位置 [開發人員模式](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. 記錄只應為 `Enabled` 進行疑難排解期間，應該 `Disabled` 疑難排解完成時。
+   Amazon sales channel logging會寫入 `{Commerce Root}/var/log/channel_amazon.log` 檔案及檢視位置 [開發人員模式](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). 記錄只應為 `Enabled` 進行疑難排解期間，應該 `Disabled` 疑難排解完成時。
 
 1. 對象 **[!UICONTROL Read-Only Mode]**，選取 `Enabled` 以封鎖所有外寄狀態變更API要求。
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Save Config]**.
 
-![Sales Channel組態設定](assets/config-sales-channel-global-settings.png)
+![Sales Channel組態設定](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

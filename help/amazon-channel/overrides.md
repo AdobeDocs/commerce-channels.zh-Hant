@@ -1,15 +1,15 @@
 ---
-title: 覆寫
+title: Amazon sales channel - [!UICONTROL Overrides]
 description: AmazonSales Channel提供「覆寫」標籤，協助您識別和管理如何在Amazon清單中套用覆寫。
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# 覆寫
+# [!UICONTROL Overrides]
 
 此 _[!UICONTROL Overrides]_索引標籤會顯示您已套用覆寫的Amazon清單。 覆寫是清單特定的設定，可用來將定義的值設定為清單。 套用至清單的覆寫會定義清單的設定，無論其他已定義的清單設定或清單適用的規則為何。 當覆寫套用至清單時，該清單會出現在_[!UICONTROL Overrides]_ 標籤。 覆寫中定義的值會出現在清單的適當欄中。 有四種覆寫型別可以套用：價格、處理時間、條件和賣家備註。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >如果您有處理中的清單，清單數量會顯示在標籤上方的訊息中。
 
-![覆寫標籤](assets/amazon-overrides.png)
+![覆寫標籤](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 

@@ -1,19 +1,19 @@
 ---
-title: Amazon商店檢視
+title: '"[!UICONTROL Amazon Stores] 檢視」'
 description: 前往Amazon商店檢視，快速檢閱每個Amazon商店的基本統計資料，以及存取管理選項。
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Amazon商店檢視
+# [!UICONTROL Amazon Stores] 檢視
 
 檢視Amazon銷售管道首頁時， _Amazon商店_ 依預設，檢視會開啟。
 
-![Amazon商店檢視](assets/amazon-sales-channel-home-tabs.png)
+![Amazon商店檢視](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 此 _[!UICONTROL Amazon Stores]_檢視會顯示每個Amazon商店的「商店卡」，以及一些基本統計和管理選項。 每張卡片中所顯示的摘要資訊包含各商店狀態、建立日期、上次更新日期、需要注意的清單（例如：未完成的清單）以及指定的清單 [!DNL Commerce] 網站。
 

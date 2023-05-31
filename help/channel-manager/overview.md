@@ -4,9 +4,9 @@ description: '''瞭解如何安裝及使用 [!DNL Channel Manager] 將Adobe Comm
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] 透過將Adobe Commerce或Magento Open Source產品目錄與整合，協助商戶增加銷售、接觸新客戶、簡化銷售作業並節省時間 [!DNL Walmart Marketplace].
 
-![[!DNL Channel Manager] 擴充功能管理檢視](assets/channel-manager-home.png)
+![[!DNL Channel Manager] 擴充功能管理檢視](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 [!DNL Channel Manager] 支援想要在其上銷售的Adobe Commerce或Magento Open Source商家 [!DNL Walmart Marketplace] 藉由延伸 [!DNL Commerce] 管理員。 替換為 [!DNL Channel Manager] 已安裝、商店管理員與營運人員可管理 [!DNL Walmart Marketplace] Commerce環境中的銷售、庫存和產品定價無縫銜接。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * **取消** — 在Adobe Commerce中取消訂單時， [!DNL Channel Manager] 會將更新的訂單資訊傳送至市集，以復寫對應市集訂單的動作。 訂單取消完成後， [!DNL Commerce] 存貨數量更新以反映退回的料號，而存貨更新會自動同步至 [!DNL Walmart Marketplace].
 
-* **退貨與退款** — 當沃爾瑪市集要求退貨透過Adobe Commerce或Magento Open Source銷售管道訂購的商品時， [!DNL Channel Manager] 傳送傳回要求資訊至Commerce銷售管道存放區，以復寫傳回要求。 然後，您可以使用來處理退款 [!DNL Commerce] [退款工作流程](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow)，離線方法。 退款完成後， [!DNL Channel Manager] 將更新同步至Walmart，以便可以更新市集賣家帳戶中的退貨狀態以反映退款。
+* **退貨與退款** — 當沃爾瑪市集要求退貨透過Adobe Commerce或Magento Open Source銷售管道訂購的商品時， [!DNL Channel Manager] 傳送傳回要求資訊至Commerce銷售管道存放區，以復寫傳回要求。 然後，您可以使用來處理退款 [!DNL Commerce] [退款工作流程](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html#refund-workflow)，離線方法。 退款完成後， [!DNL Channel Manager] 將更新同步至Walmart，以便可以更新市集賣家帳戶中的退貨狀態以反映退款。
 
 ## 的預期延遲 [!DNL Channel Manager] 作業
 

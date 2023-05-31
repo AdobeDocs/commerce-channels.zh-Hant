@@ -1,15 +1,15 @@
 ---
-title: 不符合資格的清單
+title: 不符合資格的Amazon清單
 description: Amazon銷售管道提供 [!UICONTROL Ineligible] 標籤可協助您管理專案，但根據您目前的清單規則，此標籤不符合清單資格。
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# 不符合資格的清單
+# 不符合資格的Amazon清單
 
 此 _[!UICONTROL Ineligible]_索引標籤會顯示目前在Amazon上發佈，但根據您目前的清單規則不符合清單資格的所有產品清單。 如果先前產品符合資格，且清單規則已修改為現在不符合資格，則與產品相關的數量會降至0，且產品會標籤為_&#x200B;不合格&#x200B;_. 但是，它仍存在於您的 [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!NOTE]
 >如果您有處理中的清單，清單數量會顯示在標籤上方的訊息中。
 
-![不符合資格的Amazon清單](assets/amazon-ineligible-listings.png)
+![不符合資格的Amazon清單](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 
