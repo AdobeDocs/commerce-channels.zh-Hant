@@ -1,8 +1,9 @@
 ---
-title: Amazon sales channel - [!UICONTROL Store Integration Settings]
+title: AmazonSales Channel- [!UICONTROL Store Integration Settings]
 description: 在您完成Amazon銷售管道上線流程後，請透過 [!UICONTROL Amazon Store] 儀表板
+feature: Sales Channels, Integration
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%

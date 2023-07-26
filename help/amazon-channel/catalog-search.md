@@ -1,9 +1,9 @@
 ---
 title: Amazon清單的目錄搜尋
 description: 若要設定有助於將符合條件的Commerce目錄產品與Amazon清單對應的屬性比對，請更新「目錄搜尋」設定。
-redirect_from: /sales-channels/asc/ob-catalog-search.html
+feature: Sales Channels, Search, Catalogs, Products, Configuration
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -63,7 +63,7 @@ _目錄搜尋_ 設定是商店清單設定的一部分。 清單設定可從以�
 ![目錄搜尋](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。 |
 | [!UICONTROL EAN (European Article Number)] | 12或13位數的產品識別碼。 歐洲文章編號(EAN)是條碼標準，12或13位數的產品識別碼。 每個EAN都可唯一識別產品、製造商及其屬性；通常EAN會列印在產品標籤上，或包裝上作為條碼。 Amazon需要EAN程式碼來改善搜尋結果的品質和目錄的品質。 您可以向製造商取得EAN。 |
 | [!UICONTROL GCID (Global Catalog Identifier)] | 通用類別目錄識別碼(GCID)是沒有UPC程式碼或ISBN之產品的ID。 Amazon的Brand Registry可讓您註冊為品牌擁有者，並為可能沒有UPC或ISBN的產品建立唯一ID。 |

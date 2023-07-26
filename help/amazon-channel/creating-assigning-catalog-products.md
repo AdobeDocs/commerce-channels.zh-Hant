@@ -1,8 +1,9 @@
 ---
 title: 建立並指派Amazon銷售管道的產品
 description: AmazonSales Channel提供 [!UICONTROL New Third Party] 索引標籤來協助建立和指派具有Amazon清單的相符的Commerce目錄產品。
+feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -51,27 +52,27 @@ ht-degree: 0%
 
    - 設定 **[!UICONTROL Enable Product(s)]** 切換至 `Yes` 或 `No` （必要）。
 
-      |是|選擇讓產品符合您的 [!DNL Commerce] 店面銷售。| |否|選擇讓產品不符合您的資格 [!DNL Commerce] 店面銷售。|
+     |是|選擇讓產品符合您的 [!DNL Commerce] 店面銷售。| |否|選擇讓產品不符合您的資格 [!DNL Commerce] 店面銷售。|
 
    - 對象 **[!UICONTROL Categories]**，指派產品的類別（選用）。
 
-      若要選取產品類別，請按一下向下箭頭，然後選取類別核取方塊。 按一下 **[!UICONTROL Done]** 完成後。
+     若要選取產品類別，請按一下向下箭頭，然後選取類別核取方塊。 按一下 **[!UICONTROL Done]** 完成後。
 
    - 對象 **[!UICONTROL Website Ids]**，選擇要與產品相關聯的網站（店面）。
 
-      此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
+     此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - 對象 **[!UICONTROL Attribute Set Id]** （必要），選擇一個選項。
 
-      `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已設定。
+     `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已設定。
 
    - 對象 **[!UICONTROL Visibility]**，選擇新產品的選項。
 
-      |**[!UICONTROL Not Visible Individually]** （預設）|此產品未包含在您的店面清單中，儘管它可能作為其他產品的變體提供。| |**[!UICONTROL Catalog]**|產品會出現在您的目錄清單中。| |**[!UICONTROL Search]**|產品可用於搜尋作業。| |**[!UICONTROL Catalog and Search]**|產品包含在目錄清單中，可用於搜尋作業。|
+     |**[!UICONTROL Not Visible Individually]** （預設）|此產品未包含在您的店面清單中，儘管它可能作為其他產品的變體提供。| |**[!UICONTROL Catalog]**|產品會出現在您的目錄清單中。| |**[!UICONTROL Search]**|產品可用於搜尋作業。| |**[!UICONTROL Catalog and Search]**|產品包含在目錄清單中，可用於搜尋作業。|
 
    - 對象 **[!UICONTROL Assign Tax Class]**，選擇產品的選項。
 
-      此清單中顯示的選項取決於 [稅捐類別](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已設定。
+     此清單中顯示的選項取決於 [稅捐類別](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已設定。
 
    - 完成後，按一下 **[!UICONTROL Create Catalog Products]**.
 
@@ -96,27 +97,27 @@ ht-degree: 0%
 
    - 設定 **[!UICONTROL Enable Product(s)]** 切換至 `Yes` 或 `No` （必要）。
 
-      |是|選擇讓產品符合您的 [!DNL Commerce] 店面銷售。| |否|選擇讓產品不符合您的資格 [!DNL Commerce] 店面銷售。|
+     |是|選擇讓產品符合您的 [!DNL Commerce] 店面銷售。| |否|選擇讓產品不符合您的資格 [!DNL Commerce] 店面銷售。|
 
    - 對象 **[!UICONTROL Categories]**，指派產品的類別（選用）。
 
-      若要選取產品類別，請按一下向下箭頭，然後選取類別核取方塊。 按一下 **完成** 完成後。
+     若要選取產品類別，請按一下向下箭頭，然後選取類別核取方塊。 按一下 **完成** 完成後。
 
    - 對象 **[!UICONTROL Website Ids]**，選擇要與產品相關聯的網站（店面）。
 
-      此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
+     此清單中的選項取決於 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定。
 
    - 對象 **[!UICONTROL Attribute Set Id]** （必要），選擇一個選項。
 
-      `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已設定。
+     `Default` 是預設選取範圍。 此清單中的選項取決於 [!DNL Commerce] [屬性集](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 您已設定。
 
    - 對象 **[!UICONTROL Visibility]**，選擇新產品的選項。
 
-      |**[!UICONTROL Not Visible Individually]** （預設）|此產品未包含在您的店面清單中，儘管它可能作為其他產品的變體提供。| |**[!UICONTROL Catalog]**|產品會出現在您的目錄清單中。| |**[!UICONTROL Search]**|產品可用於搜尋作業。| |**[!UICONTROL Catalog and Search]**|產品包含在目錄清單中，可用於搜尋作業。|
+     |**[!UICONTROL Not Visible Individually]** （預設）|此產品未包含在您的店面清單中，儘管它可能作為其他產品的變體提供。| |**[!UICONTROL Catalog]**|產品會出現在您的目錄清單中。| |**[!UICONTROL Search]**|產品可用於搜尋作業。| |**[!UICONTROL Catalog and Search]**|產品包含在目錄清單中，可用於搜尋作業。|
 
    - 對象 **[!UICONTROL Assign Tax Class]**，選擇產品的選項。
 
-      此清單中顯示的選項取決於 [稅捐類別](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已設定。
+     此清單中顯示的選項取決於 [稅捐類別](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 您已設定。
 
    - 完成後，按一下 **[!UICONTROL Create Catalog Products]**.
 
@@ -125,7 +126,7 @@ ht-degree: 0%
 ![建立Commerce目錄產品](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Product(s)] | （必要）如果已啟用，產品會顯示在 [!DNL Commerce] 店面。 如果停用，產品將不會顯示在您的 [!DNL Commerce] 店面。 |
 | [!UICONTROL Categories] | 您可以輸入新產品的類別名稱，或按一下向下箭頭以顯示選項來選取類別。 選項取決於您的 [類別](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) 設定。 |
 | [!UICONTROL Website Ids] | （必要）選擇要與產品相關聯的網站（店面）。 選項取決於您的 [!DNL Commerce] [存放區設定](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 設定 |

@@ -1,8 +1,9 @@
 ---
 title: 將清單連結至沃爾瑪
 description: '連線以下專案的清單 [!DNL Commerce] 產品目標 [!DNL Walmart Marketplace]開始銷售。'
+feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -125,11 +126,11 @@ ht-degree: 0%
 
    - 從產品目錄專案頁面中，選取 **[!UICONTROL Add Items]**. 然後，選取 **[!UICONTROL Add items in bulk]**.
 
-      ![在Walmart Marketplace專案組態中新增大量專案選項](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![在Walmart Marketplace專案組態中新增大量專案選項](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - 在下載頁面上，選取 **[!UICONTROL Full Setup]**. 然後，選取料號分類並下載分類範本。
 
-      ![在Walmart Marketplace專案設定中下載類別範本選項](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
+     ![在Walmart Marketplace專案設定中下載類別範本選項](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - 確認範本包含產品清單的必要和建議屬性。
 
@@ -141,9 +142,9 @@ ht-degree: 0%
 
    - 在 [!UICONTROL Entity Attributes] 表格中，設定產品資料匯出的選取條件。
 
-      使用篩選條件來選取和設定屬性值，這些屬性值適用於您銷售的產品類別。 請務必加入沃爾瑪必要和建議的屬性。 (請參閱 [匯出資料](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) 在Adobe中 [!DNL Commerce] 使用手冊以取得詳細指示。)
+     使用篩選條件來選取和設定屬性值，這些屬性值適用於您銷售的產品類別。 請務必加入沃爾瑪必要和建議的屬性。 (請參閱 [匯出資料](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) 在Adobe中 [!DNL Commerce] 使用手冊以取得詳細指示。)
 
-      若要在匯出中省略屬性，請選取 [!UICONTROL **排除**] 核取方塊。
+     若要在匯出中省略屬性，請選取 [!UICONTROL **排除**] 核取方塊。
 
 1. 捲動至屬性表格的結尾並選取 [!UICONTROL **繼續**] 以開始匯出資料。
 

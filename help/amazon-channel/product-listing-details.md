@@ -1,8 +1,9 @@
 ---
 title: 檢視Amazon清單詳細資料
 description: 若要瞭解Amazon清單和個別SKU/產品變更的競爭指標，請檢閱產品清單詳細資訊頁面。
+feature: Sales Channels, Products, Merchandising
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%

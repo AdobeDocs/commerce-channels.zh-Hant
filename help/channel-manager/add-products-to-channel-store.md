@@ -1,8 +1,9 @@
 ---
 title: 新增產品至管道管理員
-description: '''建立產品分類 [!DNL Walmart Marketplace] 將目錄中的產品新增至在「管道管理員」中設定的銷售管道進行銷售。 '
+description: '''建立產品分類 [!DNL Walmart Marketplace] 將目錄中的產品新增至在「管道管理員」中設定的銷售管道進行銷售。'
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ ht-degree: 0%
 
    - 選取 **[!UICONTROL Save]**.
 
-      確認訊息隨即顯示。
+     確認訊息隨即顯示。
 
-      ![從目錄匯入產品至銷售管道確認訊息](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![從目錄匯入產品至銷售管道確認訊息](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      如果訊息指出已排程更新，請使用 [佇列:consumers:開始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 立即處理更新的命令。
+     如果訊息指出已排程更新，請使用 [佇列:consumers:開始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 立即處理更新的命令。
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. 匯入作業完成後，請回到以驗證您新增的產品 [!DNL Channel Manager] 並選取 **[!UICONTROL Listings]**.
 

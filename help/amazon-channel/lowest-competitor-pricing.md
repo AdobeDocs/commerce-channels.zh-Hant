@@ -1,8 +1,9 @@
 ---
 title: Amazon sales channel - [!UICONTROL Lowest Competitor Pricing]
 description: 此 [!UICONTROL Amazon Sales Channel] 提供 [!UICONTROL Lowest Competitor Pricing] 索引標籤來協助您瞭解競爭對手在Amazon上的價格定位。
+feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -32,7 +33,7 @@ ht-degree: 0%
    顯示Amazon上競爭商戶的清單及其各自的定價。
 
 | 欄 | 說明 |
-|---|---|
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到您的目錄時會建立新的ASIN。 您可以在產品詳細資訊頁面上找到專案的ASIN以及與專案相關的其他詳細資訊（例如大小、頁數或磁碟數目）。 |
 | [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品的。 |
 | [!UICONTROL Fulfillment Channel] | 履行方法。 |

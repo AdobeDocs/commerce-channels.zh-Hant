@@ -1,9 +1,10 @@
 ---
 title: 「上線 [!DNL Amazon Sales Channel]"
 description: 瞭解預先設定任務、上線步驟，以及Amazon如何在Adobe Commerce和Magento Open Source中搭配AmazonSales Channel使用。
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 >您的Amazon銷售管道設定會影響您的Amazon清單。 您的初始清單、定價和產品設定都是預設值。 您可以修改您的 [存放區設定](./ob-store-review.md) （清單、定價、訂單和報表）建立連線後，立即開始使用 [!DNL Amazon Seller Central] 帳戶。
 
 | 步驟 | 發生什麼情況 |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [預先設定任務](./amazon-pre-setup-tasks.md) | 上線之前，您必須確定您擁有使用中且已核准的專案 [!DNL Amazon Seller Central] 帳戶。 此外，還有 [!DNL Commerce] 上線前完成的要求和建議。 |
 | [驗證Amazon API金鑰](./amazon-verify-api-key.md) | 存取Amazon銷售管道時， [!DNL Commerce] 自動檢查及驗證您新增至商店設定的Amazon API金鑰。 如果您的API金鑰尚未新增或無效，系統會提示您輸入 [新增或更新您的Amazon API金鑰](./amazon-verify-api-key.md). |
 | [存放區整合](./store-integration.md) | 此步驟包括建立Amazon銷售管道商店，然後將其連線到您的 [!DNL Amazon Seller Central] 帳戶。 您需要的主要登入認證 [!DNL Amazon Seller Central] 此步驟的帳戶（用來建立賣家帳戶的電子郵件或電話）。 |

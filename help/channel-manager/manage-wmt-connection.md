@@ -1,8 +1,10 @@
 ---
 title: 管理Walmart市集連線
 description: '''更新API認證以授權[DNL！之間的連線 Commerce]商店檢視和 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 產品清單，並同步化存貨、價格、訂單和出貨資料，介於 [!DNL Commerce] 還有沃爾瑪。'
+role: Admin, Developer
+feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

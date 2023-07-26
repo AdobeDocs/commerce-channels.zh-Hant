@@ -1,8 +1,9 @@
 ---
 title: Amazon清單的屬性
 description: AmazonSales Channel提供 [!UICONTROL Attributes] 標籤來監視Amazon和Commerce屬性清單，以及它們如何對應以符合產品。
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ ht-degree: 0%
 
    - 若要停用或 [編輯設定](./creating-attributes.md#edit-an-attribute) 或屬性的「相符屬性值」，按一下 **[!UICONTROL Edit]**.
 
-      編輯屬性包括變更產品比對的屬性對應。
+     編輯屬性包括變更產品比對的屬性對應。
 
 | 欄位 | 說明 |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | 中定義的銷售活動國家/地區  **[!DNL Amazon Marketplace]國家** 期間 [存放區整合](./store-integration.md). |
 | [!UICONTROL ID] | 產生的一般屬性值 [!DNL Commerce] 建立屬性時。 |
 | [!UICONTROL Amazon Attribute Name] | 從Amazon匯入的屬性名稱。 |

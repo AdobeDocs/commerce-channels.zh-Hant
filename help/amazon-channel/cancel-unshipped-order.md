@@ -1,8 +1,9 @@
 ---
 title: 取消未出貨的Amazon訂單
 description: 透過您的Amazon取消擱置或部份出貨（未出貨）的訂單 [!DNL Seller Central] 帳戶。
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -19,7 +20,6 @@ Amazon訂單位於以下位置時，才能取消： `Unshipped` 狀態。 如果
 >
 >- 如果您有 [訂單匯入](./order-settings.md) 已啟用，訂單管理於 [[!DNL Commerce] 訂單工作流程](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- 若 [訂單匯入](./order-settings.md) 已停用，您必須在以下位置管理訂單： [!DNL Amazon Seller Central].
-
 
 ## 取消中的訂單 `Unshipped` 狀態
 

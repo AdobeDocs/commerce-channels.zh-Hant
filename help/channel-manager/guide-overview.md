@@ -4,7 +4,8 @@ description: '''全面資訊，關於 [!DNL Channel Manager] 適用於Adobe Comm
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+recommendations: noCatalog
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 
 | 檔案資源 | 說明 |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4商家檔案](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce和Magento Open Source的以商家為中心的檔案 |
 | [Adobe Commerce適用的服務檔案](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支援服務集合的檔案，可協助商戶將其業務的重要元件與商店整合。 |
 | [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在受管理、自動託管的Cloud平台上部署Adobe Commerce的逐步程式。 |

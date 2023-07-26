@@ -1,17 +1,18 @@
 ---
 title: 作用中的Amazon清單
 description: Amazon銷售管道提供作用中標籤，可監視作用中Amazon清單及與Adobe Commerce目錄中的產品相符的專案。
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # 作用中的Amazon清單
 
-此 _[!UICONTROL Active]_索引標籤顯示您的Amazon清單，這些清單會在 [!DNL Amazon Marketplace] 和已符合您網站上的產品 [!DNL Commerce] 目錄。
+此 _[!UICONTROL Active]_索引標籤顯示 [!DNL Amazon Marketplace] 符合您網站中某個產品的 [!DNL Commerce] 目錄。
 
 上的可用動作 _[!UICONTROL Active]_索引標籤包括：
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 
 | 欄 | 說明 |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
 | [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。 <br><br>ASIN代表 [!DNL Amazon Standard Identification Number]. ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到其目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資訊頁面上找到專案ASIN，以及與該專案相關的進一步詳細資訊。 |
 | [!UICONTROL Product Listing Name] | 產品的名稱。 |

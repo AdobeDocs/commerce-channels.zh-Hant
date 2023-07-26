@@ -1,8 +1,9 @@
 ---
-title: Amazon sales channel - [!UICONTROL Stock/Quantity]
+title: AmazonSales Channel- [!UICONTROL Stock/Quantity]
 description: 若要控制將您的Commerce商店的產品數量詳細資料同步至您的 [!DNL Amazon Seller Central] 帳戶，更新「庫存/數量」設定。
+feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -44,7 +45,7 @@ ht-degree: 0%
 ![庫存/數量設定](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|---|---|
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Out-of-Stock Threshold] | 輸入產品最小數量的數值，以保持產品符合其Amazon清單的資格(預設為 `0`)。<br><br>若您的 [!DNL Commerce] 產品庫存低於此數字，各自的Amazon清單不符合透過Amazon銷售的資格。 |
 | [!UICONTROL Maximum Listed Quantity] | 輸入您要在Amazon清單中顯示的數量數值。<br><br>銷售料號時，Amazon清單會以此處輸入的數量重新發佈。 此設定通常用於不管理產品詳細目錄時。<br><br>例如，您輸入「列出數量上限」值如下 `10`. 您產品的實際數量為 `80`. 因為您已將此值設定在 `10`，Amazon清單一律會顯示可用的數量： `10`. 可用數量一律以定義的值顯示，即使存貨數量較低亦然。 |
 | [!UICONTROL "Do Not Manage Stock" Quantity] | 輸入Amazon清單的顯示數量值。<br><br>Amazon要求您發佈可用數量。 對象 [!DNL Commerce] 若您設定為不管理庫存但想在Amazon上列出的產品，則清單會隨此處輸入值的可用數量一起發佈。 |

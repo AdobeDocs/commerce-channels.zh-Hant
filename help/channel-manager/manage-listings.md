@@ -1,8 +1,9 @@
 ---
 title: 管理清單
 description: '管理銷售管道清單 [!DNL Commerce] 與Adobe Commerce和Magento Open Source的管道管理員一起儲存。'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]** — 識別成功比對的產品 [!DNL Walmart].
 
-   當產品屬性值（例如UPC代碼）與現存的UPC值相符時，就會發生相符專案 [!DNL Walmart Marketplace] 清單。 當產品符合時，Commerce產品選件會新增到現有清單中。
+  當產品屬性值（例如UPC代碼）與現存的UPC值相符時，就會發生相符專案 [!DNL Walmart Marketplace] 清單。 當產品符合時，Commerce產品選件會新增到現有清單中。
 
-   檢查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 資料面板，可複查更新的產品清單，並驗證產品詳細資訊、價格及存貨數量。
+  檢查 [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 資料面板，可複查更新的產品清單，並驗證產品詳細資訊、價格及存貨數量。
 
 * **[!UICONTROL Match - Match in Stage]** — 識別相符的產品 [!DNL Walmart] 在URL之前 [!DNL Walmart Marketplace] 存放區已上線。 具有此狀態的產品會在以下狀況時自動連線： [!DNL Walmart Marketplace] 商店上線。
 
@@ -102,4 +103,4 @@ ht-degree: 0%
 
 * **[!UICONTROL Error description]** — 提供有關清單錯誤的詳細資訊。
 
-   解決錯誤後，請重新提交產品以進行比對。 另請參閱 [產品比對錯誤疑難排解](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  解決錯誤後，請重新提交產品以進行比對。 另請參閱 [產品比對錯誤疑難排解](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

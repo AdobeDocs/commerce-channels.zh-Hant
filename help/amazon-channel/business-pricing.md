@@ -1,9 +1,11 @@
 ---
 title: '"[!DNL (B2B) Business Price] 適用於Amazon清單」'
 description: 您可以列出您的 [!DNL Commerce] 在Amazon Business (B2B)網站上啟用商業功能，藉此儲存產品Amazon [!DNL Seller Central] 帳戶。
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -47,7 +49,7 @@ ht-degree: 0%
 ![Amazon商業定價(B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | 選項： <ul><li>**[!UICONTROL Disabled]** - （預設）選擇您不想啟用企業對企業的銷售時。 選擇後，此區段中的所有其他欄位都會停用。</li><li>**[!UICONTROL Enabled]**  — 選擇何時啟用業務對業務銷售。 選擇後，業務價格會在套用所有訂價規則後設為等於定價。 業務價格會遵循網站訂價範圍（若已啟用）。 業務價格不得低於1美元。</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | （必要）選項： <ul><li>**[!UICONTROL Disabled]** - （預設）當您想要所有訂單數量使用相同的清單價格時，請選擇此選項。 選擇後，全部 _[!UICONTROL Pricing Level]_此區段中的欄位已停用。</li><li>**[!UICONTROL Enabled]**  — 選擇何時啟用根據訂單數量調整的訂價。 選擇後， _[!UICONTROL Pricing Level]_欄位已啟用。</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | 啟用「階層式訂價」後，您最多可以定義5個數量/折扣設定，以設定業務清單的階層式訂價。 在每個資料列中，輸入要套用的數量臨界值和折扣百分比。 例如，如果您輸入 `5` 在第一列的第一個欄位和 `5` 在第二個欄位中，當其他企業購買數量為五或以上時，價格會套用5%的折扣。 |

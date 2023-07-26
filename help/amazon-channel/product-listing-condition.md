@@ -1,9 +1,9 @@
 ---
 title: Amazon銷售管道 — 產品清單條件
 description: 使用產品清單條件設定，將您的Commerce產品對應至Amazon產品條件，例如「新增」或「整新」。
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html
+feature: Sales Channels, Products, Merchandising
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Amazon需要產品清單才能有定義的條件。 如果您的所有產品具�
 ![產品清單條件](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|---|---|
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Listing Product Condition] | 產品清單的條件。 選項： `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>如果您銷售單一產品條件，請選擇其中一個標準Amazon條件。 若您的 [!DNL Commerce] 目錄包含各種狀況的產品，請選擇 `Assign Condition Using Product Attribute`. |
 | [!UICONTROL Condition Attribute] | 此 [!DNL Commerce] 定義產品條件的屬性。 選取您建立的Magneto屬性，以對應至Amazon條件屬性。 在 [預先設定任務範例](./ob-creating-magento-attributes.md) 建議將其命名為 `Amazon Condition`. 選擇後，會出現其他欄位以對映標準Amazon條件。 |
 | [!UICONTROL Additional Condition fields] | 針對每個標準Amazon條件，選擇對應的條件。 選項是您新增的條件標籤 [已建立您的Amazon條件屬性](./ob-creating-magento-attributes.md).<br><br>如果您的產品位於 `Used` 或 `Collectible` 條件，但若您不進一步區分，則可對應至單一 `Used` 或 `Collectible` Amazon條件，並將其他條件保留空白。 此方法會對映所有 `Used` 或 `Collectible` 單一Amazon使用或可收集條件的條件。 |

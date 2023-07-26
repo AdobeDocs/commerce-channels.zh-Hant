@@ -1,8 +1,9 @@
 ---
 title: 檢視Amazon訂單
 description: 在Adobe Commerce或Magento Open Source管理員中檢視您的Amazon Marketplace訂單。
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ _[!UICONTROL All Orders]_檢視新增訂單搜尋的篩選選項。
 >- 根據檢視視窗的寬度，您可能會看到欄中有重疊文字。 若要展開要繞排文字的欄，請加寬視窗檢視。
 >- 篩選條件為 _[!UICONTROL Total]_，依整數篩選。 輸入小數點可能會造成結果錯誤。
 
-
 ### 預設欄
 
 | 欄 | 說明 |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | 僅適用於 _[!UICONTROL All Orders]_檢視。<br>根據下列條件縮小訂單清單：<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | 從Amazon收到的購買日期。 |
 | [!UICONTROL Order Number] | Amazon產生和接收的訂單編號。 若要檢視「Amazon訂單詳細資料」畫面，請按一下連結。 |

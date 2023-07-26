@@ -1,8 +1,10 @@
 ---
 title: 的預先設定任務 [!DNL Amazon sales channel]
 description: 在AmazonSales Channel中整合Adobe Commerce或Magento Open Source商店之前，請先檢閱要完成的必要工作。
+role: Admin, Developer
+feature: Sales Channels, Install, Configuration
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%

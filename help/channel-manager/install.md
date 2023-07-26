@@ -1,8 +1,10 @@
 ---
 title: '安裝 [!DNL Channel Manager]'
 description: '安裝[!DNL Channel Manager] 副檔名。'
+role: Admin, Developer
+feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -64,15 +66,15 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 
    - 檢查模組狀態。
 
-      ```bash
-      bin/magento module:status Magento_SalesChannels
-      ```
+     ```bash
+     bin/magento module:status Magento_SalesChannels
+     ```
 
-      範例回應：
+     範例回應：
 
-      ```terminal
-      Module is enabled
-      ```
+     ```terminal
+     Module is enabled
+     ```
 
    - 如果未啟用此模組，請啟用它。
 
@@ -192,7 +194,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. 確認auth.json中的認證相符 [與影像ID相關聯的金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用於註冊Channel Manager服務。
+1. 驗證auth.json中的認證是否相符 [與影像ID相關聯的金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用於註冊Channel Manager服務。
 
 ### PHP的記憶體不足
 
@@ -208,15 +210,15 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 - 從命令列指定記憶體限制。
 
-   ```bash
-   $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
-   ```
+  ```bash
+  $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
+  ```
 
-   例如：
+  例如：
 
-   ```bash
-   $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
-   ```
+  ```bash
+  $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
+  ```
 
 ### 缺少檢視
 

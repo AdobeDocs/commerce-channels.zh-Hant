@@ -1,8 +1,9 @@
 ---
 title: 「範例：定義Amazon清單規則的條件」
 description: 建立清單規則時，定義條件以識別要列在Amazon Marketplace上的Commerce目錄產品。
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ Amazon此範例中的規則會定義一個規則，該規則會為所有具有 _
 
    - **[!UICONTROL Conditions Combination]**  — 選擇以允許建立另一組 `All/Any` 和 `True/False` 現有集合內的條件。
 
-      ![條件組合](assets/ob-conditions-combinations.png){width="500"}
+     ![條件組合](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]**  — 產品屬性取決於屬性的設定。 若要讓屬性出現在清單中，必須將其設定為用於促銷規則條件。 請參閱 _用於促銷規則條件_ 在 [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      在下的清單中 **[!UICONTROL Product Attribute]**，選擇您要當作條件基礎的屬性。 在此範例中，選取的條件為 `Amazon FBA`.
+     在下的清單中 **[!UICONTROL Product Attribute]**，選擇您要當作條件基礎的屬性。 在此範例中，選取的條件為 `Amazon FBA`.
 
-      ![條件行2，第2部分](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![條件行2，第2部分](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      選取的條件會顯示在陳述式中，後面接著兩個粗體連結。 選項會依您選取的產品屬性而有所不同。
+     選取的條件會顯示在陳述式中，後面接著兩個粗體連結。 選項會依您選取的產品屬性而有所不同。
 
-      設定屬性後，便無法變更。 若要變更屬性，您必須刪除該行並新增屬性。 您可以按一下刪除(![「刪除」圖示](assets/btn-del-red.png))圖示來標籤行尾。
+     設定屬性後，便無法變更。 若要變更屬性，您必須刪除該行並新增屬性。 您可以按一下刪除(![「刪除」圖示](assets/btn-del-red.png))圖示來標籤行尾。
 
       1. 按一下 **[!UICONTROL is]** 並選擇描述產品符合條件的比較運運算元。
 
@@ -74,6 +75,7 @@ Amazon此範例中的規則會定義一個規則，該規則會為所有具有 _
          選取的專案會顯示在陳述式中，以完成條件。
 
          ![條件行2，第3部分](assets/ob-listing-rule-condition-is.png){width="500"}
+
    此條件已完成。 如上所述，此條件表示您產品中任何一項 [!DNL Commerce] 將Amazon FBA屬性設定為值的目錄 `Yes` 有資格在本地區和商店中列為Amazon。 您可以新增更多條件行，進一步縮小合格產品的範圍。
 
 1，若要將另一個條件行新增至陳述式，請返回步驟1並重複此程式，直到所有所需條件都完成為止。

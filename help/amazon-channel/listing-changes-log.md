@@ -1,8 +1,9 @@
 ---
 title: Amazon sales channel - [!UICONTROL Listing Changes Log]
 description: AmazonSales Channel提供清單變更記錄，協助您監控Amazon賣家帳戶中受影響的變更。
+feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 ## 預設欄
 
 | 欄 | 說明 |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | 設定Amazon存放區時定義的存放區名稱。 請參閱 [存放區整合](./store-integration.md). |
 | [!UICONTROL Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
 | [!UICONTROL Listing Action] | 對清單所做的變更型別。 |

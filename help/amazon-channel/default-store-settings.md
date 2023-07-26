@@ -1,8 +1,10 @@
 ---
 title: Amazon清單的預設商店設定
 description: 修改預設Commerce設定以自訂商店的AmazonSales Channel。
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 ## 一些重要的預設設定
 
 | 設定 | 預設 | 說明 | 位置 |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | 建立對應的 [!DNL Commerce] 當從Amazon收到新訂單時發出訂單，允許在 [[!DNL Commerce] 訂購](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) 工作流程。 時間 `Disabled`，Amazon訂單匯入訂單資訊以供檢閱，但必須在以下位置管理訂單： [!DNL Amazon Seller Central] 帳戶。 | [訂單設定](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | 來自Amazon訂單的客戶資料不會匯入您的 [!DNL Commerce] 資料庫。 匯入的Amazon訂單會作為訪客結帳處理。 如果您想要建置 [!DNL Commerce] 客戶資料庫，您應該將此設定變更為 `Build New Customer Account`. | [訂單設定](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] 目錄產品(符合Amazon的資格要求)以自動發佈至Amazon並建立Amazon清單。 如果您想要手動檢閱和發佈產品，請將此設定變更為 `Do Not Automatically List Eligible Products`. 等待手動發佈的產品會出現在 [_準備列出_](./ready-to-list.md) 標籤。 | [產品清單動作](./product-listing-actions.md) |

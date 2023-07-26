@@ -2,7 +2,9 @@
 title: '連線 [!DNL Channel Manager] 至 [!DNL Walmart Marketplace]'
 description: 將Commerce商店檢視連線至 [!DNL Walmart Marketplace] 建立銷售管道，以管理Commerce產品清單、存貨、價格和Walmart Marketplace銷售訂單。」
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+role: Admin, Developer
+feature: Sales Channels, Install, Integration
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -39,7 +41,7 @@ ht-degree: 0%
 
    - 選取 [!DNL Commerce] 提供您要在Marketplace上銷售之產品的商店檢視。
 
-      ![設定之間的連線 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
+     ![設定之間的連線 [!DNL Commerce] 和 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
 
    - 輸入唯一值 **[!UICONTROL store name]**.
 
@@ -53,21 +55,21 @@ ht-degree: 0%
 
    - 如果您沒有認證，請從 [!DNL Walmart Marketplace Developer Portal] 藉由選取 **[!UICONTROL Get API credentials]**.
 
-      在開發人員入口網站上，選取您所在的地區（美國和加拿大），然後登入。
+     在開發人員入口網站上，選取您所在的地區（美國和加拿大），然後登入。
 
-      ![[!DNL Walmart Marketplace] 帳戶登入](assets/walmart-marketplace-login-page.png){width="600"}
+     ![[!DNL Walmart Marketplace] 帳戶登入](assets/walmart-marketplace-login-page.png){width="600"}
 
    - 在API金鑰表單上，複製並儲存 **[!UICONTROL Client ID]** 和 **[!UICONTROL Client Secret]** 的值 [!UICONTROL Adobe Inc Production API key] 至安全位置。
 
-      ![[!DNL Walmart Marketplace API key] 設定頁面](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
+     ![[!DNL Walmart Marketplace API key] 設定頁面](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
 
-      >[!NOTE]
-      >
-      >如果 [!DNL Adobe Inc] 金鑰未列在開發人員入口網站中，請選取 **[!UICONTROL Add New Key for a Solution Provider]** 以設定許可權並產生金鑰。 如需設定詳細資訊，請參閱 [產生 [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
+     >[!NOTE]
+     >
+     >如果 [!DNL Adobe Inc] 金鑰未列在開發人員入口網站中，請選取 **[!UICONTROL Add New Key for a Solution Provider]** 以設定許可權並產生金鑰。 如需設定詳細資訊，請參閱 [產生 [!DNL Walmart Marketplace API Key]](walmart-requirements.md#generate-a-walmart-marketplace-api-key).
 
    - 返回至 [!DNL Channel Manager] 將認證新增至 **[!UICONTROL Walmart Connection]** 資訊。
 
-      當您新增認證時，Adobe會隱藏使用者端密碼，並將值儲存在安全的儲存庫中。
+     當您新增認證時，Adobe會隱藏使用者端密碼，並將值儲存在安全的儲存庫中。
 
 1. 選取 **[!UICONTROL Save Store]** 以套用設定並連線至 [!DNL Walmart marketplace].
 

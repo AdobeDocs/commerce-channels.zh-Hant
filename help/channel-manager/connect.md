@@ -1,10 +1,11 @@
 ---
 title: '連線到 [!DNL Commerce] 服務'
 description: '''連線管道管理員 [!DNL Commerce] 服務以啟用資料同步化及以下專案之間的通訊： [!DNL Commerce] 執行個體、管道管理員和其他支援服務。'
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 - **Commerce帳戶** — 若要安裝軟體至 [!DNL Commerce] 執行個體時，您必須擁有擁有擁有該帳戶之擁有者或管理員存取權， [!DNL Commerce] 平台。
 
-   帳戶擁有者和超級使用者可以從以下位置建立管理員帳戶： [!DNL Commerce] 例項或從命令列使用 [!DNL Commerce] CLI命令 `admin:user:create`.
+  帳戶擁有者和超級使用者可以從以下位置建立管理員帳戶： [!DNL Commerce] 例項或從命令列使用 [!DNL Commerce] CLI命令 `admin:user:create`.
 
 - **Adobe Commerce生產API金鑰** — 這個 [金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) 啟用API存取，以存取頻道管理員所需的服務。 您需要此金鑰的公開和私人認證。
 

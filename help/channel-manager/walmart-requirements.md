@@ -1,8 +1,10 @@
 ---
 title: '''[!DNL Walmart] 需求'
 description: '確認您具備下列必要條件 [!DNL Walmart Marketplace]與Channel Manager整合的資訊和資源。'
+role: Leader, Admin, Developer
+feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 * 連線Adobe Commerce或Magento Open Source的API金鑰 [!DNL Walmart Marketplace]
 
-   此 [!DNL Walmart Marketplace] API金鑰可讓您整合 [!DNL Channel Manager] 用於Adobe [!DNL Commerce] 或Magento Open Source和沃爾瑪商場。 開始管道管理員上線流程之前，請先在賣方中心設定API金鑰。
+  此 [!DNL Walmart Marketplace] API金鑰可讓您整合 [!DNL Channel Manager] 用於Adobe [!DNL Commerce] 或Magento Open Source和沃爾瑪商場。 開始管道管理員上線流程之前，請先在賣方中心設定API金鑰。
 
 ## 設定 [!DNL Walmart Seller] 帳戶
 

@@ -1,8 +1,9 @@
 ---
 title: 退貨單與退款單
 description: 針對收到的退貨請求發出全部或部分退款的指示 [!DNL Walmart Marketplace] 從 [!DNL Channel Manager] 適用於Adobe Commerce和Magento Open Source。
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ ht-degree: 0%
 
    * 您可以選取 **[!UICONTROL Returns]** 標籤。
 
-      您也可以從以下位置存取傳回資訊： [!UICONTROL Orders] 頁面。 尋找 [!UICONTROL Shipped] 有退貨請求的訂單。 然後，選取 `Return requested` 中的連結 [!UICONTROL Status Details] 欄，以檢視及處理請求。
+     您也可以從以下位置存取傳回資訊： [!UICONTROL Orders] 頁面。 尋找 [!UICONTROL Shipped] 有退貨請求的訂單。 然後，選取 `Return requested` 中的連結 [!UICONTROL Status Details] 欄，以檢視及處理請求。
 
 1. 從「傳回」表格中，尋找包含 *[!UICONTROL Received]* 狀態。
 
@@ -148,13 +149,13 @@ ht-degree: 0%
 
    * 從 [!UICONTROL Status Details] 欄，選取 **[!UICONTROL Create credit memo]** 若要開啟訂單詳細資訊頁面，請執行下列步驟： [!DNL Commerce].
 
-      如果訂單尚未開立商業發票，「訂單明細」頁面會顯示錯誤訊息，提示您建立訂單。 選取 **[!UICONTROL Create invoice]**. 然後， [建立並儲存發票](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     如果訂單尚未開立商業發票，「訂單明細」頁面會顯示錯誤訊息，提示您建立訂單。 選取 **[!UICONTROL Create invoice]**. 然後， [建立並儲存發票](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * 在訂單詳細資訊頁面上，選取 **[!UICONTROL Credit Memo]**.
 
    * 在 [!UICONTROL Items to Refund] 部分 [!UICONTROL Credit Memo]，更新 **[!UICONTROL Qty to refund]** 和 **[!UICONTROL Return to Stock]** 退貨要求中包含之專案的資訊。
 
-      請確定只傳回傳回要求中列出的專案。
+     請確定只傳回傳回要求中列出的專案。
 
    * 若要新增註解，請在 **[!UICONTROL Credit Memo Comments]**
 
@@ -179,7 +180,7 @@ ht-degree: 0%
 
 1. 選取以檢視退貨的退款詳細資料 **[!UICONTROL View credit memo]**.
 
-   ![退款銷退折讓單，用於退款退回的專案 [!DNL Walmart Marketplace] 訂購](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
+   ![退款銷退折讓單 [!DNL Walmart Marketplace] 訂購](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

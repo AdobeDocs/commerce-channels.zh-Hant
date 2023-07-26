@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Amazon Sales Channel] 版本注意事項'
 description: 如需瞭解所有資訊，請參閱發行說明 [!DNL Amazon Sales Channel] 發行版本。
+feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 0%
@@ -16,6 +17,7 @@ ht-degree: 0%
 > [!DNL Amazon sales channel] 可安裝在雲端基礎結構2.3.x和2.4.x版上具有Magento Open Source、Adobe Commerce和Adobe Commerce的執行個體上。Adobe Commerce 2.1、Magento Open Source2.2或Magento1不再支援此擴充功能。
 > <br>支援適用於 [!DNL Amazon sales channel]  4.0.0版和4.1.0版僅適用於Adobe Commerce 2.3.x版。
 > <br>[!DNL Amazon sales channel] 版本4.2.0+與Adobe Commerce 2.3.x版本相容，但僅支援Adobe Commerce 2.4.x版本。
+>
 
 以下版本說明說明的首次發行 [!DNL Amazon sales channel] 並包含：
 

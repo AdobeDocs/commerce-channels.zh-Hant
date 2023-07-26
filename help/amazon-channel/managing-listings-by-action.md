@@ -1,8 +1,9 @@
 ---
 title: 依動作管理Amazon產品清單
 description: 當您管理Amazon清單時，可以將動作套用至個別或多個清單。
+feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 另請參閱 [按狀態/標籤管理清單](./managing-listings-by-tab.md).
 
 | 動作 | 說明 | 索引標籤 |
-|--- |--- |--- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | 用於透過比對程式將未完成的產品移回。 若要嘗試重新比對，您必須修改 [清單](./listing-settings.md) 和 [目錄搜尋](./catalog-search.md) 增加自動比對可能性的設定。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | 選取要比對的清單、輸入要比對的ASIN或指派缺少的條件，以手動比對目錄產品與Amazon清單。 | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL View Details]](./product-listing-details.md) | 檢視使用中產品的其他資訊，包括清單活動記錄，其中顯示個別SKU /產品的變更。 | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |

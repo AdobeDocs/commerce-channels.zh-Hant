@@ -1,9 +1,9 @@
 ---
 title: 管理Amazon定價
 description: 您可以使用定價規則，將Amazon清單的定價設定為與商務區不同。
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Amazon sales channel可讓您設定定價規則，讓您設定Amazon清單價格
 - [標準訂價規則](./standard-price-rules.md)
 - [智慧型重新訂價規則](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >如果Amazon區域設為，智慧型重新定價規則就無法正常運作 `Inactive` 狀態，就像在上線期間一樣。 您的訂價計算取決於您的運費，而且您的地區必須位於 `Active` 要從Amazon同步的運費狀態。
-   >
-   >若要更新Amazon帳戶中的地區狀態，請前往「設定>帳戶資訊>假期設定」。 請參閱 [Amazon：休假的清單狀態](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （需要使用Seller Central登入）。
+  >[!IMPORTANT]
+  >
+  >如果Amazon區域設為，智慧型重新定價規則就無法正常運作 `Inactive` 狀態，就像在上線期間一樣。 您的訂價計算取決於您的運費，而且您的地區必須位於 `Active` 要從Amazon同步的運費狀態。
+  >
+  >若要更新Amazon帳戶中的地區狀態，請前往「設定>帳戶資訊>假期設定」。 請參閱 [Amazon：休假的清單狀態](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) （需要使用Seller Central登入）。
 
 Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). 您可以建立複雜的規則，讓您變更特定產品、特定類別內的產品，甚至具有特定屬性的價格。
 
@@ -58,7 +58,7 @@ Amazon此功能可讓您以類似於 [!DNL Commerce] [目錄價格規則](https:
 ## 預設欄
 
 | 欄 | 說明 |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | 訂價規則的名稱，如中所設定 [訂價規則一般設定](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | 規則型別，如中所設定 [訂價規則動作](./pricing-rule-actions.md) （標準價格規則或智慧型重新訂價規則） |
 | [!UICONTROL Is Active] | 規則是否啟用（如中所設定） [訂價規則一般設定](./pricing-rule-general-settings.md) |

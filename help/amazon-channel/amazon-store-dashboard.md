@@ -1,8 +1,9 @@
 ---
 title: Amazon商店控制面板
 description: 使用Amazon商店控制面板，從Commerce管理員檢視Amazon商店的活動。
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ ht-degree: 0%
 
 - **[!UICONTROL Store Listings]**  — 顯示過去7或30天商店銷售額的圖形表示法以及期限銷售資料。
 
-   此區段也會顯示您的清單計數 [作用中清單](./active-listings.md)， [非使用中清單](./inactive-listings.md)、和在中清單，以及其對應專案的連結 _[!UICONTROL Product Listings]_頁面。 您也可以按一下&#x200B;**[!UICONTROL Manage Listings]**以開啟_[!UICONTROL Product Listings]_ 頁面。 另請參閱 [管理Amazon清單](./managing-product-listings.md).
+  此區段也會顯示您的清單計數 [作用中清單](./active-listings.md)， [非使用中清單](./inactive-listings.md)、和在中清單，以及其對應專案的連結 _[!UICONTROL Product Listings]_頁面。 您也可以按一下&#x200B;**[!UICONTROL Manage Listings]**以開啟_[!UICONTROL Product Listings]_ 頁面。 另請參閱 [管理Amazon清單](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]**  — 顯示最近Amazon訂單的資訊。 所列資訊是根據從Amazon收到的資訊。 此表格未更新為 [!DNL Commerce] 訂單資訊，即使在 [訂單匯入](./order-settings.md) 已啟用。 若要檢視所有Amazon訂單，請按一下 **所有訂單**.
 
-   另請參閱 [檢視Amazon訂單](./amazon-orders-all.md) 如需欄的說明，請參閱 [管理訂單](./managing-orders.md) 以取得詳細資訊。
+  另請參閱 [檢視Amazon訂單](./amazon-orders-all.md) 如需欄的說明，請參閱 [管理訂單](./managing-orders.md) 以取得詳細資訊。
 
 - **[!UICONTROL Seller Central links]**  — 提供重要連結 [!DNL Amazon Seller Central] 資訊。

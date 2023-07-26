@@ -1,8 +1,9 @@
 ---
 title: Amazon sales channel - [!UICONTROL Price Adjustment]
 description: 設定價格調整，以便在您識別Amazon競爭者價格來源時定義價格計算。
+feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -52,7 +53,7 @@ ht-degree: 0%
 ![智慧型重新訂價規則 — 價格調整](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|---|---|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | 選擇訂價調整作業。 選項：<br>**[!UICONTROL Decrease By]**— 選擇您想要定義何時 _[!UICONTROL Magento Price Source]_在中定義 [清單價格](./listing-price.md) 向下調整，在列為Amazon之前，降低規則的價格。<br>**[!UICONTROL Increase By]**— 選擇您想要定義何時_[!UICONTROL Magento Price Source]_ 在中定義 [清單價格](./listing-price.md) 即將調整，在列為Amazon之前，為規則建立較高的價格。<br>**[!UICONTROL Match Competitor Price]**- （僅限智慧型重新訂價規則）選擇何時要變更Amazon清單價格以符合 [最低競爭者](./lowest-competitor-pricing.md) 價格，根據競爭者的意見反應和差異引數而定。 選擇後， _套用_ 和 _調整金額_ 欄位會被移除。 |
 | [!UICONTROL Apply] | 選項：<br>**[!UICONTROL Apply as percentage]**— 選擇您想要定義何時 _[!UICONTROL Magento Price Source]_在中定義 [清單價格](./listing-price.md) 以百分比調整。<br>**[!UICONTROL Apply as fixed amount]**— 選擇您想要定義何時_[!UICONTROL Magento Price Source]_ 在中定義 [清單價格](./listing-price.md) 依固定金額調整。 |
 | [!UICONTROL Adjustment Amount] | 必填。<br>如果您選擇 `Apply as percentage` 的 **[!UICONTROL Apply]**，輸入百分比值(範例：輸入 `25` 25%的調整)。<br>如果您選擇 `Apply as fixed amount` 的 **[!UICONTROL Apply]**，輸入固定金額的數值(範例： enter `25` 25美元的固定調整)。 |

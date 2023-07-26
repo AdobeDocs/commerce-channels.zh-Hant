@@ -3,8 +3,11 @@ title: '[!DNL Amazon Sales Channel] 指南'
 description: 以下各項的完整資訊： [!DNL Amazon sales channel] 適用於Adobe Commerce和Magento Open Source管理員，包括安裝和上線
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +30,7 @@ ht-degree: 0%
 >本指南不涵蓋Adobe Commerce和Magento Open Source的核心功能。
 
 | 區域 | 說明 |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Amazon銷售管道簡介](./overview.md) | 進一步瞭解Amazon銷售管道基本知識、主要功能、最佳實務等。 |
 | [上線Amazon銷售管道](./amazon-onboarding-home.md) | 快速建立Amazon商店並整合 [!DNL Amazon Seller Central]. 啟動並執行Amazon銷售管道，以開始銷售。 |
 | [Amazon銷售管道首頁](./amazon-sales-channel-home.md) | 進一步瞭解Amazon銷售管道首頁，以及可用的選項和工作。 檢視有關Amazon存放區的摘要資訊，並存取存放區詳細資訊和設定。 |
@@ -40,7 +43,7 @@ ht-degree: 0%
 ## 其他檔案
 
 | 檔案資源 | 說明 |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4商家檔案](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce和Magento Open Source的以商家為中心的檔案 |
 | [Adobe Commerce適用的服務檔案](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 支援服務集合的檔案，可協助商戶將其業務的重要元件與商店整合。 |
 | [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在受管理、自動託管的Cloud平台上部署Adobe Commerce的逐步程式。 |

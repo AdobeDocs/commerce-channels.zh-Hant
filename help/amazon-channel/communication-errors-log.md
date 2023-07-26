@@ -1,8 +1,9 @@
 ---
 title: Amazon通訊錯誤記錄
 description: 通訊錯誤記錄會顯示Amazon與之間的任何通訊錯誤 [!DNL Commerce].
+feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-c
 ## 預設欄
 
 | 欄 | 說明 |
-|--- |--- |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | 設定Amazon存放區時定義的存放區名稱。 請參閱 [存放區整合](./store-integration.md). |
 | [!UICONTROL Error Code] | 從Amazon收到的用於識別錯誤型別的代碼。 |
 | [!UICONTROL Message] | 說明與錯誤碼相關之錯誤的訊息。 |

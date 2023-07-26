@@ -1,8 +1,10 @@
 ---
 title: 新增或驗證Amazon API金鑰
 description: 在您的Commerce設定中，已驗證的Amazon API金鑰可讓您將商店與Amazon賣家帳戶整合。
+role: Admin, Developer
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

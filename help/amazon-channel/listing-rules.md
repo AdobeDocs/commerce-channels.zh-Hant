@@ -1,8 +1,9 @@
 ---
 title: Amazon sales channel - [!UICONTROL Listing Rules]
 description: 使用清單規則可決定以Amazon Marketplace清單形式發佈的Commerce目錄產品。
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ ht-degree: 0%
 另請參閱 [範例：定義條件](./ob-define-condition-example.md).
 
 | 欄位 | 說明 |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | 可用的選項取決於 [網站](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 您已設定在 [!DNL Commerce] 設定。 為Amazon上列出的合格產品選取網站。 只能選取一個網站，因為每個網站都需要在Amazon銷售管道中建立唯一的Amazon商店。 |
 | [!UICONTROL Conditions] | 用於定義 [!DNL Commerce] 適用於您Amazon區域內產品資格的屬性。 另請參閱 [範例：定義條件](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Ineligible Listings]**  — 根據您目前的清單規則及條件，所列產品不符合Amazon清單資格。
 
-   不符合資格的產品不會發佈至Amazon。 如果不符合資格的產品已列於Amazon上，且您將Amazon清單與您的產品比對， [!DNL Commerce] 目錄產品，Amazon清單的數量變更為 `0` 以防止產品銷售。 若要手動移除清單，請參閱 [結束Amazon清單](./end-listings-manually.md). 此處不列出不符合Amazon要求的產品。 這些產品會列在 [非使用中清單頁標](./inactive-listings.md).
+  不符合資格的產品不會發佈至Amazon。 如果不符合資格的產品已列於Amazon上，且您將Amazon清單與您的產品比對， [!DNL Commerce] 目錄產品，Amazon清單的數量變更為 `0` 以防止產品銷售。 若要手動移除清單，請參閱 [結束Amazon清單](./end-listings-manually.md). 此處不列出不符合Amazon要求的產品。 這些產品會列在 [非使用中清單頁標](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]**  — 根據您目前的上市規則和條件，所列產品符合Amazon上市資格，也符合Amazon要求。 此清單包含您匯入的現有Amazon清單(如果您有 **匯入協力廠商清單** 設定為 `Import Listing` 在 [清單設定](./third-party-listing-settings.md))。
 
@@ -94,7 +95,7 @@ ht-degree: 0%
 ### 列出預覽記錄
 
 | 欄位 | 說明 |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | 指派給的唯一、連續編號 [!DNL Commerce] 新增目錄產品時。 |
 | [!UICONTROL Thumbnail] | 顯示主要產品影像的縮圖。 |
 | [!UICONTROL Name] | 產品的名稱，受管理於 [!DNL Commerce] [產品格線](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

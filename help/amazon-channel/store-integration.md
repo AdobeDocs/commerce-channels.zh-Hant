@@ -1,8 +1,10 @@
 ---
 title: 與的存放區整合 [!DNL Amazon Seller Account]
 description: 開始入門流程之前，您必須建立（新增） AmazonSales Channel商店，並將其連結至您的Amazon賣家帳戶。
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _您需要的主要登入認證 [!DNL Amazon Seller Central] 帳戶（用來建�
 
    - 對象 **[!UICONTROL Product ID on the Amazon market]**，選擇要對應至的Amazon屬性 [!DNL Commerce] 屬性已選取如下。
 
-      此ID可協助您正確比對產品在 [!DNL Commerce] 目錄。
+     此ID可協助您正確比對產品在 [!DNL Commerce] 目錄。
 
    - 對象 **[!UICONTROL Map a Magento attribute]**，選擇 [!DNL Commerce] 對應至上述所選Amazon屬性的產品屬性。
 
-      [對應屬性](./ob-creating-magento-attributes.md) 有助於確保您的Amazon清單正確符合中的對應產品 [!DNL Commerce] 目錄。
+     [對應屬性](./ob-creating-magento-attributes.md) 有助於確保您的Amazon清單正確符合中的對應產品 [!DNL Commerce] 目錄。
 
 1. 按一下 **[!UICONTROL Connect]**.
 

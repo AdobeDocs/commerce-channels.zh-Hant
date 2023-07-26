@@ -1,8 +1,9 @@
 ---
 title: 檢閱Amazon銷售管道的商店設定
 description: 在您完成Amazon銷售管道上線流程後，請檢閱並更新 [!DNL Commerce] 存放區設定。
+feature: Sales Channels, Configuration
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

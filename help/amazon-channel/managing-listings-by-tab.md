@@ -1,8 +1,9 @@
 ---
 title: 依狀態/標籤管理Amazon產品清單
 description: 當您管理Amazon清單時，可以根據狀態將動作套用至清單。
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 ![產品清單標籤](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | 標籤 | 說明 | 動作 |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | 顯示您的 [!DNL Commerce] 符合您定義的清單設定，但缺少Amazon清單所需資訊的目錄產品。<br><br>若 _[!UICONTROL Automatic List Action]_設為 `Automatically List Eligible Products` 在您的 [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 設定，這些專案是您的&#x200B;**[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | 顯示與您產品不符的現有Amazon清單(根據從Amazon收到的資訊) [!DNL Commerce] 目錄。 | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>嘗試自動比對<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | 顯示您的目錄產品已準備好建立Amazon清單，但您的商店設定為不自動發佈新清單。 此索引標籤可用來手動發佈您的新清單。<br><br>若 _[!UICONTROL Automatic List Action]_設為 `Do Not Automatically List Eligible Products` 在您的 [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 設定，這些專案是您的&#x200B;**[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

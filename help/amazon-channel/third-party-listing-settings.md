@@ -1,9 +1,9 @@
 ---
-title: Amazon sales channel - [!UICONTROL Third-party Listings]
+title: AmazonSales Channel- [!UICONTROL Third-party Listings]
 description: 更新協力廠商清單設定可判斷您的Commerce目錄是否從您現有的Amazon賣家中心清單匯入產品。
-redirect_from: /sales-channels/asc/ob-third-party-listings.html
+feature: Sales Channels, Products
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -33,6 +33,7 @@ ht-degree: 0%
    - `Import Listing` - （預設）選擇您何時希望Amazon清單中的產品資訊匯入您的 [!DNL Commerce] 產品目錄。 此選項為預設值，建議使用。
 
    - `Do Not Import Listing`  — 選擇您想要手動執行的時機 [建立和指派新產品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) 至您的 [!DNL Commerce] Amazon清單的目錄。
+
    >[!NOTE]
    >下列選項欄位只有在設定為時才會啟用 `Import Listing`.
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 ![協力廠商清單](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|---|---|
+|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Import Third Party Listings] | 必填。 選項：<ul><li>**[!UICONTROL Import Listing]** - （預設）選擇您何時希望Amazon清單中的產品資訊匯入您的 [!DNL Commerce] 產品目錄。 </li><li>**[!UICONTROL Do Not Import Listing]**  — 選擇您想要手動執行的時機 [建立和指派新產品](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) 至您的 [!DNL Commerce] Amazon清單的目錄。</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | 僅在設定為時啟用 `Import Listing`.<br>選擇 [!DNL Commerce] 屬性做為Amazon賣家SKU的Amazon屬性的相符專案。 如果此屬性不存在，請參閱 [建立Amazon產品屬性以進行Amazon比對](./ob-creating-magento-attributes.md). 如有需要，請檢閱您的 [!DNL Commerce] [屬性](./managing-attributes.md) 和建立或編輯屬性，以符合此Amazon資料。 |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | 僅在設定為時啟用 `Import Listing`.<br>選擇 [!DNL Commerce] 與Amazon ASIN的Amazon屬性相符的屬性。 如果此屬性不存在，請參閱 [建立Amazon產品屬性以進行Amazon比對](./ob-creating-magento-attributes.md). 如有需要，請檢閱您的 [!DNL Commerce] [屬性](./managing-attributes.md) 和建立或編輯屬性，以符合此Amazon資料。 |

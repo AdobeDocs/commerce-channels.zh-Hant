@@ -1,8 +1,9 @@
 ---
 title: 檢視Amazon屬性對應
 description: 驗證連結的Commerce屬性的值，以在Commerce和Amazon之間正確同步。
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ ht-degree: 0%
 ![檢視屬性值](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | 中定義的銷售作業區域 **[!DNL Amazon Marketplace]國家** 存放區整合期間。 |
 | [!UICONTROL Magento Product SKU] | 指示 [!DNL Commerce] 與Amazon商店同步的產品。 此值是由指派的產品ID [!DNL Commerce] 和已連結至目錄中的產品。 若要在中開啟產品 [!DNL Commerce]，按一下連結。 |
 | [!UICONTROL ASIN] | 表示Amazon為產品識別而指派給產品的Amazon標準識別碼(ASIN) 10個字元的英數字元唯一識別碼。 |

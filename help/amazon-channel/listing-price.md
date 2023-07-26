@@ -1,9 +1,10 @@
 ---
 title: Amazon sales channel - [!UICONTROL Listing Price]
 description: 使用「清單價格」設定來決定您Amazon清單的價格來源與基準（預設）價格值。
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -49,6 +50,7 @@ ht-degree: 0%
    - `Disabled` - （預設）選擇您不想將VAT套用至清單價格的時間。
 
    - `Enabled`  — 選擇您要將加值稅套用至清單價格的時間。 VAT通常在歐洲國家（地區）作為銷售稅使用，並新增至Amazon中的最終定價。 VAT不適用於智慧型訂價規則中所使用之清單的最終價格，除非 [底價](./floor-price.md) 為點選。
+
    >[!NOTE]
    >
    >歐盟(EU)的企業必須傳送商業發票給商業採購員，以便客戶匯出稅金。 您可以自行產生這些商業發票並計算稅捐，或使用稅捐計算服務，例如Amazon的「加值稅計算服務」。 Amazon建議註冊 [Amazon VAT計算服務](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). 若您選擇不同的方式，則您需負責VAT法規遵循。>
@@ -65,7 +67,8 @@ ht-degree: 0%
 
    - `Set Default PTC`  — 選擇您是否要將通用產品稅捐代碼(PTC)用於所有產品。 選擇後，您必須完成 _[!UICONTROL Default PTC]_.
 
-      - 對象 **[!UICONTROL Default PTC]**，輸入用於所有符合條件的Amazon清單的預設PTC。 若您的預設PTC設定於 [!DNL Amazon Seller Central] 帳戶，將此欄位留空。 對此欄位所做的變更不會影響現有的Amazon清單。 若要變更現有清單的預設PTC，清單必須是 [已結束](./end-listings-manually.md) 並建立新清單。
+      - 對象 **[!UICONTROL Default PTC]**，輸入用於所有符合條件的Amazon清單的預設PTC。 如果預設PTC設定於 [!DNL Amazon Seller Central] 帳戶，將此欄位留空。 對此欄位所做的變更不會影響現有的Amazon清單。 若要變更現有清單的預設PTC，清單必須是 [已結束](./end-listings-manually.md) 並建立新清單。
+
    >[!NOTE]
    >
    >如果您使用Amazon的「VAT計算服務」，就必須知道產品的稅捐類別。 PTC是Amazon在歐盟購買B2B時的稅捐類別識別碼。 另請參閱 [Amazon的產品稅捐代碼](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ ht-degree: 0%
 ![清單價格](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | 決定建立Amazon清單時使用的價格來源。 預設值為 `Price`. 如果您選擇其他屬性，例如 `Amazon Price` 或 `Special Price`，屬性的已定義值會用於您的Amazon清單。 但是，如果未定義選取的屬性， `Price` 已使用。 |
 | [!UICONTROL Minimum Advertised Price (MAP)] | 此 [!DNL Commerce] MAP定價的屬性。 如果選擇MAP選項，當上市價格低於MAP價格時，系統會自動將您的Amazon上市價格設定為MAP價格。 |
 | [!UICONTROL Strike Through Price (MSRP)] | 此 [!DNL Commerce] 代表MSRP定價的屬性。 如果您的Amazon上市價格低於MSRP，則會顯示MSRP價格與上市價格的刪除線。 此設定也可用來計算「您儲存」的金額和百分比，但此功能僅適用於已贏得下列專案的清單： [Buy Box](./buy-box-competitor-pricing.md) 位置。 |

@@ -1,8 +1,9 @@
 ---
 title: Amazon sales channel — 標準價格規則動作
 description: 使用標準價格規則動作，增加或減少相對於Commerce目錄價格（或價格來源）的Amazon清單價格。
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ Amazon標準價格規則動作可讓您以特定百分比或相對於 [!DNL Comm
 ![標準價格規則](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | 選取 `Standard price rule`. |
 | [!UICONTROL Price Action] | 選項：<ul><li>**[!UICONTROL Decrease By]**  — 選擇您想要定義何時 [!DNL Commerce] 在列為Amazon之前應減少的價格來源值。</li><li>**[!UICONTROL Increase By]**  — 選擇您想要定義何時 [!DNL Commerce] 在列為Amazon之前要增加的價格來源值。</li></ul> |
 | [!UICONTROL Apply] | 選項：<ul><li>**[!UICONTROL Apply as percentage]**  — 選擇您想要定義何時 [!DNL Commerce] 以百分比調整價格來源值。</li><li>**[!UICONTROL Apply as fixed amount]**  — 選擇您想要定義何時 [!DNL Commerce] 由固定金額調整的價格來源值。</li></ul> |

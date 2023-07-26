@@ -1,8 +1,9 @@
 ---
 title: 「智慧型重新訂價規則：底價」
 description: 使用底價設定來決定智慧型訂價規則的最低價格，以管理您的Amazon清單。
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ ht-degree: 0%
 ![智慧型重新訂價規則範例 — 底價](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | 選擇 [!DNL Commerce] 指出您相對下限（最低價格）限制的屬性。 例如，如果您不想讓Amazon的清單價格低於專案的成本，您可以選擇 `Cost` 屬性。 |
 | [!UICONTROL Floor Price Action] | 選擇訂價調整作業。 選項：<ul><li>**[!UICONTROL Decrease By]**  — 選擇您想要定義何時 _[!UICONTROL Floor Price Source]_值會向下調整，為規則建立較低的底價，然後再列為Amazon。</li><li>**[!UICONTROL Increase By]**  — 選擇您想要定義何時 _[!UICONTROL Floor Price Source]_值進行調整，為規則建立較高的底價，然後再列為Amazon。</li><li>**[!UICONTROL Match]**  — 選擇您不想讓清單價格波動到低於所定義價格的時間 _[!UICONTROL Floor Price Source]_值。 選擇後，_[!UICONTROL Apply]_ 和 _[!UICONTROL Floor Adjustment Amount]_欄位已停用。</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相對於 _[!UICONTROL Floor Price Source]_值。 |

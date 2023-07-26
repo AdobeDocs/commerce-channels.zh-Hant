@@ -1,8 +1,10 @@
 ---
 title: 建立Amazon清單規則
 description: 完成Amazon銷售管道上線流程時，請建立初始清單規則，以便為產生Amazon清單 [!DNL Commerce] 產品。
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Ineligible Listings]**  — 根據您目前的清單規則設定，此標籤上列出的產品不符合Amazon清單的資格。
 
-      不符合資格的產品不會發佈至Amazon。 如果不符合資格的產品已列於Amazon上，且您將Amazon清單與您的產品比對， [!DNL Commerce] 目錄產品，Amazon清單的數量變更為 `0` 以防止產品銷售。 若要從Amazon手動移除清單，請參閱 [結束Amazon清單](./end-listings-manually.md). 此處不列出不符合Amazon要求的產品。 這些產品會列在 [[!UICONTROL Inactive Listings] 標籤](./inactive-listings.md).
+     不符合資格的產品不會發佈至Amazon。 如果不符合資格的產品已列於Amazon上，且您將Amazon清單與您的產品比對， [!DNL Commerce] 目錄產品，Amazon清單的數量變更為 `0` 以防止產品銷售。 若要從Amazon手動移除清單，請參閱 [結束Amazon清單](./end-listings-manually.md). 此處不列出不符合Amazon要求的產品。 這些產品會列在 [[!UICONTROL Inactive Listings] 標籤](./inactive-listings.md).
 
-      若要變更 `Ineligible` 清單為 `Eligible` 列出、重複此程式並修改您的清單規則。
+     若要變更 `Ineligible` 清單為 `Eligible` 列出、重複此程式並修改您的清單規則。
 
    - **[!UICONTROL Eligible Listings]**  — 根據您目前的清單規則設定，此標籤上列出的產品符合Amazon清單資格，並符合Amazon要求。 此索引標籤包含已匯入的現有Amazon清單(如果您有 **[!UICONTROL Import Third Party Listings]** 設定為 `Import Listing` 在您的 [清單設定](./listing-settings.md))。
 

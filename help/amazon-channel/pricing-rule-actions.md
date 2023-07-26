@@ -1,9 +1,9 @@
 ---
 title: Amazon sales channel — 價格規則動作
 description: 使用價格規則動作來定義套用至價格來源的調整計算，以決定Amazon清單價格。
-redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
+feature: Sales Channels, Price Rules
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 A [標準價格規則](./standard-price-rules.md) 可讓您以特定百分比或固定金額增加或減少Amazon清單價格，此金額是相對於 [!DNL Commerce] 型錄價格（或價格來源）。
 
 | 章節 | 說明 |
-|--- |--- |
+|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | 將規則型別設為 `Standard price rule`. |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | 定義套用至價格來源的調整計算，以決定清單價格 |
 
@@ -28,7 +28,7 @@ A [標準價格規則](./standard-price-rules.md) 可讓您以特定百分比或
 一個 [智慧型重新訂價規則](./intelligent-repricing-rules.md) 會使用Amazon競爭者的定價來決定您的掛牌價格。 競爭對手是其他銷售商，列出的產品與您在Amazon上列出的產品相同。
 
 | 章節 | 說明 |
-|--- |--- |
+|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 將規則型別設為 `Intelligent repricing rule` 以及您的競爭者價格來源和意見回饋需求。 |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | 定義競爭者銷售之相同產品的條件差異。 |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | 定義套用至價格來源的調整計算，以決定清單價格 |

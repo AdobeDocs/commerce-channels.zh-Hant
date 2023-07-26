@@ -1,10 +1,11 @@
 ---
 title: 上線 [!DNL Channel Manager]
 description: '將您的執行個體連線到 [!DNL Channel Manager] 完成幾個入門步驟即可完成服務。'
-role: User
 level: Intermediate
+role: Leader, Admin, Developer
+feature: Sales Channels, Install
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,22 +29,21 @@ ht-degree: 0%
 
    - **影像ID**-[登入](https://account.magento.com/customer/account/login/) 至 [!DNL Commerce] 要從中取得ID的帳戶 **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] 於 [!DNL Commerce] 帳戶設定](assets/mageid-my-commerce-account.png){width="250"}
+     ![[!DNL MAGEID] 於 [!DNL Commerce] 帳戶設定](assets/mageid-my-commerce-account.png){width="250"}
 
    - **存取金鑰 —** 取得要下載的驗證金鑰 [!DNL Commerce] 擴充功能來自 [!DNL Commerce] Composer存放庫 `([!DNL repo.magento.com]`)。
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
+     ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      在Adobe Commerce和Magento Open Source專案中，擁有者可以設定 [共用存取](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) 可讓受信任的員工和服務提供者使用擁有者或授權擁有者帳戶的憑證下載擴充功能。
+     在Adobe Commerce和Magento Open Source專案中，擁有者可以設定 [共用存取](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) 可讓受信任的員工和服務提供者使用擁有者或授權擁有者帳戶的憑證下載擴充功能。
 
-      對象 [!DNL Adobe Commerce] 在雲端基礎結構專案中，軟體安裝程式必須具備以下存取許可權： [!DNL Commerce] 例項：
+     對象 [!DNL Adobe Commerce] 在雲端基礎結構專案中，軟體安裝程式必須具備以下存取許可權： [!DNL Commerce] 例項：
 
       - 雲端專案的超級使用者存取權
       - 管理員存取特定環境
       - 一個 [!DNL Adobe Commerce] 具有存取Composer存放庫許可權的帳戶
 
-      另請參閱 [管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 在 *雲端基礎結構上的Commerce指南*.
-
+     另請參閱 [管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 在 *雲端基礎結構上的Commerce指南*.
 
 - **使用撰寫器和的體驗[!DNL Commerce CLI]** — 請參閱 [安裝擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 在 *安裝指南* 瞭解如何使用這些工具來安裝及管理擴充功能 [!DNL Adobe Commerce] 或 [!DNL Magento Open Source] 平台。
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 - **[!DNL Inventory Management]Adobe Commerce和Magento Open Source的擴充功能**
 
-   如果您計畫使用「通路管理員」進行存貨和訂單管理，則必須在Adobe Commerce和Magento Open Source執行個體上安裝並啟用Inventory management擴充功能。 一般而言，此擴充功能會依預設安裝在Adobe Commerce上並啟用， [!DNL Magento Open Source] 2.3.x和更新版本。
+  如果您計畫使用「通路管理員」進行存貨和訂單管理，則必須在Adobe Commerce和Magento Open Source執行個體上安裝並啟用Inventory management擴充功能。 一般而言，此擴充功能會依預設安裝在Adobe Commerce上並啟用， [!DNL Magento Open Source] 2.3.x和更新版本。
 
-   如果您從2.2.x升級Commerce，或您已停用Inventory management，請更新您的安裝以包含必要的模組。 另請參閱 [安裝Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 在 *Inventory management指南*.
+  如果您從2.2.x升級Commerce，或您已停用Inventory management，請更新您的安裝以包含必要的模組。 另請參閱 [安裝Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 在 *Inventory management指南*.
 
 ### 系統需求
 

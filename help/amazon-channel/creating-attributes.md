@@ -1,8 +1,9 @@
 ---
 title: 建立和編輯Amazon銷售管道的屬性
 description: AmazonSales Channel提供「屬性」檢視，協助您檢閱目前的Amazon屬性和連結的Commerce屬性。
+feature: Sales Channels, Products, Configuration
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -64,7 +65,7 @@ ht-degree: 0%
 ![建立屬性設定](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | 指出此屬性是否為Amazon與之間的即時且主動同步 [!DNL Commerce]. 設定為 `Yes` 確保Amazon的屬性值和 [!DNL Commerce] 保持所選屬性的同步。 |
 | 選取Magento產品屬性 | 表示您要連結至所列「Amazon屬性名稱」的選取屬性。 建立屬性時，請選擇 `Create New Magento Attribute`. |
 | [!UICONTROL Amazon Attribute Name] | 顯示您選擇的Amazon屬性名稱。 選取的屬性會連結至此Amazon屬性。 您無法透過編輯此值 [!DNL Commerce]. |
@@ -109,7 +110,7 @@ ht-degree: 0%
 ![編輯屬性設定](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | 欄位 | 說明 |
-|--- |--- |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | 指出此屬性是否為Amazon與之間的即時且主動同步 [!DNL Commerce]. 設定為 `Yes` 確保Amazon的屬性值和 [!DNL Commerce] 保持所選屬性的同步。 |
 | [!UICONTROL Select Magento Product Attribute] | 指示選取的專案 [!DNL Commerce] 要連結至所列Amazon屬性名稱的屬性。 如果您想要變更連結的 [!DNL Commerce] 屬性，請從下拉式清單中選擇其他屬性。 值會根據設定進行同步。 |
 | [!UICONTROL Amazon Attribute Name] | 顯示Amazon屬性的名稱，如中所定義 [!DNL Amazon Seller Central]. 選取的 [!DNL Commerce] 此Amazon屬性的屬性連結。 您無法透過編輯此值 [!DNL Commerce]. |

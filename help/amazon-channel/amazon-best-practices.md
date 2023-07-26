@@ -1,8 +1,10 @@
 ---
 title: 以下專案的最佳實務和限制 [!DNL Amazon sales channel]
 description: 檢閱針對Adobe Commerce和Magento Open Source使用Amazon銷售管道時的最佳實務和限制。
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,13 +25,12 @@ ht-degree: 0%
 
 - 針對英國地區，最佳實務是註冊 [Amazon VAT計算服務](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} 上線Amazon sales channel之前。
 
-
-   >[!NOTE]
-   >
-   >Amazon可能需要10至14天的時間來驗證及啟用您的VAT計算服務帳戶。
+  >[!NOTE]
+  >
+  >Amazon可能需要10至14天的時間來驗證及啟用您的VAT計算服務帳戶。
 
 限制包括：
 
-- 屬於您的套裝、禮品卡和分組產品型別 [!DNL Commerce] Amazon sales channel不支援將目錄列為Amazon。
+- 屬於您的套裝、禮品卡及分組產品型別 [!DNL Commerce] Amazon sales channel不支援將目錄列為Amazon。
 
 - Amazon sales channel無法為沒有現有或先前Amazon清單的產品建立清單。 如果產品不存在於 [!DNL Amazon Seller Central] 若使用ASIN，則必須將其新增至 [!DNL Amazon Seller Central] 以便Amazon可以將產品指派給ASIN。 在Amazon中新增產品並建立清單後，該清單即可與Amazon銷售管道中的目錄比對並同步。
