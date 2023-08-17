@@ -1,31 +1,31 @@
 ---
-user-guide-title: AmazonSales Channel使用手冊
-user-guide-description: 將Adobe Commerce或Magento Open Source與您的整合，透過Amazon產生銷售 [!DNL Amazon Seller Central] 帳戶。
-breadcrumb-title: Amazon sales channel
+user-guide-title: Amazon Sales Channel 使用手冊
+user-guide-description: 透過Amazon整合Adobe Commerce或Magento Open Source與您的以產生銷售額 [!DNL Amazon Seller Central] 帳戶。
+breadcrumb-title: Amazon Sales Channel
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Amazon sales channel - [!DNL channel manager] 適用於Adobe Commerce {#amazon}
 
-- [AmazonSales Channel使用手冊](guide-overview.md)
+- [Amazon Sales Channel 使用手冊](guide-overview.md)
 - [Amazon銷售管道簡介](overview.md)
 - 快速入門 {#getting-started}
    - [關於Amazon Marketplace](about-amazon-marketplace.md)
-   - [Amazon和Commerce目錄](about-listings-and-catalog.md)
+   - [Amazon與商務目錄](about-listings-and-catalog.md)
    - [最佳作法和限制](amazon-best-practices.md)
    - [安裝擴充功能](install.md)
 - 入門 {#onboarding}
    - [上線Amazon銷售管道](amazon-onboarding-home.md)
    - [預先設定任務](amazon-pre-setup-tasks.md)
-   - [建立 [!DNL Commerce] Amazon的屬性](ob-creating-magento-attributes.md)
+   - [建立 [!DNL Commerce] 適用於Amazon的屬性](ob-creating-magento-attributes.md)
    - [驗證Amazon API金鑰](amazon-verify-api-key.md)
    - [存放區整合](store-integration.md)
    - [建立清單規則](ob-create-listing-rule.md)
@@ -40,7 +40,7 @@ ht-degree: 0%
       - [管理屬性](managing-attributes.md)
       - [建立和編輯屬性](creating-attributes.md)
       - [檢視屬性對應](amazon-matching-attributes-values.md)
-   - [Sales Channel管理設定](sales-channel-settings.md)
+   - [Sales Channel管理員設定](sales-channel-settings.md)
    - [Amazon商店控制面板](amazon-store-dashboard.md)
    - [商店設定](ob-store-review.md)
 - 清單設定 {#listing-settings}
@@ -49,13 +49,13 @@ ht-degree: 0%
    - [協力廠商清單](third-party-listing-settings.md)
    - [上市價格](listing-price.md)
    - [(B2B)商業定價](business-pricing.md)
-   - [存貨/數量](stock-quantity.md)
+   - [庫存/數量](stock-quantity.md)
    - [履行者](fulfilled-by.md)
    - [目錄搜尋](catalog-search.md)
    - [產品清單條件](product-listing-condition.md)
-   - [更新的產品](renewed-products.md)
+   - [續訂的產品](renewed-products.md)
 - [訂單設定](order-settings.md)
-- [存放區整合設定](store-integration-settings.md)
+- [商店整合設定](store-integration-settings.md)
 - 清單與定價規則 {#rules}
    - [清單規則](listing-rules.md)
    - 定價規則 {#pricing-rules}
@@ -66,10 +66,10 @@ ht-degree: 0%
       - [價格規則動作](pricing-rule-actions.md)
       - [標準價格規則](standard-price-rules.md)
       - [智慧型重新訂價規則](intelligent-repricing-rules.md)
-      - [競爭者條件差異](competitor-conditional-variances.md)
+      - [競爭者條件變異](competitor-conditional-variances.md)
       - [價格調整](price-adjustment.md)
       - [底價](floor-price.md)
-      - [選擇性最高價格](optional-ceiling-price.md)
+      - [可選的上限價格](optional-ceiling-price.md)
       - [價格範圍](price-scope.md)
       - [價格優先順序邏輯](price-priority-logic.md)
       - [Buy Box競爭者定價](buy-box-competitor-pricing.md)
@@ -88,18 +88,18 @@ ht-degree: 0%
 - 管理清單 {#admin-listings}
    - [管理Amazon清單](managing-product-listings.md)
    - 依狀態/標籤 {#status-tab}
-      - [按狀態/標籤管理](managing-listings-by-tab.md)
-      - [清單不完整](incomplete-listings.md)
+      - [依狀態/標籤管理](managing-listings-by-tab.md)
+      - [不完整的清單](incomplete-listings.md)
       - [新的協力廠商清單](new-third-party-listings.md)
       - [準備列出](ready-to-list.md)
-      - [非使用中清單](inactive-listings.md)
+      - [非作用中清單](inactive-listings.md)
       - [作用中的清單](active-listings.md)
       - [覆寫](overrides.md)
       - [不符合資格的清單](ineligible-listings.md)
       - [已結束的清單](ended-listings.md)
    - 依動作 {#actions}
       - [依動作管理](managing-listings-by-action.md)
-      - [建立和指派目錄產品](creating-assigning-catalog-products.md)
+      - [建立及指派目錄產品](creating-assigning-catalog-products.md)
       - [建立和編輯覆寫](creating-editing-overrides.md)
       - [建立別名賣家SKU](create-alias-seller-sku.md)
       - [編輯指派的ASIN](edit-assigned-asin.md)

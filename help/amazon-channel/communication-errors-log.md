@@ -16,7 +16,7 @@ ht-degree: 0%
 
 記錄檔沒有可用的動作。 這是僅限稽核的功能。
 
-Amazon銷售管道首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
+Amazon sales channel首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
 
 ![通訊錯誤記錄](assets/amazon-comm-errors-log.png){width="600" zoomable="yes"}
 

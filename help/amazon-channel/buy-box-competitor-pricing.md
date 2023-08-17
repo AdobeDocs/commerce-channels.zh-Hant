@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Buy Box] Amazon列出的競爭者定價」'
-description: AmazonSales Channel提供 [!UICONTROL Buy Box Competitor Pricing] 索引標籤來協助您瞭解競爭對手在Amazon上的價格定位。
+title: '"[!DNL Buy Box] Amazon清單的競爭者定價」'
+description: AmazonSales Channel提供 [!UICONTROL Buy Box Competitor Pricing] 標籤來協助您瞭解競爭對手在Amazon上的價格定位。
 role: Admin
 level: Intermediate
 feature: Sales Channels, B2B, Tools and External Services, Merchandising, Integration
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] Amazon清單的競爭對手定價
+# [!DNL Buy Box] Amazon清單的競爭者定價
 
-此 [!DNL Buy Box] 由Amazon授予通常以最佳價格列出產品的賣家，以及其他因素，例如提供的FBA/Prime運費、可用性和賣家的績效。
+此 [!DNL Buy Box] 由Amazon授予通常以最佳價格列出產品的賣家，以及其他因素，例如提供的FBA/Prime運送、可用性和賣家的績效。
 
-此 _[!UICONTROL Buy Box Competitor Pricing]_標籤上的_[!UICONTROL Product Listing Details]_ 頁面包含 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 列出您競爭對手的價格、運費和到岸價格。 使用此資訊來瞭解您的競爭對手在Amazon上的價格定位。
+此 _[!UICONTROL Buy Box Competitor Pricing]_標籤上的_[!UICONTROL Product Listing Details]_ 頁面包含 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 清單價格、運費和競爭對手的到岸價格。 使用此資訊來瞭解您的競爭對手在Amazon上的價格定位。
 
 [智慧型重新訂價規則](./intelligent-repricing-rules.md) 可設定為根據 [!DNL Amazon Buy Box] 價格。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    此 [_[!UICONTROL Product Listing]_](./managing-product-listings.md) 頁面隨即開啟。
 
-1. 在任何清單狀態標籤上，按一下產品清單名稱即可清單。
+1. 在任何清單狀態標籤上，按一下產品清單名稱即可列出清單。
 
    此 _[!UICONTROL Product Listing Details]_頁面隨即開啟。
 
@@ -38,10 +38,10 @@ ht-degree: 0%
 
 | 欄 | 說明 |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到您的目錄時會建立新的ASIN。 您可以在產品詳細資訊頁面上找到專案的ASIN以及與專案相關的其他詳細資訊（例如大小、頁數或磁碟數目）。 |
-| [!UICONTROL Is Seller] | 指出賣家是否已贏得清單的Buy Box位置。 |
+| [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到您的目錄時，會建立新的ASIN。 您可以在產品詳細資料頁面上找到專案的ASIN以及與專案相關的其他詳細資訊（例如大小、頁數或磁碟數目）。 |
+| [!UICONTROL Is Seller] | 表示賣家是否已贏得清單的Buy Box位置。 |
 | [!UICONTROL Condition] | 此 [條件](./product-listing-condition.md) 產品的。 |
 | [!UICONTROL Listing Price] | 用於您的Amazon清單的價格。 |
 | [!UICONTROL Shipping Price] | 出貨產品的成本。 |
-| [!UICONTROL Landed Price] | 產品的清單價格加上其送貨價格。 |
+| [!UICONTROL Landed Price] | 產品的上市價格加上其送貨價格。 |
 | [!UICONTROL Last Updated] | 上次更新Buy Box訂價的日期。 |

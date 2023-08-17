@@ -1,5 +1,5 @@
 ---
-title: '安裝 [!DNL Channel Manager]'
+title: '''安裝 [!DNL Channel Manager]『'
 description: '安裝[!DNL Channel Manager] 副檔名。'
 role: Admin, Developer
 feature: Sales Channels, Install
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 安裝 [!DNL Channel Manager]
 
-檢閱 [需求](onboard.md#requirements) 並在安裝Channel Manager之前收集必要資訊。
+檢閱 [需求](onboard.md#requirements) 並收集必要的資訊，然後再安裝Channel Manager。
 
 ## 安裝擴充功能
 
@@ -32,7 +32,7 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 
 ### 安裝在內部部署執行個體上
 
-使用這些指示來安裝 [!DNL Channel Manager] Adobe Commerce和Magento Open Source至內部部署執行個體。
+使用這些指示來安裝 [!DNL Channel Manager] Adobe Commerce和Magento Open Source至內部部署執行個體上。
 
 1. 登入 [!DNL Commerce] server as a [具有許可權的使用者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) 以寫入 [!DNL Commerce] 檔案系統。
 
@@ -42,7 +42,7 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
    $ bin/magento maintenance:enable
    ```
 
-1. 從 [!DNL Commerce] 專案根目錄，新增頻道管理員至 `composer.json`.
+1. 從 [!DNL Commerce] 專案根目錄，新增通道管理員至 `composer.json`.
 
    ```bash
     composer require magento/channel-manager --no-update
@@ -110,7 +110,7 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 
 將擴充功能新增至雲端例項時，請在開發分支中工作。
 
-如需使用分支的協助，請參閱 [開始建立分支](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) 在 _雲端基礎結構上的Commerce指南_.
+如需使用分支的說明，請參閱 [開始建立分支](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html) 在 _雲端基礎結構上的Commerce指南_.
 
 在安裝期間，擴充功能名稱(`magento\channel-manager`)會自動插入 [app/etc/config.php](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 檔案。 您不需要直接編輯檔案。
 
@@ -118,7 +118,7 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 
 1. 建立或簽出開發 [分支](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
-1. 使用Composer名稱，將擴充功能新增至 `require` 部分 `composer.json` 檔案。
+1. 使用撰寫器名稱，將擴充功能新增至 `require` 的區段 `composer.json` 檔案。
 
    ```bash
    composer require magento/module-sales-channels-extension --no-update
@@ -132,7 +132,7 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
 
    此 `composer update` 命令只會更新所需的相依性 [!DNL Channel Manager]. 若要更新所有相依性，請改用此命令： `composer update`.
 
-1. 新增、認可和推送程式碼變更 — 包含對兩者的變更 `composer.lock` 和 `composer.json` 檔案。
+1. 新增、提交和推送程式碼變更 — 包含對兩者的變更 `composer.lock` 和 `composer.json` 檔案。
 
    ```bash
    $ git add -A
@@ -146,7 +146,7 @@ Channel Manager的安裝指示取決於Adobe Commerce或Magento Open Source是�
    $ git push origin <branch-name>
    ```
 
-1. 建置和部署程式完成後，請使用SSH登入遠端環境，並確認擴充功能已正確安裝。
+1. 建置和部署程式完成後，請使用SSH登入遠端環境，並確認擴充功能是否已正確安裝。
 
 ```bash
    bin/magento module:status Magento_SalesChannels
@@ -168,13 +168,13 @@ Module is enabled
    >如需將Channel Manager更新至新版本的指示，請參閱 [升級模組和擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html).
 
 
-## 疑難排除
+## 疑難排解
 
 使用下列資訊來解決Channel Manager安裝過程中發生的錯誤。
 
-### 不正確的撰寫器金鑰
+### 不正確的撰寫器索引鍵
 
-如果 [存取金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用於驗證Composer存放庫無效，或未連結到 [!DNL MAGE ID] 用於註冊 [!DNL Channel Manager] 服務，會顯示下列錯誤。
+如果 [存取金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 用於向Composer存放庫驗證無效，或未連結到 [!DNL MAGE ID] 用於註冊 [!DNL Channel Manager] 服務，下列錯誤會顯示。
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -204,9 +204,9 @@ Could not find a matching version of package magento/channel-manager. Check the 
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
-使用下列其中一種方法來解決記憶體問題：
+請使用下列其中一種方法來解決記憶體問題：
 
-- [增加PHP的記憶體限制](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) 在環境中 `php.ini` 檔案。 此外，請確認商務例項具有 [建議值](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) 用於其他PHP設定。
+- [增加PHP的記憶體限制](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/php-settings.html) 在環境中 `php.ini` 檔案。 此外，確認商務例項具有 [建議值](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) 用於其他PHP設定。
 
 - 從命令列指定記憶體限制。
 
@@ -222,7 +222,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 ### 缺少檢視
 
-如果您收到有關遺失的錯誤 `process_catalog_exporter_view` 在安裝管道管理員期間，請嘗試 [重新整理索引器](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html).
+如果您收到有關遺失的錯誤 `process_catalog_exporter_view` 在安裝通道管理員期間，請嘗試 [重新整理索引子](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html).
 
 ```bash
 php bin/magento indexer:refresh

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 價格範圍
 
-[!DNL Commerce] 提供設定，用於 [定價範圍](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) 將設為 `Global` 或 `Website`. 如果訂價設為 `Global`，所有網站都有單一價格來源。 如果訂價設為 `Website`，您的網站可能會有不同的定價，也有後援預設定價值(請參閱 [價格範圍](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html))。
+[!DNL Commerce] 提供設定，用於 [定價範圍](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) 將設為 `Global` 或 `Website`. 如果訂價設定為 `Global`，所有網站都有單一價格來源。 如果訂價設定為 `Website`，您的網站可能會有不同的定價，也有後援預設定價值(請參閱 [價格範圍](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html))。
 
 如果您將目錄價格範圍從 `Global` 至 `Website`，所有價格型別屬性也會變更為 `Website`. 另請參閱 [新增網站](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 

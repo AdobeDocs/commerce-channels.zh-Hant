@@ -7,17 +7,17 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # 新增Amazon定價規則
 
-整合商店後，您可以隨時設定或修改定價規則。 定價規則是的一部分 [清單設定](./listing-settings.md) 而且可以從 [存放區儀表板](./amazon-store-dashboard.md).
+您可在整合商店後隨時設定或修改定價規則。 定價規則是其中一部分 [清單設定](./listing-settings.md) 而且可在以下位置存取： [存放區儀表板](./amazon-store-dashboard.md).
 
 ## 標準價格規則
 
-標準價格規則動作可讓您以特定百分比或相對於*的固定金額來增加或減少Amazon掛牌價格&#x200B;*[!UICONTROL Magento Price Source*]* 在中定義 [清單價格](./listing-price.md).
+標準價格規則動作可讓您以特定百分比或相對於*的固定金額來增減Amazon掛牌價格&#x200B;*[!UICONTROL Magento Price Source*]* 已在以下專案中定義： [上市價格](./listing-price.md).
 
 ### 新增標準訂價規則
 
@@ -25,17 +25,17 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Add new pricing rule]**.
 
-1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 用於規則。
+1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 適用於規則。
 
-1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 用於規則。
+1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 適用於規則。
 
-1. 完成 **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** 用於規則。
+1. 完成 **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** 適用於規則。
 
 1. 完成後，按一下 **[!UICONTROL Save pricing rule]**.
 
 ## 智慧型重新訂價規則
 
-智慧型重新定價規則會使用Amazon競爭者的定價來決定您的掛牌價格。 競爭對手是其他銷售商，列出的產品與您在Amazon上列出的產品相同。
+智慧型重新定價規則會使用Amazon競爭者的定價來決定您的掛牌價格。 競爭對手是其他銷售商，列出與您在Amazon上列出的產品相同的產品。
 
 ### 新增智慧型重新訂價規則
 
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 1. 按一下 **[!UICONTROL Add new pricing rule]**.
 
-1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 用於規則。
+1. 完成 **[[!UICONTROL General Settings]](./pricing-rule-general-settings.md)** 適用於規則。
 
-1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 用於規則。
+1. 完成 **[[!UICONTROL Price Rule Conditions]](./pricing-rule-conditions.md)** 適用於規則。
 
-1. 完成 **[!UICONTROL Price Rule Actions]** 用於規則。
+1. 完成 **[!UICONTROL Price Rule Actions]** 適用於規則。
 
-   - [[!UICONTROL Select Rule Typ]e](./intelligent-repricing-rules.md)
+   - [[!UICONTROL Select Rule Typ]è](./intelligent-repricing-rules.md)
 
    - [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md)
 

@@ -1,6 +1,6 @@
 ---
 title: 編輯指派的ASIN
-description: 若不適當地符合您的其中一個Amazon清單，請變更Commerce產品的ASIN值。
+description: 若商業產品的ASIN值與您的其中一個Amazon清單不相符，請變更該值。
 feature: Sales Channels, Products, Configuration
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 # 編輯指派的ASIN
 
-您可以編輯中指派給產品的Amazon ASIN值 [!DNL Commerce] 目錄。 如果目錄產品與您的其中一個Amazon清單不正確比對，此功能會很有幫助。 變更清單中指派的ASIN不會變更Amazon指派給產品的ASIN。 它只會變更您的目錄產品相符的Amazon清單。
+您可以在的「 」中編輯指派給產品的Amazon ASIN值 [!DNL Commerce] 目錄。 如果目錄產品與您的其中一個Amazon清單不正確比對，這項功能會很有幫助。 變更清單中指派的ASIN不會變更Amazon指派給產品的ASIN。 它只會變更您的目錄產品相符的Amazon清單。
 
 當指派的ASIN變更時：
 
-- [!DNL Commerce] 結束附加至舊版ASIN的Amazon清單
+- [!DNL Commerce] 結束附加到舊ASIN的Amazon清單
 - 使用Amazon驗證ASIN
 - 建立已更新ASIN的清單
 - 更新Amazon sales channel中的清單資訊
 
 **_若要編輯指派的ASIN：_**
 
-1. 檢視以下專案的清單： _[!UICONTROL Product Listings]_頁面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，或_[!UICONTROL Ineligible]_ 標籤)。
+1. 檢視清單于 _[!UICONTROL Product Listings]_頁面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，或_[!UICONTROL Ineligible]_ 標籤)。
 
-1. 下 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL Edit Assigned ASIN]**.
+1. 在 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL Edit Assigned ASIN]**.
 
    此動作會開啟 _[!UICONTROL Product Listing Update]_頁面。
 
-1. 對象 **[!UICONTROL Assign ASIN]**，輸入新的ASIN值。
+1. 的 **[!UICONTROL Assign ASIN]**，輸入新的ASIN值。
 
 1. 若要儲存變更，請按一下 **[!UICONTROL Save Listing Update]**.
 

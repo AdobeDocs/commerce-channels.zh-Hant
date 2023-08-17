@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您已在以下專案中啟用訂單匯入： [訂單設定](./order-settings.md) 順序為 [由Amazon (FBA)履行](./fulfilled-by.md)，您可能會在訂單詳細資料中看到某些欄位的虛擬資料。 Amazon不會針對FBA訂單傳送下列資料。
+>若您已在中啟用訂單匯入，請 [訂單設定](./order-settings.md) 順序為 [由Amazon (FBA)履行](./fulfilled-by.md)，您可能會在訂單詳細資料中看到某些欄位的虛擬資料。 Amazon不會針對FBA訂單傳送下列資料。
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -37,9 +37,9 @@ ht-degree: 0%
 > - `CustomizedURL`
 > - `GiftMessageText`
 
-### 訂單與出貨明細頁標
+### 訂單與出貨詳細資訊頁標
 
-此 _[!UICONTROL Order and Shipping Details]_標籤會顯示從Amazon收到的詳細訂單資訊。
+此 _[!UICONTROL Order and Shipping Details]_索引標籤會顯示詳細的訂單資訊，如從Amazon收到的那樣。
 
 >[!IMPORTANT]
 >
@@ -53,15 +53,15 @@ ht-degree: 0%
 >- `Shipping postal code`
 >- `Shipping country`
 >
->別忘了按一下 **儲存訂單** 編輯之後。
+>別忘了按一下 **儲存順序** 編輯之後。
 
 ![訂單與送貨詳細資料](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
-### 訂單專案頁標
+### 「訂購專案」標籤
 
 此 _[!UICONTROL Order Items]_索引標籤會顯示從Amazon收到的與Amazon訂單相關聯的所有專案。
 
-![訂單料號明細](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
+![訂單專案明細](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### 「追蹤」標籤
 

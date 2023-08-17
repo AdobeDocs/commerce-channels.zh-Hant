@@ -16,12 +16,12 @@ ht-degree: 0%
 
 1. 檢視一或多個清單 _[!UICONTROL Ended]_標籤上的 [產品清單](./managing-product-listings.md) 頁面(_[!UICONTROL Inactive]_， _[!UICONTROL Active]_，或_[!UICONTROL Ineligible]_ 標籤)。
 
-1. 在左側欄中，按一下以核取您要重新發佈的每個清單。
+1. 在左欄中，按一下以核取您要重新發佈的每個清單。
 
-1. 下 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL Publish Product to Amazon]**.
+1. 在 _[!UICONTROL Actions]_，按一下&#x200B;**[!UICONTROL Publish Product to Amazon]**.
 
 1. 按一下 **[!UICONTROL OK]** 在確認訊息中。
 
    系統會顯示訊息，確認系統正在處理選取的清單，以便發佈至Amazon。
 
-   清單資訊會根據您的cron設定發佈至Amazon。 清單資訊會在下次資料同步時傳送到Amazon。 在Amazon回覆清單確認之前，手動發佈的清單會保留在 _準備列出_ 以Tab鍵定位 `List in Progress` 狀態。 從Amazon收到清單確認時，清單會移至 _作用中_ 以tab鍵定位 `Active` 狀態。
+   清單資訊會根據您的cron設定發佈至Amazon。 清單資訊會在下次資料同步時傳送到Amazon。 在Amazon回覆清單確認之前，手動發佈的清單會保留在 _準備列出_ 以Tab鍵定位 `List in Progress` 狀態。 從Amazon收到清單確認時，清單會移至 _作用中_ 定位字元及 `Active` 狀態。
