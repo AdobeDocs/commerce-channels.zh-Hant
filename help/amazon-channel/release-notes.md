@@ -3,9 +3,9 @@ title: 『[!DNL Amazon Sales Channel] 版本注意事項
 description: 檢閱發行說明以瞭解全部資訊 [!DNL Amazon Sales Channel] 發行版本。
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 0%
 
 另請參閱 [即將發行的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 版本設定、支援和相容性。
 
+另請參閱 [產品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 以瞭解哪些Adobe Commerce版本支援此擴充功能。
+
 ## v4.5.0
 
 *2023年8月30日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新增](../assets/new.svg) 新增Adobe.IO API閘道（從MAGI變更），以提升驗證安全性。 `ServicesId` 提供新的UI來管理您的Adobe.IO憑證，類似於其他 [Adobe Commerce服務](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 *2023年3月7日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![已修正的問題](../assets/fix.svg) 新增對Adobe Commerce 2.4.6和PHP 8.2的支援。
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
 *2023年3月7日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![修正](../assets/fix.svg) 新增對Adobe Commerce 2.4.4的支援。
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
 *2021年11月11日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![修正](../assets/fix.svg) 更新相依性以支援其他更新的擴充功能。
 ![修正](../assets/fix.svg) 新增對PHP 8.1的支援。
@@ -87,7 +89,7 @@ ht-degree: 0%
 
 *2021年11月11日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![修正](../assets/fix.svg) 已變更Adobe Commerce接收 _使用者名稱_ Amazon中的欄位。 之前，建立訂單時會發生錯誤，因為 _使用者名稱_ 欄位包含特殊字元。 Adobe Commerce現在會收到 _使用者名稱_ 資料並篩選掉特殊字元，以便成功建立訂單。
 
@@ -95,7 +97,7 @@ ht-degree: 0%
 
 *2021年4月9日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新增](../assets/new.svg) 為設定新增唯讀模式支援。 另請參閱 [sales channel設定](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 *2021年3月3日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![修正](../assets/fix.svg) <!--CHAN-xxxx-->此 _訂單詳細資料_ 功能已重新設計，不再依賴 _匯入訂單_ 設定。 現在，所有訂單的訂單詳細資料都會顯示在AmazonSales Channel介面中。
 
@@ -129,7 +131,7 @@ ht-degree: 0%
 
 *2021年3月3日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 如果您有前一個 [!DNL Amazon sales channel] 已安裝版本，並嘗試將Adobe Commerce更新至2.4.0版，系統會提示您更新擴充功能，然後才能完成Adobe Commerce更新。
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 *2020年5月7日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新增](../assets/new.svg) <!--4247, 4230-->已變更訂單匯入程式，以符合Commerce訂單要求。 這些變更修正了Commerce無法為匯入訂單建立對應訂單的問題。 另請參閱 [管理訂單](managing-orders.md) 以取得訂單封鎖程式和解決方案的相關資訊。
 
@@ -189,7 +191,7 @@ ht-degree: 0%
 
 *2020年3月25日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ ht-degree: 0%
 
 *2019年11月11日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![修正](../assets/fix.svg) **數值欄位設定**： <!--CHAN-3779-->需要數值的欄位已更新為僅接受數值字元。 範例：訂價規則設定>調整金額欄位
 
@@ -219,7 +221,7 @@ ht-degree: 0%
 
 *2019年十月7日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新增](../assets/new.svg) **Amazon UK Marketplace現已推出**：使用者在建立和整合Commerce商店時，可選擇英國的Marketplace。 此英國升級包含下列專案的額外支援：
 
@@ -237,7 +239,7 @@ ht-degree: 0%
 
 ## v2.0.0
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 >[!NOTE]
 >

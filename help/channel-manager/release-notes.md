@@ -3,10 +3,10 @@ title: '[!DNL Channel Manager] 發行說明'
 description: 的最新版本資訊 [!DNL Channel Manager] 來自Adobe Commerce。
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 4%
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -18,12 +18,15 @@ ht-degree: 4%
 ![已修正的問題](../assets/fix.svg) 修正和改良
 ![已知問題](../assets/bug.svg) 已知問題
 
+另請參閱 [即將發行的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 以瞭解發行排程和支援。
+
+另請參閱 [產品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 以瞭解哪些Adobe Commerce版本支援此擴充功能。
 
 ## v2.0.0
 
 *2023年3月20日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新增](../assets/new.svg)<!--CHAN-5893--> Channel Manager現在與Adobe Commerce 2.4.6版相容。
 
@@ -31,7 +34,7 @@ ht-degree: 4%
 
 *2022年11月23日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新增](../assets/new.svg)<!--CHAN-5204--> **退貨與退款** — 您現在可以處理透過Adobe Commerce和Magento Open Source Channel Manger商店出貨的訂單的Walmart Marketplace退貨與退款程式。 有關退貨和退款的資訊和更新會在Walmart和Adobe Commerce之間同步，以便可以在以下兩個頁面取得目前的資料： [!DNL Commerce] 店面和 [!DNL Walmart Marketplace]. 另請參閱 [退貨與退款訂單](return-refund-orders.md).
 
@@ -41,7 +44,7 @@ ht-degree: 4%
 
 *2022年1月14日*
 
-[!BADGE 相容性]{type=Informative tooltip="相容性"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新增](../assets/new.svg) Channel Manager初次發行正式發行
 
