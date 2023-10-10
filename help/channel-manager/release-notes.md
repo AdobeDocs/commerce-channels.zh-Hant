@@ -3,9 +3,9 @@ title: '[!DNL Channel Manager] 發行說明'
 description: 的最新版本資訊 [!DNL Channel Manager] 來自Adobe Commerce。
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
+source-git-commit: 003efd3c1044284a7d2c86db5d3eb1abfb3898ea
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,14 @@ ht-degree: 3%
 另請參閱 [即將發行的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 以瞭解發行排程和支援。
 
 另請參閱 [產品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 以瞭解哪些Adobe Commerce版本支援此擴充功能。
+
+## v2.1.0
+
+*2023年10月3日*
+
+[!BADGE 支援]{type=Informative tooltip="支援"}
+
+![新增](../assets/new.svg) Channel Manager現在相容於 [Adobe Commerce 2.4.7版Beta版](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) 發行版本。
 
 ## v2.0.0
 
