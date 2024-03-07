@@ -3,9 +3,9 @@ title: 新增產品至管道管理員
 description: '''建立產品分類 [!DNL Walmart Marketplace] 將目錄中的產品新增至Channel Manager中設定的銷售管道進行銷售。'
 feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: 0087d60791cf00e4ed2bffe992447ee8e592fd9b
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
      ![從目錄匯入產品至銷售管道確認訊息](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-     如果訊息指出更新已排程，請使用 [佇列:consumers:開始](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 立即處理更新的命令。
+     如果訊息指出更新已排程，請使用 [`queue:consumers:start`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 立即處理更新的命令。
 
      ```bash
      $ bin/magento queue:consumers:start product_action_attribute.update
