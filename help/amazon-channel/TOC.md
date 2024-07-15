@@ -1,41 +1,41 @@
 ---
 user-guide-title: Amazon Sales Channel 使用手冊
-user-guide-description: 透過Amazon整合Adobe Commerce或Magento Open Source與您的以產生銷售額 [!DNL Amazon Seller Central] 帳戶。
+user-guide-description: 將Adobe Commerce或Magento Open Source與您的 [!DNL Amazon Seller Central] 帳戶整合，透過Amazon產生銷售額。
 breadcrumb-title: Amazon Sales Channel
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 4%
 
 ---
 
 
-# Amazon sales channel - [!DNL channel manager] 適用於Adobe Commerce {#amazon}
+# Amazon銷售管道 — Adobe Commerce的[!DNL channel manager] {#amazon}
 
 - [Amazon Sales Channel 使用手冊](guide-overview.md)
 - [Amazon銷售管道簡介](overview.md)
-- 快速入門 {#getting-started}
+- 快速入門{#getting-started}
    - [關於Amazon Marketplace](about-amazon-marketplace.md)
-   - [Amazon與商務目錄](about-listings-and-catalog.md)
+   - [Amazon與Commerce目錄](about-listings-and-catalog.md)
    - [最佳作法和限制](amazon-best-practices.md)
    - [安裝擴充功能](install.md)
-- 入門 {#onboarding}
+- 上線{#onboarding}
    - [上線Amazon銷售管道](amazon-onboarding-home.md)
    - [預先設定任務](amazon-pre-setup-tasks.md)
-   - [建立 [!DNL Commerce] 適用於Amazon的屬性](ob-creating-magento-attributes.md)
+   - [建立Amazon的 [!DNL Commerce] 屬性](ob-creating-magento-attributes.md)
    - [驗證Amazon API金鑰](amazon-verify-api-key.md)
    - [存放區整合](store-integration.md)
    - [建立清單規則](ob-create-listing-rule.md)
    - [預設商店設定](default-store-settings.md)
-- 管理銷售管道 {#manage}
+- 管理銷售管道{#manage}
    - [首頁](amazon-sales-channel-home.md)
    - [Amazon商店](managing-stores.md)
-   - [工作區控制項](workspace-controls.md)
+   - [Workspace控制項](workspace-controls.md)
    - [學習與準備](learning-preparation.md)
-   - 屬性 {#attributes}
+   - 屬性{#attributes}
       - [檢視屬性](attributes-view.md)
       - [管理屬性](managing-attributes.md)
       - [建立和編輯屬性](creating-attributes.md)
@@ -43,7 +43,7 @@ ht-degree: 4%
    - [Sales Channel管理員設定](sales-channel-settings.md)
    - [Amazon商店控制面板](amazon-store-dashboard.md)
    - [商店設定](ob-store-review.md)
-- 清單設定 {#listing-settings}
+- 正在列出設定{#listing-settings}
    - [檢視清單設定](listing-settings.md)
    - [產品清單動作](product-listing-actions.md)
    - [協力廠商清單](third-party-listing-settings.md)
@@ -56,9 +56,9 @@ ht-degree: 4%
    - [續訂的產品](renewed-products.md)
 - [訂單設定](order-settings.md)
 - [商店整合設定](store-integration-settings.md)
-- 清單與定價規則 {#rules}
+- 清單與定價規則{#rules}
    - [清單規則](listing-rules.md)
-   - 定價規則 {#pricing-rules}
+   - 訂價規則{#pricing-rules}
       - [管理定價](pricing-products.md)
       - [新增新的定價規則](add-pricing-rule.md)
       - [價格規則一般設定](pricing-rule-general-settings.md)
@@ -74,20 +74,20 @@ ht-degree: 4%
       - [價格優先順序邏輯](price-priority-logic.md)
       - [Buy Box競爭者定價](buy-box-competitor-pricing.md)
       - [最低競爭者價格](lowest-competitor-pricing.md)
-   - 範例 {#rules-examples}
+   - 範例{#rules-examples}
       - [定義條件](ob-define-condition-example.md)
       - [價格規則範例](price-rule-examples.md)
-- 報告和記錄 {#reports-logs}
+- 報告和記錄{#reports-logs}
    - [記錄並儲存報告](amazon-logs-reports.md)
-   - 存放區報告 {#store-reports}
+   - 存放區報告{#store-reports}
       - [具競爭力的價格分析](competitive-price-analysis.md)
       - [清單改善](listing-improvements.md)
-   - 記錄檔 {#logs}
+   - 記錄{#logs}
       - [列出變更記錄](listing-changes-log.md)
       - [通訊錯誤記錄](communication-errors-log.md)
-- 管理清單 {#admin-listings}
+- 管理清單{#admin-listings}
    - [管理Amazon清單](managing-product-listings.md)
-   - 依狀態/標籤 {#status-tab}
+   - 依狀態/標籤{#status-tab}
       - [依狀態/標籤管理](managing-listings-by-tab.md)
       - [不完整的清單](incomplete-listings.md)
       - [新的協力廠商清單](new-third-party-listings.md)
@@ -97,17 +97,17 @@ ht-degree: 4%
       - [覆寫](overrides.md)
       - [不符合資格的清單](ineligible-listings.md)
       - [已結束的清單](ended-listings.md)
-   - 依動作 {#actions}
+   - 依動作{#actions}
       - [依動作管理](managing-listings-by-action.md)
       - [建立及指派目錄產品](creating-assigning-catalog-products.md)
       - [建立和編輯覆寫](creating-editing-overrides.md)
       - [建立別名賣家SKU](create-alias-seller-sku.md)
       - [編輯指派的ASIN](edit-assigned-asin.md)
       - [結束Amazon清單](end-listings-manually.md)
-      - [發佈Amazon清單](publish-listings-manually.md)
+      - [Publish與Amazon清單](publish-listings-manually.md)
       - [更新必要資訊](amazon-manually-update-incomplete-listing.md)
       - [檢視詳細資料](product-listing-details.md)
-- 管理訂單 {#admin-orders}
+- 管理訂單{#admin-orders}
    - [管理訂單](managing-orders.md)
    - [檢視Amazon訂單](amazon-orders-all.md)
    - [檢視Amazon訂單詳細資料](amazon-order-details.md)

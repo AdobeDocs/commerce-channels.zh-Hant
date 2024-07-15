@@ -16,20 +16,20 @@ ht-degree: 0%
 
 ## 標準價格規則
 
-A [標準價格規則](./standard-price-rules.md) Amazon可讓您以特定百分比或相對於 [!DNL Commerce] 型錄價格（或價格來源）。
+[標準價格規則](./standard-price-rules.md)可讓您以特定百分比或相對於[!DNL Commerce]目錄價格（或價格來源）的固定金額來增減Amazon刊登價格。
 
 | 章節 | 說明 |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | 將規則型別設為 `Standard price rule`. |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | 將規則型別設定為`Standard price rule`。 |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | 定義套用至價格來源的調整計算，以決定清單價格 |
 
 ## 智慧型重新訂價規則
 
-一個 [智慧型重新訂價規則](./intelligent-repricing-rules.md) 使用Amazon競爭者的定價來決定您的掛牌價格。 競爭對手是其他銷售商，列出與您在Amazon上列出的產品相同的產品。
+[智慧型重新訂價規則](./intelligent-repricing-rules.md)會使用Amazon競爭者的訂價來決定您的刊登價格。 競爭對手是其他銷售商，列出與您在Amazon上列出的產品相同的產品。
 
 | 章節 | 說明 |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 將規則型別設為 `Intelligent repricing rule` 以及您的競爭者價格來源和意見反應需求。 |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 將規則型別設定為`Intelligent repricing rule`，以及您的競爭者價格Source和意見反應需求。 |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | 針對競爭對手銷售的相同產品定義條件差異。 |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | 定義套用至價格來源的調整計算，以決定清單價格 |
 | [[!UICONTROL Floor Price]](./floor-price.md) | 定義產品的最低價格，以防止多個定價規則將上市價格設定得太低。 |

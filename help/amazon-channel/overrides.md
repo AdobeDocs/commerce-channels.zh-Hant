@@ -1,45 +1,45 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Overrides]
+title: Amazon銷售管道 — [!UICONTROL Overrides]
 description: AmazonSales Channel提供覆寫標籤，可協助您識別和管理如何在Amazon清單中套用覆寫。
 feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Overrides]
 
-此 _[!UICONTROL Overrides]_索引標籤會顯示您已套用覆寫的Amazon清單。 覆寫是清單特定的設定，可用來將定義的值設定為清單。 套用至清單的覆寫會定義清單的設定，不論其他已定義的清單設定或清單適用的規則為何。 將覆寫套用至清單時，該清單會顯示在_[!UICONTROL Overrides]_ 標籤。 在修訂中定義的值會出現在清單的適當欄中。 有四種覆寫型別可以套用：價格、處理時間、條件和賣家備註。
+_[!UICONTROL Overrides]_索引標籤會顯示您已套用覆寫的Amazon清單。 覆寫是清單特定的設定，可用來將定義的值設定為清單。 套用至清單的覆寫會定義清單的設定，不論其他已定義的清單設定或清單適用的規則為何。 將覆寫套用至清單時，該清單會顯示在_[!UICONTROL Overrides]_&#x200B;標籤上。 在修訂中定義的值會出現在清單的適當欄中。 有四種覆寫型別可以套用：價格、處理時間、條件和賣家備註。
 
 ## 覆寫型別
 
 | 型別 | 說明 |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 價格 | 一種覆寫，可設定清單的價格，忽略清單的所有其他價格設定。 <br><br>**範例**：您已定義20%折扣價格規則，此規則會套用至目錄之特定類別中的所有產品。 您有新產品，而且需求量很高，因此即使產品屬於該類別，您也不希望將折扣價格套用至清單。 您可以選取清單， [建立價格覆寫](./creating-editing-overrides.md#edit-override-single-listing)，並在價格覆寫中定義掛牌價格。 |
-| 處理時間 | 一種覆寫，可設定清單的處理時間，忽略清單設定中所設定的預設處理時間。<br><br>**範例**：您清單的預設處理時間設為2天。 您的產品非常脆弱，需要額外的一天才能確保特殊包裝的運送功能。 您可以檢視清單， [建立處理時間覆寫](./creating-editing-overrides.md#edit-override-single-listing)，並將處理時間定義為三天。<br><br>**注意：** 無法供設為的產品使用 `Fulfilled by Amazon`. |
-| 條件 | 設定清單之條件值的覆寫，不論指派給清單的條件屬性為何。<br><br>**範例**：目錄中的大部分產品都是新狀態，但您的產品處於翻新狀態。 您可以檢視清單， [建立條件覆寫](./creating-editing-overrides.md#edit-override-single-listing)，並定義清單的「整修」條件。<br><br>**注意：** 無法供設為的產品使用 `Fulfilled by Amazon`. |
-| 賣家筆記 | 定義 _賣家筆記_ 區段。 此欄位可用於新增與產品或套用覆寫相關的其他資訊，通常用於說明「非新」產品的條件。 此欄位中的文字會與購物者的清單一起顯示。 無法為條件值為的清單新增賣家備註 `New`. <br><br>**範例**：您有產品正在使用 `Refurbished` 條件。 通常在此狀況下的產品不包含任何手冊或檔案，但您對此產品有不同的供應商，包括手冊。 您可以檢視清單， [建立賣家筆記覆寫](./creating-editing-overrides.md#edit-override-single-listing)，並新增此手冊相關清單所獨有的文字備註，讓購物者知道此清單已包含在內。<br><br>**注意**：如果產品有已定義的條件 `New`，您可以輸入賣家備註覆蓋，但Amazon不會顯示賣家備註的 `New` 產品。 |
+| 價格 | 一種覆寫，可設定清單的價格，忽略清單的所有其他價格設定。 <br><br>**範例**：您已定義20%折扣價格規則，此規則適用於目錄特定類別中的所有產品。 您有新產品，而且需求量很高，因此即使產品屬於該類別，您也不希望將折扣價格套用至清單。 您可以選取清單、[建立價格覆寫](./creating-editing-overrides.md#edit-override-single-listing)，並在價格覆寫中定義清單價格。 |
+| 處理時間 | 一種覆寫，可設定清單的處理時間，忽略清單設定中所設定的預設處理時間。<br><br>**範例**：您清單的預設處理時間設為2天。 您的產品非常脆弱，需要額外的一天才能確保特殊包裝的運送功能。 您可以檢視清單、[建立處理時間覆寫](./creating-editing-overrides.md#edit-override-single-listing)，並定義三天的處理時間。<br><br>**注意：**&#x200B;不適用於設定為`Fulfilled by Amazon`的產品。 |
+| 條件 | 設定清單之條件值的覆寫，不論指派給清單的條件屬性為何。<br><br>**範例**：目錄中的產品大多是新條件，但您的產品是整修條件。 您可以檢視清單、[建立條件覆寫](./creating-editing-overrides.md#edit-override-single-listing)，以及定義清單的整修條件。<br><br>**注意：**&#x200B;不適用於設定為`Fulfilled by Amazon`的產品。 |
+| 賣家筆記 | 定義清單&#x200B;_賣家備註_&#x200B;區段的覆寫。 此欄位可用於新增與產品或套用覆寫相關的其他資訊，通常用於說明「非新」產品的條件。 此欄位中的文字會與購物者的清單一起顯示。 無法為條件值為`New`的清單新增賣家備註。 <br><br>**範例**：您的產品處於`Refurbished`狀態。 通常在此狀況下的產品不包含任何手冊或檔案，但您對此產品有不同的供應商，包括手冊。 您可以檢視清單，[建立銷售者備註覆寫](./creating-editing-overrides.md#edit-override-single-listing)，並新增此清單中有關手冊的專屬文字備註，讓購物者知道該備註已包含在清單中。<br><br>**備註**：如果產品的定義條件為`New`，您可以輸入賣家備註覆寫，但Amazon不會顯示`New`產品的賣家備註。 |
 
-您可以建立、編輯或移除的覆寫 [單一清單](./creating-editing-overrides.md#edit-override-single-listing). 在 _[!UICONTROL Inactive]_，_[!UICONTROL Active]_、和 _[!UICONTROL Ineligible]_標籤，您可以按一下&#x200B;**[!UICONTROL Select]**在_[!UICONTROL Action]_ 欄並選擇 **[!UICONTROL Create Override]**. 此 _[!UICONTROL Edit Overrides]_動作僅在清單套用了覆寫並在以下頁面檢視時可用：_[!UICONTROL Overrides]_ 標籤。
+您可以建立、編輯或移除[單一清單](./creating-editing-overrides.md#edit-override-single-listing)的覆寫。 在&#x200B;_[!UICONTROL Inactive]_、_[!UICONTROL Active]_&#x200B;和&#x200B;_[!UICONTROL Ineligible]_索引標籤上，您可以按一下_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Create Override]**。 _[!UICONTROL Edit Overrides]_動作僅在清單已套用覆寫並在_[!UICONTROL Overrides]_&#x200B;索引標籤上檢視時可用。
 
-您也可以建立、編輯或移除覆寫 [多個清單](./creating-editing-overrides.md#edit-override-multiple-listings). 在 _[!UICONTROL Inactive]_，_[!UICONTROL Active]_、和 _[!UICONTROL Ineligible]_標籤，您可以按一下&#x200B;**[!UICONTROL Select]**在_[!UICONTROL Action]_ 欄並選擇 **[!UICONTROL Edit Listing Overrides]**.
+您也可以建立、編輯或移除[多個清單](./creating-editing-overrides.md#edit-override-multiple-listings)的覆寫。 在&#x200B;_[!UICONTROL Inactive]_、_[!UICONTROL Active]_&#x200B;和&#x200B;_[!UICONTROL Ineligible]_索引標籤上，您可以按一下_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit Listing Overrides]**。
 
 移除覆寫會讓清單使用清單設定和規則所定義的值。
 
 定義覆寫時，您也可以選擇輸入單一型別的覆寫，或任何型別的組合。
 
-另請參閱 [建立和編輯覆寫](./creating-editing-overrides.md).
+請參閱[建立和編輯覆寫](./creating-editing-overrides.md)。
 
 >[!NOTE]
 >
 >如果您有處理中的清單，清單的數量會顯示在標籤上方的訊息中。
 
-![覆寫標籤](assets/amazon-overrides.png){width="600" zoomable="yes"}
+![覆寫索引標籤](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
-Amazon sales channel首頁有一些共同之處 [工作區控制項](./workspace-controls.md) 可讓您自訂顯示的資料。
+Amazon sales channel首頁共用一些常見的[工作區控制項](./workspace-controls.md)，可讓您自訂顯示的資料。
 
 ## 預設欄
 
@@ -47,9 +47,9 @@ Amazon sales channel首頁有一些共同之處 [工作區控制項](./workspace
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | Amazon指派給產品的SKU （庫存單位），用於識別產品、選項、價格和製造商。 |
 | [!UICONTROL ASIN] | 識別專案的10個字母和/或數字的唯一區塊。<br><br>ASIN代表Amazon標準識別碼。 ASIN是識別專案的10個字母和/或數字的唯一區塊。 對於書籍，ASIN與ISBN編號相同，但對於所有其他產品，當專案上傳到它們的目錄時會建立新的ASIN。 您可以在Amazon的產品詳細資料頁面上找到專案ASIN，以及與此專案相關的其他詳細資料。 |
-| [!UICONTROL Condition Override] | 覆寫中定義的新條件。 如果套用至清單的覆寫不是條件覆寫， `Not Selected` 會顯示在此欄中。 |
+| [!UICONTROL Condition Override] | 覆寫中定義的新條件。 如果套用至清單的覆寫不是條件覆寫，`Not Selected`會顯示在此欄中。 |
 | [!UICONTROL Product Listing Name] | 產品的名稱。 |
 | [!UICONTROL Seller Notes Override] | 覆寫中定義的新賣家附註。 如果套用至清單的覆寫不是這種覆寫型別，則此欄為空白。 |
 | [!UICONTROL Handling Override] | 覆寫中定義的新處理時間（以天為單位）。 如果套用至清單的覆寫不是處理時間覆寫，則此欄為空白。 |
-| [!UICONTROL List Price Override] | 覆寫中定義的新上市價格。 如果套用至清單的修訂不是價格修訂， `N/A` 會顯示在此欄中。 |
-| [!UICONTROL Action] | 可套用至特定清單的可用動作清單。 若要套用動作，請在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**並選擇一個選項：<ul><li>[[!UICONTROL Edit Overrides]](./creating-editing-overrides.md#edit-override-single-listing)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL List Price Override] | 覆寫中定義的新上市價格。 如果套用至清單的覆寫不是價格覆寫，`N/A`會顯示在此欄中。 |
+| [!UICONTROL Action] | 可套用至特定清單的可用動作清單。 若要套用動作，請在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL Select]**並選擇選項：<ul><li>[[!UICONTROL Edit Overrides]](./creating-editing-overrides.md#edit-override-single-listing)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |

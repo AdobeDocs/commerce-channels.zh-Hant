@@ -5,7 +5,7 @@ feature: Sales Channels, Price Rules
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
 source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 ## 設定可選的上限價格
 
-在「 」中定義您選擇性的最高價格設定 _[!UICONTROL Optional Ceiling Price]_區段。
+在&#x200B;_[!UICONTROL Optional Ceiling Price]_區段中定義您選擇性的最高價格設定。
 
-1. 的 **[!UICONTROL Ceiling Price Source]**，選擇屬性。
+1. 針對&#x200B;**[!UICONTROL Ceiling Price Source]**，選擇屬性。
 
-   選取您的 [!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 表示您的相對上限限制。 例如，如果您不希望Amazon清單價格高於專案的MSRP，您可選擇 `Manufacturer's Suggested Retail Price` 屬性。
+   選取您的[!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)，指出您的相對上限限制。 例如，如果您不希望Amazon清單價格高於專案的MSRP，您可以選擇`Manufacturer's Suggested Retail Price`屬性。
 
-1. 的 **[!UICONTROL Ceiling Price Action]**，選擇一個選項。
+1. 針對&#x200B;**[!UICONTROL Ceiling Price Action]**，選擇一個選項。
 
-   - `Decrease By`  — 選擇您想要定義何時 _[!UICONTROL Ceiling Price Source]_值會向下調整，為規則建立較低的上限，然後才列為Amazon。
+   - `Decrease By` — 選擇您何時想要向下調整定義的&#x200B;_[!UICONTROL Ceiling Price Source]_值，為規則建立較低的最高價格，然後再列為Amazon。
 
-   - `Increase By`  — 選擇您想要定義何時 _[!UICONTROL Ceiling Price Source]_要調整的值，在列為Amazon之前，為規則建立更高的最高價格。
+   - `Increase By` — 選擇您何時想要調整定義的&#x200B;_[!UICONTROL Ceiling Price Source]_值，為規則建立更高的最高價格，然後再列為Amazon。
 
-   - `Match`  — 選擇您不想讓價目表價格波動超過定義的時間 _[!UICONTROL Ceiling Price Source]_值。 當設定為 `Match`，則_[!UICONTROL Apply]_ 和 _[!UICONTROL Ceiling Adjustment Amount]_欄位已停用。
+   - `Match` — 選擇何時不希望清單價格波動超過定義的&#x200B;_[!UICONTROL Ceiling Price Source]_值。 設定為`Match`時，_[!UICONTROL Apply]_&#x200B;和&#x200B;_[!UICONTROL Ceiling Adjustment Amount]_欄位會停用。
 
-1. 離開 **[!UICONTROL Apply]** 預設為 `Apply as percentage`.
+1. 保留&#x200B;**[!UICONTROL Apply]**&#x200B;預設為`Apply as percentage`。
 
-1. 的 **[!UICONTROL Ceiling Adjustment Price]**，輸入百分比的數值，以調整 _[!UICONTROL Ceiling Price Source]_值。
+1. 針對&#x200B;**[!UICONTROL Ceiling Adjustment Price]**，輸入百分比的數值，以調整您的&#x200B;_[!UICONTROL Ceiling Price Source]_值。
 
 在此範例中，最高價格設定為比料號的MSRP低2%。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Ceiling Price Source] | 選擇 [!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 表示您的相對上限限制。 例如，如果您不希望產品清單價格高於專案的MSRP，您可以選擇 `Manufacturer's Suggested Retail Price` 屬性。 |
-| [!UICONTROL Ceiling Price Action] | 選擇訂價調整作業。 選項：<ul><li>**[!UICONTROL Decrease By]**  — 選擇您想要定義何時 _[!UICONTROL Ceiling Price Source]_值會向下調整，為規則建立較低的上限，然後才列為Amazon。</li><li>**[!UICONTROL Increase By]**  — 選擇您想要定義何時 _[!UICONTROL Ceiling Price Source]_要調整的值，在列為Amazon之前，為規則建立更高的最高價格。</li><li>**[!UICONTROL Match]**  — 選擇您不想讓價目表價格波動超過定義的時間 _[!UICONTROL Ceiling Price Source]_值。 當設定為 `Match`，則_[!UICONTROL Apply]_ 和 _[!UICONTROL Ceiling Adjustment Amount]_欄位已停用。</li></ul> |
-| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]**  — 相對於 _[!UICONTROL Ceiling Price Source]_值。 |
-| [!UICONTROL Ceiling Price Adjustment] | 輸入百分比的數值，以調整您的 _[!UICONTROL Ceiling Price Source]_值。 |
+| [!UICONTROL Ceiling Price Source] | 選擇代表您相對上限的[!DNL Commerce] [產品屬性](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)。 例如，如果您不想讓產品清單價格高於專案的MSRP，您可以選擇`Manufacturer's Suggested Retail Price`屬性。 |
+| [!UICONTROL Ceiling Price Action] | 選擇訂價調整作業。 選項：<ul><li>**[!UICONTROL Decrease By]** — 選擇您何時想要向下調整定義的&#x200B;_[!UICONTROL Ceiling Price Source]_值，為規則建立較低的最高價格，然後再列為Amazon。</li><li>**[!UICONTROL Increase By]** — 選擇您何時想要調整定義的&#x200B;_[!UICONTROL Ceiling Price Source]_值，為規則建立更高的最高價格，然後再列為Amazon。</li><li>**[!UICONTROL Match]** — 選擇何時不希望清單價格波動超過定義的&#x200B;_[!UICONTROL Ceiling Price Source]_值。 設定為`Match`時，_[!UICONTROL Apply]_&#x200B;和&#x200B;_[!UICONTROL Ceiling Adjustment Amount]_欄位會停用。</li></ul> |
+| [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** — 相對於&#x200B;_[!UICONTROL Ceiling Price Source]_值的百分比調整。 |
+| [!UICONTROL Ceiling Price Adjustment] | 輸入百分比的數值，以調整您的&#x200B;_[!UICONTROL Ceiling Price Source]_值。 |
